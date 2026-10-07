@@ -1,0 +1,95 @@
+{
+  "coordinator": "/root/original_images",
+  "assignments": [
+    {
+      "worker": "root-source-owner",
+      "look_keys": [
+        "classic-01",
+        "short-01",
+        "long-01",
+        "layered-01",
+        "choppy-01",
+        "curly-01"
+      ]
+    },
+    {
+      "worker": "pilot-resume",
+      "look_keys": [
+        "feathered-01",
+        "wavy-01",
+        "fine-hair-01",
+        "thick-hair-01",
+        "over-50-01",
+        "natural-grey-01"
+      ]
+    },
+    {
+      "worker": "cohort-classic",
+      "look_keys": [
+        "classic-02",
+        "classic-03",
+        "classic-04",
+        "classic-05",
+        "classic-06",
+        "classic-07",
+        "short-02",
+        "short-03",
+        "short-04",
+        "short-05",
+        "short-06",
+        "short-07"
+      ]
+    },
+    {
+      "worker": "home-collection-worker",
+      "look_keys": [
+        "long-02",
+        "long-03",
+        "long-04",
+        "long-05",
+        "long-06",
+        "long-07",
+        "layered-02",
+        "layered-03",
+        "layered-04",
+        "layered-05",
+        "layered-06",
+        "layered-07"
+      ]
+    },
+    {
+      "worker": "pilot-resume-next",
+      "look_keys": [
+        "fine-hair-02",
+        "fine-hair-03",
+        "fine-hair-04",
+        "fine-hair-05",
+        "fine-hair-06",
+        "fine-hair-07",
+        "thick-hair-02",
+        "thick-hair-03",
+        "thick-hair-04",
+        "thick-hair-05",
+        "thick-hair-06",
+        "thick-hair-07"
+      ]
+    },
+    {
+      "worker": "root-source-owner-next",
+      "look_keys": [
+        "choppy-02",
+        "choppy-03",
+        "choppy-04",
+        "choppy-05",
+        "choppy-06",
+        "choppy-07",
+        "curly-02",
+        "curly-03",
+        "curly-04",
+        "curly-05",
+        "curly-06",
+        "curly-07"
+      ]
+    }
+  ]
+}

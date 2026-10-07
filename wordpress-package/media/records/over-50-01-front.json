@@ -7,13 +7,13 @@
   "collection": "over-50",
   "usage": "collection",
   "angle": "front",
-  "source_file": "source-media/over-50-01-front.png",
+  "source_file": "source-media/over-50-01-front-native.webp",
   "file": "media/over-50-01-front.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "6255341fcc278a00a926d61d754d564e83cd4958d5729a2944afee786b453aec",
+  "sha256": "468dd93af56f56e6f590cb934f5234d7f5c1addf29bbdc9a3d6e6f265e7ddd6c",
   "display_sha256": "4833277f672f58ac46a8c3c1a9cc5bf491ddebdcca058cfa3f5f94a19da8184a",
-  "source_bytes": 2304116,
+  "source_bytes": 1476862,
   "display_bytes": 315078,
   "native_original": true,
   "native_8k": false,
@@ -86,5 +86,11 @@
     "native_8k": false,
     "native_original": true,
     "upscaled": false
-  }
+  },
+  "generator_original_file": "source-media/over-50-01-front.png",
+  "generator_original_sha256": "6255341fcc278a00a926d61d754d564e83cd4958d5729a2944afee786b453aec",
+  "generator_original_bytes": 2304116,
+  "native_pixel_sha256": "d8cf75c7042a95dc74617c8493b667d17429333cc2574068883dc236e769cb2e",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

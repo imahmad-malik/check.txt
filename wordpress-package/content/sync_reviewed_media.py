@@ -166,6 +166,25 @@ catalog['counts'].update({'actual_generated_source_files':len(all_real_sources),
                          'provided_complete_collections':sum(c['status']=='ready' for c in catalog['collections'])})
 catalog['provided_media_manifest']='media/manifest.json'
 catalog_path.write_text(json.dumps(catalog,indent=2,ensure_ascii=False)+'\n')
+# Keep the production checklist truthful as actual sets replace empty briefs.
+# Briefs remain planning documents, never a second set of imported posts.
+production_path=ROOT/'production-briefs.json'
+production=json.loads(production_path.read_text())
+actual_by_key={look['key']:look for look in actual_looks}
+for brief in production['briefs']:
+    look=actual_by_key.get(brief['key'])
+    brief['publish']=False
+    if look:
+        brief['status']='generated-approved'
+        brief['provided_media_ids']=[image['key'] for image in look['images']]
+        brief['images']=[{**image,'status':'generated-approved'} for image in look['images']]
+    elif brief.get('status')=='generated-approved':
+        brief['status']='required-not-generated'
+        brief['provided_media_ids']=[]
+        brief['images']=[{'key':brief['key']+'-'+angle,'angle':angle,'file':None,
+                          'width':None,'height':None,'status':'required-not-generated'}
+                         for angle in ['front','side','back']]
+production_path.write_text(json.dumps(production,indent=2,ensure_ascii=False)+'\n')
 report={'bundle_id':manifest.get('bundle_id'),'manifest':str(args.manifest),'status':'synchronized-actual-only',
         'actual_generated_source_files':len(all_real_sources),'actual_approved_complete_looks':len(actual_looks),
         'actual_approved_collection_view_photos':len(used_hashes),'actual_guide_photo_references':guide_count,

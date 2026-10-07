@@ -7,13 +7,13 @@
   "collection": "wavy",
   "usage": "collection",
   "angle": "front",
-  "source_file": "source-media/wavy-01-front.png",
+  "source_file": "source-media/wavy-01-front-native.webp",
   "file": "media/wavy-01-front.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "ff5121bf14f505c35ee7929f0a6b9d6cfbc9568ac2244b66aac1efd2fe3c5f43",
+  "sha256": "4d232e55554743e92c450f6eafee32532c04fcf6c2849a864e081c754288e444",
   "display_sha256": "1c9c57c5a8d7a6a679eea1fabbc07ded0fc5d9f42a5caa9f4dcf711a28e9faeb",
-  "source_bytes": 2261000,
+  "source_bytes": 1446512,
   "display_bytes": 307936,
   "native_original": true,
   "native_8k": false,
@@ -86,5 +86,11 @@
     "native_8k": false,
     "native_original": true,
     "upscaled": false
-  }
+  },
+  "generator_original_file": "source-media/wavy-01-front.png",
+  "generator_original_sha256": "ff5121bf14f505c35ee7929f0a6b9d6cfbc9568ac2244b66aac1efd2fe3c5f43",
+  "generator_original_bytes": 2261000,
+  "native_pixel_sha256": "8143af1ab30a4c3c5a3a6b373126ef92f966f31a28534ce0d796d4ea9b8e8df2",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

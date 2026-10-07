@@ -1,0 +1,72 @@
+{
+  "id": "choppy-02-side-attempt02",
+  "key": "choppy-02-side-attempt02",
+  "look_id": "choppy-02",
+  "look_key": "choppy-02",
+  "canonical_look_key": "choppy-02",
+  "collection": "choppy",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/choppy-02-side-retry01-native.webp",
+  "file": "media/rejected/choppy-02-side-attempt02.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "63b463dac545d47bbdd6a7d79af321a1cebd2b5bd67ec287c3647b6c029747b7",
+  "display_sha256": "28ed277ffb7ee2c2263817f7fce748085e7d0f492da488fda4a0b19116d22f67",
+  "source_bytes": 1423682,
+  "display_bytes": 286086,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-40077c92-ebc6-4f83-82aa-364fc003eb0e.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "CAMERA ANGLE CORRECTION ONLY. Create a true ORTHOGONAL 90-DEGREE RIGHT SIDE PROFILE of the EXACT SAME adult woman, facing screen-right. Camera directly beside her RIGHT EAR, perpendicular to facial midline. Exactly one near eye and eyebrow visible, far eye/lid/lashes/eyebrow completely occluded by her nasal bridge. She looks directly across camera, never toward it. Second reference is a flawed LEFT three-quarter view; show the other side as a pure right profile. Preserve EXACT identity, copper curly/choppy layered bixie, same crown, fringe and tapered nape. LOOSE OPAQUE HIGH TURTLENECK long-sleeved ivory jumper fully covers chest/neckline, loosefabric no torso/chest contours. Completehead and entirehair silhouette with breathing margins, headshoulders only, light ivorystudio and neutraldaylight, sharpnaturalhair/face,noblur,crop,text,collage. Generate ONE genuinely new photographic output in available native resolution; never upscale or enlarge. First reference is approved frontidentity.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/choppy-02-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/choppy-02-side.png"
+  ],
+  "approved": false,
+  "review_status": "rejected-angle-needs-retry",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "long",
+    "fringe": "curtain",
+    "colour": "copper",
+    "finish": "choppy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "directional lifted",
+    "nape": "soft tapered",
+    "fringe": "curtain",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "directional lifted | soft tapered | curtain | ear-revealing temple pieces | 1-crown-to-front-proportion"
+  },
+  "alt": "Pending direct review of corrected native source",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "generator_original_file": "source-media/choppy-02-side-retry01.png",
+  "generator_original_sha256": "40b34000803570592ad5dc4761729d00afbe7495628018329a1a9d5c26d1eb80",
+  "generator_original_bytes": 2161474,
+  "previous_attempt_records": [
+    "media/records/rejected/choppy-02-side-attempt01.json"
+  ],
+  "native_pixel_sha256": "25049d3c4d3b20299dbea401602b2f5aa9ded7ac6b42d70ea8643f69383feb75",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "attire_pass": true,
+    "complete_hair_outline_pass": true,
+    "sharpness_pass": true,
+    "viewpoint_pass": false,
+    "reason": "Near right profile still has a visible far lash tuft; needs additional camera rotation."
+  },
+  "rejected_attempt_of": "choppy-02-side"
+}

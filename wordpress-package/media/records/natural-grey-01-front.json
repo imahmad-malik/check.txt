@@ -7,13 +7,13 @@
   "collection": "natural-grey",
   "usage": "collection",
   "angle": "front",
-  "source_file": "source-media/natural-grey-01-front.png",
+  "source_file": "source-media/natural-grey-01-front-native.webp",
   "file": "media/natural-grey-01-front.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "10c77f682bd305abc71f8746824abf30ea587e204435e0dceb05847a6988fd8a",
+  "sha256": "70db89c15008a753d1c0aac7469dd5fed63c4e62aeed04b23a6c99e9a128b104",
   "display_sha256": "ec71e17c92c70e7d9bb9d2b1d3792ccb765be707a713609d75a4ee3af5a43ae6",
-  "source_bytes": 2261524,
+  "source_bytes": 1436578,
   "display_bytes": 306872,
   "native_original": true,
   "native_8k": false,
@@ -86,5 +86,11 @@
     "native_8k": false,
     "native_original": true,
     "upscaled": false
-  }
+  },
+  "generator_original_file": "source-media/natural-grey-01-front.png",
+  "generator_original_sha256": "10c77f682bd305abc71f8746824abf30ea587e204435e0dceb05847a6988fd8a",
+  "generator_original_bytes": 2261524,
+  "native_pixel_sha256": "31638511e39449d07c98ad53f57dc44486b8df893d1f73703cc7c3188508ed7c",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

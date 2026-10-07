@@ -1,0 +1,73 @@
+{
+  "id": "classic-03-back",
+  "key": "classic-03-back",
+  "look_id": "classic-03",
+  "look_key": "classic-03",
+  "canonical_look_key": "classic-03",
+  "collection": "classic",
+  "usage": "collection",
+  "angle": "back",
+  "source_file": "source-media/classic-03-back-native.webp",
+  "file": "media/classic-03-back.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "6db72f043fe1eb49821128b7b9980f2864f1996c0f628b5f706f82225639032f",
+  "display_sha256": "9ce945b94810ff9eb5f62e91392095df65eca7b95b0145726e9e4488e31bc9d4",
+  "source_bytes": 1504108,
+  "display_bytes": 336216,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-051689d0-5342-4789-9b19-4991f831a1bb.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT and SIDE sources. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Classic bixie haircuts. Design: compact rounded | short graduated | wispy | ear-revealing temple pieces | 2-crown-to-front-proportion. Attributes: {\"texture\": \"coily\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"wispy\", \"colour\": \"dark\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True BACK VIEW, back of head straight toward camera, complete crown, ear regions and tapered nape visible; no face. Never create a collage or crop an existing image; this must be one genuine new angle output file.\nFULL FRAMING: head and shoulder line only, full sharp hair silhouette surrounded by background margin. Loose opaque oversized tall ivory turtleneck, no neckline/chest/shoulder exposure, no body contours. All hair sharp with no deliberate blur.\nSTRICT VIEWPOINT: genuine 180-degree BACK view, back of head directly toward camera, no visible face, cheek, eye or nose. Preserve EXACT approved front-and-side haircut crown volume, colour, texture, ear shape and nape geometry. Same adult, same oversized ivory high collar and background.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/classic-03-front-retry01.png",
+    "/workspace/check.txt/wordpress-package/source-media/classic-03-side.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "coily",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "wispy",
+    "colour": "dark",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "compact rounded",
+    "nape": "short graduated",
+    "fringe": "wispy",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "compact rounded | short graduated | wispy | ear-revealing temple pieces | 2-crown-to-front-proportion"
+  },
+  "alt": "Back view of a dark coily bixie with compact rounded crown and short graduated nape.",
+  "caption": "Dark coils taper into a short graduated nape.",
+  "generator_original_file": "source-media/classic-03-back.png",
+  "generator_original_sha256": "76b27f1f135a2a33f5ac42b00907face9d4d18cf6a7bea7e3ed81fb946fe6129",
+  "generator_original_bytes": 2337260,
+  "native_pixel_sha256": "d1e3f114ca9f15e4d41bf782cd6e11f61e983b46d031b01c86b745ad2f8e4268",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "method": "Individual direct inspection of a full-aspect JPEG copy of the tool-provided native PNG; original pixels preserved",
+    "evidence": "Direct back view without face shows complete dark compact rounded coil crown and short graduated nape matching approved front and side. Same ear outlines, dark colour, ivory loose high collar and background; full silhouette with margins and sharp coils.",
+    "checks": {
+      "fictional_adult": true,
+      "loose_opaque_high_turtleneck": true,
+      "complete_hair_silhouette": true,
+      "sharp_hair": true,
+      "native_resolution_at_least_1024": true,
+      "angle_verified": true
+    }
+  }
+}

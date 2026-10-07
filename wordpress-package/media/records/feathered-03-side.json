@@ -1,0 +1,70 @@
+{
+  "id": "feathered-03-side",
+  "key": "feathered-03-side",
+  "look_id": "feathered-03",
+  "look_key": "feathered-03",
+  "canonical_look_key": "feathered-03",
+  "collection": "feathered",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/feathered-03-side-retry01-native.webp",
+  "file": "media/feathered-03-side-retry01.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "74d178fd7be52f8d593455bb0611edfce9300a27c885cf9f36835ca260ae41fd",
+  "display_sha256": "638083233132e71c0056e643177335c29bcc26b3815b76383795add93df48595",
+  "source_bytes": 1433802,
+  "display_bytes": 292702,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-57f450cb-c502-4600-94ed-13e82d6101d4.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create ONE NEW sharp realistic native-resolution photograph of the same fictional adult from these references. Correct the SIDE camera angle only. Reference 1 is the approved front; reference 2 has an insufficient side turn. Move the camera 18 degrees farther around toward the BACK of the head from reference 2, while the person remains level and still, until the entire far eye, far eyelid and ALL far eyelashes are completely hidden behind the nose bridge. The result is a genuine one-eye side profile, face looking toward LEFT image edge; visible near eye and ear, crisp nose outline, no three-quarter front view. Preserve EXACTLY the same actual haircut, colour, texture, crown volume, nape and fringe, identity and loose opaque ivory HIGH TURTLENECK. HEAD AND SHOULDERS ONLY, complete hair with margin. All upper chest covered by loose opaque fabric without any chest outline. Plain ivory studio, even daylight, all hair sharply detailed, no text/logos/watermarks. One separate original photograph, not collage/crop; highest native output resolution, no enlargement or upscaling.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/feathered-03-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/feathered-03-side.png"
+  ],
+  "approved": false,
+  "review_status": "awaiting-direct-source-review",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "coily",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "full",
+    "colour": "dark",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "compact rounded",
+    "nape": "compact squared",
+    "fringe": "full",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "compact rounded | compact squared | full | ear-revealing temple pieces | 2-crown-to-front-proportion"
+  },
+  "alt": "Pending direct review of corrected native source",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "generator_original_file": "source-media/feathered-03-side-retry01.png",
+  "generator_original_sha256": "a164c84660b9d6069f6060926bf862808fa5cd79d3365c2c0d4050ebbf9f0dda",
+  "generator_original_bytes": 2219146,
+  "reference_source_sha256": {
+    "/workspace/check.txt/wordpress-package/source-media/feathered-03-front.png": "1c4ec342bd63a35ac48fc406225d32f909fff0ccabe20161e840b15642f0d34b",
+    "/workspace/check.txt/wordpress-package/source-media/feathered-03-side.png": "9912d92918f80a5068cf3e6de6358277c08f73b18233edf7c7ca0e7cacfc8a38"
+  },
+  "exact_prompt_status": "recorded-exact-tool-input",
+  "prompt_provenance": "Exact prompt and reference paths saved before generation in cohort-texture jobs.",
+  "previous_attempt_records": [
+    "media/records/rejected/feathered-03-side-attempt01.json"
+  ],
+  "native_pixel_sha256": "548073855afa9aed4927281409a8fd11ea61b53021888da6e1cd623a3331e728",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+}

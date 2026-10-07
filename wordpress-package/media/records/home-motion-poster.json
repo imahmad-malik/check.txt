@@ -6,7 +6,7 @@
   "canonical_look_key": null,
   "collection": null,
   "usage": "homepage",
-  "angle": null,
+  "angle": "front-three-quarter",
   "source_file": "source-media/home-motion-poster-native.webp",
   "file": "media/home-motion-poster.webp",
   "width": 1672,
@@ -22,19 +22,33 @@
   "fictional_adult": true,
   "generated_tool_file": "/workspace/generated_images/exec-8fc021ab-724c-47f8-a4a6-30cc2f867972.png",
   "generator": "OpenAI image_gen",
-  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, every main hair edge, ears and entire haircut silhouette visible, with at least 10 percent clear margin above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest; no low cut, open collar, sleeveless outfit, fitted torso, chest contour or exposed upper chest. Plain light ivory or warm pale stone studio; soft neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve the full source aspect ratio. Render at the genuine original native resolution supported by this tool. No upscaling or enlargement. Fictional adult woman age 42 with warm chestnut layered bixie, loose opaque taupe high-neck jumper. WIDE landscape head-and-shoulders composition, entire haircut and head in right half, calm empty pale ivory space left; no torso visible.",
-  "reference_source_files": [],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "exact_generation_prompt": "Edit this original fictional adult haircut photograph into a finished wide homepage video poster. Preserve the exact same adult identity, chestnut layered bixie, loose opaque taupe bulky high turtleneck, natural light and calm pale ivory studio. Keep the entire head and every hair edge sharp and fully visible. CRITICAL: SHRINK the person's scale within the wide composition so the ENTIRE topmost hair silhouette sits at least 12 percent of the canvas height below the TOP edge, with at least 10 percent side margin to the right. The face and full haircut should sit within the RIGHT half; LEFT half is empty calm ivory studio. The lower crop is below shoulders only; no torso or chest contour, no exposed chest, no open neckline. No intentional blur, no text or watermarks. Genuine native tool resolution, no upscaling; WIDE landscape approximately16:9. Create one full original edited photo, not collage or crop.",
+  "reference_source_files": [
+    "source-media/home-motion-poster-rejected-first.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {},
   "shape_brief": {},
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Wide portrait of a chestnut layered bixie with swept fringe and complete hair outline.",
+  "caption": "A layered chestnut shape from a three-quarter angle.",
   "generator_original_file": "source-media/home-motion-poster.png",
   "generator_original_sha256": "f66967536b8f79815f3d9b0907e2226ee5adaeee993dd15a32ecd427f79db061",
   "generator_original_bytes": 1961214,
   "native_pixel_sha256": "6a5b48c4298b4541d70e4522a03003e7adfd62f69b07c61e94b0b053b0f832fb",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "method": "Direct original-size source visual inspection via view_image",
+    "attire": "pass: bulky loose fully opaque high turtleneck; shoulders only; no exposed chest, cleavage or fitted chest contour",
+    "framing": "pass: complete main hair silhouette with crown and side margins; corrected wide poster has generous breathing room",
+    "native_detail": "pass: sharp hair and face at actual 1672\u00d7941; no upscaling",
+    "angle": "pass: actual front-three-quarter",
+    "coherent_set": "independent unique homepage photograph; no multi-angle set claim"
+  },
+  "actual_tool_reference_paths": [
+    "/workspace/generated_images/exec-77dbeef0-0f09-40b7-8edb-06b3ee4553ba.png"
+  ],
+  "corrected_prior_attempt": true
 }

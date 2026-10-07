@@ -117,7 +117,7 @@ is bundled in either installable ZIP.
     # only in this review/source archive, never in either installable ZIP.
     diagnostic_files = {'media/soft-layered-01.webp', 'source-media/soft-layered-01.png'}
     media_suffixes = {'.png', '.jpg', '.jpeg', '.webp', '.avif', '.mp4'}
-    for directory in ['theme', 'plugin', 'content', 'tests', 'media', 'source-media', 'dev-environment']:
+    for directory in ['theme', 'plugin', 'content', 'tests', 'media', 'source-media', 'dev-environment', 'media-production']:
         for path in source_files(ROOT / directory):
             relative = str(path.relative_to(ROOT))
             if directory in {'media', 'source-media'} and path.suffix.lower() in media_suffixes and relative not in diagnostic_files:

@@ -1,0 +1,73 @@
+{
+  "id": "curly-01-side",
+  "key": "curly-01-side",
+  "look_id": "curly-01",
+  "look_key": "curly-01",
+  "canonical_look_key": "curly-01",
+  "collection": "curly",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/curly-01-side-retry01-native.webp",
+  "file": "media/curly-01-side.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "85b36e5f05b66dcdebf3eeb92bf1a54010b1a1f4d45510270f002b2f84045b02",
+  "display_sha256": "ce4f641b31cb88edc8fb38f021b39efac5301e24f8245ef1e948c341686b64a8",
+  "source_bytes": 1427364,
+  "display_bytes": 287116,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-b2409756-a239-4419-ae9a-f1534fbcab47.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "CAMERA CORRECTION ONLY: the side reference is still a three-quarter view. Rotate the camera around her head another 18 degrees toward her LEFT EAR until the face is a STRICT ORTHOGONAL 90-DEGREE LEFT SIDE PROFILE, facing screen-left. Near eye is visible. Far eye, far eyelid, far lashes and far eyebrow must be COMPLETELY HIDDEN behind the nose bridge. Look exactly across the camera, never toward it. Preserve the same adult identity, haircut, hair colour, all crown and nape contours, studio and VERY LOOSE OPAQUE HIGH TURTLENECK long-sleeved jumper. Preserve full top and entire hair outline with breathing margins and original full portrait aspect. Sharp natural face and hair, no blur, no crop, no text, no collage. Create one genuinely new individual photograph at available native resolution without enlargement. The first reference shows the same adult front for identity. The second shows the camera angle requiring correction; copy its haircut precisely and change only viewpoint.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/curly-01-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/curly-01-side.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "ready-after-coherent-set-review",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "short open",
+    "colour": "blonde",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "soft rounded",
+    "nape": "short graduated",
+    "fringe": "short open",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "soft rounded | short graduated | short open | ear-revealing temple pieces | 0-crown-to-front-proportion"
+  },
+  "alt": "Left profile of a blonde curly bixie",
+  "caption": "Rounded curls sit above a softly tapered nape.",
+  "generator_original_file": "source-media/curly-01-side-retry01.png",
+  "generator_original_sha256": "25e58d8501643356811d0ee865615ccc548b14e7ab7406ee8fdcb73c17132af1",
+  "generator_original_bytes": 2219786,
+  "previous_attempt_records": [
+    "media/records/rejected/curly-01-side-attempt01.json"
+  ],
+  "native_pixel_sha256": "b76ccf482b7fd40e8d1cede345afa3390cc88ed43d42243a5351604f59193df7",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "attire_pass": true,
+    "complete_hair_outline_pass": true,
+    "sharpness_pass": true,
+    "viewpoint_pass": true,
+    "native_resolution_pass": true,
+    "actual_view": "strict left side profile",
+    "evidence": "Direct full-aspect inspection of corrected source: one visible near eye; far eye occluded; loose opaque high collar; no chest outline; crown and nape complete with margins; same blonde face and haircut as front."
+  }
+}

@@ -145,11 +145,18 @@ function bixie_get_collection_url($term): string {
     if ($page_id && get_post_status($page_id) === 'publish') { return get_permalink($page_id); }
     return home_url('/look-collection/' . $term->slug . '/');
 }
-function bixie_is_project_attachment(int $id): bool { return get_post_type($id) === 'attachment' && (get_post_meta($id, '_bixie_asset_key', true) !== '' || get_post_meta($id, '_bixie_import_key', true) !== ''); }
+function bixie_is_project_attachment(int $id): bool { return get_post_type($id) === 'attachment' && get_post_meta($id, '_bixie_asset_key', true) !== ''; }
+function bixie_project_attachment_target(int $id): string {
+    if (!bixie_is_project_attachment($id)) { return ''; }
+    $parent = absint(get_post_field('post_parent', $id));
+    if ($parent && get_post_type($parent) === 'bixie_look' && get_post_status($parent) === 'publish' && bixie_check_look($parent)['complete']) { return (string) get_permalink($parent); }
+    $source = bixie_original_source_path($id);
+    if ($source && is_file($source) && bixie_original_source_url($id)) { return bixie_original_source_url($id); }
+    return is_file((string) get_attached_file($id)) ? (string) wp_get_attachment_url($id) : '';
+}
 add_action('template_redirect', static function(): void {
     if (!is_attachment() || !bixie_is_project_attachment(get_queried_object_id())) { return; }
-    $id = get_queried_object_id(); $parent = absint(get_post_field('post_parent', $id));
-    $target = $parent && get_post_type($parent) === 'bixie_look' && get_post_status($parent) === 'publish' && bixie_check_look($parent)['complete'] ? get_permalink($parent) : wp_get_attachment_url($id);
+    $id = get_queried_object_id(); $target = bixie_project_attachment_target($id);
     if ($target && $target !== get_attachment_link($id)) { wp_safe_redirect($target, 301); exit; }
 }, 0);
 

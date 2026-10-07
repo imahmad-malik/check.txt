@@ -1,0 +1,73 @@
+{
+  "id": "choppy-02-side",
+  "key": "choppy-02-side",
+  "look_id": "choppy-02",
+  "look_key": "choppy-02",
+  "canonical_look_key": "choppy-02",
+  "collection": "choppy",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/choppy-02-side-retry02-native.webp",
+  "file": "media/choppy-02-side.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "fb10dfc413d9006777182bcfc170bc35984615d2edcd3d49e0840632092689a3",
+  "display_sha256": "e9ee6ef104191eec2795e9c8af6358a219d19e897d25ea846c79ce85128ccceb",
+  "source_bytes": 1407420,
+  "display_bytes": 280166,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-299a66c3-f45f-44bd-ae47-f4ac55bc0902.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "The reference is a near-right-profile with visible far-eye lashes. Create a NEW sharp photograph with the camera rotated a further18degrees AWAY FROM THE FACIAL FRONT, toward the BACK of this SAME fictional adult woman. Place camera directly beside or slightly behind her RIGHT EAR at105degrees fromfacialfront. She faces screenright. EXACTLY ONE eye visible, FAR EYE and ALL FAR LASHES/eyebrow completely hidden behindnosebridge; hernose is anunbrokenprofile silhouette. Ear square to camera, cheek narrower thanreference. Keep identical haircut copper loosecurlybrokenlayers, fringe/crown/nape and SAME VERYLOOSE OPAQUE HIGH TURTLENECK jumper fully coveringneckline/upperchest, no chestcontours. Preservewholehead and everyhair edge withmargin, headshoulders framing andsameplainlightivory background, nativeportraitaspect. Sharp face andallhairdetail, no intentionalblur/crop/zoom/text/collage, no upscale. Changecamera viewpointonly; oneoriginalindividual tooloutput.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/choppy-02-side-retry01.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "ready-after-coherent-set-review",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "long",
+    "fringe": "curtain",
+    "colour": "copper",
+    "finish": "choppy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "directional lifted",
+    "nape": "soft tapered",
+    "fringe": "curtain",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "directional lifted | soft tapered | curtain | ear-revealing temple pieces | 1-crown-to-front-proportion"
+  },
+  "alt": "Right profile of a copper curly choppy bixie",
+  "caption": "Copper layers sweep above a softly tapered nape.",
+  "generator_original_file": "source-media/choppy-02-side-retry02.png",
+  "generator_original_sha256": "e4de36d904fe744b98e16e29c88835567c363c53edc896afef3529fb78d24184",
+  "generator_original_bytes": 2121259,
+  "previous_attempt_records": [
+    "media/records/rejected/choppy-02-side-attempt01.json",
+    "media/records/rejected/choppy-02-side-attempt02.json"
+  ],
+  "native_pixel_sha256": "60eacf3a732ae7819b3128295d39edd749d7d45d65eaa788e23912ff1b19047f",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "attire_pass": true,
+    "complete_hair_outline_pass": true,
+    "sharpness_pass": true,
+    "viewpoint_pass": true,
+    "native_resolution_pass": true,
+    "actual_view": "right side profile",
+    "evidence": "Direct correctedsource review shows one near eye; far iris/lashes entirely hidden. Same copper curls, adult identity, high opaque loose jumper, full silhouette and studio as front."
+  }
+}

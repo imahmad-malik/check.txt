@@ -1,0 +1,474 @@
+{
+  "method": "Actual authenticated Chromium owner GUI: trusted WordPress remote download attempt, then verified manual media-part fallback/import. Real pinned HTTPS distribution is independently fetched through proxy-aware Python transport. The pilot contains four reviewed real hairstyle sets and twelve original source views. Synthetic fixtures are excluded from production counts.",
+  "checks": {
+    "actualHTTPSPublishedArchive": {
+      "transport": "Python urllib through configured environment proxy with default HTTPS certificate verification; not the WordPress HTTP transport",
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/bd79f783ee979c8ac72572d8f59e7b25ed147b95/wordpress-pilot-release/bixie-production-pilot-001.zip",
+      "bytes": 21283535,
+      "sha256": "8b2ffec0d9da5d448ba44379c5a80d463dbc067d799127061d0c7accc56e2ad0"
+    },
+    "actualProjectAndUnrelatedAttachmentHTTP": {
+      "project-parent": {
+        "status": 301,
+        "url": "http://127.0.0.1:8766/looks/isolated-test-look-01/isolated-http-test-project-parent/",
+        "location": "http://127.0.0.1:8766/looks/isolated-test-look-01/"
+      },
+      "project-native": {
+        "status": 301,
+        "url": "http://127.0.0.1:8766/isolated-http-test-project-native/",
+        "location": "http://127.0.0.1:8766/wp-content/uploads/isolated-http-attachment-6989b68b-f229-404b-ada7-d3f4200354b1/project-native.png"
+      },
+      "owner": {
+        "status": 200,
+        "url": "http://127.0.0.1:8766/isolated-http-test-owner/",
+        "location": ""
+      },
+      "owner-import-marker": {
+        "status": 200,
+        "url": "http://127.0.0.1:8766/isolated-http-test-owner-import-marker/",
+        "location": ""
+      }
+    },
+    "wordPressRemoteTransport": {
+      "verified": false,
+      "error": "Media download failed: A valid URL was not provided.",
+      "reason": "Cloud local DNS is unavailable for GitHub hosts. WordPress safe URL validation requires DNS before the configured proxy can perform HTTPS. Production HTTP safety and TLS settings were preserved.",
+      "fallback": "Actual authenticated owner GUI manual media ZIP upload"
+    },
+    "actualGUIverifiedMediaImport": {
+      "part": {
+        "bundle_id": "bixie-production-pilot-001",
+        "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/bd79f783ee979c8ac72572d8f59e7b25ed147b95/wordpress-pilot-release/bixie-production-pilot-001.zip",
+        "sha256": "8b2ffec0d9da5d448ba44379c5a80d463dbc067d799127061d0c7accc56e2ad0",
+        "bytes": 21283535
+      },
+      "mediaTransport": "Authenticated GUI local ZIP fallback",
+      "guiDownloadStatus": "Media download failed: A valid URL was not provided. Verified parts remain saved; retry resumes safely. Local ZIP uploads are also available.",
+      "importCounts": {
+        "media": 0,
+        "collections": 0,
+        "looks": 1,
+        "pages": 0,
+        "skipped": 89,
+        "errors": 30
+      },
+      "ajaxBatches": [
+        {
+          "status": 200,
+          "action": "action=bixie_media_download_start",
+          "success": true,
+          "state": "running",
+          "cursor": 0
+        },
+        {
+          "status": 400,
+          "action": "action=bixie_media_download_step",
+          "success": false,
+          "state": null,
+          "cursor": null
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_start",
+          "success": true,
+          "state": "running",
+          "cursor": 0
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 3
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 6
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 9
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 12
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 15
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 18
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 21
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 24
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 27
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 30
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 33
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 36
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 39
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 42
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 45
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 48
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 51
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 54
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 57
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 60
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 63
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 66
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 69
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 72
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 75
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 78
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 81
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 84
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 87
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 90
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 93
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 96
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 99
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 102
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 105
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 108
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 111
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 114
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 117
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "running",
+          "cursor": 120
+        },
+        {
+          "status": 200,
+          "action": "action=bixie_import_batch",
+          "success": true,
+          "state": "complete",
+          "cursor": 121
+        }
+      ],
+      "ownerFixturesPreserved": true,
+      "otherCatalogMediaNotSuppliedByFourLookPilot": "Source-missing diagnostics refer to additional actual catalog definitions outside this 12-view pilot. Supplied first four complete sets are checked independently below; this pilot is not a full launch data package."
+    },
+    "realFourCoherentSetsAndNativeOriginalZoom": {
+      "classic-01": {
+        "front": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "1f5027fa30fa4ed9373805f2d6629f678b2b49dec2ae420321c2d4f73fb8bb65",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/classic-01-front.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/classic-01-front-native.webp"
+        },
+        "side": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "d431b9d6634aa6a7594c06829e39f8c4b00c0309321ba513fd109740c1756b21",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/classic-01-side.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/classic-01-side-native.webp"
+        },
+        "back": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "2ad4baa8e4269494acab91425d0e74082ba20539e6106c16eb56ea70a0ec4bb6",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/classic-01-back.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/classic-01-back-native.webp"
+        }
+      },
+      "short-01": {
+        "front": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "cc3c3b685a5fa8f72c4e68d3bfcffbc3159f1d08d61d58f03c44e89e76a9abea",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/short-01-front.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/short-01-front-native.webp"
+        },
+        "side": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "be49b151dfc9b015e15a8b190600c0b29bce48c7e01eadcebe8dc7555ad0df37",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/short-01-side.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/short-01-side-native.webp"
+        },
+        "back": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "20faf67c2c1960655ae9b6b78063fa6858575d9ff603451ff4fabc020272eec5",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/short-01-back.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/short-01-back-native.webp"
+        }
+      },
+      "long-01": {
+        "front": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "1d6657775b69ac3301444b0ed6eb107fcdb22fb2f0e814735b705a00f1149354",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/long-01-front.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/long-01-front-native.webp"
+        },
+        "side": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "a960a6076580b28b89f0e24b51c273391a57331651898245b249fd2ac0954e80",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/long-01-side.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/long-01-side-native.webp"
+        },
+        "back": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "3d17bea16436965381d20bbfc274fbca2ddead80f51cbe1fb239d2e3cde98171",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/long-01-back.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/long-01-back-native.webp"
+        }
+      },
+      "layered-01": {
+        "front": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "d1319189bc125d81d07566dfc7f7e76347c8d3a6191a102552e9294f715e6ed5",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/layered-01-front.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/layered-01-front-native.webp"
+        },
+        "side": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "cd57479587254d4de08a91394759728478674dad19578238da93d21d85b263b8",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/layered-01-side.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/layered-01-side-native.webp"
+        },
+        "back": {
+          "originalWidth": 1122,
+          "originalHeight": 1402,
+          "sourceSha256": "ddfa2caf7c51f4c744e2b99a7fdad2b95a73a698fb9c5f0674dc0e97e261bda5",
+          "optimizedDisplay": "http://127.0.0.1:8766/wp-content/uploads/2026/10/layered-01-back.webp",
+          "originalZoomURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-pilot-001/source-media/layered-01-back-native.webp"
+        }
+      }
+    },
+    "productionOriginalCount": 12,
+    "homepageStaysDraftIncomplete": [
+      {
+        "id": 5,
+        "status": "draft",
+        "reasonCount": 49
+      }
+    ]
+  },
+  "passed": true,
+  "pageErrors": [],
+  "sourceReleaseIndexUnchanged": true
+}

@@ -1,16 +1,18 @@
 # Bixie Haircut — launch checklist
 
-This is an acceptance checklist. Software can be installed and reviewed now; the photographic launch is unfinished. Approved launch photos and public launch looks are both **zero**. See [VALIDATION-REPORT.md](VALIDATION-REPORT.md) for executed checks.
+This is an acceptance checklist. Software and a partial original library can be reviewed now; the full photographic launch is unfinished. The current master records 25 approved Home originals and 10 complete looks/30 views; the canonical content assembly currently contains six looks/18 views. Final counts must come from synchronized reviewed manifests and real files. See [VALIDATION-REPORT.md](VALIDATION-REPORT.md).
 
 ## Complete media and content
 
 - [x] Owner accepted available original source resolution. Record genuine dimensions under the new 1,024-pixel minimum original long edge; native 8K was not produced and must not be claimed.
-- [ ] Generate/review all 487 planned image requests: 154 coherent looks × three separate angles = 462 gallery photos, plus 25 homepage role photos.
+- [ ] Complete the 487-photo plan: 154 coherent looks × three angles = 462 gallery photos, plus 25 homepage originals. Production continues; planned counts are not delivered counts.
+- [x] Produce/review 25 required homepage originals. Keep their full source frames, prompts, native dimensions and checksums.
 - [ ] Populate 22 collections with at least seven complete looks and 20 qualified distinct photos each; the plan supplies 21 per collection. Keep primary collection allocations distinct.
 - [ ] Reject exposed neckline/cleavage/chest lines, fitted torso emphasis, cut-off head/hair, blur/artifacts and mismatched views. Require loose fully opaque high-neck clothing and source-size inspection.
 - [ ] Record dimensions, prompts, source hashes, angles, composition review and native provenance. Do not count crops, web encodings or responsive derivatives as more originals.
 - [ ] Populate the long Home with 77 unique photos: 25 roles, 44 canonical fronts in shelves and eight other library covers. Check repeated attachments and exclude old rejected images.
-- [ ] Supply the reviewed required film/poster and approved distinct front/side/back sources. Label a photo-sequence film honestly; verify decoding, pause/resume, inline/muted behavior, reduced motion and mobile fallback. Fixture movie tests are not final-film approval.
+- [x] Build the reviewed 11.625-second silent 1,122 × 1,402 H.264 photo sequence from approved front/side/back originals. Label it as photographic sequence, not salon footage.
+- [ ] Verify that actual production film/poster in final WordPress import/playback, including pause/resume, inline/muted behavior, reduced motion and mobile fallback. Fixture movie tests are not final production-film verification.
 - [ ] Populate seven short image-led guides with 24 canonical angle references; fine-versus-thin uses two distinct sets. Those references require no additional original generation.
 - [ ] Review the 42 page records and publish only finished useful pages. Home, collections and image-led guides are currently drafts; planned content is not a live library.
 
@@ -18,7 +20,9 @@ This is an acceptance checklist. Software can be installed and reviewed now; the
 
 - [ ] Back up staging database/uploads and use supported HTTPS hosting. Match or separately verify the actual tested runtime; the combined package needs at least PHP 8.1.
 - [ ] Install `bixie-editorial.zip` and `bixie-library.zip`. Check activation/deactivation/reactivation and fallback on the target host without deleting content.
-- [ ] Complete and verify administrator-only media ZIP-part uploads, valid nonces, declared bundle/part identity, SHA checks and scoped paths. Parts should stay within the documented upload size. Media transfer is not visual approval.
+- [x] Implement/test administrator-only manual ZIP-part uploads, no-JavaScript form fallback, nonce/capability checks, manifests/checksums and scoped bounded paths against isolated code fixtures.
+- [ ] Verify the actual original-photo trusted HTTPS download → authenticated GUI import flow against the populated release index. First four-look/12-view pilot delivery is not all 487 originals.
+- [ ] Synchronize final catalog, plugin media manifest, remote release index and matching ≤25 MiB parts, then verify all originals/angles and final delivery SHA values. Media transfer is not visual approval.
 - [ ] Run **Tools → Bixie package setup** with replacement unchecked. Review diagnostics and missing-media gates.
 - [ ] Verify interrupted/resumed/repeated import, no duplicates, preservation of edits and scoped explicit replacement.
 - [ ] Edit native sections/media, captions, look metadata/angles, shelves, navigation/styles and motion labels. Save and verify front-end changes/revisions without invalid blocks.

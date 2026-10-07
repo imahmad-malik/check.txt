@@ -1,0 +1,769 @@
+{
+  "timestamp": "2026-10-07T11:25:09.819588+00:00",
+  "status": "verified_partial_assets",
+  "actual_complete_looks": 14,
+  "actual_gallery_photographs": 42,
+  "actual_home_photographs": 25,
+  "required_unique_photographs": 487,
+  "remaining_gallery_photographs": 420,
+  "checks": [
+    {
+      "key": "classic-03-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "55c2af22965244b7229f8c6e69db1a03767b916b0e774eec986e785974db4a1e",
+      "native_pixel_sha256": "6aa49191098a41aeafd40595b26e8ffb11e363d02752b06757c775f9b69aeebd"
+    },
+    {
+      "key": "classic-03-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "54887c4cd4979e467012f4dcba54584816e103bbd7a8c8a1e19f3f7e7192762c",
+      "native_pixel_sha256": "8cbfc7d278837d64d60221f9eff9034ed25f4c58240fb43da5cb293e231e21e7"
+    },
+    {
+      "key": "classic-03-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "6db72f043fe1eb49821128b7b9980f2864f1996c0f628b5f706f82225639032f",
+      "native_pixel_sha256": "d1e3f114ca9f15e4d41bf782cd6e11f61e983b46d031b01c86b745ad2f8e4268"
+    },
+    {
+      "key": "classic-04-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "2ea92d149c0537eff98ff700e25b0c72c27e8c4a88775fb4d1cb53302fc9ad2d",
+      "native_pixel_sha256": "a0553d8c614d5b9d6219a06793bb0666abf6501ec2f58376c0835f009f48ada3"
+    },
+    {
+      "key": "classic-04-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "384e9c63a327deb0b72b347e66d2f4fea79f38a6027acfb1e519b63c2e24dcdb",
+      "native_pixel_sha256": "836cd2b148ec6c0627d7984a3ef657ebf0fd02a6c859d8f4c645952d82fd232e"
+    },
+    {
+      "key": "classic-04-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "5ec65fe6510cf22a1c66c4daa8f0ab6b5f90d4792bda147f5e75c57dadb752c9",
+      "native_pixel_sha256": "5aa6c90605d1aa5388ffb3535c83618a7cbe310083d80b0d0dd1790e5524d09e"
+    },
+    {
+      "key": "fine-hair-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "1436f8b02a2f4d8a45a000e3c2b2c02eafbe594b2ccd2f00314dbf6f2afb2665",
+      "native_pixel_sha256": "8a3402665d62aac348556a40ee66e2114025b5e6b1b166703707b6aa09ccf464"
+    },
+    {
+      "key": "fine-hair-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "fbee23db1e95ddf068f4af91c7bfd39ac20957614e276bf44a67e29946f5e0de",
+      "native_pixel_sha256": "9281dec465861e06d1bef4be220e755ec82997b2007a0324b05a952023300438"
+    },
+    {
+      "key": "fine-hair-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "3c24a02a95f50796a409a81c480f99ebf89485b8f4e5cb4a3c234c3dd11adc3a",
+      "native_pixel_sha256": "b8d919003c6e8f464236981a136601b0cef430e5c6d30f554d9a4c36b979273a"
+    },
+    {
+      "key": "thick-hair-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "e81c019d5695c30ac85e3b49106901c867b2903251ec8c9aae016c9e31458095",
+      "native_pixel_sha256": "cd032b2d8d50603ca984e7d8b317ef924d3550b1042a8c18885fca1a937740f6"
+    },
+    {
+      "key": "thick-hair-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "97d68608ae6876fbd71cd5c565311ae30310d5f25c313633b2c3579899ffbbf2",
+      "native_pixel_sha256": "1ecb011c2265486d8158f378ccf61a11d773605c24419092e176deaabf6934ce"
+    },
+    {
+      "key": "thick-hair-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "0e1b93a0cb9c7072a0ed85742c8479c9cf4fdbfb608d79827312a603ed4b2fc1",
+      "native_pixel_sha256": "b8e84f4331d453645c9dfcfbf303a30e7996a75e17146b52f3aa9cd466dccc1e"
+    },
+    {
+      "key": "over-50-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "468dd93af56f56e6f590cb934f5234d7f5c1addf29bbdc9a3d6e6f265e7ddd6c",
+      "native_pixel_sha256": "d8cf75c7042a95dc74617c8493b667d17429333cc2574068883dc236e769cb2e"
+    },
+    {
+      "key": "over-50-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "ebb09d33cda931aaa046a90645cdf3de6b6e97141f086d79d9716f6954686e55",
+      "native_pixel_sha256": "903d69b1e8e8521cd9e11e68fb1ff6300d01133aaaf937d0288c2541e7d06578"
+    },
+    {
+      "key": "over-50-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "cf2c53bd624be49d30e4a467f26259231537fbe6082fa44c69301b69a6946ead",
+      "native_pixel_sha256": "dab4a1cca812741846b3bae4e55d413f14917982c986fa66f22c77efd0d6f7a5"
+    },
+    {
+      "key": "natural-grey-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "70db89c15008a753d1c0aac7469dd5fed63c4e62aeed04b23a6c99e9a128b104",
+      "native_pixel_sha256": "31638511e39449d07c98ad53f57dc44486b8df893d1f73703cc7c3188508ed7c"
+    },
+    {
+      "key": "natural-grey-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "146d270a98a8ad349beacfc3f83b530c379ce8d496f56fb6e637e12032e09925",
+      "native_pixel_sha256": "d92f9839e52f3048cbc5b3179065f07b3b5db5d6051434b03fd1ff32416d7e25"
+    },
+    {
+      "key": "natural-grey-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "772bd609e14ef503099f5a759d4f1544ce8b24ddd8f8d5a216b11ed88e8e1080",
+      "native_pixel_sha256": "b2e9b1478a2321739a07de9d4119390dec638b1f93d215cafd82d231fd37146c"
+    },
+    {
+      "key": "feathered-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "83bf07d5dbeae2804df926d6c7910ddc05183eb99b9db3fee874991f968b018c",
+      "native_pixel_sha256": "ce8738d9e4e658fd86d381965fa37890bf4f4c0f10773f9e9a316d00d0692bae"
+    },
+    {
+      "key": "feathered-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "c93009ee9a0ec92ce9f97ab310c45e7d54fc01f50acd2a7a13887976d12a6af0",
+      "native_pixel_sha256": "41d9a5b3fca2207f13526c46936c2bb92362dc0e61b5d3948a3f1fcc60db5761"
+    },
+    {
+      "key": "feathered-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "7452b50c154052920fcc1a46d54c8b6077947e7bc47a8467f4e6a8dab2da9590",
+      "native_pixel_sha256": "6f0f4d3c95fc000c2228c8a26bb80245535f10a5b994ccffb0fb5eac0824b41b"
+    },
+    {
+      "key": "wavy-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "4d232e55554743e92c450f6eafee32532c04fcf6c2849a864e081c754288e444",
+      "native_pixel_sha256": "8143af1ab30a4c3c5a3a6b373126ef92f966f31a28534ce0d796d4ea9b8e8df2"
+    },
+    {
+      "key": "wavy-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "4e9f1fbf7fc5560e93afcb004fc4e74a2da5952f46267276ae5bff0aea25aae1",
+      "native_pixel_sha256": "eb4cccdf54c53c671fe92144e9f9b8e7f3fb303914b481477d13e360a1d41148"
+    },
+    {
+      "key": "wavy-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "1100de75cca59866ea709d5cfae2eed590725000823b45872ce6c131d370a83c",
+      "native_pixel_sha256": "d8afb65839e04d748acb825b8ae9459db1ed8814543229f3df5b58588edc8f46"
+    },
+    {
+      "key": "classic-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "1f5027fa30fa4ed9373805f2d6629f678b2b49dec2ae420321c2d4f73fb8bb65",
+      "native_pixel_sha256": "d8182ce963ca565aab979c3fa39e0cbb6b5116483d1952b5679f0f646641a298"
+    },
+    {
+      "key": "classic-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "d431b9d6634aa6a7594c06829e39f8c4b00c0309321ba513fd109740c1756b21",
+      "native_pixel_sha256": "c934d4f109c86a2680b7b0d8d7cd34bf417d461007fe1318b7dc110a59eea209"
+    },
+    {
+      "key": "classic-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "2ad4baa8e4269494acab91425d0e74082ba20539e6106c16eb56ea70a0ec4bb6",
+      "native_pixel_sha256": "6f9169e0997adfab12bf10f9ab8798a41100b22f8b52fde4d079943a025c0ada"
+    },
+    {
+      "key": "short-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "cc3c3b685a5fa8f72c4e68d3bfcffbc3159f1d08d61d58f03c44e89e76a9abea",
+      "native_pixel_sha256": "87c80374138ffc522e6935b79811376f8d8c92f5a19344d992c2774b92f5a104"
+    },
+    {
+      "key": "short-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "be49b151dfc9b015e15a8b190600c0b29bce48c7e01eadcebe8dc7555ad0df37",
+      "native_pixel_sha256": "e31c842242270627cd8e2f586fe298628de053baaa83d87374c7854c9bbf5f66"
+    },
+    {
+      "key": "short-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "20faf67c2c1960655ae9b6b78063fa6858575d9ff603451ff4fabc020272eec5",
+      "native_pixel_sha256": "cb380a7fec7f3489858a13e182577b214edd303681fd1453503836188e516ac2"
+    },
+    {
+      "key": "long-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "1d6657775b69ac3301444b0ed6eb107fcdb22fb2f0e814735b705a00f1149354",
+      "native_pixel_sha256": "594a4904d9bd3bec07da4206ae81862906f95854b754f4ee2b04e0c306fdc383"
+    },
+    {
+      "key": "long-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "a960a6076580b28b89f0e24b51c273391a57331651898245b249fd2ac0954e80",
+      "native_pixel_sha256": "360b2911af81917f95c2adc78137245b8a4a90bfb4bfe2bf607ff499cccc8af8"
+    },
+    {
+      "key": "long-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "3d17bea16436965381d20bbfc274fbca2ddead80f51cbe1fb239d2e3cde98171",
+      "native_pixel_sha256": "ebc400336c6b0c003e794d0849e935c2c2418e79935014e443be0738a249a907"
+    },
+    {
+      "key": "layered-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "d1319189bc125d81d07566dfc7f7e76347c8d3a6191a102552e9294f715e6ed5",
+      "native_pixel_sha256": "cb04fa8daf71a6eac4ca6ec60c9060aa8bd5f4db694358d28bd981ae3f628430"
+    },
+    {
+      "key": "layered-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "cd57479587254d4de08a91394759728478674dad19578238da93d21d85b263b8",
+      "native_pixel_sha256": "f2dedabaa0177b5f632b767bc78749d78dbd4358015d49906e61d0ba21afcdba"
+    },
+    {
+      "key": "layered-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "ddfa2caf7c51f4c744e2b99a7fdad2b95a73a698fb9c5f0674dc0e97e261bda5",
+      "native_pixel_sha256": "d0c1915337149d44b33c391269c1d44b5d810e62ecc9c928940c3c803cc54cd9"
+    },
+    {
+      "key": "choppy-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "c02cdbb7b72eb10524d63c9a2429ed43e718027cc0b2de06c8dc2380348e2f28",
+      "native_pixel_sha256": "9787766f1b0eadbd8d23151819855a6d06cb5266e9eab4645e8c32b912cc490a"
+    },
+    {
+      "key": "choppy-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "4e7fae5a3d150904be24b53adfd39947eba6b5def88f48eb68059e222abec03c",
+      "native_pixel_sha256": "64c3779a44fcf5c3954a0e650c8f7605fe73a13a082a7a21e7470016152e83b5"
+    },
+    {
+      "key": "choppy-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "00ba48743d7e39c0ff1c19552f1f20a4547cf3404e891ec35f21eb8d808ac1f1",
+      "native_pixel_sha256": "2f3289df1af48b0bffda51160648f51ccc32bce9ff267fa2b8abd2b1e68ccb3e"
+    },
+    {
+      "key": "curly-01-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "8bfd880c4155423b73772644a11523feb0cff7f37d00acc41efc98bca359ce27",
+      "native_pixel_sha256": "1c0e957a8e49a6f024788c88f42c23970947a000591868136462d705cf96e9dd"
+    },
+    {
+      "key": "curly-01-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "85b36e5f05b66dcdebf3eeb92bf1a54010b1a1f4d45510270f002b2f84045b02",
+      "native_pixel_sha256": "b76ccf482b7fd40e8d1cede345afa3390cc88ed43d42243a5351604f59193df7"
+    },
+    {
+      "key": "curly-01-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "e6ba11a223bf79e77b1362d73167adbac0c58ed7cbeb4d09f338d71e68ad6730",
+      "native_pixel_sha256": "5997df6892ffcf7ad33fd8043a8658a79b8f335b7390334ecae1ed1ce3c47998"
+    },
+    {
+      "key": "home-hero",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "4509e82950b151bcf8761640cc4c393f6c8517792600bb549085e941b0f234d3",
+      "native_pixel_sha256": "34a90f4354583a855b7c3fc1ae1766a8c43669313ba1a1c226fcb214d15bd1f3"
+    },
+    {
+      "key": "home-rail-feathered",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "ad00e7c495d1cd67692eb7380e5c84e4f2b832c413698ad3ec28cfc0f8a81625",
+      "native_pixel_sha256": "573ebfe704cc5e85ba0ee115e9f2c8a7b5ce334dc4483265525be5786a5858a4"
+    },
+    {
+      "key": "home-rail-curly",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "c12a449720fea4de1b6abfaafc2d553619e5c750af1f8b359c4ae249cad92b57",
+      "native_pixel_sha256": "83b90ff140d299e884852521a6009b0b3912f61c68236364bbe76b34f3ed9c15"
+    },
+    {
+      "key": "home-rail-short",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "1d129137d836b0c69443f0bf67c84f3e46aa1bc2e07f80786c55d87f5ba79284",
+      "native_pixel_sha256": "e4f32ab4ccb9c8b0d48c387a4f0269c8c57c5365d560b69a49e9d0a432d77919"
+    },
+    {
+      "key": "home-rail-long",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "34558dc4331218f180f4dcf2ee52d36f84ef8f48842a1a5c7fef3fea407e91ae",
+      "native_pixel_sha256": "3f3737c611ae6695f2fddd8445c225b438bddd1aa4f00974408c427919f565c5"
+    },
+    {
+      "key": "home-texture-fine",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "26ab81be302e820da5d05e31fb156a879367f99af540821a5eebf85d533538ab",
+      "native_pixel_sha256": "92c17b2dfad75bcac06dcb820c1941e6615e68844de34b2b721f0ee18009e1cc"
+    },
+    {
+      "key": "home-texture-wavy",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "a8e9e91dbc7d63b1e86270acd6630d4f4e106c578a4c976d7f409b740bb45f1c",
+      "native_pixel_sha256": "bbffa72883fb57d3a8444d5d07c74a5c00b0b2c43918c231a3743e2f28d87780"
+    },
+    {
+      "key": "home-texture-thick",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "de0bfd2fdda44abd40e261ebb3bca76f84ec03a79fb176b9ec49c5c2badf9422",
+      "native_pixel_sha256": "5b01878eb732a8ad2d0f6f33e47eeec3d58ede175d8ca6d34c89b6503ed513af"
+    },
+    {
+      "key": "home-texture-straight",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "eca8ed6d32037fcf9a7783e4dc45cd2434b3c7ff50c4eb52eabce27567567434",
+      "native_pixel_sha256": "b7ff246fe386a67eb2ba7913a88bb7626328cbaab295b27fd2304e1dbfa2c1e7"
+    },
+    {
+      "key": "home-angle-front",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "72741fb8b519bfce461d8f30ce912b32dccd755fe28c1a79f9bd284cefffea36",
+      "native_pixel_sha256": "9856d95071fdda5cfc75764630afb3f5172dea73300f9e4bee35cd35c5440616"
+    },
+    {
+      "key": "home-angle-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "ca77fadfd11a6f349cec8b28c6f090c4576e15d530657a1e6e204cfcac89370b",
+      "native_pixel_sha256": "c31a200ef09dadaa4fd7e179716a22e70e1902be87f9b3789cad41b2c915e348"
+    },
+    {
+      "key": "home-angle-back",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "80eac74a393cc14971ae4d9a78f448152ba7c10bae0bfa53b3ea7f6fc3199119",
+      "native_pixel_sha256": "3155418a0328c92217f17c43e6884fd85fa3039ca6f3bc8dffb8ad4870e0e45e"
+    },
+    {
+      "key": "home-fringe-curtain",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "ad80f946b82aef0073719357c45493abfe0bfc1af47a793651a3ef5ea672aeb2",
+      "native_pixel_sha256": "1c1809a9be82c29f6d89500b5c84548a40124745f23f25ea34efb606dcff8c00"
+    },
+    {
+      "key": "home-fringe-side",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "3ae940974ea30deb4283289db7c9186822e8442c80c9304d07d743e8ad2fa702",
+      "native_pixel_sha256": "0f8fd3fc86bff4a731c3fdea3e1b66272acd14b27e145b8dfb83c7383755b526"
+    },
+    {
+      "key": "home-fringe-wispy",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "b77dc66cf4ae4f03aef83973e1e1a98ed875043a26ffe2214a35e8797c2b8074",
+      "native_pixel_sha256": "27cc4d200cd109d503254cba27a7d329dafcd749054f71761443b0b9ef49b7f0"
+    },
+    {
+      "key": "home-mature-over40",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "4c4a298e51b9203775a8750d2b7371a2dc204ede3732651c40849ac448980762",
+      "native_pixel_sha256": "43006e8069838e90b98f4840da39a29cfaab54b421171881542e61e5dd8c9b52"
+    },
+    {
+      "key": "home-mature-over50",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "475bc110147ff50ba7abd5c2a3a317b4969cf658a67f54292753ea5ce394892e",
+      "native_pixel_sha256": "60b990b7315ae1b564c34d3956588b3ddf2568cf3f3679591b1a287f6e23b8f8"
+    },
+    {
+      "key": "home-mature-over60",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "e1a47694227da4a3c8c1e0906eccf2abf2a171be4e72ea5322db8f0de531fa94",
+      "native_pixel_sha256": "703e84f12aad5623da9a3c38a773a5109291cf3e9486b5c19ef0e85acb3aeb5e"
+    },
+    {
+      "key": "home-colour-silver",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "e18f4ef172ec3642155499d8d6612372580a72ed2ac46deef782fce865edde1c",
+      "native_pixel_sha256": "a9566b12c829d83c77fd387f36e70ae87f4b7b29a375cd7f381e277474714d41"
+    },
+    {
+      "key": "home-colour-copper",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "b0cb0314fad83047d2c8402ff746b464597955a3561d82cbdcdb6193c84e2f80",
+      "native_pixel_sha256": "24daaea2c76fcd22a41e3bb9cc83825527d469936125fb65b078452197a1b8a9"
+    },
+    {
+      "key": "home-colour-black",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "f9915fb321e8c36293869619e6f1de8f6fe22af2b13cc6b611355419ddab0726",
+      "native_pixel_sha256": "cd23e7ea6134faea6b68934feb9b57c7e58a63950db63aa5021a83074eae4250"
+    },
+    {
+      "key": "home-motion-poster",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "native_sha256": "9a66da51a813794aade89b926e0f7dc14789ec0263adb6c8f566b7796da82d4f",
+      "native_pixel_sha256": "6a5b48c4298b4541d70e4522a03003e7adfd62f69b07c61e94b0b053b0f832fb"
+    },
+    {
+      "key": "home-journal-consultation",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "d43c51b58227419de5bb91ab785231d40f2301dd3b5285e0a9aa7f89832af5dd",
+      "native_pixel_sha256": "8fc8ea356af77155fd4bf79a01b7ac3b38010aac6760146915d8c1458147f2e4"
+    },
+    {
+      "key": "home-journal-styling",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "64afb1d35749a04e116ccb73f9dd5ecbb7a047b175d17b1d3c16be6b5f9cc24b",
+      "native_pixel_sha256": "d0caf00d1168bbb0cf007131149c160fdd02f89bc94f7325c6db224ea818c01d"
+    },
+    {
+      "key": "home-journal-growth",
+      "passed": true,
+      "errors": [],
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "native_sha256": "b07770501a792daaa805549dc2a46270b788ec98db1611851ce0b70ad59a75a7",
+      "native_pixel_sha256": "7c8e7a815dc5714f84c1b2933b37311dba82de61af2e6fa24f75bf3b511de1d2"
+    }
+  ],
+  "film": {
+    "key": "home-motion-film",
+    "verified": true,
+    "browser_playback": "pending actual WordPress autoplay/pause and decoded-frame check",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "seconds": 11.625,
+    "source_keys": [
+      "home-angle-front",
+      "home-angle-side",
+      "home-angle-back"
+    ],
+    "sha256": "3e5224e5dfb7c24f0a335c77df1bbdf49c9da4fe3a78e2020048a48f331949ec"
+  },
+  "failures": [],
+  "limits": [
+    "This checks actual original pixels, encodings, unique identities, dimensions, hashes and declared reviews. Visual inspection is separately recorded per asset.",
+    "WordPress final import, browser paint/editor/motion and target-host checks require their own runtime evidence."
+  ]
+}

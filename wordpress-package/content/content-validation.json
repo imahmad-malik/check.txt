@@ -25,7 +25,7 @@
       "detail": ""
     },
     {
-      "check": "440 explicit planning-only briefs",
+      "check": "440 separate production briefs with truthful completion status",
       "passed": true,
       "detail": ""
     },
@@ -45,9 +45,9 @@
       "detail": ""
     },
     {
-      "check": "No fictitious actual media in production briefs",
+      "check": "Every completed brief matches a hash-verified actual coherent set",
       "passed": true,
-      "detail": ""
+      "detail": "[]"
     },
     {
       "check": "Unique intended haircut structure design keys",
@@ -152,18 +152,18 @@
     "planned_launch_view_images": 462,
     "expansion_look_briefs": 440,
     "expansion_view_briefs": 1320,
-    "provided_unique_primary_collection_images": 12,
-    "provided_importable_looks": 4,
-    "provided_complete_three_angle_sets": 4,
+    "provided_unique_primary_collection_images": 69,
+    "provided_importable_looks": 23,
+    "provided_complete_three_angle_sets": 23,
     "supporting_guides": 7,
     "editable_page_records": 42,
     "reviewed_relevant_and_excluded_terms": 81,
     "required_guide_photo_references": 24,
     "additional_originals_required_for_guides": 0,
-    "provided_guide_photo_references": 3,
-    "actual_generated_source_files": 45,
+    "provided_guide_photo_references": 15,
+    "actual_generated_source_files": 132,
     "provided_complete_collections": 0,
-    "provided_approved_home_role_images": 8
+    "provided_approved_home_role_images": 25
   },
   "keyword_dispositions": {
     "mapped-canonical": 47,

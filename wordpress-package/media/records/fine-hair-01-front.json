@@ -7,13 +7,13 @@
   "collection": "fine-hair",
   "usage": "collection",
   "angle": "front",
-  "source_file": "source-media/fine-hair-01-front.png",
+  "source_file": "source-media/fine-hair-01-front-native.webp",
   "file": "media/fine-hair-01-front.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "aee7dcb65980a274cd10f7d114b72965afd3904e5620969a2f3f8e59343fd1e0",
+  "sha256": "1436f8b02a2f4d8a45a000e3c2b2c02eafbe594b2ccd2f00314dbf6f2afb2665",
   "display_sha256": "089afb6f8d045d0e8f585612b928bbec52737618d6cb5b484cca34cc5380cc7d",
-  "source_bytes": 2347756,
+  "source_bytes": 1478178,
   "display_bytes": 336116,
   "native_original": true,
   "native_8k": false,
@@ -86,5 +86,11 @@
     "native_8k": false,
     "native_original": true,
     "upscaled": false
-  }
+  },
+  "generator_original_file": "source-media/fine-hair-01-front.png",
+  "generator_original_sha256": "aee7dcb65980a274cd10f7d114b72965afd3904e5620969a2f3f8e59343fd1e0",
+  "generator_original_bytes": 2347756,
+  "native_pixel_sha256": "8a3402665d62aac348556a40ee66e2114025b5e6b1b166703707b6aa09ccf464",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

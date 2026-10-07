@@ -7,13 +7,13 @@
   "collection": "thick-hair",
   "usage": "collection",
   "angle": "front",
-  "source_file": "source-media/thick-hair-01-front.png",
+  "source_file": "source-media/thick-hair-01-front-native.webp",
   "file": "media/thick-hair-01-front.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "790b468f0e34d24ed5b215fc5e6469a659b6d2b42cbb72390c6d1ace562aaa02",
+  "sha256": "e81c019d5695c30ac85e3b49106901c867b2903251ec8c9aae016c9e31458095",
   "display_sha256": "16d0cea971a2943f237b919f64be7da4fdca6fbaf98e098c4c6de2f4216109d4",
-  "source_bytes": 2444133,
+  "source_bytes": 1548294,
   "display_bytes": 346944,
   "native_original": true,
   "native_8k": false,
@@ -86,5 +86,11 @@
     "native_8k": false,
     "native_original": true,
     "upscaled": false
-  }
+  },
+  "generator_original_file": "source-media/thick-hair-01-front.png",
+  "generator_original_sha256": "790b468f0e34d24ed5b215fc5e6469a659b6d2b42cbb72390c6d1ace562aaa02",
+  "generator_original_bytes": 2444133,
+  "native_pixel_sha256": "cd032b2d8d50603ca984e7d8b317ef924d3550b1042a8c18885fca1a937740f6",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

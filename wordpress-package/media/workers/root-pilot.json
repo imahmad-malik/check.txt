@@ -898,6 +898,68 @@
         "layered-01-side",
         "layered-01-back"
       ]
+    },
+    {
+      "key": "choppy-01",
+      "slug": "choppy-01",
+      "title": "Tapered blonde choppy bixie",
+      "excerpt": "Broken blonde layers and a softly tapered nape.",
+      "primary_collection": "choppy",
+      "collections": [
+        "choppy"
+      ],
+      "meta": {
+        "texture": "wavy",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "curtain",
+        "colour": "blonde",
+        "finish": "choppy",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "approved": true,
+      "review_status": "approved",
+      "review": {
+        "method": "Direct individual full-aspect inspection of front, corrected strict side profile and separately generated straight back source",
+        "coherence": "Same fictional adult face in front/profile, blonde highlights and darker roots, consistent cut texture/crown volume, visible ear placement and short nape graduation. Back references exact approved front and corrected side. Same loose ivory high turtleneck and studio. Three distinct original SHA256 hashes.",
+        "native_resolution": "Actual1122x1402 native generator originals; lossless native WebP decoded pixels verified equalPNG; no upscaling/no8Kclaim",
+        "attire_and_frame": "All3 loose opaque high turtlenecks, complete main hair silhouette, breathing margins, full source aspect, sharp face/hair."
+      }
+    },
+    {
+      "key": "curly-01",
+      "slug": "curly-01",
+      "title": "Rounded blonde curly bixie",
+      "excerpt": "Loose blonde curls with a rounded crown and short nape.",
+      "primary_collection": "curly",
+      "collections": [
+        "curly"
+      ],
+      "meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "short open",
+        "colour": "blonde",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "approved": true,
+      "review_status": "approved",
+      "review": {
+        "method": "Direct individual full-aspect inspection of front, corrected strict side profile and separately generated straight back source",
+        "coherence": "Same fictional adult face in front/profile, blonde highlights and darker roots, consistent cut texture/crown volume, visible ear placement and short nape graduation. Back references exact approved front and corrected side. Same loose ivory high turtleneck and studio. Three distinct original SHA256 hashes.",
+        "native_resolution": "Actual1122x1402 native generator originals; lossless native WebP decoded pixels verified equalPNG; no upscaling/no8Kclaim",
+        "attire_and_frame": "All3 loose opaque high turtlenecks, complete main hair silhouette, breathing margins, full source aspect, sharp face/hair."
+      }
     }
   ]
 }

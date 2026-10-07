@@ -1,0 +1,73 @@
+{
+  "id": "choppy-01-side",
+  "key": "choppy-01-side",
+  "look_id": "choppy-01",
+  "look_key": "choppy-01",
+  "canonical_look_key": "choppy-01",
+  "collection": "choppy",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/choppy-01-side-retry01-native.webp",
+  "file": "media/choppy-01-side.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "4e7fae5a3d150904be24b53adfd39947eba6b5def88f48eb68059e222abec03c",
+  "display_sha256": "e3936fe6731ae8606434b4d8a9cb0698b89f0095f41ebec446633690ae9ee455",
+  "source_bytes": 1378796,
+  "display_bytes": 266188,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-25c4f852-06a4-4006-a4b9-d888daf5f221.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "CAMERA CORRECTION ONLY: the side reference is still a three-quarter view. Rotate the camera around her head another 18 degrees toward her LEFT EAR until the face is a STRICT ORTHOGONAL 90-DEGREE LEFT SIDE PROFILE, facing screen-left. Near eye is visible. Far eye, far eyelid, far lashes and far eyebrow must be COMPLETELY HIDDEN behind the nose bridge. Look exactly across the camera, never toward it. Preserve the same adult identity, haircut, hair colour, all crown and nape contours, studio and VERY LOOSE OPAQUE HIGH TURTLENECK long-sleeved jumper. Preserve full top and entire hair outline with breathing margins and original full portrait aspect. Sharp natural face and hair, no blur, no crop, no text, no collage. Create one genuinely new individual photograph at available native resolution without enlargement. The first reference shows the same adult front for identity. The second shows the camera angle requiring correction; copy its haircut precisely and change only viewpoint.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/choppy-01-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/choppy-01-side.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "ready-after-coherent-set-review",
+  "expected_meta": {
+    "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "curtain",
+    "colour": "blonde",
+    "finish": "choppy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "compact rounded",
+    "nape": "soft tapered",
+    "fringe": "curtain",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "compact rounded | soft tapered | curtain | ear-revealing temple pieces | 0-crown-to-front-proportion"
+  },
+  "alt": "Left profile of a blonde choppy layered bixie",
+  "caption": "Broken layers taper neatly behind the ear.",
+  "generator_original_file": "source-media/choppy-01-side-retry01.png",
+  "generator_original_sha256": "db129b18cf403f3487c1954cc6c5d10a412124b12a1b6ac5505cc31185b86dab",
+  "generator_original_bytes": 2181327,
+  "previous_attempt_records": [
+    "media/records/rejected/choppy-01-side-attempt01.json"
+  ],
+  "native_pixel_sha256": "64c3779a44fcf5c3954a0e650c8f7605fe73a13a082a7a21e7470016152e83b5",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "attire_pass": true,
+    "complete_hair_outline_pass": true,
+    "sharpness_pass": true,
+    "viewpoint_pass": true,
+    "native_resolution_pass": true,
+    "actual_view": "strict left side profile",
+    "evidence": "Direct full-aspect inspection of corrected source: one visible near eye; far eye occluded; loose opaque high collar; no chest outline; crown and nape complete with margins; same blonde face and haircut as front."
+  }
+}

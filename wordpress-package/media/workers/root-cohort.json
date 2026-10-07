@@ -1,0 +1,193 @@
+{
+  "worker": "root-source-owner",
+  "owned_look_keys": [
+    "choppy-02",
+    "choppy-03",
+    "choppy-04",
+    "choppy-05",
+    "choppy-06",
+    "choppy-07",
+    "curly-02",
+    "curly-03",
+    "curly-04",
+    "curly-05",
+    "curly-06",
+    "curly-07"
+  ],
+  "looks": [
+    {
+      "key": "choppy-03",
+      "slug": "choppy-03",
+      "title": "Dark ringlet choppy bixie",
+      "excerpt": "Dark ringlets gather into a softly tapered nape.",
+      "primary_collection": "choppy",
+      "collections": [
+        "choppy"
+      ],
+      "meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "curtain",
+        "colour": "dark",
+        "finish": "choppy",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "curtain",
+        "colour": "dark",
+        "finish": "choppy",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "curtain",
+        "colour": "dark",
+        "finish": "choppy",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": false,
+      "approved": true,
+      "review_status": "approved",
+      "review": {
+        "method": "Direct review of every native original through full-aspect inspection images and comparison of front/profile/back",
+        "coherence": "Same fictional adult face across front/side; same colour, root tone, curl/layer geometry, crown volume, ear placement and nape shape; identical loose opaque ivory high turtleneck and studio. Actual inspected approved front/side files were references for back. Three genuine separate tool outputs, unique native and pixel hashes.",
+        "native_quality": "Actual1122x1402 original PNG dimensions, preserved full aspect; lossless native WebP RGB verified equalPNG; no8Kclaim/upscale",
+        "attire_frame": "Loose opaque high collar, no exposed neckline/chest contours; completehead/hair margin, sharp hair and face."
+      }
+    },
+    {
+      "key": "choppy-04",
+      "slug": "choppy-04",
+      "title": "Silver parted choppy bixie",
+      "excerpt": "Silver broken layers soften the nape.",
+      "primary_collection": "choppy",
+      "collections": [
+        "choppy"
+      ],
+      "meta": {
+        "texture": "straight",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "curtain",
+        "colour": "grey",
+        "finish": "choppy",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "straight",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "curtain",
+        "colour": "grey",
+        "finish": "choppy",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "straight",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "curtain",
+        "colour": "grey",
+        "finish": "choppy",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "approved": true,
+      "review_status": "approved",
+      "review": {
+        "method": "Direct review of every native original through full-aspect inspection images and comparison of front/profile/back",
+        "coherence": "Same fictional adult face across front/side; same colour, root tone, curl/layer geometry, crown volume, ear placement and nape shape; identical loose opaque ivory high turtleneck and studio. Actual inspected approved front/side files were references for back. Three genuine separate tool outputs, unique native and pixel hashes.",
+        "native_quality": "Actual1122x1402 original PNG dimensions, preserved full aspect; lossless native WebP RGB verified equalPNG; no8Kclaim/upscale",
+        "attire_frame": "Loose opaque high collar, no exposed neckline/chest contours; completehead/hair margin, sharp hair and face."
+      }
+    },
+    {
+      "key": "curly-02",
+      "slug": "curly-02",
+      "title": "Copper curl bixie",
+      "excerpt": "Copper curls taper gently below the rounded crown.",
+      "primary_collection": "curly",
+      "collections": [
+        "curly"
+      ],
+      "meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "short open",
+        "colour": "copper",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "short open",
+        "colour": "copper",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "short open",
+        "colour": "copper",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "approved": true,
+      "review_status": "approved",
+      "review": {
+        "method": "Direct review of every native original through full-aspect inspection images and comparison of front/profile/back",
+        "coherence": "Same fictional adult face across front/side; same colour, root tone, curl/layer geometry, crown volume, ear placement and nape shape; identical loose opaque ivory high turtleneck and studio. Actual inspected approved front/side files were references for back. Three genuine separate tool outputs, unique native and pixel hashes.",
+        "native_quality": "Actual1122x1402 original PNG dimensions, preserved full aspect; lossless native WebP RGB verified equalPNG; no8Kclaim/upscale",
+        "attire_frame": "Loose opaque high collar, no exposed neckline/chest contours; completehead/hair margin, sharp hair and face."
+      }
+    }
+  ]
+}

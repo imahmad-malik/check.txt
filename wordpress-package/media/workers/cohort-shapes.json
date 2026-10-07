@@ -1,0 +1,23 @@
+{
+  "worker": "cohort-shapes",
+  "owned_look_keys": [
+    "shaggy-01",
+    "shaggy-02",
+    "shaggy-03",
+    "shaggy-04",
+    "shaggy-05",
+    "shaggy-06",
+    "shaggy-07",
+    "straight-01",
+    "straight-02",
+    "straight-03",
+    "straight-04",
+    "straight-05",
+    "straight-06",
+    "straight-07"
+  ],
+  "complete_approved_look_count": 0,
+  "approved_image_count": 0,
+  "looks": [],
+  "status": "generation-in-progress"
+}

@@ -47,7 +47,7 @@ Keep PNG originals; lossless native WebP source conversion is permitted only whe
 decoded pixels match, with separate accurate hashes/provenance. A PNG/WebP pair
 still counts as one source photograph.
 
-Check actual files, dimensions and SHA-256 before resuming. **Never regenerate an
+Use save_checkpoint.py to publish authorized project checkpoints without changing main, the checkout HEAD or the normal Git index. It saves only the package and explicitly named safe delivery files. Check actual files, dimensions and SHA-256 before resuming. **Never regenerate an
 already approved existing record simply because an agent/session disappeared.**
 Partial fronts/sides are real progress, but a look is incomplete until all three
 views pass matching-person/haircut review. See the current media progress files;
@@ -65,10 +65,9 @@ parallel independent calls are authorized; checkpoint after each image/batch.
 After the coherent 36-image pilot, continue reviewed batches across the remaining
 launch-target keys. Do not stop at the pilot or substitute old rejected photographs.
 
-Home front/side/back roles must form another coherent model/cut set; the 25 Home
-roles are separate from the 462 gallery sources. The required film can be a
-truthfully labeled multi-view photo sequence with complete uncropped views,
-not a claim of filmed salon footage. Never reuse the old rejected film.
+All25 Home roles are now genuinely generated and reviewed, with final native-lossless source hashes; see media/HOME-PROGRESS.md. The front/side/back Home roles form a reviewed coherent set. build_photo_film.py produces the actual11.625-second1122×1402 silent H.264 sequence without crop/upscale. Its manifest record is media/records/home-motion-film.json, source_asset_keys names all3actual sources; actual WordPress decoded/autoplay check remains. This is truthfully photographic sequence content, not filmed salon footage. Never reuse the old rejected film.
+
+Additional disjoint production assignments: media producer cohort_classic owns classic-02..07 and short-02..07; Home worker now owns long-02..07 and layered-02..07. Do not regenerate their saved partial/approved originals. Coordinator may assign remaining collection ranges while retaining durable individual records and coherent declarations.
 
 ## Engineering completed and remaining
 
@@ -84,18 +83,14 @@ forced `aspect-ratio:auto!important` created 1,500-pixel blank frames. Root remo
 that forced theme property; plugin image containment was scoped correctly.
 Actual portrait geometry/pixel checks now pass. Preserve that fix.
 
-Multipart media upload is being finished in Tools → Bixie package setup. ZIP parts
+Multipart media upload is implemented in Tools → Bixie package setup. Actual owner GUI upload, persisted part-list, idempotence, authenticated denial and no-JavaScript fallback passed. ZIP parts
 have root `manifest.json` containing `bundle_id`, `records`, and optional actual
 `looks`, with relative `source-media/`, `media/` and `video/` paths. Maximum part
 size is 25 MiB; authenticated nonce/capability checks, path/hash restrictions,
 idempotence and bounded extraction must remain. A catalog-path variable overwrite
-found by the GUI import test is an open/recently fixed regression: confirm its
-test report before declaring import complete.
+found by the GUI import test was fixed and the actual regression passed.
 
-The plugin is also coordinating genuine source zoom, optimized responsive display,
-same-attachment replacement/review invalidation, all-angle collection cards,
-guide dependency gates and scoped SEO-provider hooks. Verify latest agent status
-and code rather than assuming every follow-up was completed at this checkpoint.
+The plugin implements genuine source zoom, optimized responsive display, same-attachment replacement/review invalidation, all-angle collection cards, guide dependency gates and scoped SEO-provider hooks. MP4 GUI review and front/side/back source selectors are available. A trusted embedded remote media index supports streamed bounded HTTPS downloads with exact size/SHA checks and authenticated resumable owner import. The real four-look integration part has been published and independently downloaded successfully; actual WordPress remote download/import remains an affected integration check. Final-source video-block replacement and project-only attachment redirects are receiving focused follow-up tests.
 
 ## Reproduce and finish
 
@@ -107,10 +102,7 @@ and code rather than assuming every follow-up was completed at this checkpoint.
 4. Build media parts with `python3 build_media_bundles.py`. Verify actual file
    hashes/dimensions and each archive's size. Media source and display files count
    once, not twice. Keep bulk assets separate from small theme/plugin ZIPs.
-5. Finish `build_release.py` for the final actual asset counts. Its initial
-   engineering-only state/readme and zero-look assertions must be updated before
-   a full launch release. Exclude bulk media from the source/code archive; publish
-   media parts separately so no GitHub file exceeds 100 MiB.
+5. Run `build_release.py` and `verify_release.py`; the builder now derives actual nonzero catalog counts, separates incomplete engineering from final launch state, verifies canonical/embedded catalog identity, and the archive verifier passed24 meaningful checks. Refresh final counts and required runtime evidence before declaring launch complete. Bulk media remains separate from the code/docs archive; publish parts first and pin the final plugin release-index.json to their real commit so no GitHub file exceeds100MiB.
 6. Run real WordPress install/import/editor/media/schema/browser tests against the
    actual final ZIPs and actual photo library, not only synthetic fixtures.
 7. Refresh OWNER-GUIDE, INSTALL, VALIDATION-REPORT and LAUNCH-CHECKLIST with precise

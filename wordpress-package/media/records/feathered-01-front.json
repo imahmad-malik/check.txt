@@ -7,13 +7,13 @@
   "collection": "feathered",
   "usage": "collection",
   "angle": "front",
-  "source_file": "source-media/feathered-01-front.png",
+  "source_file": "source-media/feathered-01-front-native.webp",
   "file": "media/feathered-01-front.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "583de8a62ec2e0d39ee5c7b589701e21bf93cd2e92704ff8fdb50f409f00167f",
+  "sha256": "83bf07d5dbeae2804df926d6c7910ddc05183eb99b9db3fee874991f968b018c",
   "display_sha256": "3e427c7e2109cc8c714196f9b26af19d3fd72099725e0fee1d34181bd7545337",
-  "source_bytes": 2309717,
+  "source_bytes": 1466444,
   "display_bytes": 319572,
   "native_original": true,
   "native_8k": false,
@@ -86,5 +86,11 @@
     "native_8k": false,
     "native_original": true,
     "upscaled": false
-  }
+  },
+  "generator_original_file": "source-media/feathered-01-front.png",
+  "generator_original_sha256": "583de8a62ec2e0d39ee5c7b589701e21bf93cd2e92704ff8fdb50f409f00167f",
+  "generator_original_bytes": 2309717,
+  "native_pixel_sha256": "ce8738d9e4e658fd86d381965fa37890bf4f4c0f10773f9e9a316d00d0692bae",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

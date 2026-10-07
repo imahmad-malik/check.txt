@@ -47,5 +47,9 @@
     "native_detail": "pass: sharp hair and face at actual 1122\u00d71402; no upscaling",
     "angle": "pass: actual back",
     "coherent_set": "pass: matches inspected front and side colour, rounded crown, tapered nape, ivory knitted high collar and identity"
-  }
+  },
+  "actual_tool_reference_paths": [
+    "/workspace/generated_images/exec-6de5714d-0be0-436b-b0b2-78488d298e46.png",
+    "/workspace/generated_images/exec-a0c09900-a773-4b5a-b989-2eaffb58e298.png"
+  ]
 }

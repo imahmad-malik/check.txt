@@ -25,7 +25,8 @@ check('Distinct stable page keys',len(keys)==len(pages))
 check('Distinct canonical page routes',len(routes)==len(pages)+1)
 check('22 canonical collections',len(collections)==22)
 check('Seven distinct supporting guides',sum(p['type']=='guide' for p in pages)==7)
-check('440 explicit planning-only briefs',len(briefs)==440 and all(b['status']=='required-not-generated' and b['publish'] is False for b in briefs))
+actual_by_key={look['key']:look for look in catalog['looks']}
+check('440 separate production briefs with truthful completion status',len(briefs)==440 and all(b['publish'] is False and b['status']==('generated-approved' if b['key'] in actual_by_key else 'required-not-generated') for b in briefs))
 check('154 launch-target complete-set requirements',sum(b['scope']=='launch-target' for b in briefs)==154)
 actual_looks=catalog['looks']
 real_look_failures=[]
@@ -43,7 +44,22 @@ for look in actual_looks:
             real_look_failures.append(look['key']+': approval/native')
 check('No fabricated completed looks',not real_look_failures and catalog['counts']['provided_importable_looks']==len(actual_looks),str(real_look_failures))
 check('Accepted original native quality and complete-angle requirement',catalog['requirements']['minimum_native_long_edge']==1024 and catalog['requirements']['require_complete_angles'] is True and catalog['requirements']['no_upscaling'] is True and catalog['requirements']['no_8k_claim'] is True)
-check('No fictitious actual media in production briefs',all(not b['provided_media_ids'] and all(i['file'] is None and i['width'] is None and i['height'] is None for i in b['images']) for b in briefs))
+brief_media_failures=[]
+for brief in briefs:
+    actual=actual_by_key.get(brief['key'])
+    if not actual:
+        if brief['provided_media_ids'] or any(i.get('file') is not None or i.get('width') is not None or i.get('height') is not None for i in brief['images']):
+            brief_media_failures.append(brief['key']+': fictitious unfinished media')
+        continue
+    by_image={image['key']:image for image in actual['images']}
+    if set(brief['provided_media_ids'])!=set(by_image) or len(brief['images'])!=3:
+        brief_media_failures.append(brief['key']+': actual set identifiers')
+    for image in brief['images']:
+        source=by_image.get(image['key'],{})
+        for field in ['source_file','file','sha256','width','height','angle','approved','review_status']:
+            if image.get(field)!=source.get(field):
+                brief_media_failures.append(brief['key']+': actual '+field)
+check('Every completed brief matches a hash-verified actual coherent set',not brief_media_failures,str(brief_media_failures))
 check('Unique intended haircut structure design keys',len({b['shape_brief']['distinctness_basis'] for b in briefs})==len(briefs))
 check('No inflation of collection planned photos',all(c['minimum_complete_looks']==7 and c['planned_unique_view_images']==21 and len(c['required_primary_look_ids'])==7 for c in collections))
 unready_collection_keys={c['key'] for c in collections if c['provided_primary_images']<20 or c['provided_complete_angle_sets']<7}

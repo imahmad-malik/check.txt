@@ -75,6 +75,26 @@ function bixie_home_photo_ids(array $blocks): array {
     return $ids;
 }
 
+/** Validate the actual native video selection, including old blocks without an ID. */
+function bixie_home_film_ids(array $blocks): array {
+    $ids = [];
+    foreach ($blocks as $block) {
+        if (($block['blockName'] ?? '') === 'core/video') {
+            $id = absint($block['attrs']['id'] ?? 0); $src = '';
+            $tags = new WP_HTML_Tag_Processor((string) ($block['innerHTML'] ?? ''));
+            while ($tags->next_tag()) { if (in_array($tags->get_tag(), ['VIDEO', 'SOURCE'], true) && $tags->get_attribute('src')) { $src = (string) $tags->get_attribute('src'); break; } }
+            if ($src) {
+                $src = html_entity_decode($src, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+                // A stale block ID must never approve a different, selected file.
+                $id = attachment_url_to_postid($src);
+            }
+            $ids[] = $id;
+        }
+        $ids = array_merge($ids, bixie_home_film_ids($block['innerBlocks'] ?? []));
+    }
+    return $ids;
+}
+
 function bixie_check_home(int $post_id = 0, ?string $content = null): array {
     $slugs = (array) get_option('bixie_required_collections', []); $reasons = [];
     if (!$slugs) { $reasons[] = 'Required collection definitions have not been imported.'; }
@@ -83,10 +103,14 @@ function bixie_check_home(int $post_id = 0, ?string $content = null): array {
         $id = bixie_get_package_attachment($key);
         if (!$id || !bixie_check_look(0, [['id' => $id, 'angle' => 'reference']])['ids']) { $reasons[] = 'Required homepage source missing, unreviewed or below native resolution: ' . $key; }
     }
-    $video_key = (string) get_option('bixie_required_home_video', '');
-    if ($video_key) { $video = bixie_get_package_attachment($video_key); if (!$video || !bixie_check_film($video)) { $reasons[] = 'Required reviewed multi-view photographic film missing: ' . $video_key; } }
     if ($content === null && !$post_id) { $homes = get_posts(['post_type' => 'page', 'post_status' => ['publish', 'draft', 'private', 'pending'], 'posts_per_page' => 1, 'fields' => 'ids', 'meta_key' => '_bixie_is_front_page', 'meta_value' => '1']); $post_id = $homes ? $homes[0] : 0; }
     if ($content === null && $post_id) { $content = (string) get_post_field('post_content', $post_id); }
+    $video_key = (string) get_option('bixie_required_home_video', '');
+    if ($video_key) {
+        $films = $content !== null ? bixie_home_film_ids(parse_blocks($content)) : [bixie_get_package_attachment($video_key)];
+        if (!$films) { $reasons[] = 'The homepage has no selected native photographic film block.'; }
+        foreach ($films as $film) { if (!$film || !bixie_check_film($film)) { $reasons[] = 'A selected homepage film needs explicit review and approved corresponding front, side and back sources.'; } }
+    }
     $photos = $content !== null ? bixie_home_photo_ids(parse_blocks($content)) : [];
     if (count($photos) !== count(array_unique($photos))) { $reasons[] = 'The homepage repeats a photo attachment; each photograph must appear once.'; }
     $identities = array_filter(array_map('bixie_source_fingerprint', array_unique($photos))); if (count($identities) !== count(array_unique($identities))) { $reasons[] = 'The homepage repeats an original photograph under different attachment IDs.'; }
@@ -98,7 +122,8 @@ function bixie_check_home(int $post_id = 0, ?string $content = null): array {
 
 /** A film remains usable only while all of its declared photographic sources qualify. */
 function bixie_check_film(int $id): bool {
-    if (get_post_mime_type($id) !== 'video/mp4' || !get_post_meta($id, '_bixie_review_approved', true) || !get_post_meta($id, '_bixie_multiview_declared', true) || !bixie_is_real_mp4((string) get_attached_file($id))) { return false; }
+    $file = (string) get_attached_file($id); $review_hash = (string) get_post_meta($id, '_bixie_reviewed_delivery_hash', true);
+    if (get_post_mime_type($id) !== 'video/mp4' || !get_post_meta($id, '_bixie_review_approved', true) || !get_post_meta($id, '_bixie_multiview_declared', true) || !bixie_is_real_mp4($file) || !$review_hash || get_post_meta($id, '_bixie_reviewed_delivery_file', true) !== $file || !hash_equals($review_hash, hash_file('sha256', $file))) { return false; }
     $entries = bixie_array_meta($id, '_bixie_film_sources'); $angles = []; $ids = []; $hashes = [];
     if (!$entries) { foreach (array_unique(bixie_array_meta($id, '_bixie_film_source_keys')) as $key) { $source = bixie_get_package_attachment((string) $key); $entries[] = ['id' => $source, 'angle' => get_post_meta($source, '_bixie_asset_angle', true)]; } }
     foreach ($entries as $entry) {
@@ -207,8 +232,9 @@ function bixie_revalidate_sources(int $attachment_id = 0): void {
     bixie_invalidate_catalog(); bixie_enforce_owned_pages(); $busy = false;
 }
 function bixie_track_attachment_review($meta_id, $id, $key): void {
-    if (get_post_type($id) !== 'attachment' || !wp_attachment_is_image($id)) { return; }
-    $delivery = (string) get_attached_file($id); $source = bixie_original_source_path((int) $id); clearstatcache();
+    $image = wp_attachment_is_image($id); $video = get_post_mime_type($id) === 'video/mp4';
+    if (get_post_type($id) !== 'attachment' || (!$image && !$video)) { return; }
+    $delivery = (string) get_attached_file($id); $source = $image ? bixie_original_source_path((int) $id) : $delivery; clearstatcache();
     if ($key === '_bixie_review_approved' && get_post_meta($id, $key, true)) {
         update_post_meta($id, '_bixie_reviewed_delivery_file', $delivery);
         update_post_meta($id, '_bixie_reviewed_delivery_hash', is_file($delivery) ? hash_file('sha256', $delivery) : '');
@@ -218,8 +244,9 @@ function bixie_track_attachment_review($meta_id, $id, $key): void {
     if (!in_array($key, ['_wp_attached_file', '_wp_attachment_metadata', '_bixie_original_source_file', '_bixie_delivery_file'], true) || !get_post_meta($id, '_bixie_review_approved', true)) { return; }
     $expected = (string) get_post_meta($id, '_bixie_reviewed_delivery_hash', true); $source_hash = (string) get_post_meta($id, '_bixie_reviewed_source_hash', true);
     if (!$expected || !is_file($delivery) || get_post_meta($id, '_bixie_reviewed_delivery_file', true) !== $delivery || !hash_equals($expected, hash_file('sha256', $delivery)) || !$source_hash || !is_file($source) || !hash_equals($source_hash, hash_file('sha256', $source))) {
-        update_post_meta($id, '_bixie_review_approved', 0); update_post_meta($id, '_bixie_native_verified', 0);
-        foreach (['_bixie_original_source_file', '_bixie_original_source_url', '_bixie_delivery_file', '_bixie_source_identity'] as $field) { delete_post_meta($id, $field); }
+        update_post_meta($id, '_bixie_review_approved', 0);
+        if ($video) { update_post_meta($id, '_bixie_multiview_declared', 0); }
+        if ($image) { update_post_meta($id, '_bixie_native_verified', 0); foreach (['_bixie_original_source_file', '_bixie_original_source_url', '_bixie_delivery_file', '_bixie_source_identity'] as $field) { delete_post_meta($id, $field); } }
     }
 }
 foreach (['added_post_meta', 'updated_post_meta', 'deleted_post_meta'] as $hook) { add_action($hook, 'bixie_track_attachment_review', 25, 3); }
@@ -244,7 +271,14 @@ add_filter('attachment_fields_to_edit', static function(array $fields, $post): a
         $sources = bixie_array_meta($post->ID, '_bixie_film_sources'); $selected = []; foreach ($sources as $source) { $selected[$source['angle']] = absint($source['id']); }
         if (!$sources) { foreach (bixie_array_meta($post->ID, '_bixie_film_source_keys') as $key) { $source = bixie_get_package_attachment($key); $selected[get_post_meta($source, '_bixie_asset_angle', true)] = $source; } }
         $photos = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'post_mime_type' => 'image', 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC']);
-        foreach (['front', 'side', 'back'] as $angle) { $html = '<select name="attachments[' . absint($post->ID) . '][bixie_film_' . $angle . ']" aria-label="' . esc_attr(ucfirst($angle) . ' film source') . '"><option value="0">' . esc_html__('Choose an actual corresponding photograph', 'bixie-library') . '</option>'; foreach ($photos as $photo) { $html .= '<option value="' . absint($photo->ID) . '"' . selected($selected[$angle] ?? 0, $photo->ID, false) . '>' . esc_html(get_the_title($photo) . ' (#' . $photo->ID . ')') . '</option>'; } $html .= '</select>'; $fields['bixie_film_' . $angle] = ['label' => ucfirst($angle) . ' source', 'input' => 'html', 'html' => $html]; }
+        foreach (['front', 'side', 'back'] as $angle) {
+            $html = '<select name="attachments[' . absint($post->ID) . '][bixie_film_' . $angle . ']" aria-label="' . esc_attr(ucfirst($angle) . ' film source') . '"><option value="0">' . esc_html__('Choose an actual corresponding photograph', 'bixie-library') . '</option>';
+            foreach ($photos as $photo) { $html .= '<option value="' . absint($photo->ID) . '"' . selected($selected[$angle] ?? 0, $photo->ID, false) . '>' . esc_html(get_the_title($photo) . ' (#' . $photo->ID . ')') . '</option>'; }
+            $html .= '</select>';
+            $source = absint($selected[$angle] ?? 0);
+            if ($source && current_user_can('edit_post', $source)) { $html .= '<p><a href="' . esc_url(admin_url('post.php?post=' . $source . '&action=edit')) . '">' . esc_html__('Review the selected source photograph', 'bixie-library') . '</a></p>'; }
+            $fields['bixie_film_' . $angle] = ['label' => ucfirst($angle) . ' source', 'input' => 'html', 'html' => $html, 'helps' => __('Each selected photograph needs its own explicit source review and original-source provenance confirmation. Film approval never approves source photographs automatically.', 'bixie-library')];
+        }
     }
     return $fields;
 }, 10, 2);

@@ -1,0 +1,73 @@
+{
+  "id": "classic-02-side-attempt01",
+  "key": "classic-02-side-attempt01",
+  "look_id": "classic-02",
+  "look_key": "classic-02",
+  "canonical_look_key": "classic-02",
+  "collection": "classic",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/classic-02-side-native.webp",
+  "file": "media/rejected/classic-02-side-attempt01.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "1f848ccf86d01e410affccb49f15bb81376ac28b755bfa79937ca4c5b3536938",
+  "display_sha256": "0b960a937f4387562addaf4deb497c5b81ffbacf6876382b2c6b70d7871b2e2b",
+  "source_bytes": 1444590,
+  "display_bytes": 297172,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-0b536291-bf0f-49b5-bb06-9ddd17c1cfe6.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Classic bixie haircuts. Design: airy separated | short graduated | wispy | ear-revealing temple pieces | 1-crown-to-front-proportion. Attributes: {\"texture\": \"curly\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"wispy\", \"colour\": \"copper\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file.\nANGLE CRITICAL: camera exactly 90 degrees to the woman's LEFT SIDE, face points LEFT in the frame. Only ONE eye visible; far eye, far brow and far cheek fully hidden. Nose is in complete side silhouette. Front of face is perpendicular to sensor, absolutely no three-quarter turn. Preserve EXACT reference copper/grey colour, curl/straight texture, individual fringe, crown silhouette, short graduated nape, same adult facial identity, ivory oversized high collar, shoulder-only framing and ivory studio. Do not increase hair length. All hair sharp. Entire silhouette with generous margins.",
+  "reference_source_files": [
+    "/workspace/generated_images/exec-c91304c1-88f7-432c-a670-90d8a2c7129c.png"
+  ],
+  "approved": false,
+  "review_status": "rejected",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "wispy",
+    "colour": "copper",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "airy separated",
+    "nape": "short graduated",
+    "fringe": "wispy",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "airy separated | short graduated | wispy | ear-revealing temple pieces | 1-crown-to-front-proportion"
+  },
+  "alt": "Rejected side view with a slight three-quarter turn",
+  "caption": "Exact profile correction required.",
+  "generator_original_file": "source-media/classic-02-side.png",
+  "generator_original_sha256": "3a634f650b4601d4492f5d34fa1bf992e85fb3575aa46e0d8d2404aa09f715d0",
+  "generator_original_bytes": 2211502,
+  "native_pixel_sha256": "d3fc89fbe7a89d9d016b4bd9ebba1ab50519595c3919d40b3da25f0a9170f29a",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "method": "Individual direct inspection of a full-aspect JPEG copy of the tool-provided native PNG; original pixels preserved",
+    "evidence": "Far-side lashes remain visible at nose bridge; strict single-eye 90-degree profile required. Original preserved.",
+    "checks": {
+      "fictional_adult": true,
+      "loose_opaque_high_turtleneck": true,
+      "complete_hair_silhouette": true,
+      "sharp_hair": true,
+      "native_resolution_at_least_1024": true,
+      "angle_verified": false
+    }
+  },
+  "rejected_attempt_of": "classic-02-side"
+}

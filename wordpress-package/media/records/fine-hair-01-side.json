@@ -7,13 +7,13 @@
   "collection": "fine-hair",
   "usage": "collection",
   "angle": "side",
-  "source_file": "source-media/fine-hair-01-side-retry01.png",
+  "source_file": "source-media/fine-hair-01-side-retry01-native.webp",
   "file": "media/fine-hair-01-side.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "2039c7a18a7930493b3ef81db6417241cf6c3ccaaeac48d9ace5f98a10768736",
+  "sha256": "fbee23db1e95ddf068f4af91c7bfd39ac20957614e276bf44a67e29946f5e0de",
   "display_sha256": "a318496a23ade917aa6691c8bbc90b4fe8db2b299f5b79f3950cfe8fa9732eaa",
-  "source_bytes": 2266009,
+  "source_bytes": 1425758,
   "display_bytes": 286802,
   "native_original": true,
   "native_8k": false,
@@ -95,5 +95,8 @@
     "native_8k": false,
     "native_original": true,
     "upscaled": false
-  }
+  },
+  "native_pixel_sha256": "9281dec465861e06d1bef4be220e755ec82997b2007a0324b05a952023300438",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

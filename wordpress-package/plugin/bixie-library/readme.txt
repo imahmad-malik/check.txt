@@ -18,6 +18,8 @@ Editable photo-led look records, collection galleries, saved references, compari
 
 PHP ZIP is required for validated media parts. WordPress must have a working image editor with WebP support and a writable uploads directory. Local parts are limited to the smaller of the hosting upload limit and 25 MiB. Trusted remote parts are streamed up to 25 MiB; each archive expands to at most 64 MiB. TLS verification remains enabled.
 
+Trusted downloads require working hosting DNS and outbound HTTPS. If the hosting resolver or proxy prevents WordPress from validating the media host, use the authenticated local ZIP upload controls with the supplied verified archives.
+
 == Native editing ==
 
 Bixie looks use the ordinary block editor plus a Look details sidebar. Replace front, side and back with the actual Media Library images. Named native Image blocks and canonical view relationships synchronize in both directions. Changing a file under the same attachment, including a crop/replacement, clears its previous review/provenance and original-source linkage; re-review before republishing.
@@ -25,6 +27,8 @@ Bixie looks use the ordinary block editor plus a Look details sidebar. Replace f
 Pages and reference galleries use native WordPress blocks. The Photo library block has collection, page-size and Show front, side and back photographs controls. Collection libraries initially display all three matching views; global/home libraries initially display one front cover. Side/back references open the matching selected angle.
 
 Media Library source fields provide review/provenance checks, unique homepage media roles, and a reviewed MP4's three corresponding source selectors. Native resolution is read from the genuine original file. Optimized responsive WebP images are used for normal display; explicit source zoom links to the retained native PNG or equivalent original source. Source pixels, display derivatives and repeated selected-reference views count as one original asset.
+
+To replace the homepage film, upload an MP4 in Media Library, choose its actual front, side and back photographs, open each selected source's review link, and explicitly confirm each source's review and native provenance. Review the movie and its matching three-view declaration, then select that movie in the homepage's native Video block. Changing the selected movie or its file requires fresh review; reviewing a movie never approves its source photographs automatically.
 
 Tools > Bixie package setup also provides genuine contact email, motion enabled/speed, video autoplay and alternate motion-control labels. Visitors' reduced-motion preferences are respected.
 

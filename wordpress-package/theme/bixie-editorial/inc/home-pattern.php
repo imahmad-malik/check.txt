@@ -90,7 +90,7 @@ function bixie_editorial_home_pattern() {
 
 	$colour = bixie_editorial_intro( '11 / COLOUR & CONTRAST', 'The same outline, a different light.', 'Colour changes how the layers read. Explore natural silver, warm copper and deep dark tones without treating colour as a requirement.' );
 	$colour_cards = '';
-	foreach ( array( 'silver' => array( 'Silver & grey', '/collections/natural-grey/' ), 'copper' => array( 'Copper & warm tones', '/looks/?colour=copper' ), 'black' => array( 'Dark & defined', '/looks/?colour=black' ) ) as $key => $item ) {
+	foreach ( array( 'silver' => array( 'Silver & grey', '/collections/natural-grey/' ), 'copper' => array( 'Copper & warm tones', '/looks/?colour=copper' ), 'black' => array( 'Dark & defined', '/looks/?colour=dark' ) ) as $key => $item ) {
 		$colour_cards .= bixie_editorial_group( bixie_editorial_image( 'home-colour-' . $key, 'Fictional adult with a ' . $key . ' bixie, full hairstyle visible and fully covered high-neck clothing.', '', '', $item[1] ) . bixie_editorial_heading( '<a href="' . esc_url( home_url( $item[1] ) ) . '">' . $item[0] . '</a>', 3 ), 'bixie-collection-card' );
 	}
 	$colour .= bixie_editorial_group( $colour_cards, 'bixie-story-grid' );

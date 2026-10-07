@@ -2,33 +2,15 @@
   "bundle_id": null,
   "manifest": "/workspace/check.txt/wordpress-package/media/manifest.json",
   "status": "synchronized-actual-only",
-  "actual_generated_source_files": 45,
-  "actual_approved_complete_looks": 4,
-  "actual_approved_collection_view_photos": 12,
-  "actual_guide_photo_references": 3,
-  "actual_approved_home_role_images": 8,
-  "missing_home_role_keys": [
-    "home-angle-back",
-    "home-colour-black",
-    "home-colour-copper",
-    "home-colour-silver",
-    "home-fringe-curtain",
-    "home-fringe-side",
-    "home-fringe-wispy",
-    "home-journal-consultation",
-    "home-journal-growth",
-    "home-journal-styling",
-    "home-mature-over40",
-    "home-mature-over50",
-    "home-mature-over60",
-    "home-motion-poster",
-    "home-texture-straight",
-    "home-texture-thick",
-    "home-texture-wavy"
-  ],
+  "actual_generated_source_files": 132,
+  "actual_approved_complete_looks": 23,
+  "actual_approved_collection_view_photos": 69,
+  "actual_guide_photo_references": 15,
+  "actual_approved_home_role_images": 25,
+  "missing_home_role_keys": [],
   "home_video_verification": "separate production/runtime check; not inferred from planned metadata",
-  "remaining_launch_looks": 150,
-  "remaining_launch_view_photos": 450,
+  "remaining_launch_looks": 131,
+  "remaining_launch_view_photos": 393,
   "file_diagnostics": [
     {
       "key": "resolution-probe-soft-layered",
@@ -36,63 +18,87 @@
       "reason": "not explicitly approved; not a canonical view angle; no canonical look assignment"
     },
     {
-      "key": "home-angle-back",
+      "key": "feathered-02-side",
+      "look_key": "feathered-02",
       "reason": "not explicitly approved"
     },
     {
-      "key": "home-fringe-curtain",
+      "key": "feathered-03-side",
+      "look_key": "feathered-03",
       "reason": "not explicitly approved"
     },
     {
-      "key": "home-fringe-side",
+      "key": "feathered-04-side",
+      "look_key": "feathered-04",
       "reason": "not explicitly approved"
     },
     {
-      "key": "home-fringe-wispy",
+      "key": "feathered-05-side",
+      "look_key": "feathered-05",
       "reason": "not explicitly approved"
     },
     {
-      "key": "home-mature-over40",
+      "key": "fine-hair-02-side",
+      "look_key": "fine-hair-02",
       "reason": "not explicitly approved"
     },
     {
-      "key": "home-texture-straight",
+      "key": "home-motion-poster-rejected-first",
+      "look_key": null,
+      "reason": "not explicitly approved; not a canonical view angle; no canonical look assignment"
+    },
+    {
+      "key": "layered-04-side",
+      "look_key": "layered-04",
       "reason": "not explicitly approved"
     },
     {
-      "key": "home-texture-thick",
+      "key": "layered-05-side",
+      "look_key": "layered-05",
       "reason": "not explicitly approved"
     },
     {
-      "key": "home-texture-wavy",
+      "key": "long-04-side",
+      "look_key": "long-04",
       "reason": "not explicitly approved"
     },
     {
-      "key": "natural-grey-01-side",
-      "look_key": "natural-grey-01",
+      "key": "long-05-side",
+      "look_key": "long-05",
       "reason": "not explicitly approved"
     },
     {
-      "key": "over-50-01-side",
-      "look_key": "over-50-01",
+      "key": "shaggy-01-front",
+      "look_key": "shaggy-01",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "shaggy-02-front",
+      "look_key": "shaggy-02",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "short-03-front",
+      "look_key": "short-03",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "straight-01-front",
+      "look_key": "straight-01",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "straight-02-front",
+      "look_key": "straight-02",
       "reason": "not explicitly approved"
     }
   ],
-  "look_diagnostics": [
-    {
-      "key": "feathered-01",
-      "reason": "not selected for this explicit stable source/hash handoff"
-    },
-    {
-      "key": "wavy-01",
-      "reason": "not selected for this explicit stable source/hash handoff"
-    }
-  ],
+  "look_diagnostics": [],
   "per_collection": [
     {
       "key": "classic",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
+      "actual_complete_looks": 5,
+      "actual_unique_views": 15,
       "status": "draft-until-media-reviewed"
     },
     {
@@ -103,20 +109,20 @@
     },
     {
       "key": "long",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
+      "actual_complete_looks": 3,
+      "actual_unique_views": 9,
       "status": "draft-until-media-reviewed"
     },
     {
       "key": "layered",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
+      "actual_complete_looks": 3,
+      "actual_unique_views": 9,
       "status": "draft-until-media-reviewed"
     },
     {
       "key": "choppy",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 3,
+      "actual_unique_views": 9,
       "status": "draft-until-media-reviewed"
     },
     {
@@ -127,8 +133,8 @@
     },
     {
       "key": "feathered",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
@@ -139,20 +145,20 @@
     },
     {
       "key": "wavy",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
       "key": "curly",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 2,
+      "actual_unique_views": 6,
       "status": "draft-until-media-reviewed"
     },
     {
       "key": "fine-hair",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
@@ -163,8 +169,8 @@
     },
     {
       "key": "thick-hair",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
@@ -181,8 +187,8 @@
     },
     {
       "key": "over-50",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
@@ -193,8 +199,8 @@
     },
     {
       "key": "natural-grey",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
