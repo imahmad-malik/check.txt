@@ -254,6 +254,7 @@ add_filter('attachment_fields_to_save', static function(array $post, array $atta
         if (wp_attachment_is_image($post['ID'])) { update_post_meta($post['ID'], '_bixie_native_verified', !empty($attachment['bixie_native_verified']) ? 1 : 0); }
         if (isset($attachment['bixie_asset_key'])) { $key = sanitize_key($attachment['bixie_asset_key']); $existing = $key ? bixie_get_package_attachment($key) : 0; if (!$existing || $existing === absint($post['ID'])) { update_post_meta($post['ID'], '_bixie_asset_key', $key); } else { $post['errors']['bixie_asset_key']['errors'][] = __('That media role belongs to another attachment.', 'bixie-library'); } }
         if (get_post_mime_type($post['ID']) === 'video/mp4') { $entries = []; foreach (['front', 'side', 'back'] as $angle) { $source = absint($attachment['bixie_film_' . $angle] ?? 0); if ($source && wp_attachment_is_image($source)) { $entries[] = ['id' => $source, 'angle' => $angle]; } } update_post_meta($post['ID'], '_bixie_film_sources', $entries); update_post_meta($post['ID'], '_bixie_multiview_declared', !empty($attachment['bixie_multiview_declared']) ? 1 : 0); }
+        if (!empty($attachment['bixie_review_approved'])) { bixie_track_attachment_review(0, $post['ID'], '_bixie_review_approved'); }
         bixie_enforce_owned_pages();
     }
     return $post;

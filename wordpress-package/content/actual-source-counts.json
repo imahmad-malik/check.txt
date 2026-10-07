@@ -2,22 +2,19 @@
   "bundle_id": null,
   "manifest": "/workspace/check.txt/wordpress-package/media/manifest.json",
   "status": "synchronized-actual-only",
-  "actual_generated_source_files": 14,
-  "actual_approved_complete_looks": 0,
-  "actual_approved_collection_view_photos": 0,
-  "actual_guide_photo_references": 0,
-  "actual_approved_home_role_images": 0,
+  "actual_generated_source_files": 45,
+  "actual_approved_complete_looks": 4,
+  "actual_approved_collection_view_photos": 12,
+  "actual_guide_photo_references": 3,
+  "actual_approved_home_role_images": 8,
   "missing_home_role_keys": [
     "home-angle-back",
-    "home-angle-front",
-    "home-angle-side",
     "home-colour-black",
     "home-colour-copper",
     "home-colour-silver",
     "home-fringe-curtain",
     "home-fringe-side",
     "home-fringe-wispy",
-    "home-hero",
     "home-journal-consultation",
     "home-journal-growth",
     "home-journal-styling",
@@ -25,18 +22,13 @@
     "home-mature-over50",
     "home-mature-over60",
     "home-motion-poster",
-    "home-rail-curly",
-    "home-rail-feathered",
-    "home-rail-long",
-    "home-rail-short",
-    "home-texture-fine",
     "home-texture-straight",
     "home-texture-thick",
     "home-texture-wavy"
   ],
   "home_video_verification": "separate production/runtime check; not inferred from planned metadata",
-  "remaining_launch_looks": 154,
-  "remaining_launch_view_photos": 462,
+  "remaining_launch_looks": 150,
+  "remaining_launch_view_photos": 450,
   "file_diagnostics": [
     {
       "key": "resolution-probe-soft-layered",
@@ -44,35 +36,81 @@
       "reason": "not explicitly approved; not a canonical view angle; no canonical look assignment"
     },
     {
-      "key": "over-50-01-front",
+      "key": "home-angle-back",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "home-fringe-curtain",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "home-fringe-side",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "home-fringe-wispy",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "home-mature-over40",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "home-texture-straight",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "home-texture-thick",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "home-texture-wavy",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "natural-grey-01-side",
+      "look_key": "natural-grey-01",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "over-50-01-side",
       "look_key": "over-50-01",
       "reason": "not explicitly approved"
     }
   ],
-  "look_diagnostics": [],
+  "look_diagnostics": [
+    {
+      "key": "feathered-01",
+      "reason": "not selected for this explicit stable source/hash handoff"
+    },
+    {
+      "key": "wavy-01",
+      "reason": "not selected for this explicit stable source/hash handoff"
+    }
+  ],
   "per_collection": [
     {
       "key": "classic",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
       "key": "short",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
       "key": "long",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
       "key": "layered",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
+      "actual_complete_looks": 1,
+      "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {

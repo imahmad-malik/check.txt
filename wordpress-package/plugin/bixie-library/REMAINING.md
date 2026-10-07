@@ -1,14 +1,15 @@
-# Plugin checkpoint and remaining verification
+# Plugin checkpoint and remaining release checks
 
-Checkpoint: the WordPress companion plugin is implemented, including resumable imports, authenticated multipart media uploads, native editor image synchronization, collection three-view cards, responsive display images, genuine source-file zoom, and source-review invalidation after attachment edits. The catalog-path variable regression is fixed. Generator-original resolution is accepted with a 1024-pixel minimum long edge and no upscaling; three-angle, attire, framing and publication gates remain active.
+The companion plugin code is complete for the current specification. Actual isolated WordPress tests passed: multipart GUI authentication/import; 26 adversarial ZIP, optimized-delivery and same-attachment invalidation checks; 19 publication/guide/native editor/source-reuse checks; three-view collection browsing; native editor/SSR flows; natural-image geometry; activation retention and service restart. Ten PHP files and five JavaScript files parse successfully.
 
-Remaining before final release:
+The trusted release download orchestrator passed nine checks with explicitly simulated WordPress HTTP transport. The embedded release index remains empty until real approved media ZIP parts are published. No fake URL, remote fetch on activation, or unverified live-download claim is included.
 
-- Capture final actual WordPress multipart GUI/import regression and adversarial ZIP checks: authentication, nonces, traversal, links, expansion bounds, unlisted files, checksums, bogus MP4, idempotence, preserved existing parts and unchanged catalog path.
-- Verify optimized WebP attachment delivery uses genuine retained PNG dimensions and source URL for explicit zoom, and changing the same attachment’s file or bytes clears source review and old linkage.
-- Complete actual WordPress collection three-view/selected-angle checks after the intrinsic-image geometry fix; simulated interaction/editor checks are recorded separately.
-- Re-run publication/guide/metadata/cache/source-reuse checks with the accepted native-resolution requirement, preserving isolated test fixtures.
-- Import the final supplied approved coherent look sets and homepage sources/film; refresh the embedded canonical catalog and readiness counts from real media only. No partial set or synthetic test canvas counts as an approved production look.
-- Complete plugin owner instructions and final installable ZIP verification. Real third-party SEO plugin distribution activation remains unverified; simulated filter checks must stay explicitly labeled.
+Remaining before final production release:
 
-No credentials, source files, or production data are included in this checkpoint note.
+- Finish the real approved coherent front/side/back sets, unique homepage sources and reviewed photographic film. Partial sets and synthetic QA canvases do not count as complete launch looks. The latest embedded catalog contains four reviewed coherent source-backed looks; the remaining production sets are still being created.
+- Refresh the embedded catalog byte-for-byte from the final canonical catalog; include final media parts and the real HTTPS release index with exact archive byte sizes and SHA-256 values.
+- Exercise the final published remote media URLs through a real owner download/import and verify actual imported photo counts, collection/home/guide readiness, response sizes, animation and production photography.
+- Review actual robots/canonical/schema output with the owner-selected SEO provider. Known hooks and simulated provider behavior are tested; full real third-party plugin distributions/version matrix remain unverified.
+- Verify final installable theme/plugin/media ZIPs and owner contact/privacy configuration.
+
+Evidence resides in ../../tests (the parent package tests directory): wp-bundle-security-report.json, wp-publication-report.json, wp-download-orchestration-report.json, wp-admin-upload-report.json, wp-image-display-report.json, plugin-wordpress-editor-report.json and the QA collection/runtime reports. No credentials or private configuration are included.

@@ -13,7 +13,9 @@ ROOT=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser()
 parser.add_argument('--manifest',type=Path,default=ROOT.parent/'media'/'manifest.json')
 parser.add_argument('--bundle-root',type=Path,default=ROOT.parent)
+parser.add_argument('--look-keys',help='Optional comma-separated finalized look keys for a stable attachment-source handoff.')
 args=parser.parse_args()
+allowed_look_keys=set(args.look_keys.split(',')) if args.look_keys else None
 catalog_path=ROOT/'catalog.json'
 catalog=json.loads(catalog_path.read_text())
 manifest=json.loads(args.manifest.read_text())
@@ -97,6 +99,9 @@ look_diagnostics=[]
 used_hashes=set()
 for declaration in declared_looks:
     key=declaration.get('key') or declaration.get('id') or declaration.get('look_id')
+    if allowed_look_keys is not None and key not in allowed_look_keys:
+        look_diagnostics.append({'key':key,'reason':'not selected for this explicit stable source/hash handoff'})
+        continue
     images=by_look.get(key,[])
     reasons=[]
     if key not in launch_keys: reasons.append('not a canonical launch look key')
@@ -113,11 +118,11 @@ for declaration in declared_looks:
         look_diagnostics.append({'key':key,'reason':'; '.join(reasons)});continue
     images=sorted(images,key=lambda x:['front','side','back'].index(x['angle']))
     title=declaration.get('title') or ('Bixie concept '+key)
-    short_copy=declaration.get('excerpt') or 'An original AI-created bixie concept with corresponding front, side and back views.'
+    reviewed_shape=' '.join(i.get('caption','') for i in [images[0],images[-1]] if i.get('caption'))
+    short_copy=declaration.get('excerpt') or reviewed_shape or title+'. Corresponding front, side and back views.'
     content=declaration.get('content') or '\n\n'.join([
         paragraph(html.escape(short_copy)),
-        paragraph('Compare the crown, face frame, fringe and nape in the corresponding views. Use the outline as a starting point for a discussion with your stylist.'),
-        paragraph('AI-created hairstyle concept featuring a fictional adult. No image guarantees the same result on your own hair.')])
+        paragraph('Discuss the crown, fringe and nape details you prefer with your stylist. AI-created concept featuring a fictional adult; an image does not guarantee the same result on your own hair.')])
     meta={**declaration.get('meta',{}),'ai_concept':True}
     final_images=[]
     for image in images:

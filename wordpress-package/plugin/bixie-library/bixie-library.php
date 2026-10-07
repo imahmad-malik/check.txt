@@ -81,7 +81,7 @@ function bixie_array_meta(int $id, string $key): array { $value = get_post_meta(
 
 function bixie_original_source_path(int $id): string {
     $source = (string) get_post_meta($id, '_bixie_original_source_file', true); $delivery = (string) get_post_meta($id, '_bixie_delivery_file', true);
-    if ($source && $delivery === get_attached_file($id) && is_file($source)) { return $source; }
+    if ($source && $delivery === get_attached_file($id)) { return $source; }
     return (string) (wp_get_original_image_path($id) ?: get_attached_file($id));
 }
 function bixie_original_source_url(int $id): string {

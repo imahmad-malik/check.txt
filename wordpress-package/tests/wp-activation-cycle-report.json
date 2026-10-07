@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "actuallyDeactivatedAcrossRequests": true,
+  "REST404WhenInactive": true,
+  "reactivatedInFinally": true,
+  "postContentAndImageRelationshipsUnchanged": true,
+  "originalFourteenFixtureRecordsRestored": true,
+  "notAnUninstallDataDeletionTest": true
+}

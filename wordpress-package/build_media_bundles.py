@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 import zipfile
 
@@ -48,9 +49,12 @@ def main():
     parser.add_argument('--manifest', type=Path, default=ROOT / 'media/manifest.json')
     parser.add_argument('--output', type=Path, default=ROOT.parent / 'wordpress-media-release')
     parser.add_argument('--max-mib', type=int, default=25)
+    parser.add_argument('--bundle-prefix', default='bixie-media-part', help='Distinct immutable IDs for integration-only batches; final release uses the default.')
     args = parser.parse_args()
     if not 4 <= args.max_mib <= 25:
         raise ValueError('Media part limit must be between 4 and 25 MiB.')
+    if not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,58}', args.bundle_prefix):
+        raise ValueError('Bundle prefix must be a safe lowercase identifier no longer than 59 characters.')
     output = args.output.resolve()
     if output == ROOT or ROOT in output.parents:
         raise ValueError('Output must be outside the source package.')
@@ -109,7 +113,7 @@ def main():
             approved_looks.append(look)
     parts = []
     for index, group in enumerate(groups, 1):
-        bundle_id = f'bixie-media-part-{index:03d}'
+        bundle_id = f'{args.bundle_prefix}-{index:03d}'
         filename = f'{bundle_id}.zip'
         target = output / filename
         manifest = {'bundle_id': bundle_id, 'schema_version': '1.0',

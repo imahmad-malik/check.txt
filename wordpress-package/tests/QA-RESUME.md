@@ -39,6 +39,11 @@ Completed reports, all relative to this directory:
   saves and actual SSR, distinct from static API-contract fixtures.
 - `theme-native-block-report.json`: authenticated WordPress block-library SAVE
   validation, six cases with zero invalid blocks/page errors/failed responses.
+- `wp-activation-cycle-report.json`: actual deactivation across separate requests
+  yields REST404, then reactivation preserves post/image data and restores14
+  fixture records. This is not an uninstall data-deletion check.
+- `wp-navigation-report.json`: all8 native header/footer targets HTTP200, imported
+  draft Privacy/Contact links absent on public render.
 - `wp-seo-report.json`: actual HTTP schema/card/angle and pagination canonical
   alignment, facet robots/owner privacy, actual admin schema disable setting.
   Yoast/Rank Math/AIOSEO/SEOPress provider signals were **simulated**; verified
@@ -52,7 +57,7 @@ python /workspace/check.txt/wordpress-package/tests/wp-collection-qa.py
 ```
 
 It checks seven records/21 real image elements on server render, page two and
-AJAX facets, original aspect plus painted pixels, side-angle initial dialog
+AJAX facets, original aspect plus painted pixels, side/back-angle initial dialog
 selection and Escape focus restoration on desktop/phone. Its first run exposed
 a new-page publication bug: missing guide-photo metadata was cast from an empty
 string to `['']`, interpreted as an empty referenced look. The plugin owner fixed normalization; ordinary native page publication and
@@ -61,8 +66,10 @@ the collection test now pass. Gates remained enabled throughout.
 and correct initial side/back dialog selection on desktop/phone.
 
 The original 14 code looks/42 generated panoramic canvases remain for remaining
-agents. Three unapproved multipart test attachments and one verified test part
-are also retained. Remove only isolated QA data after agents finish:
+agents. The extra portrait/collection page, three unapproved multipart attachments,
+verified test part and generated subscriber/private subscriber state have been
+removed. Only the original14 fixtures remain. Cleanup commands are safe to
+repeat and select only isolated QA data:
 
 ```sh
 /workspace/wp-test/php /workspace/check.txt/wordpress-package/tests/wp-collection-fixture.php /workspace/wp-test/wordpress/wp-load.php cleanup

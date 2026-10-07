@@ -7,13 +7,13 @@
   "collection": "classic",
   "usage": "collection",
   "angle": "back",
-  "source_file": "source-media/classic-01-back.png",
+  "source_file": "source-media/classic-01-back-native.webp",
   "file": "media/classic-01-back.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "19e85a30f26817ab0c2db0d3a5002772dfc5c46a7e8722430ca24e330ff07d3b",
+  "sha256": "2ad4baa8e4269494acab91425d0e74082ba20539e6106c16eb56ea70a0ec4bb6",
   "display_sha256": "775c41d6c02740bf1a817f0dfeaea4359af91215d8f39c9032e57f25c23be1fe",
-  "source_bytes": 2371612,
+  "source_bytes": 1486208,
   "display_bytes": 359090,
   "native_original": true,
   "native_8k": false,
@@ -50,8 +50,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "soft rounded | short graduated | wispy | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Back view of the same fictional adult and classic blonde bixie, showing the complete layered crown and soft short nape above a loose opaque ivory turtleneck.",
-  "caption": "Back: compare the full crown outline, graduation and nape shape.",
+  "alt": "Back view of a rounded blonde bixie with soft graduation through the nape.",
+  "caption": "Rounded layers taper into a light, natural nape.",
   "review": {
     "method": "Direct individual source inspection against inspected front and side references",
     "attire": "pass: opaque loose high turtleneck, upper body fully covered; no chest outline",
@@ -59,5 +59,11 @@
     "angle": "pass: true centered back view, no face visible",
     "native_detail": "pass: source1122\u00d71402 native, fine hair detail; no enlargement",
     "front_side_back_coherence": "pass: same adult references, blonde colour/root pattern, layered crown, ear coverage, short graduated nape, ivory high knit and studio lighting"
-  }
+  },
+  "generator_original_file": "source-media/classic-01-back.png",
+  "generator_original_sha256": "19e85a30f26817ab0c2db0d3a5002772dfc5c46a7e8722430ca24e330ff07d3b",
+  "generator_original_bytes": 2371612,
+  "native_pixel_sha256": "6f9169e0997adfab12bf10f9ab8798a41100b22f8b52fde4d079943a025c0ada",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

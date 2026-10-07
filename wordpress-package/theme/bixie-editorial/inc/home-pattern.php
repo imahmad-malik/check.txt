@@ -104,7 +104,7 @@ function bixie_editorial_home_pattern() {
 	if ( ( $video_id || is_file( $video_file ) ) && $poster_exists ) {
 		$video_url = $video_id ? wp_get_attachment_url( $video_id ) : get_theme_file_uri( 'assets/video/bixie-motion.mp4' );
 		$poster = bixie_editorial_media_url( 'home-motion-poster' );
-		$film .= bixie_editorial_block( 'video', array( 'autoplay' => true, 'controls' => true, 'loop' => true, 'muted' => true, 'playsInline' => true, 'poster' => $poster, 'preload' => 'metadata', 'className' => 'bixie-film' ), '<figure class="wp-block-video bixie-film"><video autoplay controls loop muted poster="' . esc_url( $poster ) . '" src="' . esc_url( $video_url ) . '" playsinline></video></figure>' );
+		$film .= bixie_editorial_block( 'video', array( 'id' => $video_id, 'autoplay' => true, 'controls' => true, 'loop' => true, 'muted' => true, 'playsInline' => true, 'poster' => $poster, 'preload' => 'metadata', 'className' => 'bixie-film' ), '<figure class="wp-block-video bixie-film"><video autoplay controls loop muted poster="' . esc_url( $poster ) . '" src="' . esc_url( $video_url ) . '" playsinline></video></figure>' );
 		$film .= bixie_editorial_group( bixie_editorial_button( 'Play film', '/#bixie-film', 'bixie-video-motion-toggle' ) . bixie_editorial_paragraph( 'Silent photographic motion study.', 'bixie-caption' ), 'bixie-motion-controls' );
 	} else {
 		$film .= bixie_editorial_image( 'home-motion-poster', 'Fictional adult in a high-neck top with a fully visible bixie haircut, composed for the photographic motion study.', '', 'bixie-film' );

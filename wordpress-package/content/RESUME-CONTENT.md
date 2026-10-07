@@ -2,15 +2,21 @@
 
 The user authorized continuing the complete WordPress package and explicitly accepted the available original generator-native resolution. **Do not ask the 8K question again.** The persistent quality tier is source long edge **at least 1,024 pixels**, actual measured dimensions, **no upscaling and no native 8K claim**. Fully covered loose opaque clothing, full uncropped head/hair/nape, genuine views and coherent haircut identity remain required.
 
-## Latest content checkpoint
+## Latest content checkpoint: first four real complete sets
+
+After the explicit stable-source/hash signal, the latest selected content handoff verified **45 registered existing source images**, merged **four finalized approved coherent looks / 12 real collection-view photographs**, and enabled **three actual guide-photo references** for the definition guide. Completed keys: `classic-01`, `short-01`, `long-01`, `layered-01`. All22collections remain drafts because each still has fewer than seven complete looks/20unique views. Six other guides remain draft until their exact allocated sets exist. Remaining finalized catalog requirement: **150 complete looks / 450 collection views**. Validation passed28/28. The producer has additional coherent sets whose canonical attachment-source encoding/hash handoff is still pending; do not import them before its next explicit stable signal.
+
+The12canonical attachment sources now use native lossless WebP paths and their own hashes. The retained generator PNG is provenance, with its separate hash and verified identical decoded-pixel hash; it is not counted as an additional original photo. Actual reviewed captions and shape notes are short and specific. The master’s nested look-image arrays must agree with the finalized top-level records when packaging a bundle.
+
+### Earlier partial-source checkpoint (historical)
 
 The last content-side synchronization read the master media manifest and verified **14 existing source files**: **nine canonical front views, four canonical side views and one diagnostic-only probe**. It found **zero declared approved coherent three-angle looks**, **zero completed collections**, and **zero available guide-photo sets**. The media producer may have newer reviewed or pending files after this snapshot; rerun synchronization to obtain the actual current counts. Do not substitute remembered planned counts for the on-disk manifest and verified files.
 
 The immediate disk inventory contains **17 PNG source files**: 16 canonical partial-view photos plus the probe. Three existing sources were not yet registered in the master manifest at this content snapshot: `natural-grey-01-front.png`, `feathered-01-side.png` and `wavy-01-side.png`. Preserve and reconcile their actual review/metadata with the media producer; do not regenerate them to fill a manifest gap. The root reports the16canonical views as10front/6side; content-side approved completion remainszero until genuine backs and coherent-set declarations exist.
 
-There remain **154 complete launch looks / 462 original collection-view photos** across 22 primary collections. The 25 dedicated homepage photo roles and real `home-motion-film` have separate requirements. The homepage retains minimum75 unique photos and the current77-placement target. Each collection needs at least seven complete looks and20 unique approved photographs (planned7×3=21). Each public look needs actual approved front, side and back views. Guides require their allocated3/6real photographs.
+The total production target remains **154 complete launch looks / 462 original collection-view photos** across 22 primary collections; subtract only actual approved complete sets from this target. The 25 dedicated homepage photo roles and real `home-motion-film` have separate requirements. The homepage retains minimum75 unique photos and the current77-placement target. Each collection needs at least seven complete looks and20 unique approved photographs (planned7×3=21). Each public look needs actual approved front, side and back views. Guides require their allocated3/6real photographs.
 
-`catalog.json` contains42block-editable page records,22collection definitions,7image-led guides, and the auditable keyword map. Planning briefs remain separate and are not imported as delivered looks. Current actual-only status is in `actual-source-counts.json`; current integrity evidence is `content-validation.json` (last run28/28passed).
+`catalog.json` contains42block-editable page records,22collection definitions,7image-led guides, the auditable keyword map and the actual approved look records. Planning briefs remain separate and are not imported as delivered looks. Current actual-only status is in `actual-source-counts.json`; current integrity evidence is `content-validation.json` (last run28/28passed).
 
 ## Source paths and commands
 
@@ -28,7 +34,14 @@ Actual master media aggregator:
 
 Actual source files are rooted at `/workspace/check.txt/wordpress-package`, normally under `source-media/`; optimized renditions are under `media/`. Do not regenerate or overwrite an existing reviewed source merely to repeat the workflow. The separate production plan is not evidence of generated files.
 
-Run after the media agent writes actual approved complete sets:
+Current four-look stable-source handoff:
+
+```bash
+python /workspace/check.txt/wordpress-package/content/sync_reviewed_media.py --look-keys classic-01,short-01,long-01,layered-01
+python /workspace/check.txt/wordpress-package/content/validate_content.py
+```
+
+Use the default command below only after the media agent confirms that **all included approved look declarations have finalized immutable canonical source paths/hashes**, or use `--look-keys` to select the newly finalized cohort:
 
 ```bash
 python /workspace/check.txt/wordpress-package/content/sync_reviewed_media.py
@@ -52,7 +65,10 @@ The source producer’s master manifest supplies `bundle_id`, `records` and `loo
   "key": "classic-01-front",
   "look_id": "classic-01",
   "angle": "front",
-  "source_file": "source-media/classic-01-front.png",
+  "source_file": "source-media/classic-01-front-native.webp",
+  "generator_original_file": "source-media/classic-01-front.png",
+  "generator_original_sha256": "ACTUAL_SHA256_OF_RETAINED_GENERATOR_PNG",
+  "native_pixel_sha256": "ACTUAL_VERIFIED_DECODED_RGB_PIXEL_SHA256",
   "file": "media/classic-01-front.webp",
   "width": 1122,
   "height": 1402,
@@ -66,7 +82,7 @@ The source producer’s master manifest supplies `bundle_id`, `records` and `loo
 }
 ```
 
-The example dimensions are the observed pilot-front dimensions; every record must store its own real dimensions. Never copy these values blindly. The hash is for `source_file`, not the WebP rendition. Use only actual reviewed descriptions. IDs are `<collection>-01` through`<collection>-07`; view IDs append`-front`, `-side` or`-back`.
+The example dimensions are the observed pilot-front dimensions; every record must store its own real dimensions. Never copy these values blindly. The hash is for the exact `source_file`, not the optimized display rendition or the retained generator PNG. Generator-original and decoded native-pixel hashes are separate provenance fields. A native lossless encoding retains the actual source dimensions/pixels and is not an upscale. Use only actual reviewed descriptions. IDs are `<collection>-01` through`<collection>-07`; view IDs append`-front`, `-side` or`-back`.
 
 A **look declaration** confirms set-level coherence, beyond approving three unrelated images separately:
 

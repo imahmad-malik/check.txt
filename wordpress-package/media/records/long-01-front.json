@@ -7,13 +7,13 @@
   "collection": "long",
   "usage": "collection",
   "angle": "front",
-  "source_file": "source-media/long-01-front.png",
+  "source_file": "source-media/long-01-front-native.webp",
   "file": "media/long-01-front.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "28d5c0e9c223208fdd593f6f43a5193d32347ab62ef321b7410b66d46be7cee4",
+  "sha256": "1d6657775b69ac3301444b0ed6eb107fcdb22fb2f0e814735b705a00f1149354",
   "display_sha256": "31cce75a5ddd054d50110cc729e8e9bb073daaa8d1c7872de50d07dfe7106386",
-  "source_bytes": 2264318,
+  "source_bytes": 1420354,
   "display_bytes": 301888,
   "native_original": true,
   "native_8k": false,
@@ -47,8 +47,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "smooth flat | short graduated | side-swept | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Front view of a fictional adult South Asian woman with a longer swept blonde bixie and layered crown, wearing a loose opaque ivory turtleneck; full hairstyle visible.",
-  "caption": "Front: compare the fringe, parting and complete face frame. Original generated photograph of a fictional adult.",
+  "alt": "Front view of a blonde long bixie with a deep side sweep and lifted layered crown.",
+  "caption": "A generous side sweep with lifted blonde layers.",
   "review": {
     "method": "Direct full source visual inspection",
     "attire": "pass: loose opaque high turtleneck fully covers neckline and upper chest; no chest contours",
@@ -56,5 +56,11 @@
     "native_detail": "pass: face and hair sharp at1122\u00d71402 native source; no upscaling",
     "angle": "pass: clear level front view",
     "coherent_set": "pending genuine side and back photographs; front approval does not approve a complete look"
-  }
+  },
+  "generator_original_file": "source-media/long-01-front.png",
+  "generator_original_sha256": "28d5c0e9c223208fdd593f6f43a5193d32347ab62ef321b7410b66d46be7cee4",
+  "generator_original_bytes": 2264318,
+  "native_pixel_sha256": "594a4904d9bd3bec07da4206ae81862906f95854b754f4ee2b04e0c306fdc383",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

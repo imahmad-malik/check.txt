@@ -1,0 +1,65 @@
+{
+  "id": "home-motion-film",
+  "key": "home-motion-film",
+  "usage": "homepage-film",
+  "source_file": "video/home-motion-film.mp4",
+  "file": "video/home-motion-film.mp4",
+  "sha256": "3e5224e5dfb7c24f0a335c77df1bbdf49c9da4fe3a78e2020048a48f331949ec",
+  "display_sha256": "3e5224e5dfb7c24f0a335c77df1bbdf49c9da4fe3a78e2020048a48f331949ec",
+  "width": 1122,
+  "height": 1402,
+  "source_bytes": 4335905,
+  "display_bytes": 4335905,
+  "duration_seconds": 11.625,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": false,
+  "fictional_adult": true,
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "draft",
+  "multiview": true,
+  "source_keys": [
+    "home-angle-front",
+    "home-angle-side",
+    "home-angle-back"
+  ],
+  "source_angles": [
+    "front",
+    "side",
+    "back"
+  ],
+  "sources": [
+    {
+      "key": "home-angle-front",
+      "angle": "front",
+      "sha256": "72741fb8b519bfce461d8f30ce912b32dccd755fe28c1a79f9bd284cefffea36"
+    },
+    {
+      "key": "home-angle-side",
+      "angle": "side",
+      "sha256": "ca77fadfd11a6f349cec8b28c6f090c4576e15d530657a1e6e204cfcac89370b"
+    },
+    {
+      "key": "home-angle-back",
+      "angle": "back",
+      "sha256": "80eac74a393cc14971ae4d9a78f448152ba7c10bae0bfa53b3ea7f6fc3199119"
+    }
+  ],
+  "alt": "Front, side and back photographic sequence of a layered bixie haircut.",
+  "caption": "Three photographs, one haircut: fringe, crown and nape.",
+  "provenance": "Silent native-dimension H.264 photographic sequence made from three separate reviewed generated originals. It is not filmed salon footage.",
+  "review": {
+    "method": "Direct review of all three source photographs; ffprobe actual stream dimensions, complete FFmpeg decode and separate browser playback verification.",
+    "framing": "pass: full native frames, no crop, zoom or enlargement",
+    "sources": "pass: three reviewed distinct native originals with coherent hair, adult, clothing and lighting",
+    "native_detail": "H.264 delivery encode, CRF18; decoded photographic sources remain downloadable separately",
+    "browser_playback": "pending actual WordPress autoplay/pause and decoded-frame check"
+  },
+  "source_asset_keys": [
+    "home-angle-front",
+    "home-angle-side",
+    "home-angle-back"
+  ]
+}

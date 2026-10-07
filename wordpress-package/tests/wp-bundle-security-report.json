@@ -52,6 +52,11 @@
             "detail": []
         },
         {
+            "name": "Missing retained PNG cannot qualify through optimized display fallback",
+            "passed": true,
+            "detail": []
+        },
+        {
             "name": "Same attachment file replacement clears review/provenance and old PNG linkage",
             "passed": true,
             "detail": []
@@ -86,7 +91,7 @@
             "name": "Wrong original checksum rejects whole part",
             "passed": true,
             "detail": {
-                "rejection": "An uploaded asset key already has a different original. Existing media will not be overwritten."
+                "rejection": "A media checksum/size failed; this entire part was rejected."
             }
         },
         {

@@ -1,0 +1,14 @@
+{
+  "worker": "pilot_angles_worker",
+  "canonical_records_present": 14,
+  "approved_images": 12,
+  "rejected_attempt_count": 6,
+  "missing_ids": [
+    "fine-hair-01-back",
+    "thick-hair-01-back",
+    "over-50-01-back",
+    "natural-grey-01-back"
+  ],
+  "complete_approved_looks": 2,
+  "in_flight_imagegen_calls": 0
+}

@@ -1,0 +1,16 @@
+{
+  "status": "built",
+  "actual_approved_media_records": 12,
+  "actual_complete_look_records": 4,
+  "maximum_part_bytes": 26214400,
+  "parts": [
+    {
+      "file": "bixie-production-pilot-001.zip",
+      "bytes": 21283535,
+      "sha256": "8b2ffec0d9da5d448ba44379c5a80d463dbc067d799127061d0c7accc56e2ad0",
+      "actual_media_records": 12,
+      "look_records": 4
+    }
+  ],
+  "note": "A partial reviewed batch does not establish the full photographic launch."
+}

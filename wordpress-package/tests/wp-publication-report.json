@@ -7,6 +7,11 @@
     "passed": true,
     "tests": [
         {
+            "name": "Ordinary owner page without guide dependency metadata can publish",
+            "passed": true,
+            "detail": []
+        },
+        {
             "name": "Accepted original-resolution and strict three-angle/no-upscaling gates",
             "passed": true,
             "detail": []

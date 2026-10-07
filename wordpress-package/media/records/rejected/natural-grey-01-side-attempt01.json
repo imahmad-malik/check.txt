@@ -1,0 +1,71 @@
+{
+  "id": "natural-grey-01-side-attempt01",
+  "key": "natural-grey-01-side-attempt01",
+  "look_id": "natural-grey-01",
+  "look_key": "natural-grey-01",
+  "canonical_look_key": "natural-grey-01",
+  "collection": "natural-grey",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/natural-grey-01-side-native.webp",
+  "file": "media/rejected/natural-grey-01-side-attempt01.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "bec5b96252fc0de18c55f73fca05cb5a1e0427dd41dbb04891a1e888b60d519f",
+  "display_sha256": "64243aff0078a1cdd44f552640a71b536fc47048337010e770b23ab6d1e86a07",
+  "source_bytes": 1430996,
+  "display_bytes": 296630,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-c1982f05-02f9-4f34-a8b2-84271f7bff65.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "VIEWPOINT PRIORITY: place the camera directly beside the woman's LEFT EAR, at 90 degrees perpendicular to her facial midline. Photograph a flat orthogonal LEFT SIDE PROFILE facing screen-left. Exactly ONE near eye and ONE near eyebrow visible; far eye, far lashes and far eyebrow entirely occluded by the nasal bridge. Do not turn her face toward the camera. Preserve the exact reference identity, haircut and loose high-neck jumper. Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Natural-grey bixie haircuts. Design: smooth flat | compact squared | swept-back | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"wavy\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"swept-back\", \"colour\": \"grey\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file.",
+  "reference_source_files": [
+    "source-media/natural-grey-01-front.png"
+  ],
+  "approved": false,
+  "review_status": "rejected-angle-needs-retry",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "swept-back",
+    "colour": "grey",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "smooth flat",
+    "nape": "compact squared",
+    "fringe": "swept-back",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "smooth flat | compact squared | swept-back | ear-revealing temple pieces | 0-crown-to-front-proportion"
+  },
+  "alt": "Pending direct review of actual haircut and clothing",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "generator_original_file": "source-media/natural-grey-01-side.png",
+  "generator_original_sha256": "04297381f06133f2774249dacb296f07bb5a8e894366adc6c45dcd3775fd1468",
+  "generator_original_bytes": 2287235,
+  "native_pixel_sha256": "7bcbdb463803230c82ee22f02d79b31869ee0c5e47908423da156746f3aae521",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "exact_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/natural-grey-01-front.png"
+  ],
+  "review": {
+    "method": "Direct individual native source inspection with view_image at original detail",
+    "reviewer": "pilot_angles_worker",
+    "source_inspected": "source-media/natural-grey-01-side.png",
+    "passed": false,
+    "detail": "Far eye or lashes still visible; requires additional rotation away from camera using this inspected side plus front reference. Exact source preserved."
+  },
+  "rejected_attempt_of": "natural-grey-01-side"
+}

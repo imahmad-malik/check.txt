@@ -6,7 +6,7 @@
   "canonical_look_key": null,
   "collection": null,
   "usage": "homepage",
-  "angle": null,
+  "angle": "side",
   "source_file": "source-media/home-angle-side-native.webp",
   "file": "media/home-angle-side.webp",
   "width": 1122,
@@ -22,21 +22,32 @@
   "fictional_adult": true,
   "generated_tool_file": "/workspace/generated_images/exec-a0c09900-a773-4b5a-b989-2eaffb58e298.png",
   "generator": "OpenAI image_gen",
-  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, every main hair edge, ears and entire haircut silhouette visible, with at least 10 percent clear margin above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest; no low cut, open collar, sleeveless outfit, fitted torso, chest contour or exposed upper chest. Plain light ivory or warm pale stone studio; soft neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve the full source aspect ratio. Render at the genuine original native resolution supported by this tool. No upscaling or enlargement. Exact SAME fictional adult woman, haircut, high opaque ivory collar and lighting as home-angle-front. New true LEFT SIDE PROFILE photograph, full head, complete short nape and silhouette.",
+  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, every main hair edge, ears and entire haircut silhouette visible, with at least 10 percent clear margin above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest; no low cut, open collar, sleeveless outfit, fitted torso, chest contour or exposed upper chest. Plain light ivory or warm pale stone studio; soft neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve the full source aspect ratio. Render at the genuine original native resolution supported by this tool. No upscaling or enlargement. Exact SAME fictional adult woman, haircut, high opaque ivory collar and lighting as home-angle-front. New true LEFT SIDE PROFILE photograph, full head, complete short nape and silhouette. IMPORTANT clothing is a BULKY LOOSE OPAQUE KNITTED HIGH TURTLENECK with NO fitted chest outline. Crop below shoulders only, no torso emphasis. Photographic studio field is in focus; 4:5 portrait composition. True short layered bob-pixie hybrid, full crown and side margin.",
   "reference_source_files": [
     "source-media/home-angle-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {},
   "shape_brief": {},
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Side view of a chestnut bixie with a swept fringe, rounded crown and graduated nape.",
+  "caption": "Side: compare crown height and the tapered nape.",
   "generator_original_file": "source-media/home-angle-side.png",
   "generator_original_sha256": "3f1fcc1a130c8fa88350aab679fc281dad58e5158f4c30b467641c9d2ed20a5c",
   "generator_original_bytes": 2298672,
   "native_pixel_sha256": "c31a200ef09dadaa4fd7e179716a22e70e1902be87f9b3789cad41b2c915e348",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_tool_reference_paths": [
+    "/workspace/generated_images/exec-6de5714d-0be0-436b-b0b2-78488d298e46.png"
+  ],
+  "review": {
+    "method": "Direct original-size source visual inspection via view_image",
+    "attire": "pass: bulky loose fully opaque high turtleneck; shoulders only; no exposed chest, cleavage or fitted chest contour",
+    "framing": "pass: complete main hair silhouette with crown and side margins",
+    "native_detail": "pass: sharp hair and face at actual 1122\u00d71402; no upscaling",
+    "angle": "pass: actual side",
+    "coherent_set": "pass: all three independently generated views inspected together; matching adult, colour, swept fringe, rounded crown, tapered nape and ivory high turtleneck"
+  }
 }

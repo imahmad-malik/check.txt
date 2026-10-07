@@ -24,6 +24,7 @@ try{
  qb_assert('Initial gallery thumbnails use responsive optimized WebP, not original PNG',str_contains($image['thumbnailUrl'],'.webp')&&$image['thumbnailUrl']!==$image['originalUrl']&&!empty($metadata['sizes']['medium_large']));
  qb_assert('Unapproved synthetic media cannot publish a complete look',get_post_status($draft)==='draft'&&!bixie_check_look($draft)['complete']);
  foreach($attachments as $source){update_post_meta($source,'_bixie_review_approved',1);bixie_track_attachment_review(0,$source,'_bixie_review_approved');}wp_update_post(['ID'=>$draft,'post_status'=>'publish']);qb_assert('Clearly isolated three-source review fixture reaches the real publication gate',get_post_status($draft)==='publish');
+ $gone=$native.'.isolated-missing';rename($native,$gone);qb_assert('Missing retained PNG cannot qualify through optimized display fallback',bixie_original_source_path($id)===$native&&!bixie_check_look($draft)['complete']);rename($gone,$native);
  $replacement=$folder.'/same-attachment-replacement.webp';copy($folder.'/test-side.webp',$replacement);update_post_meta($id,'_wp_attached_file',$replacement);
  qb_assert('Same attachment file replacement clears review/provenance and old PNG linkage',!get_post_meta($id,'_bixie_review_approved',true)&&!get_post_meta($id,'_bixie_native_verified',true)&&!get_post_meta($id,'_bixie_original_source_file',true)&&get_post_status($draft)==='draft');
  update_post_meta($id,'_wp_attached_file',$display);

@@ -20,6 +20,7 @@ function bixie_download_start(): array {
 }
 function bixie_fetch_release_part(array $part): array {
     if(!bixie_release_url_allowed((string)($part['url']??''))){throw new RuntimeException('Media download destination is not trusted.');}
+    require_once ABSPATH.'wp-admin/includes/file.php';
     $temp=wp_tempnam('bixie-media-part.zip');if(!$temp){throw new RuntimeException('Cannot create a temporary media download.');}
     try{
         $url=$part['url'];$response=null;

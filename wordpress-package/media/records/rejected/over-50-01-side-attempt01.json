@@ -1,0 +1,71 @@
+{
+  "id": "over-50-01-side-attempt01",
+  "key": "over-50-01-side-attempt01",
+  "look_id": "over-50-01",
+  "look_key": "over-50-01",
+  "canonical_look_key": "over-50-01",
+  "collection": "over-50",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/over-50-01-side-native.webp",
+  "file": "media/rejected/over-50-01-side-attempt01.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "d48058283506c54c21221dfd2c356edd25a47662e6cd92171d88a8d2b7eb7c51",
+  "display_sha256": "b9672fbc9b2383130481eb62aeea98040f692562d89bc7648bf37dd6ba2b5aff",
+  "source_bytes": 1462038,
+  "display_bytes": 311882,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-3453f44b-3a19-4e46-8821-74f6ee3f4af2.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "VIEWPOINT PRIORITY: place the camera directly beside the woman's LEFT EAR, at 90 degrees perpendicular to her facial midline. Photograph a flat orthogonal LEFT SIDE PROFILE facing screen-left. Exactly ONE near eye and ONE near eyebrow visible; far eye, far lashes and far eyebrow entirely occluded by the nasal bridge. Do not turn her face toward the camera. Preserve the exact reference identity, haircut and loose high-neck jumper. Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Bixie haircuts over 50. Design: soft rounded | compact squared | light broken | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"wavy\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"light broken\", \"colour\": \"blonde\", \"finish\": \"natural\", \"age_reference\": \"over-50\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file.",
+  "reference_source_files": [
+    "source-media/over-50-01-front.png"
+  ],
+  "approved": false,
+  "review_status": "rejected-angle-needs-retry",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "light broken",
+    "colour": "blonde",
+    "finish": "natural",
+    "age_reference": "over-50",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "soft rounded",
+    "nape": "compact squared",
+    "fringe": "light broken",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "soft rounded | compact squared | light broken | ear-revealing temple pieces | 0-crown-to-front-proportion"
+  },
+  "alt": "Pending direct review of actual haircut and clothing",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "generator_original_file": "source-media/over-50-01-side.png",
+  "generator_original_sha256": "277d669abcd14e55ef372b6a9c87f8e9e904e10e1ac38335b008becf5989d21a",
+  "generator_original_bytes": 2305306,
+  "native_pixel_sha256": "73ea4299117242314e0aa06217a21512d9cc81d6286d8ab631c4c5adc87828ed",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "exact_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/over-50-01-front.png"
+  ],
+  "review": {
+    "method": "Direct individual native source inspection with view_image at original detail",
+    "reviewer": "pilot_angles_worker",
+    "source_inspected": "source-media/over-50-01-side.png",
+    "passed": false,
+    "detail": "Far eye or lashes still visible; requires additional rotation away from camera using this inspected side plus front reference. Exact source preserved."
+  },
+  "rejected_attempt_of": "over-50-01-side"
+}

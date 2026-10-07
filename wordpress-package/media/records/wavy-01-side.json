@@ -27,8 +27,8 @@
     "/workspace/generated_images/exec-5e83bac7-24cc-40b6-a3b1-a9c6561e9683.png",
     "/workspace/check.txt/wordpress-package/source-media/wavy-01-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "wavy",
@@ -50,13 +50,51 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "smooth flat | compact squared | no-bangs | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Left profile of the same fictional adult woman with a blonde wavy bixie, open face frame, revealed ear and compact nape, wearing a loose ivory turtleneck.",
+  "caption": "Side: natural waves continue from the open part into a compact short nape.",
   "generator_original_file": "source-media/wavy-01-side-retry02.png",
   "generator_original_sha256": "e2a2e47bcc4b163088922ff55de7518a16cc00de7da44181eaa5c7240a336c3d",
   "previous_attempt_records": [
     "media/records/rejected/wavy-01-side-attempt01.json",
     "media/records/rejected/wavy-01-side-attempt02.json"
   ],
-  "generator_original_bytes": 2222598
+  "generator_original_bytes": 2222598,
+  "actual_meta": {
+    "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "no-bangs",
+    "colour": "blonde",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "review": {
+    "method": "Direct individual native source inspection with view_image at original detail",
+    "reviewer": "pilot_angles_worker",
+    "source_inspected": "source-media/wavy-01-side-retry02.png",
+    "single_original_photo": true,
+    "fictional_adult": true,
+    "complete_hair_silhouette": true,
+    "clear_margin_above_crown_and_sides": true,
+    "sharp_face_and_hair": true,
+    "loose_opaque_high_turtleneck": true,
+    "neckline_upper_chest_shoulders_covered": true,
+    "no_fitted_chest_or_torso_contour": true,
+    "no_text_logo_watermark": true,
+    "credible_anatomy_and_strands": true,
+    "bob_pixie_hybrid": true,
+    "expected_meta_matches_actual": true,
+    "detail": "True left profile, one near eye only. Same adult woman and blonde waves as front, with consistent dark roots, open front sections, visible ear and compact short nape. Side confirms a bixie rather than ordinary bob: retained wavy upper length and shorter lower perimeter. Sharp strands and full hair margin; ivory loose opaque turtleneck and studio consistent.",
+    "native_resolution_verified_from_png": {
+      "width": 1122,
+      "height": 1402
+    },
+    "native_8k": false,
+    "native_original": true,
+    "upscaled": false
+  }
 }
