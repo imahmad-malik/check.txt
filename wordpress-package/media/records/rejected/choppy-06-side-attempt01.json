@@ -1,0 +1,80 @@
+{
+  "id": "choppy-06-side-attempt01",
+  "key": "choppy-06-side-attempt01",
+  "look_id": "choppy-06",
+  "look_key": "choppy-06",
+  "canonical_look_key": "choppy-06",
+  "collection": "choppy",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/choppy-06-side-native.webp",
+  "file": "media/rejected/choppy-06-side-attempt01.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "02e17f4b482ca12740a8b0b899d0f0a17be00c8531ca8167a9011364f36effbc",
+  "display_sha256": "eeb40add5476825966b92ef2efd70fa6a40cef8aaf8066dc1066ca9a90e281f3",
+  "source_bytes": 1447426,
+  "display_bytes": 302708,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-dca96cfd-afb3-4246-b8c2-a3dc0b66751e.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Choppy bixie haircuts. Design: airy separated | compact squared | curtain | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"curly\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"short\", \"fringe\": \"curtain\", \"colour\": \"blonde\", \"finish\": \"choppy\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file. STRICT FINAL FRAMING: head and only the shoulder line, substantial plain studio margins above complete hair and at both sides. Exceptionally bulky loose fully opaque thick knitted ivory high turtleneck reaches directly beneath the jawline. No chest, cleavage, exposed neckline, body shape, tight fabric or torso emphasis. All hair must be crisp in focus, full original aspect, true original tool native resolution without enlargement. Haircut stays a bob-pixie hybrid, with longer ear-level sides and visibly cropped nape, never a full bob or very short pixie. Strict exact 90-degree profile: exactly ONE visible eye, far eye and far lashes fully occluded, nose in full side silhouette. Preserve adult identity, haircut silhouette, strand texture, colour, fringe, crown height and nape, sweater and studio from reference. A NEW separate photograph, no crop or collage. Reference image appearance takes priority for observed strand pattern: retain its actual curls or waves exactly, never convert them to a different texture or change length, volume, fringe or colour to satisfy a generic attribute label.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/choppy-06-front.png"
+  ],
+  "approved": false,
+  "review_status": "rejected-retry-required",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "curtain",
+    "colour": "blonde",
+    "finish": "choppy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "airy separated",
+    "nape": "compact squared",
+    "fringe": "curtain",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "airy separated | compact squared | curtain | ear-revealing temple pieces | 0-crown-to-front-proportion"
+  },
+  "alt": "Left profile of a blonde wavy choppy bixie with dark roots.",
+  "caption": "Airy blonde waves sit above a short graduated nape.",
+  "generator_original_file": "source-media/choppy-06-side.png",
+  "generator_original_sha256": "e0851d8f4f77c95a8b6d91a9061901e1d48fca027f960316523539b6b0dcb79a",
+  "generator_original_bytes": 2262990,
+  "native_pixel_sha256": "33142a4c060bb592ff15f27a3dd184de42169330e9790a633d19c7393e330db4",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "generation_provenance_file": "media/workers/provenance/resume-choppy-curly/choppy-06-side.json",
+  "review": {
+    "method": "Individual visual inspection of a 320px-wide full-aspect JPEG copy of the generator PNG, plus native dimensions, file checksums and lossless decoded RGB equality audit. The reduced preview establishes framing, clothing, direction and haircut coherence; it does not assert a full-resolution texture audit.",
+    "evidence": "True left profile with one visible eye and nose side silhouette. Adult identity, dark-root blonde loose wave texture and divided fringe match frontal reference, ear-level sides with short graduated nape. Complete crown and all hair sharp in preview, bulky loose high opaque ivory collar and studio retained.",
+    "checks": {
+      "fictional_adult": true,
+      "loose_opaque_high_turtleneck": true,
+      "complete_hair_silhouette": true,
+      "sharp_hair_in_inspection_preview": true,
+      "native_resolution_at_least_1024": true,
+      "angle_verified": false
+    },
+    "native_eye_detail_audit": "Native pixel crop establishes visible far-side lash or brow; rejected."
+  },
+  "observed_meta": {
+    "texture": "wavy",
+    "colour": "blonde"
+  },
+  "rejection_reason": "Native eye-region audit exposes far-side lashes or brow; near-profile is not exact90. Prior reduced whole-aspect preview missed this detail.",
+  "rejected_attempt_of": "choppy-06-side"
+}

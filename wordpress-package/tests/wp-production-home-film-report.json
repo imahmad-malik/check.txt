@@ -1,0 +1,5201 @@
+{
+  "generatedAtUTC": "2026-10-07T15:40:56.723378+00:00",
+  "scope": "Actual isolated WordPress owner GUI import, production theme assets, native Gutenberg SAVE and real photographic film playback. Production counts exclude the fourteen synthetic owner fixtures. The film is a silent photographic sequence, not filmed salon footage.",
+  "productionFilmVerified": true,
+  "remoteWordPressHTTPSFetchVerified": false,
+  "checks": {
+    "ownerFixturesPilotAndSettingsPreserved": true,
+    "all25HomePhotosNativeSourceChecksumsDimensionsAndReviewGates": true,
+    "actualFilmAndThreeDistinctReviewedNativeSourcesQualify": true,
+    "actualGuiMultipartArchivesVerifiedAndImported": true,
+    "incompleteHomeRemainsDraft": true,
+    "actualGutenbergSaveAndRoundtripNoInvalidNativePhotoVideoBlocks": true,
+    "24UniqueHomeNativeImageElementsPaintFullAspectAtFourWidths": true,
+    "25thHomeSourceUsedAsNativeMoviePoster": true,
+    "realNativePortraitFilmDecodedAutoplayMutedInlineFullFrameDesktopPhone": true,
+    "nativeSpacePausePersistsAndOffscreenAutoplayPausesResumes": true,
+    "reducedMotionNoAutoplayAndExplicitPlayWorks": true,
+    "ordinaryNativePosterVideoRetainsFullFrameInConstrainedOwnerLayout": true,
+    "noJavaScriptErrors": true
+  },
+  "observations": {
+    "importCounts": {
+      "media": 0,
+      "collections": 0,
+      "looks": 0,
+      "pages": 0,
+      "skipped": 116,
+      "errors": 30
+    },
+    "expectedMissingCatalogSources": "Additional catalog media outside these supplied Home parts and the earlier four-look pilot remain absent; import diagnostics and Home publication gates remain enabled.",
+    "separateOutsideHomeCatalogDiagnostics": [
+      {
+        "level": "error",
+        "key": "classic-03-front",
+        "message": "Packaged source missing: classic-03-front-retry01-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "classic-03-side",
+        "message": "Packaged source missing: classic-03-side-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "classic-03-back",
+        "message": "Packaged source missing: classic-03-back-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "classic-04-front",
+        "message": "Packaged source missing: classic-04-front-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "classic-04-side",
+        "message": "Packaged source missing: classic-04-side-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "classic-04-back",
+        "message": "Packaged source missing: classic-04-back-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "fine-hair-01-front",
+        "message": "Packaged source missing: fine-hair-01-front-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "fine-hair-01-side",
+        "message": "Packaged source missing: fine-hair-01-side-retry01-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "fine-hair-01-back",
+        "message": "Packaged source missing: fine-hair-01-back-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "thick-hair-01-front",
+        "message": "Packaged source missing: thick-hair-01-front-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "thick-hair-01-side",
+        "message": "Packaged source missing: thick-hair-01-side-retry01-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "thick-hair-01-back",
+        "message": "Packaged source missing: thick-hair-01-back-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "over-50-01-front",
+        "message": "Packaged source missing: over-50-01-front-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "over-50-01-side",
+        "message": "Packaged source missing: over-50-01-side-retry01-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "over-50-01-back",
+        "message": "Packaged source missing: over-50-01-back-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "natural-grey-01-front",
+        "message": "Packaged source missing: natural-grey-01-front-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "natural-grey-01-side",
+        "message": "Packaged source missing: natural-grey-01-side-retry01-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "natural-grey-01-back",
+        "message": "Packaged source missing: natural-grey-01-back-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "feathered-01-front",
+        "message": "Packaged source missing: feathered-01-front-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "feathered-01-side",
+        "message": "Packaged source missing: feathered-01-side-retry02-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "feathered-01-back",
+        "message": "Packaged source missing: feathered-01-back-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "wavy-01-front",
+        "message": "Packaged source missing: wavy-01-front-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "wavy-01-side",
+        "message": "Packaged source missing: wavy-01-side-retry02-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "wavy-01-back",
+        "message": "Packaged source missing: wavy-01-back-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "choppy-01-front",
+        "message": "Packaged source missing: choppy-01-front-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "choppy-01-side",
+        "message": "Packaged source missing: choppy-01-side-retry01-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "choppy-01-back",
+        "message": "Packaged source missing: choppy-01-back-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "curly-01-front",
+        "message": "Packaged source missing: curly-01-front-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "curly-01-side",
+        "message": "Packaged source missing: curly-01-side-retry01-native.webp"
+      },
+      {
+        "level": "error",
+        "key": "curly-01-back",
+        "message": "Packaged source missing: curly-01-back-native.webp"
+      }
+    ],
+    "productionMedia": {
+      "home-angle-back": {
+        "id": 262,
+        "sourceExists": true,
+        "sourceSHA256": "80eac74a393cc14971ae4d9a78f448152ba7c10bae0bfa53b3ea7f6fc3199119",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-angle-back-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-angle-front": {
+        "id": 263,
+        "sourceExists": true,
+        "sourceSHA256": "72741fb8b519bfce461d8f30ce912b32dccd755fe28c1a79f9bd284cefffea36",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-angle-front-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-angle-side": {
+        "id": 264,
+        "sourceExists": true,
+        "sourceSHA256": "ca77fadfd11a6f349cec8b28c6f090c4576e15d530657a1e6e204cfcac89370b",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-angle-side-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-colour-black": {
+        "id": 265,
+        "sourceExists": true,
+        "sourceSHA256": "f9915fb321e8c36293869619e6f1de8f6fe22af2b13cc6b611355419ddab0726",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-colour-black-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-black.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-colour-copper": {
+        "id": 266,
+        "sourceExists": true,
+        "sourceSHA256": "b0cb0314fad83047d2c8402ff746b464597955a3561d82cbdcdb6193c84e2f80",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-colour-copper-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-copper.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-colour-silver": {
+        "id": 267,
+        "sourceExists": true,
+        "sourceSHA256": "e18f4ef172ec3642155499d8d6612372580a72ed2ac46deef782fce865edde1c",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-colour-silver-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-silver.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-fringe-curtain": {
+        "id": 268,
+        "sourceExists": true,
+        "sourceSHA256": "ad80f946b82aef0073719357c45493abfe0bfc1af47a793651a3ef5ea672aeb2",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-fringe-curtain-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-curtain.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-fringe-side": {
+        "id": 269,
+        "sourceExists": true,
+        "sourceSHA256": "3ae940974ea30deb4283289db7c9186822e8442c80c9304d07d743e8ad2fa702",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-fringe-side-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-fringe-wispy": {
+        "id": 270,
+        "sourceExists": true,
+        "sourceSHA256": "b77dc66cf4ae4f03aef83973e1e1a98ed875043a26ffe2214a35e8797c2b8074",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-fringe-wispy-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-wispy.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-hero": {
+        "id": 271,
+        "sourceExists": true,
+        "sourceSHA256": "4509e82950b151bcf8761640cc4c393f6c8517792600bb549085e941b0f234d3",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-hero-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-hero.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-journal-consultation": {
+        "id": 272,
+        "sourceExists": true,
+        "sourceSHA256": "d43c51b58227419de5bb91ab785231d40f2301dd3b5285e0a9aa7f89832af5dd",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-journal-consultation-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-consultation.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-journal-growth": {
+        "id": 273,
+        "sourceExists": true,
+        "sourceSHA256": "b07770501a792daaa805549dc2a46270b788ec98db1611851ce0b70ad59a75a7",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-journal-growth-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-growth.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-journal-styling": {
+        "id": 274,
+        "sourceExists": true,
+        "sourceSHA256": "64afb1d35749a04e116ccb73f9dd5ecbb7a047b175d17b1d3c16be6b5f9cc24b",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-001/source-media/home-journal-styling-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-styling.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-mature-over40": {
+        "id": 275,
+        "sourceExists": true,
+        "sourceSHA256": "4c4a298e51b9203775a8750d2b7371a2dc204ede3732651c40849ac448980762",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-mature-over40-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over40.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-mature-over50": {
+        "id": 276,
+        "sourceExists": true,
+        "sourceSHA256": "475bc110147ff50ba7abd5c2a3a317b4969cf658a67f54292753ea5ce394892e",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-mature-over50-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over50.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-mature-over60": {
+        "id": 277,
+        "sourceExists": true,
+        "sourceSHA256": "e1a47694227da4a3c8c1e0906eccf2abf2a171be4e72ea5322db8f0de531fa94",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-mature-over60-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over60.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-motion-film": {
+        "id": 278,
+        "sourceExists": true,
+        "sourceSHA256": "3e5224e5dfb7c24f0a335c77df1bbdf49c9da4fe3a78e2020048a48f331949ec",
+        "nativeSize": null,
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-film.mp4",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-film.mp4",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": [
+          "home-angle-front",
+          "home-angle-side",
+          "home-angle-back"
+        ]
+      },
+      "home-motion-poster": {
+        "id": 279,
+        "sourceExists": true,
+        "sourceSHA256": "9a66da51a813794aade89b926e0f7dc14789ec0263adb6c8f566b7796da82d4f",
+        "nativeSize": [
+          1672,
+          941
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-motion-poster-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-poster.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-rail-curly": {
+        "id": 280,
+        "sourceExists": true,
+        "sourceSHA256": "c12a449720fea4de1b6abfaafc2d553619e5c750af1f8b359c4ae249cad92b57",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-rail-curly-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-curly.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-rail-feathered": {
+        "id": 281,
+        "sourceExists": true,
+        "sourceSHA256": "ad00e7c495d1cd67692eb7380e5c84e4f2b832c413698ad3ec28cfc0f8a81625",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-rail-feathered-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-feathered.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-rail-long": {
+        "id": 282,
+        "sourceExists": true,
+        "sourceSHA256": "34558dc4331218f180f4dcf2ee52d36f84ef8f48842a1a5c7fef3fea407e91ae",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-rail-long-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-long.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-rail-short": {
+        "id": 283,
+        "sourceExists": true,
+        "sourceSHA256": "1d129137d836b0c69443f0bf67c84f3e46aa1bc2e07f80786c55d87f5ba79284",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-rail-short-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-short.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-texture-fine": {
+        "id": 284,
+        "sourceExists": true,
+        "sourceSHA256": "26ab81be302e820da5d05e31fb156a879367f99af540821a5eebf85d533538ab",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-texture-fine-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-fine.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-texture-straight": {
+        "id": 285,
+        "sourceExists": true,
+        "sourceSHA256": "eca8ed6d32037fcf9a7783e4dc45cd2434b3c7ff50c4eb52eabce27567567434",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-texture-straight-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-straight.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-texture-thick": {
+        "id": 286,
+        "sourceExists": true,
+        "sourceSHA256": "de0bfd2fdda44abd40e261ebb3bca76f84ec03a79fb176b9ec49c5c2badf9422",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-002/source-media/home-texture-thick-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-thick.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "home-texture-wavy": {
+        "id": 287,
+        "sourceExists": true,
+        "sourceSHA256": "a8e9e91dbc7d63b1e86270acd6630d4f4e106c578a4c976d7f409b740bb45f1c",
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "nativeURL": "http://127.0.0.1:8766/wp-content/uploads/bixie-package/media-parts/bixie-production-home-003/source-media/home-texture-wavy-native.webp",
+        "displayURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-wavy.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      }
+    },
+    "existingHomeDraftGates": [
+      {
+        "id": 5,
+        "status": "draft",
+        "contentSHA256": "becebac066cdb746654bdd2a4ee73d3b6b4256ecbf2e1ca284dc9a7ff4bb2b18",
+        "gate": {
+          "complete": false,
+          "reasons": [
+            "classic: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
+            "short: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
+            "long: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
+            "layered: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
+            "choppy: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "shaggy: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "feathered: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "straight: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "wavy: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "curly: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "fine-hair: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "thin-hair: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "thick-hair: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "bangs: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "over-40: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "over-50: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "over-60: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "natural-grey: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "90s-inspired: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "round-face: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "undercut: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "easy-styling: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+            "The homepage has no selected native photographic film block.",
+            "Only 8 unique homepage photos; 75 required."
+          ]
+        }
+      }
+    ],
+    "temporaryDraftPreview": {
+      "id": 293,
+      "previewURL": "http://127.0.0.1:8766/?page_id=293&preview=true",
+      "editURL": "http://127.0.0.1:8766/wp-admin/post.php?post=293&action=edit",
+      "status": "draft",
+      "nativePhotoIDs": [
+        271,
+        281,
+        280,
+        283,
+        282,
+        228,
+        284,
+        287,
+        286,
+        285,
+        231,
+        234,
+        237,
+        49,
+        53,
+        57,
+        61,
+        65,
+        69,
+        73,
+        263,
+        264,
+        262,
+        268,
+        269,
+        270,
+        275,
+        276,
+        277,
+        267,
+        266,
+        265,
+        272,
+        274,
+        273
+      ],
+      "nativeFilmIDs": [
+        278
+      ],
+      "fullHomeGate": {
+        "complete": false,
+        "reasons": [
+          "classic: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
+          "short: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
+          "long: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
+          "layered: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
+          "choppy: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "shaggy: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "feathered: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "straight: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "wavy: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "curly: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "fine-hair: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "thin-hair: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "thick-hair: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "bangs: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "over-40: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "over-50: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "over-60: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "natural-grey: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "90s-inspired: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "round-face: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "undercut: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "easy-styling: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+          "Only 35 unique homepage photos; 75 required."
+        ]
+      }
+    },
+    "nativeBlockValidation": {
+      "total": 270,
+      "invalid": [],
+      "roundtripInvalid": [],
+      "imageIDs": [
+        271,
+        281,
+        280,
+        283,
+        282,
+        228,
+        284,
+        287,
+        286,
+        285,
+        231,
+        234,
+        263,
+        264,
+        262,
+        268,
+        269,
+        270,
+        275,
+        276,
+        277,
+        267,
+        266,
+        265,
+        272,
+        274,
+        273
+      ],
+      "videos": [
+        {
+          "id": 278,
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-film.mp4",
+          "poster": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-poster.webp"
+        }
+      ]
+    },
+    "homePhotosAtFourWidths": {
+      "desktop": {
+        "actualImageElements": {
+          "home-angle-back": {
+            "width": 350.9375,
+            "height": 438.5,
+            "natural": [
+              350,
+              438
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-back-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                352,
+                440
+              ],
+              "channelVariance": [
+                2683.319739673779,
+                3526.8652669881862,
+                4242.1887279828225
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.3352675693101225,
+                0.2261444229529336,
+                0.15747904577691813
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                5.19277885235332,
+                6.002578981302386,
+                6.764023210831722
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-angle-front": {
+            "width": 350.9375,
+            "height": 438.5,
+            "natural": [
+              350,
+              438
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-front-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                352,
+                440
+              ],
+              "channelVariance": [
+                1598.6233260834329,
+                2318.109769128072,
+                2915.1249146029354
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.4284332688588008,
+                0.32188910380399743,
+                0.2757898130238556
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.516763378465506,
+                4.764829142488717,
+                4.894584139264991
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-angle-side": {
+            "width": 350.9375,
+            "height": 438.5,
+            "natural": [
+              350,
+              438
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-side-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                352,
+                440
+              ],
+              "channelVariance": [
+                2229.686567106172,
+                2996.02271479556,
+                3714.268106078018
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.29835589941972923,
+                0.324468085106383,
+                0.38555770470664086
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.648936170212766,
+                3.8164087685364283,
+                3.992424242424242
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-black": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-black-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                343,
+                427
+              ],
+              "channelVariance": [
+                4171.4637068980355,
+                4588.9676590931795,
+                4736.472808910917
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.16082644628099174,
+                0.15140495867768594,
+                0.10958677685950413
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.5740495867768596,
+                2.6464462809917357,
+                2.82099173553719
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-copper": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-copper-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                342,
+                427
+              ],
+              "channelVariance": [
+                2008.453052563259,
+                3636.2261960780556,
+                4285.656917372769
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.1639017916390179,
+                0.14382879893828798,
+                0.10102853351028533
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.216821499668215,
+                1.2407100199071002,
+                1.247843397478434
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-silver": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-silver-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                343,
+                427
+              ],
+              "channelVariance": [
+                6474.0879750591475,
+                6258.881279675542,
+                5984.55254656437
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.06611570247933884,
+                0.11652892561983472,
+                0.16710743801652891
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.048099173553719,
+                4.049917355371901,
+                4.082644628099174
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-curtain": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-curtain-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                343,
+                427
+              ],
+              "channelVariance": [
+                3854.82386375259,
+                4315.557208746887,
+                4435.554093238766
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.06694214876033058,
+                0.08198347107438017,
+                0.15636363636363637
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.0793388429752064,
+                2.152066115702479,
+                2.3057851239669422
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-side": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-side-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                342,
+                427
+              ],
+              "channelVariance": [
+                2728.311335979006,
+                3363.9892945185484,
+                3586.9752492733533
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.13503649635036497,
+                0.1333775713337757,
+                0.13072329130723293
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.147810218978102,
+                2.150962176509622,
+                2.152952886529529
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-wispy": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-wispy-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                343,
+                427
+              ],
+              "channelVariance": [
+                2601.2649637983573,
+                3537.7860763153662,
+                3984.85660071556
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.09107438016528925,
+                0.09669421487603305,
+                0.19289256198347107
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.3049586776859505,
+                3.5520661157024795,
+                3.7943801652892564
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-hero": {
+            "width": 537.96875,
+            "height": 672.21875,
+            "natural": [
+              1122,
+              1402
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-hero.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                539,
+                673
+              ],
+              "channelVariance": [
+                3179.7705868000276,
+                3912.737546908036,
+                4155.994041881126
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.3192302443018971,
+                0.30646922342022653,
+                0.31349802101815205
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.250580046403712,
+                5.315749965879624,
+                6.253992084072608
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-consultation": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-consultation-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                343,
+                428
+              ],
+              "channelVariance": [
+                2247.370238919865,
+                3028.438286924683,
+                3436.304930801343
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.9337190082644629,
+                0.8846280991735537,
+                0.9304132231404959
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.128099173553719,
+                4.204132231404959,
+                4.350247933884297
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-growth": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-growth-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                343,
+                428
+              ],
+              "channelVariance": [
+                3575.457620095909,
+                4096.13019759784,
+                4202.772973741697
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.30479338842975207,
+                0.26826446280991734,
+                0.2540495867768595
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.9882644628099175,
+                5.227603305785124,
+                5.425123966942149
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-styling": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-styling-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                342,
+                428
+              ],
+              "channelVariance": [
+                1488.709216537375,
+                2041.5437369731148,
+                2325.0296885100793
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.26741871267418715,
+                0.24950232249502322,
+                0.3266423357664234
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                8.466323822163238,
+                8.495520902455208,
+                8.513105507631055
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over40": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over40-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                343,
+                428
+              ],
+              "channelVariance": [
+                3488.3458092574388,
+                4376.6703144365465,
+                4689.855747101326
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.34628099173553717,
+                0.2662809917355372,
+                0.315702479338843
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                5.240330578512396,
+                5.687438016528926,
+                6.0639669421487605
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over50": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over50-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                342,
+                428
+              ],
+              "channelVariance": [
+                3624.972237757788,
+                4313.439141680079,
+                4507.214399288862
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.25746516257465163,
+                0.26426675514266756,
+                0.3042468480424685
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                9.21781685467817,
+                9.22992700729927,
+                9.24983410749834
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over60": {
+            "width": 341.34375,
+            "height": 426.515625,
+            "natural": [
+              341,
+              426
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over60-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                343,
+                428
+              ],
+              "channelVariance": [
+                765.4610002764219,
+                1357.0968581434004,
+                1699.1672804595269
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.3343801652892562,
+                0.26661157024793386,
+                0.3234710743801653
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.590413223140496,
+                4.758677685950413,
+                4.904958677685951
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-curly": {
+            "width": 374.390625,
+            "height": 467.8125,
+            "natural": [
+              1122,
+              1402
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-curly.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                376,
+                469
+              ],
+              "channelVariance": [
+                4059.541137596513,
+                4592.116086975787,
+                4719.751283274858
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.2892753623188406,
+                0.24434782608695652,
+                0.3055072463768116
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                11.390434782608695,
+                11.620144927536233,
+                11.638405797101449
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-feathered": {
+            "width": 374.390625,
+            "height": 467.8125,
+            "natural": [
+              1122,
+              1402
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-feathered.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                376,
+                469
+              ],
+              "channelVariance": [
+                998.0357901056454,
+                1388.1683730204732,
+                1648.0953383760595
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.32318840579710145,
+                0.3188405797101449,
+                0.4191304347826087
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.7715942028985507,
+                4.682028985507246,
+                5.753623188405797
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-long": {
+            "width": 374.390625,
+            "height": 467.8125,
+            "natural": [
+              374,
+              467
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-long-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                375,
+                469
+              ],
+              "channelVariance": [
+                2991.9008937027857,
+                3849.714782059117,
+                4288.810888226882
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.07695652173913044,
+                0.07347826086956522,
+                0.07231884057971015
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.4231884057971014,
+                3.4868115942028988,
+                3.628550724637681
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-short": {
+            "width": 374.390625,
+            "height": 467.8125,
+            "natural": [
+              374,
+              467
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-short-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                375,
+                469
+              ],
+              "channelVariance": [
+                8989.747046599197,
+                8860.690327869834,
+                7880.923794940829
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.17043478260869566,
+                0.15159420289855072,
+                0.15391304347826087
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.71463768115942,
+                4.727246376811594,
+                4.749130434782609
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-fine": {
+            "width": 245.203125,
+            "height": 306.390625,
+            "natural": [
+              245,
+              306
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-fine-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                246,
+                308
+              ],
+              "channelVariance": [
+                1146.9952054200146,
+                1858.0161874004912,
+                2417.237261473377
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.15306122448979592,
+                0.19931972789115646,
+                0.2574829931972789
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                6.170068027210885,
+                6.505442176870749,
+                6.819727891156463
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-straight": {
+            "width": 245.21875,
+            "height": 306.40625,
+            "natural": [
+              245,
+              306
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-straight-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                247,
+                308
+              ],
+              "channelVariance": [
+                7472.621000045631,
+                7182.217570850561,
+                6517.6833468727355
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.2521150592216582,
+                0.21116751269035533,
+                0.3560067681895093
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                7.069712351945855,
+                7.069035532994924,
+                7.056852791878173
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-thick": {
+            "width": 245.203125,
+            "height": 306.390625,
+            "natural": [
+              245,
+              306
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-thick-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                246,
+                308
+              ],
+              "channelVariance": [
+                4058.3501183233725,
+                4686.316344807542,
+                4833.70127692851
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.3843537414965986,
+                0.272108843537415,
+                0.5404761904761904
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.993537414965987,
+                5.307482993197279,
+                5.6578231292517005
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-wavy": {
+            "width": 245.21875,
+            "height": 306.40625,
+            "natural": [
+              245,
+              306
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-wavy-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                246,
+                308
+              ],
+              "channelVariance": [
+                2607.248974433627,
+                3929.5877722430955,
+                4501.4102776308155
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.3064625850340136,
+                0.24421768707482994,
+                0.3547619047619048
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                10.404081632653062,
+                10.402721088435374,
+                10.420068027210885
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          }
+        },
+        "actualPosterURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-poster.webp",
+        "horizontalOverflow": false
+      },
+      "tablet": {
+        "actualImageElements": {
+          "home-angle-back": {
+            "width": 199.703125,
+            "height": 249.53125,
+            "natural": [
+              200,
+              250
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-back-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                200,
+                250
+              ],
+              "channelVariance": [
+                2643.1000828864003,
+                3492.6278461276006,
+                4188.212022142401
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.06822916666666666,
+                0.05364583333333333,
+                0.03697916666666667
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.0838541666666666,
+                1.1291666666666667,
+                1.140625
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-angle-front": {
+            "width": 199.6875,
+            "height": 249.515625,
+            "natural": [
+              200,
+              250
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-front-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                200,
+                250
+              ],
+              "channelVariance": [
+                1568.2631043100023,
+                2279.230018703599,
+                2876.7851323899986
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.11041666666666666,
+                0.115625,
+                0.07708333333333334
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.9578125,
+                0.9390625,
+                0.94375
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-angle-side": {
+            "width": 199.703125,
+            "height": 249.53125,
+            "natural": [
+              200,
+              250
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-side-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                200,
+                250
+              ],
+              "channelVariance": [
+                2196.373177452402,
+                2954.339627836399,
+                3664.822832300401
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.0953125,
+                0.11510416666666666,
+                0.10625
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.9380208333333333,
+                0.9421875,
+                0.9322916666666666
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-black": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-black-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                195,
+                244
+              ],
+              "channelVariance": [
+                4124.441331872463,
+                4550.803180936742,
+                4695.982034383451
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.18269230769230768,
+                0.14957264957264957,
+                0.12980769230769232
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.017094017094017,
+                1.0080128205128205,
+                0.9898504273504274
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-copper": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-copper-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                196,
+                244
+              ],
+              "channelVariance": [
+                1978.5039152910067,
+                3606.2887457937263,
+                4253.353718331224
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.3311965811965812,
+                0.28525641025641024,
+                0.2248931623931624
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.488782051282051,
+                3.515491452991453,
+                3.5085470085470085
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-silver": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-silver-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                195,
+                244
+              ],
+              "channelVariance": [
+                6416.537499984101,
+                6196.731716638917,
+                5928.386077855469
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.0641025641025641,
+                0.13087606837606838,
+                0.22382478632478633
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.314102564102564,
+                1.3012820512820513,
+                1.3151709401709402
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-curtain": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-curtain-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                195,
+                244
+              ],
+              "channelVariance": [
+                3815.5085288956466,
+                4273.045443685829,
+                4392.430983906932
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.06623931623931624,
+                0.06997863247863248,
+                0.1858974358974359
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.7478632478632479,
+                0.7537393162393162,
+                0.7606837606837606
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-side": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-side-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                196,
+                244
+              ],
+              "channelVariance": [
+                2697.8125314437084,
+                3353.1774553103605,
+                3588.7321781637615
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.19017094017094016,
+                0.14476495726495728,
+                0.172008547008547
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                5.763354700854701,
+                5.729166666666667,
+                5.701923076923077
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-wispy": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-wispy-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                195,
+                244
+              ],
+              "channelVariance": [
+                2558.287556727978,
+                3497.9091353298736,
+                3926.6251262982037
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.09188034188034189,
+                0.08226495726495726,
+                0.1420940170940171
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.108974358974359,
+                1.1020299145299146,
+                1.1335470085470085
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-hero": {
+            "width": 580,
+            "height": 725,
+            "natural": [
+              768,
+              960
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-hero-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                580,
+                726
+              ],
+              "channelVariance": [
+                3188.4497034301035,
+                3914.2205067317327,
+                4149.22479823285
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.21210488505747127,
+                0.18660201149425287,
+                0.18606321839080459
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.8562021072796935,
+                0.8591954022988506,
+                0.8836805555555556
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-consultation": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-consultation-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                195,
+                244
+              ],
+              "channelVariance": [
+                2214.7683635428452,
+                2994.609970082466,
+                3389.8222077915375
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.8931623931623932,
+                0.8659188034188035,
+                0.9391025641025641
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.9257478632478633,
+                0.9310897435897436,
+                0.9332264957264957
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-growth": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-growth-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                195,
+                244
+              ],
+              "channelVariance": [
+                3541.104817794982,
+                4060.5540124413346,
+                4145.583829656335
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.15705128205128205,
+                0.1655982905982906,
+                0.15544871794871795
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.2238247863247864,
+                1.2280982905982907,
+                1.2398504273504274
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-styling": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-styling-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                196,
+                244
+              ],
+              "channelVariance": [
+                1451.7316785259973,
+                2014.9239544448305,
+                2295.025030883006
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.23183760683760685,
+                0.172008547008547,
+                0.2719017094017094
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.907051282051282,
+                4.912393162393163,
+                4.903311965811966
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over40": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over40-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                195,
+                244
+              ],
+              "channelVariance": [
+                3448.411496080757,
+                4339.232958912057,
+                4628.979608028142
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.04861111111111111,
+                0.053952991452991456,
+                0.05181623931623932
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.7751068376068377,
+                3.786324786324786,
+                3.811431623931624
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over50": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over50-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                196,
+                244
+              ],
+              "channelVariance": [
+                3563.665011852805,
+                4272.80566637052,
+                4468.648095318621
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.0998931623931624,
+                0.09241452991452992,
+                0.11485042735042734
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                9.617521367521368,
+                9.576923076923077,
+                9.60576923076923
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over60": {
+            "width": 194.578125,
+            "height": 243.125,
+            "natural": [
+              194,
+              243
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over60-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                195,
+                244
+              ],
+              "channelVariance": [
+                739.6569159404277,
+                1321.3877595875783,
+                1648.7623534474167
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.038995726495726496,
+                0.041666666666666664,
+                0.04113247863247863
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.269230769230769,
+                3.2473290598290596,
+                3.299145299145299
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-curly": {
+            "width": 220,
+            "height": 275,
+            "natural": [
+              768,
+              960
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-curly-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                221,
+                276
+              ],
+              "channelVariance": [
+                4025.820683268021,
+                4553.939217627029,
+                4683.996264082755
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.25181598062953997,
+                0.20258272800645682,
+                0.22760290556900725
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                9.912429378531073,
+                9.930185633575464,
+                9.955205811138015
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-feathered": {
+            "width": 220,
+            "height": 275,
+            "natural": [
+              768,
+              960
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-feathered-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                221,
+                276
+              ],
+              "channelVariance": [
+                986.6439735836589,
+                1362.3157570224034,
+                1617.4770409243015
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.38660209846650523,
+                0.40274414850686036,
+                0.4838579499596449
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.056093623890234,
+                4.22679580306699,
+                4.548426150121065
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-long": {
+            "width": 220,
+            "height": 274.890625,
+            "natural": [
+              219,
+              275
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-long-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                221,
+                275
+              ],
+              "channelVariance": [
+                2948.101951064616,
+                3804.157351574523,
+                4232.693601313759
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.06053268765133172,
+                0.05972558514931396,
+                0.07263922518159806
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.815173527037934,
+                2.801049233252623,
+                2.838579499596449
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-short": {
+            "width": 220,
+            "height": 274.890625,
+            "natural": [
+              219,
+              275
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-short-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                221,
+                275
+              ],
+              "channelVariance": [
+                8912.22787035997,
+                8803.063873503108,
+                7826.30885243745
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.10855528652138821,
+                0.09281678773204197,
+                0.09806295399515738
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.924132364810331,
+                2.9350282485875705,
+                2.9156577885391446
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-fine": {
+            "width": 302.90625,
+            "height": 378.484375,
+            "natural": [
+              303,
+              378
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-fine-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                303,
+                379
+              ],
+              "channelVariance": [
+                1145.4878433198921,
+                1854.6582176950644,
+                2413.747263242491
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.06281134936105696,
+                0.059345895603205544,
+                0.07039202945635695
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.1037470218756769,
+                1.1145765648689625,
+                1.1290881524799654
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-straight": {
+            "width": 302.90625,
+            "height": 378.484375,
+            "natural": [
+              303,
+              378
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-straight-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                303,
+                380
+              ],
+              "channelVariance": [
+                7462.17696534038,
+                7161.907537854771,
+                6498.966238771438
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.1771713233701538,
+                0.153562919644791,
+                0.2486463071258393
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                6.319688109161794,
+                6.325752653238033,
+                6.325752653238033
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-thick": {
+            "width": 302.90625,
+            "height": 378.484375,
+            "natural": [
+              303,
+              378
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-thick-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                303,
+                380
+              ],
+              "channelVariance": [
+                4068.492560806568,
+                4694.026537371004,
+                4840.6381859190915
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.23803335499241932,
+                0.20532813515269654,
+                0.3469785575048733
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.1154429283084255,
+                3.167424734676197,
+                3.2705219839722766
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-wavy": {
+            "width": 302.90625,
+            "height": 378.484375,
+            "natural": [
+              303,
+              378
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-wavy-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                303,
+                379
+              ],
+              "channelVariance": [
+                2589.198020699117,
+                3895.716525722115,
+                4457.528384718141
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.1204245180853368,
+                0.11024474767164825,
+                0.12064110894520251
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.501407840589127,
+                2.5085553389646957,
+                2.5219839722763697
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          }
+        },
+        "actualPosterURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-poster.webp",
+        "horizontalOverflow": false
+      },
+      "phone": {
+        "actualImageElements": {
+          "home-angle-back": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-back-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                2688.4444261525873,
+                3531.1777260760846,
+                4246.546922882193
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.11091779034362767,
+                0.10439321444106132,
+                0.06307090039147456
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.202696824706394,
+                1.2503262287951282,
+                1.327316224445411
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-angle-front": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-front-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                1599.3706554261682,
+                2316.8885517113677,
+                2912.562696536687
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.165506742061766,
+                0.16224445411048283,
+                0.1017833840800348
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.882557633753806,
+                3.937581557198782,
+                4.025445846020009
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-angle-side": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-side-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                2233.2120763023204,
+                2993.6875970672636,
+                3710.8331638868876
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.12113962592431492,
+                0.12853414528055676,
+                0.14071335363201393
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.9654197477163984,
+                0.9512831665941713,
+                0.9736842105263158
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-black": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-black-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                4175.429273957607,
+                4590.290703009835,
+                4734.816385861197
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.12592431491953024,
+                0.1341887777294476,
+                0.08851674641148326
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.6204871683340585,
+                3.660504567203132,
+                3.8481948673336235
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-copper": {
+            "width": 247.625,
+            "height": 309.40625,
+            "natural": [
+              248,
+              310
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-copper-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                248,
+                310
+              ],
+              "channelVariance": [
+                2009.425506626102,
+                3636.7942061074878,
+                4286.354809148221
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.16161616161616163,
+                0.16195286195286196,
+                0.13367003367003366
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.6794612794612795,
+                1.690909090909091,
+                1.7649831649831649
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-silver": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-silver-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                379
+              ],
+              "channelVariance": [
+                6472.159400885608,
+                6256.106011479294,
+                5981.240555332875
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.10787298825576337,
+                0.21074380165289255,
+                0.3001304915180513
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                5.878425402348848,
+                5.864071335363201,
+                5.89343192692475
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-curtain": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-curtain-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                3860.5807071891836,
+                4320.03960054786,
+                4437.974549145533
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.11331013484123532,
+                0.13723357981731188,
+                0.33253588516746413
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.9828186167899087,
+                0.9773814702044367,
+                1.003479773814702
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-side": {
+            "width": 247.625,
+            "height": 309.40625,
+            "natural": [
+              248,
+              310
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-side-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                248,
+                310
+              ],
+              "channelVariance": [
+                2735.5407749553065,
+                3376.754446869642,
+                3603.029451912843
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.30505050505050507,
+                0.3175084175084175,
+                0.31885521885521884
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.125252525252525,
+                3.130976430976431,
+                3.1262626262626263
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-wispy": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-wispy-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                2602.5214794149347,
+                3536.133356331843,
+                3979.622743662536
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.07416267942583732,
+                0.06415832970856894,
+                0.09047411918225315
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.264897781644193,
+                1.2727272727272727,
+                1.3027403218790778
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-hero": {
+            "width": 302,
+            "height": 377.5,
+            "natural": [
+              390,
+              487
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-hero-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                3162.2429879499996,
+                3888.5549226096496,
+                4123.095717087816
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.1339712918660287,
+                0.13266637668551545,
+                0.11505002174858635
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.1861678990865594,
+                1.1896476729012615,
+                1.1911700739451936
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-consultation": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-consultation-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                2250.6021436343804,
+                3031.807416419704,
+                3441.454887644666
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.2538060026098304,
+                0.23618964767290127,
+                0.2016093953892997
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.4312744671596347,
+                3.4830361026533274,
+                3.558503697259678
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-growth": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-growth-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                3585.8610738558,
+                4101.232514042252,
+                4202.287821301595
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.15006524575902566,
+                0.13766855154414964,
+                0.10983036102653328
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.416050456720313,
+                4.524793388429752,
+                4.618094823836451
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-styling": {
+            "width": 247.625,
+            "height": 309.40625,
+            "natural": [
+              248,
+              310
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-styling-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                248,
+                310
+              ],
+              "channelVariance": [
+                1485.6127074634744,
+                2035.8181095123973,
+                2318.415239495771
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.3282828282828283,
+                0.2898989898989899,
+                0.4175084175084175
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.7303030303030305,
+                2.7383838383838386,
+                2.74006734006734
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over40": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over40-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                3497.0534458078528,
+                4381.171687181606,
+                4690.017174478545
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.1418007829491083,
+                0.14158329708568942,
+                0.12483688560243585
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.2957807742496739,
+                1.341452805567638,
+                1.396476729012614
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over50": {
+            "width": 247.625,
+            "height": 309.40625,
+            "natural": [
+              248,
+              310
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over50-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                248,
+                310
+              ],
+              "channelVariance": [
+                3623.4343196845266,
+                4309.729553632071,
+                4502.304223736519
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.2696969696969697,
+                0.27441077441077444,
+                0.32861952861952864
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.3494949494949493,
+                3.328956228956229,
+                3.3515151515151516
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over60": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over60-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                763.3589749095393,
+                1355.1997519959882,
+                1698.7502293718142
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.33514571552849065,
+                0.2749021313614615,
+                0.3347107438016529
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.1326663766855154,
+                1.1391909525880817,
+                1.167464114832536
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-curly": {
+            "width": 260,
+            "height": 325,
+            "natural": [
+              390,
+              487
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-curly-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                260,
+                326
+              ],
+              "channelVariance": [
+                4016.1164364145297,
+                4536.08068680388,
+                4663.388177650951
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.33143028846153844,
+                0.27163461538461536,
+                0.2926682692307692
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.9188701923076925,
+                2.922175480769231,
+                2.9203725961538463
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-feathered": {
+            "width": 260,
+            "height": 325,
+            "natural": [
+              390,
+              487
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-feathered-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                260,
+                326
+              ],
+              "channelVariance": [
+                985.2223557205119,
+                1358.6706984287448,
+                1614.202111424152
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.5615985576923077,
+                0.5904447115384616,
+                0.7533052884615384
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.1881009615384615,
+                1.1905048076923077,
+                1.2112379807692308
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-long": {
+            "width": 260,
+            "height": 324.875,
+            "natural": [
+              260,
+              325
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-long-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                260,
+                326
+              ],
+              "channelVariance": [
+                2990.908238952764,
+                3848.285618527794,
+                4287.472781590681
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.17938701923076922,
+                0.18780048076923078,
+                0.20582932692307693
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.3918269230769231,
+                1.4104567307692308,
+                1.4714543269230769
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-short": {
+            "width": 260,
+            "height": 324.875,
+            "natural": [
+              260,
+              325
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-short-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                260,
+                326
+              ],
+              "channelVariance": [
+                8988.781306875188,
+                8857.75593745692,
+                7877.768737136597
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.32091346153846156,
+                0.2205528846153846,
+                0.2527043269230769
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.5634014423076923,
+                1.5676081730769231,
+                1.5763221153846154
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-fine": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-fine-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                1145.2071172359,
+                1855.1421741828833,
+                2414.094770296917
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.039582427142235754,
+                0.048934319269247496,
+                0.06241844280121792
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.559591126576772,
+                4.598956067855589,
+                4.725967812092214
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-straight": {
+            "width": 256.703125,
+            "height": 320.75,
+            "natural": [
+              257,
+              321
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-straight-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                257,
+                322
+              ],
+              "channelVariance": [
+                7457.176385631369,
+                7154.897862957419,
+                6492.424307754105
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.0875,
+                0.09268292682926829,
+                0.11890243902439024
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                6.3948170731707314,
+                6.404878048780488,
+                6.399695121951219
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-thick": {
+            "width": 302,
+            "height": 377.359375,
+            "natural": [
+              302,
+              377
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-thick-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                302,
+                378
+              ],
+              "channelVariance": [
+                4072.61922978151,
+                4697.2866399048335,
+                4843.739521611367
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.10091344062635929,
+                0.0998260113092649,
+                0.1509351892127012
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.17246628969117,
+                3.227490213136146,
+                3.3338408003479776
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-wavy": {
+            "width": 256.703125,
+            "height": 320.75,
+            "natural": [
+              257,
+              321
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-wavy-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                257,
+                322
+              ],
+              "channelVariance": [
+                2594.334050884524,
+                3905.44885263236,
+                4470.783345317092
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.10182926829268292,
+                0.09390243902439024,
+                0.1076219512195122
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                8.160975609756097,
+                8.18201219512195,
+                8.184146341463414
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          }
+        },
+        "actualPosterURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-poster.webp",
+        "horizontalOverflow": false
+      },
+      "small-phone": {
+        "actualImageElements": {
+          "home-angle-back": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-back-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                2639.3944798221955,
+                3489.5723937919656,
+                4184.977786550778
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.057706093189964155,
+                0.03763440860215054,
+                0.01756272401433692
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.117921146953405,
+                4.1,
+                4.127598566308244
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-angle-front": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-front-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                1566.972820705049,
+                2280.115185747597,
+                2878.394849778327
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.26666666666666666,
+                0.1913978494623656,
+                0.2053763440860215
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.6756272401433692,
+                0.6913978494623656,
+                0.6953405017921147
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-angle-side": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-angle-side-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                2197.892442748803,
+                2958.8380406774013,
+                3670.7471330846242
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.055197132616487454,
+                0.05734767025089606,
+                0.053763440860215055
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.003942652329749,
+                2.9910394265232974,
+                3.032616487455197
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-black": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-black-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                290
+              ],
+              "channelVariance": [
+                4129.173089270742,
+                4551.836520357315,
+                4692.092342010945
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.0953405017921147,
+                0.09211469534050179,
+                0.08172043010752689
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.5566308243727599,
+                0.5623655913978495,
+                0.5458781362007169
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-copper": {
+            "width": 190.234375,
+            "height": 237.703125,
+            "natural": [
+              190,
+              237
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-copper-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                191,
+                239
+              ],
+              "channelVariance": [
+                1978.1382716708817,
+                3605.7382913406122,
+                4252.824688568427
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.33169934640522875,
+                0.28594771241830064,
+                0.23093681917211328
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                5.377450980392157,
+                5.387799564270153,
+                5.398692810457517
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-colour-silver": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-colour-silver-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                6415.6109557920745,
+                6194.760789089956,
+                5925.632221976485
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.034408602150537634,
+                0.07706093189964158,
+                0.1817204301075269
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.6813620071684587,
+                0.6774193548387096,
+                0.6946236559139785
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-curtain": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-curtain-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                290
+              ],
+              "channelVariance": [
+                3821.962468944449,
+                4276.755511829813,
+                4393.627796289371
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.02043010752688172,
+                0.025806451612903226,
+                0.04767025089605735
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.503584229390681,
+                0.5032258064516129,
+                0.5146953405017921
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-side": {
+            "width": 190.234375,
+            "height": 237.703125,
+            "natural": [
+              190,
+              237
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-side-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                191,
+                239
+              ],
+              "channelVariance": [
+                2682.5641585035482,
+                3327.0367717773684,
+                3554.6947823889495
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.15413943355119825,
+                0.12527233115468409,
+                0.14596949891067537
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                9.655228758169935,
+                9.580065359477125,
+                9.56917211328976
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-fringe-wispy": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-fringe-wispy-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                2556.0028347238035,
+                3495.6415571351586,
+                3923.280911999367
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.06487455197132616,
+                0.060215053763440864,
+                0.11003584229390681
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.6236559139784946,
+                0.6340501792114696,
+                0.6401433691756272
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-hero": {
+            "width": 232,
+            "height": 290,
+            "natural": [
+              320,
+              400
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-hero-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                3158.7595576674244,
+                3888.313031969523,
+                4125.342663774669
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.41863799283154124,
+                0.33906810035842294,
+                0.3860215053763441
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                1.7301075268817205,
+                1.778136200716846,
+                1.8394265232974911
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-consultation": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-consultation-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                2215.704154058279,
+                2995.1227485885593,
+                3390.5983581279943
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.13010752688172042,
+                0.12688172043010754,
+                0.13512544802867382
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.432258064516129,
+                2.4372759856630823,
+                2.432974910394265
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-growth": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-growth-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                3540.6350167645337,
+                4059.5549177374724,
+                4144.70596525007
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.1039426523297491,
+                0.11433691756272402,
+                0.12078853046594983
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.6523297491039427,
+                0.6480286738351254,
+                0.6526881720430108
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-journal-styling": {
+            "width": 190.234375,
+            "height": 237.703125,
+            "natural": [
+              190,
+              237
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-journal-styling-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                191,
+                238
+              ],
+              "channelVariance": [
+                1436.726970936138,
+                1984.5459948248217,
+                2259.295448714316
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.15805109922756982,
+                0.12002376708259062,
+                0.1681521093285799
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                5.726678550207962,
+                5.706476530005942,
+                5.745692216280451
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over40": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over40-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                3442.6116077992388,
+                4333.919605438412,
+                4625.180491291989
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.13046594982078852,
+                0.08637992831541219,
+                0.10716845878136201
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.184587813620072,
+                3.1788530465949822,
+                3.2308243727598565
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over50": {
+            "width": 190.234375,
+            "height": 237.703125,
+            "natural": [
+              190,
+              237
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over50-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                191,
+                238
+              ],
+              "channelVariance": [
+                3547.7982591234104,
+                4242.092358108814,
+                4434.153408911118
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.12180629827688651,
+                0.11467617349970291,
+                0.15448603683897802
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                8.070707070707071,
+                8.063576945929887,
+                8.045157456922162
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-mature-over60": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-mature-over60-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                738.4184711461158,
+                1319.9704021861633,
+                1647.2945330772006
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.04982078853046595,
+                0.04229390681003584,
+                0.06200716845878136
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                2.7659498207885305,
+                2.7304659498207884,
+                2.7659498207885305
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-curly": {
+            "width": 260,
+            "height": 325,
+            "natural": [
+              320,
+              400
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-curly-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                260,
+                326
+              ],
+              "channelVariance": [
+                4324.020254209149,
+                4959.481516775094,
+                5114.0286173541435
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.14513221153846154,
+                0.10336538461538461,
+                0.10336538461538461
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                8.29266826923077,
+                8.28545673076923,
+                8.298377403846153
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-feathered": {
+            "width": 260,
+            "height": 325,
+            "natural": [
+              320,
+              400
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-feathered-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "none",
+            "paint": {
+              "pixels": [
+                260,
+                326
+              ],
+              "channelVariance": [
+                1077.113307115271,
+                1497.2896644907325,
+                1752.0526474439068
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.18629807692307693,
+                0.1953125,
+                0.22956730769230768
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.9329927884615383,
+                4.1006610576923075,
+                4.3975360576923075
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-long": {
+            "width": 260,
+            "height": 324.875,
+            "natural": [
+              260,
+              325
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-long-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                260,
+                326
+              ],
+              "channelVariance": [
+                3096.342728975085,
+                3990.984394312366,
+                4442.753901189597
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.0694110576923077,
+                0.06760817307692307,
+                0.0703125
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                3.9384014423076925,
+                4.014423076923077,
+                4.220252403846154
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-rail-short": {
+            "width": 260,
+            "height": 324.875,
+            "natural": [
+              260,
+              325
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-rail-short-768x960.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                260,
+                326
+              ],
+              "channelVariance": [
+                9037.156626604119,
+                8933.157716883092,
+                7961.344549863439
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.1006610576923077,
+                0.0907451923076923,
+                0.09164663461538461
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                4.6358173076923075,
+                4.6592548076923075,
+                4.658653846153846
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-fine": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-fine-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                1117.1892381142363,
+                1815.4039345478996,
+                2362.8003346869796
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.06810035842293907,
+                0.08637992831541219,
+                0.0939068100358423
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.6734767025089605,
+                0.674910394265233,
+                0.6745519713261648
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-straight": {
+            "width": 197.203125,
+            "height": 246.40625,
+            "natural": [
+              197,
+              246
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-straight-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                198,
+                248
+              ],
+              "channelVariance": [
+                7399.25837426361,
+                7115.682305380984,
+                6460.406364302702
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.08386075949367089,
+                0.07278481012658228,
+                0.14926160337552744
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                5.1914556962025316,
+                5.175632911392405,
+                5.200949367088608
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-thick": {
+            "width": 232,
+            "height": 289.890625,
+            "natural": [
+              232,
+              290
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-thick-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                232,
+                291
+              ],
+              "channelVariance": [
+                4015.161543841476,
+                4646.654571348618,
+                4765.390883296739
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.07419354838709677,
+                0.05125448028673835,
+                0.1017921146953405
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                0.557347670250896,
+                0.5691756272401434,
+                0.5688172043010753
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          },
+          "home-texture-wavy": {
+            "width": 197.203125,
+            "height": 246.40625,
+            "natural": [
+              197,
+              246
+            ],
+            "currentSource": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-texture-wavy-240x300.webp",
+            "objectFit": "contain",
+            "aspectRatio": "auto 1122 / 1402",
+            "opacity": "1",
+            "visibility": "visible",
+            "transform": "none",
+            "containIntrinsicSize": "3000px 1500px",
+            "paint": {
+              "pixels": [
+                198,
+                247
+              ],
+              "channelVariance": [
+                2531.354113096587,
+                3839.924128793356,
+                4393.404666853568
+              ],
+              "nonFlatPixels": true
+            },
+            "sourceEdgeComparison": {
+              "topMeanAbsoluteRGBDifference": [
+                0.07225738396624473,
+                0.07225738396624473,
+                0.10284810126582279
+              ],
+              "bottomMeanAbsoluteRGBDifference": [
+                5.927742616033755,
+                5.895042194092827,
+                5.898206751054852
+              ],
+              "fullSourceEdgesPainted": true
+            }
+          }
+        },
+        "actualPosterURL": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-poster.webp",
+        "horizontalOverflow": false
+      }
+    },
+    "actualProductionFilmBrowser": {
+      "desktop": {
+        "visibleAutoplayWithoutClick": {
+          "before": {
+            "currentTime": 0.060374,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 6,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "after": {
+            "currentTime": 0.527918,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 17,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "timelineAdvanceSeconds": 0.467544,
+          "timeAdvanced": true,
+          "timeStopped": false
+        },
+        "geometry": {
+          "element": [
+            1110.40625,
+            935
+          ],
+          "native": [
+            1122,
+            1402
+          ],
+          "paintedFullFrame": [
+            748.2667617689016,
+            935
+          ],
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "transform": "none",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        "decodedPaint": {
+          "pixels": [
+            1112,
+            936
+          ],
+          "channelVariance": [
+            8324.778121934534,
+            7344.743216828909,
+            6833.698443375348
+          ],
+          "nonFlatPixels": true
+        },
+        "actualDecodedFrameEdgeComparison": {
+          "topMeanAbsoluteRGBDifference": [
+            0.7140468227424749,
+            0.5495267914324343,
+            0.6329609336084822
+          ],
+          "bottomMeanAbsoluteRGBDifference": [
+            0.577172134063901,
+            0.5661780402760976,
+            0.6363054152138333
+          ],
+          "fullSourceEdgesPainted": true,
+          "nativeControlsSuppressedOnlyDuringPixelScreenshot": true
+        },
+        "nativeKeyboardSpacePause": {
+          "before": {
+            "currentTime": 0.993034,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 28,
+            "error": null,
+            "nativeVideoFocused": true
+          },
+          "after": {
+            "currentTime": 0.993034,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 28,
+            "error": null,
+            "nativeVideoFocused": true
+          },
+          "timelineAdvanceSeconds": 0.0,
+          "timeAdvanced": false,
+          "timeStopped": true
+        },
+        "nativePauseAfterLeavingAndReturning": {
+          "before": {
+            "currentTime": 0.993034,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 28,
+            "error": null,
+            "nativeVideoFocused": true
+          },
+          "after": {
+            "currentTime": 0.993034,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 28,
+            "error": null,
+            "nativeVideoFocused": true
+          },
+          "timelineAdvanceSeconds": 0.0,
+          "timeAdvanced": false,
+          "timeStopped": true
+        },
+        "offscreenAutoplayPause": {
+          "before": {
+            "currentTime": 1.053169,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 30,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "after": {
+            "currentTime": 1.053169,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 30,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "timelineAdvanceSeconds": 0.0,
+          "timeAdvanced": false,
+          "timeStopped": true
+        },
+        "returnAutoplayResumes": {
+          "before": {
+            "currentTime": 1.077777,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 31,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "after": {
+            "currentTime": 1.541579,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 42,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "timelineAdvanceSeconds": 0.46380200000000005,
+          "timeAdvanced": true,
+          "timeStopped": false
+        }
+      },
+      "phone": {
+        "visibleAutoplayWithoutClick": {
+          "before": {
+            "currentTime": 0.037779,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 5,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "after": {
+            "currentTime": 0.500451,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 16,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "timelineAdvanceSeconds": 0.46267199999999997,
+          "timeAdvanced": true,
+          "timeStopped": false
+        },
+        "geometry": {
+          "element": [
+            302,
+            377.359375
+          ],
+          "native": [
+            1122,
+            1402
+          ],
+          "paintedFullFrame": [
+            301.9951631597718,
+            377.35937500000006
+          ],
+          "objectFit": "contain",
+          "objectPosition": "50% 50%",
+          "transform": "none",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        "decodedPaint": {
+          "pixels": [
+            302,
+            378
+          ],
+          "channelVariance": [
+            1859.2482497518802,
+            2353.5672021859195,
+            2904.39557797866
+          ],
+          "nonFlatPixels": true
+        },
+        "actualDecodedFrameEdgeComparison": {
+          "topMeanAbsoluteRGBDifference": [
+            0.5008699434536755,
+            0.37016093953893,
+            0.4404088734232275
+          ],
+          "bottomMeanAbsoluteRGBDifference": [
+            4.907351022183558,
+            5.902348847324924,
+            6.969551979121357
+          ],
+          "fullSourceEdgesPainted": true,
+          "nativeControlsSuppressedOnlyDuringPixelScreenshot": true
+        },
+        "nativeKeyboardSpacePause": {
+          "before": {
+            "currentTime": 0.695983,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 21,
+            "error": null,
+            "nativeVideoFocused": true
+          },
+          "after": {
+            "currentTime": 0.695983,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 21,
+            "error": null,
+            "nativeVideoFocused": true
+          },
+          "timelineAdvanceSeconds": 0.0,
+          "timeAdvanced": false,
+          "timeStopped": true
+        },
+        "nativePauseAfterLeavingAndReturning": {
+          "before": {
+            "currentTime": 0.695983,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 21,
+            "error": null,
+            "nativeVideoFocused": true
+          },
+          "after": {
+            "currentTime": 0.695983,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 21,
+            "error": null,
+            "nativeVideoFocused": true
+          },
+          "timelineAdvanceSeconds": 0.0,
+          "timeAdvanced": false,
+          "timeStopped": true
+        },
+        "offscreenAutoplayPause": {
+          "before": {
+            "currentTime": 0.756842,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 23,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "after": {
+            "currentTime": 0.756842,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 23,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "timelineAdvanceSeconds": 0.0,
+          "timeAdvanced": false,
+          "timeStopped": true
+        },
+        "returnAutoplayResumes": {
+          "before": {
+            "currentTime": 0.782607,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 23,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "after": {
+            "currentTime": 1.243192,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": true,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 34,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "timelineAdvanceSeconds": 0.460585,
+          "timeAdvanced": true,
+          "timeStopped": false
+        }
+      },
+      "reducedMotion": {
+        "startup": {
+          "before": {
+            "currentTime": 0,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": false,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 4,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "after": {
+            "currentTime": 0,
+            "duration": 11.625,
+            "paused": true,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": false,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 4,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "timelineAdvanceSeconds": 0.0,
+          "timeAdvanced": false,
+          "timeStopped": true
+        },
+        "manualPlay": {
+          "before": {
+            "currentTime": 0,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": false,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 4,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "after": {
+            "currentTime": 0.455388,
+            "duration": 11.625,
+            "paused": false,
+            "muted": true,
+            "playsInline": true,
+            "controls": true,
+            "autoplay": false,
+            "readyState": 4,
+            "videoWidth": 1122,
+            "videoHeight": 1402,
+            "decodedFrames": 19,
+            "error": null,
+            "nativeVideoFocused": false
+          },
+          "timelineAdvanceSeconds": 0.455388,
+          "timeAdvanced": true,
+          "timeStopped": false
+        }
+      }
+    },
+    "ordinaryNativePosterVideo": {
+      "actualDraftPreview": {
+        "id": 297,
+        "status": "draft",
+        "previewURL": "http://127.0.0.1:8766/?page_id=297&preview=true"
+      },
+      "constraintFixture": "Owner inline width720px/max-width100%/height360px are applied to exercise the normal native video selector under a constrained owner layout. The production object-fit rule and core poster CSS remain unchanged.",
+      "geometry": {
+        "element": [
+          720,
+          360
+        ],
+        "native": [
+          1122,
+          1402
+        ],
+        "paintedFullFrame": [
+          288.1027104136947,
+          360
+        ],
+        "objectFit": "contain",
+        "controls": true,
+        "poster": "http://127.0.0.1:8766/wp-content/uploads/2026/10/home-motion-poster.webp"
+      },
+      "actualDecodedFrameEdgeComparison": {
+        "topMeanAbsoluteRGBDifference": [
+          0.513768115942029,
+          0.3751207729468599,
+          0.4454106280193237
+        ],
+        "bottomMeanAbsoluteRGBDifference": [
+          2.5473429951690822,
+          2.785265700483092,
+          3.1594202898550723
+        ],
+        "fullSourceEdgesPainted": true,
+        "nativeControlsSuppressedOnlyDuringPixelScreenshot": true
+      },
+      "focusedRecheckAtUTC": "2026-10-07T15:45:41.686282+00:00",
+      "fixtureCorrection": "The earlier CSS-only constraint was overridden by the production poster selector. This focused rerun applies owner inline dimensions and explicitly asserts the actual720x360 box before checking decoded frame pixels."
+    }
+  },
+  "parts": [
+    {
+      "bundleID": "bixie-production-home-001",
+      "bytes": 23634513,
+      "sha256": "b073d476992465db866bd217fbc02d9ab565b7d70061bf774ef701bbfe56bda4"
+    },
+    {
+      "bundleID": "bixie-production-home-002",
+      "bytes": 23928787,
+      "sha256": "d779639290159af593c733dbd1d46ab04b941ae955703a47c0ce08834241eaf8"
+    },
+    {
+      "bundleID": "bixie-production-home-003",
+      "bytes": 2012139,
+      "sha256": "205097b2b9594fe69cf6184bbe25096ae8b9cdf2d217d2f6721fdaf7f9a19ce6"
+    }
+  ],
+  "passed": true,
+  "themeAssetSHA256": {
+    "assets/css/editorial.css": "a8a606c54e98c2e57b73e81d289e9f18e3b8eb3977ffb760c319bba14b3d0b4c",
+    "assets/js/editorial.js": "c6ca801b2c99379e14d1dbb8ce505dbdcd4c2c8f9106c8c6d6e9f1461e49529c"
+  },
+  "regression": {
+    "actualWordPressCoreRule": ".wp-block-video [poster] { object-fit: cover }",
+    "before": {
+      "computedObjectFit": "cover",
+      "nativeVideoDimensions": [
+        1122,
+        1402
+      ],
+      "desktopElementDimensions": [
+        1110.40625,
+        935
+      ],
+      "result": "Portrait playing frame cropped by native poster CSS specificity."
+    },
+    "correction": "Theme native video contain rule explicitly retains the full playing frame and poster. No image aspect-ratio reset or publication gate change."
+  },
+  "pageErrors": [],
+  "cleanup": {
+    "exactTemporaryPagesRemoved": true,
+    "removedOwnIDs": {
+      "id": true,
+      "ordinary_id": true
+    },
+    "all26ProductionHomeAttachmentsPreserved": true,
+    "focusedOrdinaryRecheckExactOwnIDsRemoved": true
+  }
+}

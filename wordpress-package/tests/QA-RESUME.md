@@ -99,3 +99,54 @@ motion-source verification remain separate from synthetic code tests. The
 homepage must stay draft until its real requirements pass. Final ZIP smoke and
 actual photography/film audit cannot be claimed complete yet. No live ranking,
 deployed hosting, search indexing or Core Web Vitals check was performed.
+
+## Actual production Home photographs and photographic film
+
+`wp-production-home-film-report.json` is separate from all synthetic film and
+owner fixtures. Three immutable parts in `/workspace/check.txt/wordpress-home-release`
+were uploaded through the authenticated native WordPress owner GUI. All25 real
+Home source photographs and the actual silent11.625-second1122×1402 photographic
+sequence qualify independently, with matching original SHA-256/native dimensions
+and the film's three distinct reviewed corresponding front/side/back sources.
+The movie is a photographic sequence, not filmed salon footage.
+
+Reproduce only while these three immutable Home parts and private retained
+authentication state are available; neither private runtime nor cookies belongs
+in the release:
+
+```sh
+python /workspace/check.txt/wordpress-package/tests/wp-production-home-film-qa.py
+```
+
+The test preserves all14 synthetic owner fixtures, the four real pilot looks and
+settings. Repeated GUI import uses default preserve mode. Catalog-source missing
+diagnostics outside these supplied parts remain separate from the real Home
+checks. The current saved Home stays draft; it is not a completed public Home.
+Exact temporary ordinary draft preview pages are removed in `finally`, while
+all26 imported production attachments are retained.
+
+Actual Gutenberg SAVE/roundtrip validates270 native blocks with no invalid photo
+or video blocks, including the film attachment ID. The private native Home-pattern
+preview has24 distinct Home image elements and the25th source as native movie
+poster. Each of those24 images paints its full source aspect, with top/bottom
+screenshot pixels compared against the actual selected source, at1440,768,390
+and320 widths. Production movie checks decode actual1122×1402 frames, measure
+time advance with muted inline visible autoplay, retain native Space pause after
+leaving and returning, pause/resume offscreen autoplay, and honor reduced motion
+while allowing explicit play.
+
+The real WordPress run caught core `.wp-block-video [poster]` overriding the
+theme's weaker `object-fit:contain` rule and cropping the playing portrait film.
+The theme now gives native poster videos sufficient selector specificity, plus
+the scoped film selector, without resetting image aspect or overriding owner
+inline styles. Actual decoded frame top/bottom pixels and full-frame geometry
+pass on desktop and390 phone. A separate ordinary native poster video also
+retains its complete frame in an actual720×360 owner inline layout. Native
+controls remain enabled and keyboard-operable; only their overlay is suppressed
+transiently during decoded-frame screenshot comparison.
+
+This confirms the real Home subset and photographic film, not all487 planned
+source photographs, complete collections,75+ actual unique Home photos, final
+whole-library ZIP import or real WordPress HTTPS remote fetch. Those remain
+separate launch checks. The previous cloud DNS/WordPress safe URL limitation is
+unchanged; TLS and URL safety remain enabled.

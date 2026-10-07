@@ -1,0 +1,15 @@
+{
+  "id": "fine-hair-06-back",
+  "look_id": "fine-hair-06",
+  "angle": "back",
+  "prompt": "EXACT DIRECT BACK VIEW: camera behind centre of head, both ears symmetric and NO FACE, no cheek, nose or eyes visible. Create ONE new separate realistic editorial haircut photograph of a fictional ADULT woman. No collage, crops, rotations, duplicate files or text. STRICT COMPOSITION: HEAD AND NECK WITH ONLY THE TOP SHOULDER LINE. The bottom frame ends immediately below the shoulder line, showing no bust, chest or torso at all. BULKY VERY LOOSE OPAQUE HIGH TURTLENECK completely covers the base of neck with broad folded collar and unshaped fabric, no exposed neckline, cleavage, chest or fitted contours. Retain the entire hair/head silhouette with generous clear margin above crown and at both sides. Light neutral studio background and consistent soft daylight. Hair and face in focus; no artificial blur, fog, grain or watermark. Render original native >=1024 long edge at the supported tool resolution without upscaling. The supplied approved front and true-profile PNG reference shows the EXACT SAME fictional adult, haircut, colour, fringe, crown, nape, clothing, lighting and background to preserve. Change only camera viewpoint; generate a new photograph. Preserve existing hair length, strand scale, colour, mass and ear/nape graduation. Reference identity and geometry are authoritative. Observed reference haircut metadata: {\"texture\": \"curly\", \"strand\": \"fine\", \"density\": \"medium\", \"length\": \"short\", \"fringe\": \"short open\", \"colour\": \"blonde\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Shape description: {\"crown\": \"airy separated\", \"nape\": \"low blended\", \"fringe\": \"short open\", \"ear_outline\": \"ear-revealing temple pieces\", \"distinctness_basis\": \"airy separated | low blended | short open | ear-revealing temple pieces | 0-crown-to-front-proportion\"}.",
+  "references": [
+    "/workspace/check.txt/wordpress-package/source-media/fine-hair-06-front-retry01.png",
+    "/workspace/check.txt/wordpress-package/source-media/fine-hair-06-side.png"
+  ],
+  "status": "generated-original-saved",
+  "output_tool_path": "/workspace/generated_images/exec-d021667d-722e-41d2-86df-2c123a2baf31.png",
+  "exact_call_metadata_available": true,
+  "provenance_file": "/workspace/check.txt/wordpress-package/media/workers/provenance/fine-hair-06-back-resume-fine-thick-attempt01.json",
+  "tool_text_metadata": []
+}

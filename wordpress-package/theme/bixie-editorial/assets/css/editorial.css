@@ -51,7 +51,8 @@ hr,.wp-block-separator{height:0;border:0;border-top:1px solid var(--bixie-rule);
 .wp-block-cover .wp-block-cover__image-background,.wp-block-cover video.wp-block-cover__video-background{position:relative!important;width:100%;height:auto!important;object-fit:contain!important;inset:auto;transform:none}
 .wp-block-cover .wp-block-cover__background{display:none}
 .wp-block-cover .wp-block-cover__inner-container{position:relative;width:100%;padding:clamp(24px,4vw,56px);color:var(--bixie-ink)}
-.wp-block-video video{width:100%;height:auto;object-fit:contain;background:var(--bixie-ink)}
+/* Native posters and playing frames must retain their whole original outline. */
+.wp-block-video video,.wp-block-video video[poster]{width:100%;height:auto;object-fit:contain;object-position:center;background:var(--bixie-ink)}
 .wp-block-columns{align-items:flex-start;gap:clamp(24px,4vw,64px)}
 .wp-block-column{min-width:0}
 .wp-block-buttons{gap:12px}
@@ -208,7 +209,8 @@ hr,.wp-block-separator{height:0;border:0;border-top:1px solid var(--bixie-rule);
 .bixie-film{background:var(--bixie-ink);color:var(--bixie-paper)}
 .bixie-film .bixie-section-intro p{color:#c7c8bd}
 .bixie-film .wp-block-video{max-width:1150px;margin-inline:auto;background:#151715}
-.bixie-film video{max-height:85vh;width:100%;height:auto;object-fit:contain;background:#151715}
+/* Core's poster selector also affects the playing frame; keep the full film. */
+.wp-block-video.bixie-film video{max-height:85vh;width:100%;height:auto;object-fit:contain;object-position:center;background:#151715}
 .bixie-film .bixie-motion-controls{max-width:1150px}
 .bixie-film .bixie-motion-controls p,.bixie-film figcaption{color:#c7c8bd}
 .bixie-film [data-bixie-video-toggle]:hover{background:var(--bixie-paper);color:var(--bixie-ink)}

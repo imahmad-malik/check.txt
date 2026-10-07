@@ -47,8 +47,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "directional lifted | curved graduated | short open | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Front view of a copper curly bixie with lifted ringlets and a short open fringe.",
-  "caption": "Front: fine copper ringlets lift across the crown above an open fringe.",
+  "alt": "Front view of a fictional adult with copper curly bixie hair, wearing a loose opaque high turtleneck.",
+  "caption": "Front photograph of a generated adult haircut reference; original native dimensions retained.",
   "generator_original_file": "source-media/fine-hair-02-front.png",
   "generator_original_sha256": "52af59e807684a46c7a88f90f88c3779c429951930ce9733a3b4e13914940f8e",
   "generator_original_bytes": 2480695,
@@ -94,5 +94,43 @@
     "credible_anatomy_and_strands": true,
     "angle_verified": true,
     "expected_meta_matches_actual": true
-  }
+  },
+  "resume_review": {
+    "method": "Actual individual view_image inspection of full-aspect JPEG at no more than 400px long edge; native PNG dimensions and hashes checked separately; lossless WebP decoded RGB pixel equality verified. Reduced inspection does not establish full-native texture quality.",
+    "reviewer": "resume_fine_thick",
+    "inspection_copy": "/workspace/check.txt/wordpress-package/media/inspection/resume-fine-thick/fine-hair-02-front.jpg",
+    "source_inspected": "source-media/fine-hair-02-front.png",
+    "passed": true,
+    "detail": "Straight-on adult with fine copper ringlets, directional upper curl mass, open short curl fringe, full hair margins, loose opaque ivory high folded collar and light studio.",
+    "native_resolution_verified_from_png": {
+      "width": 1122,
+      "height": 1402
+    },
+    "native_original": true,
+    "native_8k": false,
+    "upscaled": false,
+    "single_original_photo": true,
+    "fictional_adult": true,
+    "complete_hair_silhouette": true,
+    "loose_opaque_high_turtleneck": true,
+    "no_fitted_chest_or_torso_contour": true,
+    "no_text_logo_watermark": true,
+    "angle_verified": true,
+    "expected_meta_matches_actual": true
+  },
+  "expected_meta_matches_actual": true,
+  "observed_meta": {
+    "texture": "curly",
+    "strand": "fine",
+    "density": "medium",
+    "length": "long",
+    "fringe": "short open",
+    "colour": "copper",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "observed_meta_basis": "Visible haircut texture, apparent strand scale, mass/density, fringe and colour assessed from actual <=400px full-aspect JPEGs; strand thickness and density are visual styling descriptions, not physical measurements."
 }

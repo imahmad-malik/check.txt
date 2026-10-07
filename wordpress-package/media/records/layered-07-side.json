@@ -1,0 +1,99 @@
+{
+  "id": "layered-07-side",
+  "key": "layered-07-side",
+  "look_id": "layered-07",
+  "look_key": "layered-07",
+  "canonical_look_key": "layered-07",
+  "collection": "layered",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/layered-07-side-native.webp",
+  "file": "media/layered-07-side.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "4ffbeeca806d00640c43a801b8dfd3a556c8a0bf27e5106c11d402dc52961e2c",
+  "display_sha256": "aac56bc92548d19bf3d74d252677af41666c60be9e027c43a8662939aed02956",
+  "source_bytes": 1481024,
+  "display_bytes": 321632,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-a0b28fa7-08cd-41a5-a5be-93c476099cdd.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Layered bixie haircuts. Design: soft rounded | textured tapered | side-swept | ear-revealing temple pieces | 1-crown-to-front-proportion. Attributes: {\"texture\": \"coily\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"side-swept\", \"colour\": \"copper\", \"finish\": \"layered\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file. Make exactly one separate original photograph. BULKY LOOSE OPAQUE HIGH TURTLENECK; framing only head plus shoulder line, no exposed neckline/chest/cleavage or fitted body contours. Preserve full sharp head/hair silhouette with clear crown and side margins. Genuine native long edge at least1024; no upscaling or 8K claim. STRICT TRUE 90-DEGREE LEFT PROFILE: nose points left, only one eye visible; far eye hidden completely. No three-quarter view. Match approved front identity, hair, collar, background and lighting.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/layered-07-front-retry02.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "coily",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "side-swept",
+    "colour": "copper",
+    "finish": "layered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "soft rounded",
+    "nape": "textured tapered",
+    "fringe": "side-swept",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "soft rounded | textured tapered | side-swept | ear-revealing temple pieces | 1-crown-to-front-proportion"
+  },
+  "alt": "Side view of a copper coily bixie.",
+  "caption": "True left single-eye profile; matching medium brown adult identity, copper small spring coils, rounded layered crown, short temple curl and low graduated nape, with same high ivory knit and studio light.",
+  "generator_original_file": "source-media/layered-07-side.png",
+  "generator_original_sha256": "d4080707cd6e4a65437ba3f7601cbb07869471200e0503921dc160335b48a7f6",
+  "generator_original_bytes": 2258304,
+  "native_pixel_sha256": "76f3b59dd46c4de7ce37a2a588d9fbabe2bb77d32282d4e662e290b7f5e17ad7",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/layered-07-front-retry02.png"
+  ],
+  "provenance_file": "media/workers/provenance/layered-07-side-resume-long-layered-attempt01.json",
+  "actual_meta": {
+    "texture": "coily",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "side-swept",
+    "colour": "copper",
+    "finish": "layered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": true,
+  "review": {
+    "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
+    "attire": "pass: bulky loose opaque high turtleneck covers neckline/chest, shoulder line framing, no fitted chest contours",
+    "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
+    "angle": "pass: true90-degree profile, one eye",
+    "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
+    "visible_features": "True left single-eye profile; matching medium brown adult identity, copper small spring coils, rounded layered crown, short temple curl and low graduated nape, with same high ivory knit and studio light.",
+    "secondary_native_eye_audit": {
+      "passed": true,
+      "method": "Native-pixel400x360eye/bridgeJPEGcrop viewed separately from full-aspect320x400JPEG; no production crop/count",
+      "finding": "One eye visible; no visible far-eye pupil or far-side lashes"
+    }
+  },
+  "observed_meta": {
+    "texture": "coily",
+    "colour": "copper",
+    "length": "medium",
+    "fringe": "side-swept",
+    "finish": "layered",
+    "description": "True left single-eye profile; matching medium brown adult identity, copper small spring coils, rounded layered crown, short temple curl and low graduated nape, with same high ivory knit and studio light."
+  }
+}

@@ -57,9 +57,16 @@
   "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
   "observed_meta": {
     "texture": "wavy",
-    "length": "medium",
-    "fringe": "side-swept",
-    "colour": "brunette"
+    "strand": "medium",
+    "density": "medium",
+    "length": "long",
+    "fringe": "full",
+    "colour": "brunette",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
   },
   "review": {
     "method": "Direct visual inspection of full-aspect 720-pixel JPEG derived from native PNG",
@@ -68,5 +75,19 @@
     "clothing": "Loose opaque ivory high turtleneck; only head and shoulders shown; upper chest covered without chest outline.",
     "native_resolution": "1122x1402 original; no scaling",
     "metadata_note": "Observed texture, length and fringe override differing planned attributes; no unsupported coily claim."
-  }
+  },
+  "actual_meta": {
+    "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
+    "length": "long",
+    "fringe": "full",
+    "colour": "brunette",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": true
 }

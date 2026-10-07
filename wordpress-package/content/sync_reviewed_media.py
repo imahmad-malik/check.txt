@@ -114,6 +114,13 @@ for declaration in declared_looks:
     if not collection:
         collection=next((c for c in sorted(canonical_collections,key=len,reverse=True) if key and key.startswith(c+'-')),None)
     if collection not in canonical_collections: reasons.append('unknown primary collection')
+    observations={}
+    for image in images:
+        for field,value in (image.get('observed_meta') or {}).items():
+            if field in observations and observations[field]!=value:
+                reasons.append('inconsistent reviewed '+field+' across real views')
+            observations[field]=value
+    observations.update(declaration.get('observed_meta') or {})
     if reasons:
         look_diagnostics.append({'key':key,'reason':'; '.join(reasons)});continue
     images=sorted(images,key=lambda x:['front','side','back'].index(x['angle']))
@@ -123,7 +130,7 @@ for declaration in declared_looks:
     content=declaration.get('content') or '\n\n'.join([
         paragraph(html.escape(short_copy)),
         paragraph('Discuss the crown, fringe and nape details you prefer with your stylist. AI-created concept featuring a fictional adult; an image does not guarantee the same result on your own hair.')])
-    meta={**declaration.get('meta',{}),'ai_concept':True}
+    meta={**declaration.get('meta',{}),**observations,'ai_concept':True}
     final_images=[]
     for image in images:
         angle=image['angle']

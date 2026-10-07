@@ -42,6 +42,9 @@ for look in actual_looks:
             real_look_failures.append(look['key']+': source/hash')
         if not i.get('approved') or i.get('upscaled') or max(i.get('width',0),i.get('height',0))<1024:
             real_look_failures.append(look['key']+': approval/native')
+        for field,value in (i.get('observed_meta') or {}).items():
+            if look.get('meta',{}).get(field)!=value:
+                real_look_failures.append(look['key']+': observed '+field+' differs from public metadata')
 check('No fabricated completed looks',not real_look_failures and catalog['counts']['provided_importable_looks']==len(actual_looks),str(real_look_failures))
 check('Accepted original native quality and complete-angle requirement',catalog['requirements']['minimum_native_long_edge']==1024 and catalog['requirements']['require_complete_angles'] is True and catalog['requirements']['no_upscaling'] is True and catalog['requirements']['no_8k_claim'] is True)
 brief_media_failures=[]

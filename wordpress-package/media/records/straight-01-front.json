@@ -24,8 +24,8 @@
   "generator": "OpenAI image_gen",
   "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. a fictional adult East Asian woman with warm fair skin and dark eyes, age 29, wearing a loose opaque ivory HIGH TURTLENECK long-sleeved jumper with very loose fabric covering upper chest completely. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Straight-hair bixies. Design: compact rounded | textured tapered | full | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"full\", \"colour\": \"blonde\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. FRONT view: face directly forward and level, both eyes and full front haircut outline visible, no three-quarter turn. Quiet natural expression. Hair/cut attributes in this brief are authoritative; clothing rule is high loose opaque turtleneck.\nSTRICT FINAL COMPOSITION: a single shoulders-only portrait, bottom edge just below shoulder tops; a BULKY LOOSE OPAQUE HIGH TURTLENECK conceals neckline and chest completely. No visible chest shape. Keep entire hair outline with generous blank border. All native hair detail sharp. Hair strands must be genuinely STRAIGHT, without curls or loose waves; follow the planned crown, fringe, and taper.",
   "reference_source_files": [],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "straight",
@@ -47,12 +47,37 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | textured tapered | full | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Front view: straight blonde layers, diagonal wispy fringe and compact ear-length sides.",
+  "caption": "Front: straight blonde layers, diagonal wispy fringe and compact ear-length sides.",
   "generator_original_file": "source-media/straight-01-front.png",
   "generator_original_sha256": "7e6ba87dc3f70add37d897297834c7a33c799e2b8e65abc1a2ac4e9435ce0422",
   "generator_original_bytes": 2260205,
   "native_pixel_sha256": "41734680cae40d79ad979eec53224bc2cb46795c5be43ab2b293a81ff7436cc5",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "observed_meta": {
+    "texture": "straight",
+    "length": "medium",
+    "fringe": "side-swept",
+    "colour": "blonde",
+    "finish": "natural"
+  },
+  "actual_meta": {
+    "texture": "straight",
+    "length": "medium",
+    "fringe": "side-swept",
+    "colour": "blonde",
+    "finish": "natural"
+  },
+  "review": {
+    "passed": true,
+    "method": "Direct review of full-aspect 320x400-or-smaller inspection JPEG; native file dimensions, source SHA and pixel-equivalent lossless WebP checked separately",
+    "fictional_adult": "pass",
+    "clothing": "pass: loose opaque high turtleneck conceals neckline and chest; shoulders-only composition",
+    "hair_margin": "pass: entire hair outline and crown with margin",
+    "angle": "pass: level forward face, both eyes",
+    "primary_style": "pass: straight strands and short graduated bixie silhouette",
+    "observed_features": "straight blonde layers, diagonal wispy fringe and compact ear-length sides",
+    "note": "Planned full fringe differs from observed side-swept fringe."
+  }
 }

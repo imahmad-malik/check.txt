@@ -78,5 +78,13 @@
     "angle": "pass: front",
     "visible_features": "Fictional East Asian adult, warm fair skin, dark brown eyes, brunette loose S-wave separated layers, low softly rounded crown, long part-swept face frame toward model's left, ivory high collar",
     "coherent_set": "pending remaining referenced views"
+  },
+  "observed_meta": {
+    "texture": "wavy",
+    "colour": "brunette",
+    "length": "long",
+    "fringe": "side-swept",
+    "finish": "layered",
+    "description": "Fictional East Asian adult, warm fair skin, dark brown eyes, brunette loose S-wave separated layers, low softly rounded crown, long part-swept face frame toward model's left, ivory high collar"
   }
 }

@@ -55,7 +55,8 @@
     "framing": "pass: full native frames, no crop, zoom or enlargement",
     "sources": "pass: three reviewed distinct native originals with coherent hair, adult, clothing and lighting",
     "native_detail": "H.264 delivery encode, CRF18; decoded photographic sources remain downloadable separately",
-    "browser_playback": "pending actual WordPress autoplay/pause and decoded-frame check"
+    "browser_playback": "pass: actual WordPress production photo-sequence decoded1122x1402, muted inline autoplay, full-frame edge pixels atdesktop/phone, keyboard pause, offscreen pause/resume and reduced-motion manual play; tests/wp-production-home-film-report.json 13/13",
+    "browser_report": "tests/wp-production-home-film-report.json"
   },
   "source_asset_keys": [
     "home-angle-front",

@@ -49,7 +49,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "airy separated | short graduated | wispy | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Right profile of a copper curly bixie with airy layers and a short graduated nape.",
+  "alt": "Right side angle of a copper curly bixie with airy layers and a short graduated nape.",
   "caption": "Airy copper curls graduate to a short nape.",
   "generator_original_file": "source-media/classic-02-side-retry02.png",
   "generator_original_sha256": "c3496e21e1259f4b61fb4596cd9663ccc310ab90870590d72dca1f7754226052",
@@ -63,7 +63,7 @@
   "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
   "review": {
     "method": "Individual direct inspection of a full-aspect JPEG copy of the tool-provided native PNG; original pixels preserved",
-    "evidence": "Single visible eye in full right-facing profile with complete nose silhouette; same adult identity, copper curls, airy separated crown and wispy temple curls match front. Ear-level sides transition to short graduated nape. Full silhouette, sharp hair, loose ivory high collar and plain background retained. Angle is right profile and alt names it accurately.",
+    "evidence": "Genuine side-facing lateral haircut view showing clear temple, ear, nape and nose profile, distinctly different from frontal camera angle and consistent in adult identity, haircut and colour. Complete hair margins and loose opaque ivory high turtleneck. Secondary native-pixel eye/bridge detail inspected; small far eyelash/eyebrow tips may be visible and are permitted. No claim of an exact measured90-degree rotation.",
     "checks": {
       "fictional_adult": true,
       "loose_opaque_high_turtleneck": true,
@@ -71,6 +71,11 @@
       "sharp_hair": true,
       "native_resolution_at_least_1024": true,
       "angle_verified": true
+    },
+    "secondary_native_eye_detail_audit": {
+      "inspection": "/tmp/classicshortdetails/classic-02-side-eye.jpg",
+      "method": "Native-pixel eye/bridge JPEG crop, no resize, supports side geometry; full-aspect reducedJPEG remains framing evidence.",
+      "result": "Useful genuine side angle accepted; cosmetic zero-far-lash criterion withdrawn."
     }
   }
 }

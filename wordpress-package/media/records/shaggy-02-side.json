@@ -1,0 +1,78 @@
+{
+  "id": "shaggy-02-side",
+  "key": "shaggy-02-side",
+  "look_id": "shaggy-02",
+  "look_key": "shaggy-02",
+  "canonical_look_key": "shaggy-02",
+  "collection": "shaggy",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/shaggy-02-side-retry01-native.webp",
+  "file": "media/shaggy-02-side-retry01.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "d9c104905028e04755bcc50364a2b66e594d28808826a94b95d346964263f782",
+  "display_sha256": "c4095eb3f1501f55da787ec6bf7b99e1775ad5d5cf557ac9bca51ba747e20a03",
+  "source_bytes": 1442356,
+  "display_bytes": 299096,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-beee8c4a-5cfa-44d7-bd65-ef7c222cd11b.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "ONE NEW original realistic premium editorial haircut photograph, one person and one view, not collage/crop/reused source. Fictional ADULT. SHOULDERS ONLY: bottom edge just below shoulders, BULKY VERY LOOSE OPAQUE IVORY HIGH TURTLENECK jumper fully conceals neck and all chest without chest/torso contour. Complete crown/head and all hair edges with generous breathing room above and around. Plain ivory studio, even daylight, sharp natural skin and ALL hair detail; no blur, text, logos, jewellery. Full portrait source aspect at original tool native resolution at least1024 long edge, no upscale. SAME fictional adult, identical haircut/colour/texture/fringe/crown/nape/ear pieces, same bulky turtleneck and studio as the original references. Create a separate SIDE photograph. EXACT 90-degree geometric profile facing image LEFT, nose to the left, head and shoulders rotate to profile. Camera directly side-on, perpendicular to sagittal plane. Only ONE near eye and one eyebrow; far eye AND FAR EYELASHES completely hidden behind nose bridge, no two-eyed angle, no three-quarter view. Keep chin level. If any far eyelashes would appear, turn face slightly away until they disappear and silhouette remains a clean profile. True shaggy layered bob-pixie silhouette with short nape, never longer wolf cut or ordinary bob.  CRITICAL GEOMETRY: Show the adult facing completely LEFT in an orthographic side silhouette. We see only the lateral side surface of the face; zero view of its front plane. The farther eye, eyebrow AND every farther eyelash are 100% concealed behind the bridge. Turn the head farther away from the camera than a typical portrait side turn so even eyelash tips vanish; near eye remains visible in a clean profile. No peeking far brow or far lash. This strict angle requirement overrides beauty portrait convention.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-02-front.png"
+  ],
+  "approved": false,
+  "review_status": "awaiting-direct-source-review",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "long",
+    "fringe": "curtain",
+    "colour": "copper",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "lightly tousled",
+    "nape": "low blended",
+    "fringe": "curtain",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "lightly tousled | low blended | curtain | ear-revealing temple pieces | 1-crown-to-front-proportion"
+  },
+  "alt": "Pending direct review of corrected native source",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "generator_original_file": "source-media/shaggy-02-side-retry01.png",
+  "generator_original_sha256": "0c85fad0bc55adb6c6bd8e3caae50d4d593b22922e698c5d61c14e2ea4711d63",
+  "generator_original_bytes": 2233650,
+  "observed_meta": {
+    "texture": "curly",
+    "length": "medium",
+    "fringe": "side-swept",
+    "colour": "copper",
+    "finish": "shaggy"
+  },
+  "actual_meta": {
+    "texture": "curly",
+    "length": "medium",
+    "fringe": "side-swept",
+    "colour": "copper",
+    "finish": "shaggy"
+  },
+  "rejection_reason": "Native bridge detail reveals far eye/eyelash/brow; insufficient rotation.",
+  "previous_attempt_records": [
+    "media/records/rejected/shaggy-02-side-attempt01.json"
+  ],
+  "native_pixel_sha256": "a64ca2f07513552198791da665ff26b4d6bbeaec915f6139ecdccba6f0a93f92",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+}

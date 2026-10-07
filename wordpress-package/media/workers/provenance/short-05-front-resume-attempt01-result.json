@@ -1,0 +1,6 @@
+{
+  "id": "short-05-front",
+  "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e8c42b76-0bdb-437c-af07-c0ee0a41f550.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "output_path": "/workspace/generated_images/exec-e8c42b76-0bdb-437c-af07-c0ee0a41f550.png",
+  "completed_at": "2026-10-07T15:35:21.476Z"
+}

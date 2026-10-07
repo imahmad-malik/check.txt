@@ -1,0 +1,586 @@
+{
+  "worker": "resume-long-layered",
+  "passed": true,
+  "audited_image_count": 36,
+  "audited_look_count": 12,
+  "completed_utc": "2026-10-07T15:53:13.732816+00:00",
+  "native_detail_limitation": "Visual review used <=320x400 full-aspect JPEGs; hashes, native dimensions and decoded PNG/WebP equality were audited separately. No claim of full-resolution visual texture inspection.",
+  "images": [
+    {
+      "id": "long-02-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-02-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-02-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-03-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-03-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-03-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-04-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-04-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-04-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-05-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-05-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-05-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-06-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-06-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-06-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-07-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-07-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "long-07-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-02-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-02-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-02-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-03-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-03-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-03-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-04-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-04-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-04-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-05-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-05-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-05-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-06-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-06-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-06-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-07-front",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-07-side",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "id": "layered-07-back",
+      "checks": {
+        "generator_original_file": true,
+        "source_file": true,
+        "file": true,
+        "native_dimensions": true,
+        "minimum_edge": true,
+        "pixel_identical": true,
+        "approved": true
+      },
+      "native_dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ]
+}

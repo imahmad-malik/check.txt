@@ -1,0 +1,9 @@
+{
+  "id": "shaggy-02-back",
+  "prompt": "ONE NEW original realistic premium editorial haircut photograph, one person and one view, not collage/crop/reused source. Fictional ADULT. SHOULDERS ONLY: bottom edge just below shoulders, BULKY VERY LOOSE OPAQUE IVORY HIGH TURTLENECK jumper fully conceals neck and all chest without chest/torso contour. Complete crown/head and all hair edges with generous breathing room above and around. Plain ivory studio, even daylight, sharp natural skin and ALL hair detail; no blur, text, logos, jewellery. Full portrait source aspect at original tool native resolution at least1024 long edge, no upscale. SAME fictional adult, identical haircut/colour/texture/fringe/crown/nape/ear pieces, same bulky turtleneck and studio as the original references. Create a separate BACK photograph. Strictly straight BACK view: camera square behind the head, back of head centered, both ear outlines balanced if hair allows. No visible face, eyes, nose, cheek or partial profile. Same precise hair length, crown layering and short tapered nape from both references. True shaggy layered bob-pixie silhouette with short nape, never longer wolf cut or ordinary bob. ",
+  "references": [
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-02-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-02-side.png"
+  ],
+  "tool_output_file": "/workspace/generated_images/exec-25ad1d40-199c-4dbc-90b1-2abd98cd7584.png"
+}

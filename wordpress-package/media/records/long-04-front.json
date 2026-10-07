@@ -78,5 +78,13 @@
     "angle": "pass: front",
     "visible_features": "Warm medium-skinned mature adult, brown eyes, straight silver-grey ear-to-upper-jaw face frame, long diagonal fringe toward model's left, soft airy rounded crown, ivory folded high collar",
     "coherent_set": "pending remaining referenced views"
+  },
+  "observed_meta": {
+    "texture": "straight",
+    "colour": "grey",
+    "length": "long",
+    "fringe": "side-swept",
+    "finish": "natural",
+    "description": "Warm medium-skinned mature adult, brown eyes, straight silver-grey ear-to-upper-jaw face frame, long diagonal fringe toward model's left, soft airy rounded crown, ivory folded high collar"
   }
 }

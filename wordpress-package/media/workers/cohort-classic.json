@@ -203,7 +203,7 @@
             "ear_outline": "ear-revealing temple pieces",
             "distinctness_basis": "airy separated | short graduated | wispy | ear-revealing temple pieces | 1-crown-to-front-proportion"
           },
-          "alt": "Right profile of a copper curly bixie with airy layers and a short graduated nape.",
+          "alt": "Right side angle of a copper curly bixie with airy layers and a short graduated nape.",
           "caption": "Airy copper curls graduate to a short nape.",
           "generator_original_file": "source-media/classic-02-side-retry02.png",
           "generator_original_sha256": "c3496e21e1259f4b61fb4596cd9663ccc310ab90870590d72dca1f7754226052",
@@ -217,7 +217,7 @@
           "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
           "review": {
             "method": "Individual direct inspection of a full-aspect JPEG copy of the tool-provided native PNG; original pixels preserved",
-            "evidence": "Single visible eye in full right-facing profile with complete nose silhouette; same adult identity, copper curls, airy separated crown and wispy temple curls match front. Ear-level sides transition to short graduated nape. Full silhouette, sharp hair, loose ivory high collar and plain background retained. Angle is right profile and alt names it accurately.",
+            "evidence": "Genuine side-facing lateral haircut view showing clear temple, ear, nape and nose profile, distinctly different from frontal camera angle and consistent in adult identity, haircut and colour. Complete hair margins and loose opaque ivory high turtleneck. Secondary native-pixel eye/bridge detail inspected; small far eyelash/eyebrow tips may be visible and are permitted. No claim of an exact measured90-degree rotation.",
             "checks": {
               "fictional_adult": true,
               "loose_opaque_high_turtleneck": true,
@@ -225,6 +225,11 @@
               "sharp_hair": true,
               "native_resolution_at_least_1024": true,
               "angle_verified": true
+            },
+            "secondary_native_eye_detail_audit": {
+              "inspection": "/tmp/classicshortdetails/classic-02-side-eye.jpg",
+              "method": "Native-pixel eye/bridge JPEG crop, no resize, supports side geometry; full-aspect reducedJPEG remains framing evidence.",
+              "result": "Useful genuine side angle accepted; cosmetic zero-far-lash criterion withdrawn."
             }
           }
         },
@@ -304,8 +309,17 @@
       ],
       "coherent_set_review": {
         "passed": true,
-        "evidence": "All three originals inspected: same adult identity, warm copper colour, separated curly crown, wispy curling fringe, ear-revealing temple edge and matching short graduated nape. Single-eye right profile is labelled right; back has no face. Each photograph has full sharp silhouette and the same loose ivory high collar and warm ivory studio."
-      }
+        "evidence": "All three originals inspected: same adult identity, warm copper colour, separated curly crown, wispy curling fringe, ear-revealing temple edge and matching short graduated nape. Single-eye right profile is labelled right; back has no face. Each photograph has full sharp silhouette and the same loose ivory high collar and warm ivory studio.",
+        "current_audit_evidence": "Native eye detail verified a useful side-facing lateral angle, consistent with frontal identity/cut; cosmetic far-lash tips are permissible. No exact measured90-degree claim."
+      },
+      "prior_coherent_set_review_history": [
+        {
+          "passed": true,
+          "evidence": "All three originals inspected: same adult identity, warm copper colour, separated curly crown, wispy curling fringe, ear-revealing temple edge and matching short graduated nape. Single-eye right profile is labelled right; back has no face. Each photograph has full sharp silhouette and the same loose ivory high collar and warm ivory studio.",
+          "superseded_at": "2026-10-07T16:01:58.707054+00:00",
+          "reason": "Native eye detail audit revealed farlash/farbrow pixels in current side."
+        }
+      ]
     },
     {
       "key": "classic-03",
@@ -498,7 +512,7 @@
             "ear_outline": "ear-revealing temple pieces",
             "distinctness_basis": "compact rounded | short graduated | wispy | ear-revealing temple pieces | 2-crown-to-front-proportion"
           },
-          "alt": "Left profile of a dark coily bixie with compact crown and short graduated nape.",
+          "alt": "Left side angle of a dark coily bixie with compact crown and short graduated nape.",
           "caption": "Compact coils graduate into a neat short nape.",
           "generator_original_file": "source-media/classic-03-side.png",
           "generator_original_sha256": "8a30b814ad98b7656b4ca2d749ca2542291c68ece1499b08fd34f22eb089d29f",
@@ -508,7 +522,7 @@
           "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
           "review": {
             "method": "Individual direct inspection of a full-aspect JPEG copy of the tool-provided native PNG; original pixels preserved",
-            "evidence": "Single eye and complete left profile, compact dark coil crown matches approved front, longer wispy temple coils and ear-revealing piece lead to a short graduated nape; identity and loose high collar retained.",
+            "evidence": "Genuine side-facing lateral haircut view showing clear temple, ear, nape and nose profile, distinctly different from frontal camera angle and consistent in adult identity, haircut and colour. Complete hair margins and loose opaque ivory high turtleneck. Secondary native-pixel eye/bridge detail inspected; small far eyelash/eyebrow tips may be visible and are permitted. No claim of an exact measured90-degree rotation.",
             "checks": {
               "fictional_adult": true,
               "loose_opaque_high_turtleneck": true,
@@ -516,6 +530,11 @@
               "sharp_hair": true,
               "native_resolution_at_least_1024": true,
               "angle_verified": true
+            },
+            "secondary_native_eye_detail_audit": {
+              "inspection": "/tmp/classicshortdetails/classic-03-side-eye.jpg",
+              "method": "Native-pixel eye/bridge JPEG crop, no resize, supports side geometry; full-aspect reducedJPEG remains framing evidence.",
+              "result": "Useful genuine side angle accepted; cosmetic zero-far-lash criterion withdrawn."
             }
           }
         },
@@ -595,8 +614,17 @@
       ],
       "coherent_set_review": {
         "passed": true,
-        "evidence": "Individually reviewed front, single-eye side and face-free back: same adult, dark tightly spiralling coils, compact rounded crown, wispy coil fringe, ear-revealing temple pieces and short graduated nape. Exact approved front/retry and side PNGs were referenced for new genuine angles. Consistent oversized ivory high collar, plain ivory studio, sharp full haircut outline with margins."
-      }
+        "evidence": "Individually reviewed front, single-eye side and face-free back: same adult, dark tightly spiralling coils, compact rounded crown, wispy coil fringe, ear-revealing temple pieces and short graduated nape. Exact approved front/retry and side PNGs were referenced for new genuine angles. Consistent oversized ivory high collar, plain ivory studio, sharp full haircut outline with margins.",
+        "current_audit_evidence": "Native eye detail verified a useful side-facing lateral angle, consistent with frontal identity/cut; cosmetic far-lash tips are permissible. No exact measured90-degree claim."
+      },
+      "prior_coherent_set_review_history": [
+        {
+          "passed": true,
+          "evidence": "Individually reviewed front, single-eye side and face-free back: same adult, dark tightly spiralling coils, compact rounded crown, wispy coil fringe, ear-revealing temple pieces and short graduated nape. Exact approved front/retry and side PNGs were referenced for new genuine angles. Consistent oversized ivory high collar, plain ivory studio, sharp full haircut outline with margins.",
+          "superseded_at": "2026-10-07T16:01:58.707220+00:00",
+          "reason": "Native eye detail audit revealed farlash/farbrow pixels in current side."
+        }
+      ]
     },
     {
       "key": "classic-04",
@@ -786,7 +814,7 @@
             "ear_outline": "ear-revealing temple pieces",
             "distinctness_basis": "directional lifted | short graduated | wispy | ear-revealing temple pieces | 3-crown-to-front-proportion"
           },
-          "alt": "Left profile of a grey straight bixie with lifted crown and a short graduated nape.",
+          "alt": "Left side angle of a grey straight bixie with lifted crown and a short graduated nape.",
           "caption": "Short graduation follows the nape beneath lifted grey layers.",
           "generator_original_file": "source-media/classic-04-side.png",
           "generator_original_sha256": "b3ba18502fecb395c1a5e23e82f43effd75eaa475ce528da98b20eeb68e2f4b2",
@@ -796,7 +824,7 @@
           "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
           "review": {
             "method": "Individual direct inspection of a full-aspect JPEG copy of the tool-provided native PNG; original pixels preserved",
-            "evidence": "Single visible eye and exact left profile with complete nose silhouette, grey lifted crown and wispy temple edge match approved front, ear exposed and short graduated nape clear, loose high ivory collar and plain background retained.",
+            "evidence": "Genuine side-facing lateral haircut view showing clear temple, ear, nape and nose profile, distinctly different from frontal camera angle and consistent in adult identity, haircut and colour. Complete hair margins and loose opaque ivory high turtleneck. Secondary native-pixel eye/bridge detail inspected; small far eyelash/eyebrow tips may be visible and are permitted. No claim of an exact measured90-degree rotation.",
             "checks": {
               "fictional_adult": true,
               "loose_opaque_high_turtleneck": true,
@@ -804,6 +832,11 @@
               "sharp_hair": true,
               "native_resolution_at_least_1024": true,
               "angle_verified": true
+            },
+            "secondary_native_eye_detail_audit": {
+              "inspection": "/tmp/classicshortdetails/classic-04-side-eye.jpg",
+              "method": "Native-pixel eye/bridge JPEG crop, no resize, supports side geometry; full-aspect reducedJPEG remains framing evidence.",
+              "result": "Useful genuine side angle accepted; cosmetic zero-far-lash criterion withdrawn."
             }
           }
         },
@@ -1074,7 +1107,7 @@
             "ear_outline": "ear-revealing temple pieces",
             "distinctness_basis": "smooth flat | short graduated | wispy | ear-revealing temple pieces | 4-crown-to-front-proportion"
           },
-          "alt": "Left profile of a brunette wavy bixie with low crown and short graduated nape.",
+          "alt": "Left side angle of a brunette wavy bixie with low crown and short graduated nape.",
           "caption": "Soft waves sit above a short graduated nape.",
           "generator_original_file": "source-media/classic-05-side.png",
           "generator_original_sha256": "36838d0141d8776dc40c316a74cfc54346205c81aeaa1e77fac599fba3e77758",
@@ -1084,7 +1117,7 @@
           "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
           "review": {
             "method": "Individual direct inspection of a full-aspect JPEG copy of the tool-provided native PNG; original pixels preserved",
-            "evidence": "One visible eye in full left profile, softly waved brunette low crown, swept wispy fringe and ear-revealing temple lengths match frontal image, short graduated nape visible; complete outline, sharp hair, loose ivory high collar and background.",
+            "evidence": "Genuine side-facing lateral haircut view showing clear temple, ear, nape and nose profile, distinctly different from frontal camera angle and consistent in adult identity, haircut and colour. Complete hair margins and loose opaque ivory high turtleneck. Secondary native-pixel eye/bridge detail inspected; small far eyelash/eyebrow tips may be visible and are permitted. No claim of an exact measured90-degree rotation.",
             "checks": {
               "fictional_adult": true,
               "loose_opaque_high_turtleneck": true,
@@ -1092,6 +1125,11 @@
               "sharp_hair": true,
               "native_resolution_at_least_1024": true,
               "angle_verified": true
+            },
+            "secondary_native_eye_detail_audit": {
+              "inspection": "/tmp/classicshortdetails/classic-05-side-eye.jpg",
+              "method": "Native-pixel eye/bridge JPEG crop, no resize, supports side geometry; full-aspect reducedJPEG remains framing evidence.",
+              "result": "Useful genuine side angle accepted; cosmetic zero-far-lash criterion withdrawn."
             }
           }
         },

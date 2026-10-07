@@ -1,0 +1,12 @@
+{
+  "id": "thick-hair-05-front",
+  "look_id": "thick-hair-05",
+  "angle": "front",
+  "prompt": "FRONT VIEW, face level and symmetrically toward camera, both eyes visible, no turn. Create ONE new separate realistic editorial haircut photograph of a fictional ADULT woman. No collage, crops, rotations, duplicate files or text. STRICT COMPOSITION: HEAD AND NECK WITH ONLY THE TOP SHOULDER LINE. The bottom frame ends immediately below the shoulder line, showing no bust, chest or torso at all. BULKY VERY LOOSE OPAQUE HIGH TURTLENECK completely covers the base of neck with broad folded collar and unshaped fabric, no exposed neckline, cleavage, chest or fitted contours. Retain the entire hair/head silhouette with generous clear margin above crown and at both sides. Light neutral studio background and consistent soft daylight. Hair and face in focus; no artificial blur, fog, grain or watermark. Render original native >=1024 long edge at the supported tool resolution without upscaling. Fictional South Asian ADULT woman age42 with medium brown skin and dark eyes. HIGH DENSITY BRUNETTE S-WAVES, medium strand thickness, long upper and temple sections with SMOOTH FLAT crown, modest vertical lift. LONG DIVIDED fringe opens over the middle forehead with longer temple framing and eyes clear. Ear edges visible, LOW BLENDED SHORT NAPE. Longer bob-like upper movement above unmistakably short pixie nape, not shoulder-length hair. Portrait4:5 full source aspect.",
+  "references": [],
+  "status": "generated-original-saved",
+  "output_tool_path": "/workspace/generated_images/exec-061583e8-c4d0-44b7-a77f-813b7025fac1.png",
+  "exact_call_metadata_available": true,
+  "provenance_file": "/workspace/check.txt/wordpress-package/media/workers/provenance/thick-hair-05-front-resume-fine-thick-attempt01.json",
+  "tool_text_metadata": []
+}

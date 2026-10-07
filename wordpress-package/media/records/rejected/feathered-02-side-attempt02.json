@@ -1,0 +1,103 @@
+{
+  "id": "feathered-02-side-attempt02",
+  "key": "feathered-02-side-attempt02",
+  "look_id": "feathered-02",
+  "look_key": "feathered-02",
+  "canonical_look_key": "feathered-02",
+  "collection": "feathered",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/feathered-02-side-retry01-native.webp",
+  "file": "media/rejected/feathered-02-side-attempt02.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "4c6e33abfcf8ff46b29b308be31af17a2ba4de633bed4d8f835a6753ded68a09",
+  "display_sha256": "93bfee7ecf0c5e2dc0fe18681a2957f15f7caf571ead679974f09cf9e8d5d841",
+  "source_bytes": 1491970,
+  "display_bytes": 336996,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-c3823111-c80b-4b38-b373-7fc885b255d0.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create ONE NEW sharp realistic native-resolution photograph of the same fictional adult from these references. Correct the SIDE camera angle only. Reference 1 is the approved front; reference 2 has an insufficient side turn. Move the camera 18 degrees farther around toward the BACK of the head from reference 2, while the person remains level and still, until the entire far eye, far eyelid and ALL far eyelashes are completely hidden behind the nose bridge. The result is a genuine one-eye side profile, face looking toward LEFT image edge; visible near eye and ear, crisp nose outline, no three-quarter front view. Preserve EXACTLY the same actual haircut, colour, texture, crown volume, nape and fringe, identity and loose opaque ivory HIGH TURTLENECK. HEAD AND SHOULDERS ONLY, complete hair with margin. All upper chest covered by loose opaque fabric without any chest outline. Plain ivory studio, even daylight, all hair sharply detailed, no text/logos/watermarks. One separate original photograph, not collage/crop; highest native output resolution, no enlargement or upscaling.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/feathered-02-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/feathered-02-side.png"
+  ],
+  "approved": false,
+  "review_status": "rejected-angle-secondary-audit",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "long",
+    "fringe": "full",
+    "colour": "copper",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "airy separated",
+    "nape": "compact squared",
+    "fringe": "full",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "airy separated | compact squared | full | ear-revealing temple pieces | 1-crown-to-front-proportion"
+  },
+  "alt": "True left profile of a fictional adult with a copper feathered bixie, wearing a bulky ivory turtleneck.",
+  "caption": "True profile: a separate original photograph showing the short graduated nape and layered crown.",
+  "generator_original_file": "source-media/feathered-02-side-retry01.png",
+  "generator_original_sha256": "defae0bd1626e15345d529f420b47629daa797bff98b65530d36febe591deea6",
+  "generator_original_bytes": 2323571,
+  "reference_source_sha256": {
+    "/workspace/check.txt/wordpress-package/source-media/feathered-02-front.png": "4077c735cc4a4b6ceea2d860a53cc215574be8d58dc8bae8d2759050947dd736",
+    "/workspace/check.txt/wordpress-package/source-media/feathered-02-side.png": "42bbc49fb855bc1b2bda564b44fb0d430fb35dafe9ed41c7c643b9c43853d756"
+  },
+  "exact_prompt_status": "recorded-exact-tool-input",
+  "prompt_provenance": "Exact prompt and reference paths saved before generation in cohort-texture jobs.",
+  "previous_attempt_records": [
+    "media/records/rejected/feathered-02-side-attempt01.json"
+  ],
+  "native_pixel_sha256": "bab7b5fe83909112d15382d25df59c4c0a325095470c0dbfc1851b7a3843bb4f",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "long",
+    "fringe": "full",
+    "colour": "copper",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "review": {
+    "method": "Full-aspect 400px JPEG followed by unscaled 390\u00d7290 native facial JPEG crop for eye/bridge audit only. Inspection copy never a production original.",
+    "secondary_inspection_file": "media/workers/inspection/resume-feathered-wavy/feathered-02-side-eye-audit.jpg",
+    "reason": "Far-side lash tuft visible or far-eye geometry obscured by fringe; strict natural occlusion at90degrees not established. Previous reduced full-image approval retracted."
+  },
+  "observed_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "long",
+    "fringe": "full",
+    "colour": "copper",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": true,
+  "rejected_attempt_of": "feathered-02-side"
+}

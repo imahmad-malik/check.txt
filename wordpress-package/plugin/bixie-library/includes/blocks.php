@@ -58,6 +58,17 @@ function bixie_render_card(array $record, bool $show_angles = false): string {
     <?php return (string) ob_get_clean();
 }
 
+/** GET submission replaces an action query; retain WordPress routing fields. */
+function bixie_get_form_route_fields(string $action): string {
+    $query = [];
+    parse_str((string) wp_parse_url($action, PHP_URL_QUERY), $query);
+    $fields = '';
+    foreach (['page_id', 'p', 'post_type'] as $key) {
+        if (isset($query[$key]) && is_scalar($query[$key])) { $fields .= '<input type="hidden" name="' . esc_attr($key) . '" value="' . esc_attr((string) $query[$key]) . '">'; }
+    }
+    return $fields;
+}
+
 function bixie_render_library(array $attributes = []): string {
     $parameters = ['per_page' => absint($attributes['perPage'] ?? 12), 'collection' => sanitize_title($attributes['collection'] ?? ''), 'page' => max(1, absint($_GET['bixie_page'] ?? 1))];
     $parameters['exclude'] = implode(',', array_slice(array_filter(array_map('absint', (array) ($attributes['excludeLookIds'] ?? []))), 0, 200));
@@ -65,10 +76,11 @@ function bixie_render_library(array $attributes = []): string {
     $results = bixie_query_looks($parameters); $facets = bixie_catalog_facets();
     $show_angles = array_key_exists('showViews', $attributes) ? (bool) $attributes['showViews'] : !empty($parameters['collection']);
     $uid = wp_unique_id('bixie-library-');
-    $action = is_singular() ? get_permalink() : home_url('/looks/');
+    $action = is_singular() ? get_permalink() : bixie_package_page_url('looks', '/looks/');
     ob_start(); ?>
     <section class="bixie-library" id="<?php echo esc_attr($uid); ?>" data-page="<?php echo absint($results['page']); ?>" data-size="<?php echo absint($parameters['per_page']); ?>" data-collection="<?php echo esc_attr($parameters['collection']); ?>" data-exclude="<?php echo esc_attr($parameters['exclude']); ?>" data-show-angles="<?php echo $show_angles ? 'true' : 'false'; ?>" aria-label="<?php esc_attr_e('Bixie hairstyle photo library', 'bixie-library'); ?>">
       <form class="bixie-filter-form" method="get" action="<?php echo esc_url($action); ?>">
+        <?php echo bixie_get_form_route_fields($action); ?>
         <?php if ($parameters['collection']): ?><input type="hidden" name="collection" value="<?php echo esc_attr($parameters['collection']); ?>"><?php endif; ?>
         <?php if ($parameters['exclude']): ?><input type="hidden" name="exclude" value="<?php echo esc_attr($parameters['exclude']); ?>"><?php endif; ?>
         <label for="<?php echo esc_attr($uid); ?>-search"><?php esc_html_e('Find a hairstyle', 'bixie-library'); ?><input id="<?php echo esc_attr($uid); ?>-search" type="search" name="q" maxlength="120" value="<?php echo esc_attr($parameters['q']); ?>" placeholder="<?php esc_attr_e('Search the real photo collection', 'bixie-library'); ?>"></label>
@@ -108,8 +120,9 @@ function bixie_render_saved(): string {
 }
 
 function bixie_render_finder(): string {
-    $facets = bixie_catalog_facets(); ob_start(); ?>
-    <form class="bixie-finder-form" action="<?php echo esc_url(home_url('/looks/')); ?>" method="get">
+    $facets = bixie_catalog_facets(); $action = bixie_package_page_url('looks', '/looks/'); ob_start(); ?>
+    <form class="bixie-finder-form" action="<?php echo esc_url($action); ?>" method="get">
+    <?php echo bixie_get_form_route_fields($action); ?>
     <?php foreach (['texture' => 'Texture preference', 'length' => 'Length preference', 'fringe' => 'Fringe preference'] as $field => $label): ?><fieldset><legend><?php echo esc_html($label); ?></legend><label><input type="radio" name="<?php echo esc_attr($field); ?>" value="" checked> <?php esc_html_e('Open to all', 'bixie-library'); ?></label><?php foreach ($facets[$field] as $value): ?><label><input type="radio" name="<?php echo esc_attr($field); ?>" value="<?php echo esc_attr($value); ?>"> <?php echo esc_html(ucwords(str_replace('-', ' ', $value))); ?></label><?php endforeach; ?></fieldset><?php endforeach; ?>
     <button type="submit"><?php esc_html_e('Explore matching photo references', 'bixie-library'); ?></button><p><?php esc_html_e('A browsing aid based on your preferences, not a suitability or hair-health assessment.', 'bixie-library'); ?></p></form>
     <?php return (string) ob_get_clean();

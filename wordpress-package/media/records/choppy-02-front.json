@@ -62,5 +62,9 @@
     "viewpoint_pass": true,
     "native_resolution_pass": true,
     "evidence": "Fictional adult portrait with copper loose curls, broken layered crown, loose opaque high collar, whole hair silhouette/margins and clear sharp detail."
+  },
+  "observed_meta": {
+    "texture": "wavy",
+    "colour": "copper"
   }
 }

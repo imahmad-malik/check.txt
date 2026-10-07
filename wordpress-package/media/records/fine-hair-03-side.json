@@ -50,8 +50,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "smooth flat | curved graduated | short open | ear-revealing temple pieces | 2-crown-to-front-proportion"
   },
-  "alt": "Left profile of a short dark coily bixie with exposed ear and graduated nape.",
-  "caption": "Side: small dark coils reveal the ear above a curved graduated nape.",
+  "alt": "Side view of a fictional adult with dark coily bixie hair, wearing a loose opaque high turtleneck.",
+  "caption": "Side photograph of a generated adult haircut reference; original native dimensions retained.",
   "generator_original_file": "source-media/fine-hair-03-side-retry01.png",
   "generator_original_sha256": "5f63a68f3bc31d15c9eb922dc8989458d00ce3563af40ffab41876551810cd9a",
   "generator_original_bytes": 2148451,
@@ -103,5 +103,43 @@
     "credible_anatomy_and_strands": true,
     "angle_verified": true,
     "expected_meta_matches_actual": true
-  }
+  },
+  "resume_review": {
+    "method": "Actual individual view_image inspection of full-aspect JPEG at no more than 400px long edge; native PNG dimensions and hashes checked separately; lossless WebP decoded RGB pixel equality verified. Reduced inspection does not establish full-native texture quality.",
+    "reviewer": "resume_fine_thick",
+    "inspection_copy": "/workspace/check.txt/wordpress-package/media/inspection/resume-fine-thick/fine-hair-03-side.jpg",
+    "source_inspected": "source-media/fine-hair-03-side-retry01.png",
+    "passed": true,
+    "detail": "Exactly one near eye in true left profile. Same adult complexion and discrete dark coils, compact upper mass, ear contour and curved short nape; same loose ivory high folded collar.",
+    "native_resolution_verified_from_png": {
+      "width": 1122,
+      "height": 1402
+    },
+    "native_original": true,
+    "native_8k": false,
+    "upscaled": false,
+    "single_original_photo": true,
+    "fictional_adult": true,
+    "complete_hair_silhouette": true,
+    "loose_opaque_high_turtleneck": true,
+    "no_fitted_chest_or_torso_contour": true,
+    "no_text_logo_watermark": true,
+    "angle_verified": true,
+    "expected_meta_matches_actual": true
+  },
+  "expected_meta_matches_actual": true,
+  "observed_meta": {
+    "texture": "coily",
+    "strand": "fine",
+    "density": "medium",
+    "length": "short",
+    "fringe": "short open",
+    "colour": "dark",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "observed_meta_basis": "Visible haircut texture, apparent strand scale, mass/density, fringe and colour assessed from actual <=400px full-aspect JPEGs; strand thickness and density are visual styling descriptions, not physical measurements."
 }

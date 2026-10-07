@@ -140,32 +140,59 @@ add_filter( 'render_block_core/video', function ( $content ) {
 	return $tags->get_updated_html();
 } );
 
-/** Only imported local project pages qualify for the public draft-link gate. */
-function bixie_editorial_is_project_draft_url( $url ) {
+/** Resolve imported local pages without assuming the owner's permalink format. */
+function bixie_editorial_project_page_for_url( $url ) {
 	$target = wp_parse_url( html_entity_decode( (string) $url, ENT_QUOTES, 'UTF-8' ) );
 	$site = wp_parse_url( home_url( '/' ) );
 	if ( ! is_array( $target ) || empty( $target['path'] ) ) {
-		return false;
+		return null;
 	}
 	if ( empty( $target['host'] ) && '/' !== substr( $target['path'], 0, 1 ) ) {
-		return false;
+		return null;
 	}
 	if ( ! empty( $target['scheme'] ) && ! in_array( strtolower( $target['scheme'] ), array( 'http', 'https' ), true ) ) {
-		return false;
+		return null;
 	}
 	if ( ! empty( $target['host'] ) && ( strtolower( $target['host'] ) !== strtolower( $site['host'] ) || (int) ( $target['port'] ?? 0 ) !== (int) ( $site['port'] ?? 0 ) ) ) {
-		return false;
+		return null;
 	}
 	$path = trim( rawurldecode( $target['path'] ), '/' );
 	$base = trim( $site['path'] ?? '', '/' );
 	if ( $base ) {
-		if ( 0 !== strpos( $path, $base . '/' ) ) {
-			return false;
+		if ( $path === $base ) {
+			$path = '';
+		} elseif ( 0 === strpos( $path, $base . '/' ) ) {
+			$path = substr( $path, strlen( $base ) + 1 );
+		} else {
+			return null;
 		}
-		$path = substr( $path, strlen( $base ) + 1 );
 	}
-	$page = get_page_by_path( $path, OBJECT, 'page' );
-	return $page && get_post_meta( $page->ID, '_bixie_import_key', true ) && 'publish' !== get_post_status( $page );
+	$query = array();
+	parse_str( $target['query'] ?? '', $query );
+	$page = isset( $query['page_id'] ) && is_scalar( $query['page_id'] ) ? get_post( absint( $query['page_id'] ) ) : get_page_by_path( $path, OBJECT, 'page' );
+	return $page && 'page' === $page->post_type && get_post_meta( $page->ID, '_bixie_import_key', true ) ? $page : null;
+}
+
+/** Only imported local project pages qualify for the public draft-link gate. */
+function bixie_editorial_is_project_draft_url( $url ) {
+	$page = bixie_editorial_project_page_for_url( $url );
+	return $page && 'publish' !== get_post_status( $page );
+}
+
+/** Preserve browsing filters and fragments when using a page's real permalink. */
+function bixie_editorial_project_permalink( $url, $page ) {
+	$target = wp_parse_url( html_entity_decode( (string) $url, ENT_QUOTES, 'UTF-8' ) );
+	$query = array();
+	parse_str( $target['query'] ?? '', $query );
+	unset( $query['page_id'] );
+	$link = get_permalink( $page );
+	if ( $query ) {
+		$link = add_query_arg( $query, $link );
+	}
+	if ( ! empty( $target['fragment'] ) ) {
+		$link .= '#' . $target['fragment'];
+	}
+	return $link;
 }
 
 /** Render-time only: editor blocks and stored owner content remain intact. */
@@ -176,9 +203,17 @@ add_filter( 'render_block', function ( $content, $block ) {
 	$tags = new WP_HTML_Tag_Processor( $content );
 	$anchors = 0;
 	$blocked = 0;
+	$resolved = 0;
 	while ( $tags->next_tag( 'A' ) ) {
 		$anchors++;
-		if ( ! bixie_editorial_is_project_draft_url( $tags->get_attribute( 'href' ) ) ) {
+		$url = $tags->get_attribute( 'href' );
+		$page = bixie_editorial_project_page_for_url( $url );
+		if ( ! $page ) {
+			continue;
+		}
+		if ( 'publish' === get_post_status( $page ) ) {
+			$tags->set_attribute( 'href', bixie_editorial_project_permalink( $url, $page ) );
+			$resolved++;
 			continue;
 		}
 		$blocked++;
@@ -188,7 +223,7 @@ add_filter( 'render_block', function ( $content, $block ) {
 		$tags->set_attribute( 'data-bixie-unpublished-link', 'true' );
 	}
 	if ( ! $blocked ) {
-		return $content;
+		return $resolved ? $tags->get_updated_html() : $content;
 	}
 	if ( $blocked === $anchors && in_array( $block['blockName'], array( 'core/button', 'core/navigation-link' ), true ) ) {
 		return '';

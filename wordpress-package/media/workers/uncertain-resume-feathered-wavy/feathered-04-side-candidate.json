@@ -1,0 +1,73 @@
+{
+  "id": "feathered-04-side",
+  "key": "feathered-04-side",
+  "look_id": "feathered-04",
+  "look_key": "feathered-04",
+  "canonical_look_key": "feathered-04",
+  "collection": "feathered",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "media/workers/uncertain-resume-feathered-wavy/feathered-04-side-retry01-native.webp",
+  "file": "media/workers/uncertain-resume-feathered-wavy/feathered-04-side-retry01.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "013cde792a7ddc655599ee3c0d57c83be2982b432da99b71549887572f8cffb6",
+  "display_sha256": "a196b6182562e6446b340ab207c331e369705723d3c843a8b3f1672735f0df6e",
+  "source_bytes": 1436470,
+  "display_bytes": 295420,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-d574ab2b-2a2a-4497-afbe-ffaffe5c0cdd.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": null,
+  "reference_source_files": null,
+  "approved": false,
+  "review_status": "uncertain-orphan-assignment",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "straight",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "full",
+    "colour": "grey",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "directional lifted",
+    "nape": "compact squared",
+    "fringe": "full",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "directional lifted | compact squared | full | ear-revealing temple pieces | 3-crown-to-front-proportion"
+  },
+  "alt": "Pending direct review of corrected native source",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "generator_original_file": "media/workers/uncertain-resume-feathered-wavy/feathered-04-side-retry01.png",
+  "generator_original_sha256": "7058ad375e41f562d196ec0ad51d9e48af5a758a0a1942731e1adc55c38d74e5",
+  "generator_original_bytes": 2346941,
+  "reference_source_sha256": {
+    "/workspace/check.txt/wordpress-package/source-media/feathered-04-front.png": "88a2ed08c3af214e755fe2fe95015e9d5b5571ebe08084c01fdbe78c96d064f9"
+  },
+  "exact_prompt_status": "recorded-exact-tool-input",
+  "prompt_provenance": "Exact prompt and reference paths saved before generation in cohort-texture jobs.",
+  "previous_attempt_records": [
+    "media/records/rejected/feathered-04-side-attempt01.json"
+  ],
+  "native_pixel_sha256": "c4105d7622748e2d239537de49f8805db9f2550a060db3b86bf4c156335ae98f",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "exact_generation_prompt_available": false,
+  "exact_reference_arguments_available": false,
+  "provenance_status": "recovered genuine tool output; exact generation arguments unavailable",
+  "provenance_file": "media/workers/provenance/resume-feathered-wavy/feathered-04-side-recovery.json",
+  "review": {
+    "reason": "Similar appearance across multiple collection references; exact lost provenance insufficient to resolve ownership. Excluded from approval and coherent look counts."
+  }
+}

@@ -49,7 +49,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "lightly tousled | short graduated | wispy | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Left profile of a blonde curly bixie with tousled crown and short graduated nape.",
+  "alt": "Left side angle of a blonde curly bixie with tousled crown and short graduated nape.",
   "caption": "Defined blonde ringlets taper into short nape layers.",
   "generator_original_file": "source-media/classic-06-side.png",
   "generator_original_sha256": "fa1c950b713f26c32491b4ec1cdaf70d5f02c0bfc4a77c5439b656fca7919791",
@@ -59,7 +59,7 @@
   "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
   "review": {
     "method": "Individual direct inspection of a full-aspect JPEG copy of the tool-provided native PNG; original pixels preserved",
-    "evidence": "Left side profile has one visible eye and complete nose silhouette; defined blonde ringlets, dark roots, lightly tousled crown, wispy curling fringe and ear-level sides match approved corrected front. Short graduated nape, loose ivory tall collar, sharp full outline and plain studio retained.",
+    "evidence": "Genuine side-facing lateral haircut view showing clear temple, ear, nape and nose profile, distinctly different from frontal camera angle and consistent in adult identity, haircut and colour. Complete hair margins and loose opaque ivory high turtleneck. Secondary native-pixel eye/bridge detail inspected; small far eyelash/eyebrow tips may be visible and are permitted. No claim of an exact measured90-degree rotation.",
     "checks": {
       "fictional_adult": true,
       "loose_opaque_high_turtleneck": true,
@@ -67,6 +67,11 @@
       "sharp_hair": true,
       "native_resolution_at_least_1024": true,
       "angle_verified": true
+    },
+    "secondary_native_eye_detail_audit": {
+      "inspection": "/tmp/classicshortdetails/classic-06-side-eye.jpg",
+      "method": "Native-pixel eye/bridge JPEG crop, no resize, supports side geometry; full-aspect reducedJPEG remains framing evidence.",
+      "result": "Useful genuine side angle accepted; cosmetic zero-far-lash criterion withdrawn."
     }
   }
 }

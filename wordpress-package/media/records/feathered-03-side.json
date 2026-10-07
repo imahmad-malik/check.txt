@@ -27,8 +27,8 @@
     "/workspace/check.txt/wordpress-package/source-media/feathered-03-front.png",
     "/workspace/check.txt/wordpress-package/source-media/feathered-03-side.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "coily",
@@ -50,8 +50,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | compact squared | full | ear-revealing temple pieces | 2-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "True left profile of a fictional adult with a dark feathered bixie, wearing a bulky ivory turtleneck.",
+  "caption": "True profile: a separate original photograph showing the short graduated nape and layered crown.",
   "generator_original_file": "source-media/feathered-03-side-retry01.png",
   "generator_original_sha256": "a164c84660b9d6069f6060926bf862808fa5cd79d3365c2c0d4050ebbf9f0dda",
   "generator_original_bytes": 2219146,
@@ -66,5 +66,55 @@
   ],
   "native_pixel_sha256": "548073855afa9aed4927281409a8fd11ea61b53021888da6e1cd623a3331e728",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_meta": {
+    "texture": "coily",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "full",
+    "colour": "dark",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "review": {
+    "method": "Direct visual review of full-aspect JPEG reduced to 400px long edge; native dimensions and lossless decoded pixel equality audited separately, no claim of native texture inspection.",
+    "inspection_file": "media/workers/inspection/resume-feathered-wavy/feathered-03-side.jpg",
+    "reviewer": "resume-feathered-wavy",
+    "angle": "True 90-degree left profile; only one eye visible, no far-side eye or lashes",
+    "complete_hair_silhouette": true,
+    "clear_hair_margin": true,
+    "fictional_adult": true,
+    "loose_opaque_high_turtleneck": true,
+    "no_exposed_neckline_or_chest_contours": true,
+    "head_and_shoulderline_only": true,
+    "matches_approved_front_identity_colour_haircut_clothing_lighting": true,
+    "native_width": 1122,
+    "native_height": 1402,
+    "native_8k": false,
+    "upscaled": false,
+    "secondary_eye_audit": {
+      "passed": true,
+      "method": "Unscaled390\u00d7290 native eye/bridge JPEG crop after full-aspect review",
+      "file": "media/workers/inspection/resume-feathered-wavy/feathered-03-side-eye-audit.jpg",
+      "result": "Single near eye and near eyelashes only; far-side eye/lashes/brow occluded."
+    }
+  },
+  "observed_meta": {
+    "texture": "coily",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "full",
+    "colour": "dark",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": true
 }

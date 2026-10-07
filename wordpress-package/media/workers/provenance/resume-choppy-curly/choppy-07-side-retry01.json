@@ -1,0 +1,14 @@
+{
+  "id": "choppy-07-side",
+  "prompt": "ONE NEW ORIGINAL PORTRAIT. Camera exactly90degrees on the RIGHT of this same fictional adult, face pointingRIGHT. The face is FULLY sideways: exactly ONE eye, one eyebrow, one cheek. Far eye, FAR EYELASHES and FAR EYEBROW are COMPLETELY OCCLUDED behind the nasal bridge; zero second lash tuft at bridge. Nose forms full outward side silhouette. This must not be three-quarter. Preserve the exact adult identity, actual hair colour and root tones, actual loose waves/curls and separated fringe, crown height, ear-length side shape and short nape in reference. Keep full head/hair margins above and beside, crisp hair, bulky loose opaque ivory high turtleneck, only head and shoulder line, no exposed neckline/chest/body contours, same ivory studio and daylight. No text/collage/crop/retouching/mirroring, no enlargement or upscale; a genuine NEW separately generated native photograph. Right-side viewpoint is the only change. Reference actual strand shape takes priority over generic planned labels.",
+  "references": [
+    "/workspace/check.txt/wordpress-package/source-media/choppy-07-front.png"
+  ],
+  "provenance_file": "/workspace/check.txt/wordpress-package/media/workers/provenance/resume-choppy-curly/choppy-07-side-retry01.json",
+  "retry": true,
+  "status": "generated-original-saved",
+  "output_tool_path": "/workspace/generated_images/exec-be73e752-1e6c-4596-b082-2552ed78e8c5.png",
+  "tool_text_metadata": [
+    "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-be73e752-1e6c-4596-b082-2552ed78e8c5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  ]
+}

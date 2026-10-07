@@ -1,0 +1,17 @@
+{
+  "id": "exec-d574ab2b-2a2a-4497-afbe-ffaffe5c0cdd",
+  "status": "unassigned-original-excluded-from-production",
+  "actual_tool_output_file": "/workspace/generated_images/exec-d574ab2b-2a2a-4497-afbe-ffaffe5c0cdd.png",
+  "preserved_original_file": "source-media/unassigned-generation/exec-d574ab2b-2a2a-4497-afbe-ffaffe5c0cdd.png",
+  "sha256": "7058ad375e41f562d196ec0ad51d9e48af5a758a0a1942731e1adc55c38d74e5",
+  "width": 1122,
+  "height": 1402,
+  "source_bytes": 2346941,
+  "generator_file_mtime_utc": "2026-10-07T11:27:44.086085+00:00",
+  "exact_generation_prompt": null,
+  "exact_reference_arguments": null,
+  "provenance_note": "Earlier concurrent tool calls returned these actual native PNGs but the exact job-to-output link was lost. Similarity is insufficient to assign a planned slot. Preserved as unassigned rather than claiming reconstructed exact provenance.",
+  "approved": false,
+  "review_status": "unassigned-and-not-approved",
+  "included_in_production_counts": false
+}

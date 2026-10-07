@@ -79,6 +79,12 @@ function bixie_get_package_attachment(string $key): int {
 }
 function bixie_array_meta(int $id, string $key): array { $value = get_post_meta($id, $key, true); return is_array($value) ? $value : []; }
 
+/** Native page URLs work with both plain and custom WordPress permalinks. */
+function bixie_package_page_url(string $key, string $fallback): string {
+    $pages = get_posts(['post_type' => 'page', 'post_status' => 'publish', 'posts_per_page' => 1, 'fields' => 'ids', 'meta_key' => '_bixie_import_key', 'meta_value' => sanitize_text_field($key)]);
+    return $pages ? get_permalink((int) $pages[0]) : home_url($fallback);
+}
+
 function bixie_original_source_path(int $id): string {
     $source = (string) get_post_meta($id, '_bixie_original_source_file', true); $delivery = (string) get_post_meta($id, '_bixie_delivery_file', true);
     if ($source && $delivery === get_attached_file($id)) { return $source; }

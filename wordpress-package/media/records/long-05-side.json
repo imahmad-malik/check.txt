@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/long-05-front.png"
   ],
-  "approved": true,
-  "review_status": "approved",
+  "approved": false,
+  "review_status": "rejected-retry-required",
   "public_status": "draft",
   "expected_meta": {
     "texture": "wavy",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | soft tapered | side-swept | ear-revealing temple pieces | 4-crown-to-front-proportion"
   },
-  "alt": "Left profile: brunette waves with a longer side frame.",
-  "caption": "Side: brunette waves with a longer side frame above a short nape.",
+  "alt": "Side view of a brunette wavy bixie.",
+  "caption": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded.",
   "generator_original_file": "source-media/long-05-side.png",
   "generator_original_sha256": "f2144845278438c288014d46afb98d9f14c24a53df4be595dfdfca7b87411ecb",
   "generator_original_bytes": 2331654,
@@ -73,14 +73,21 @@
     "maintenance": "discuss",
     "ai_concept": true
   },
-  "expected_meta_matches_actual": true,
+  "expected_meta_matches_actual": false,
   "review": {
-    "method": "Direct full-aspect source visual inspection; native source dimensions, hashes and decoded-pixel identity verified",
-    "attire": "pass: loose opaque ivory high turtleneck, complete chest coverage, no fitted chest outline",
-    "framing": "pass: full main haircut silhouette and crown with margins",
-    "native_detail": "pass: sharp native 1122\u00d71402 source, no upscale or deliberate blur",
-    "angle": "pass: side",
-    "visible_features": "Fair mature adult, blue-grey eyes, brunette S-waves with warm lighter streaks, rounded compact crown, extended fringe toward model's right, upper-jaw side frame, ivory folded high collar; left profile reveals matching face, crown, temple pieces and short tapered nape",
-    "coherent_set": "pass: front and referenced left profile match identity, colour, layers, fringe sweep and high ivory collar; back pending"
+    "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
+    "attire": "see rejection note",
+    "framing": "see rejection note",
+    "angle": "see rejection note",
+    "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
+    "visible_features": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded."
+  },
+  "observed_meta": {
+    "texture": "wavy",
+    "colour": "brunette",
+    "length": "long",
+    "fringe": "side-swept",
+    "finish": "natural",
+    "description": "Fair mature adult, blue-grey eyes, brunette S-waves with warm lighter streaks, rounded compact crown, extended fringe toward model's right, upper-jaw side frame, ivory folded high collar; left profile reveals matching face, crown, temple pieces and short tapered nape"
   }
 }

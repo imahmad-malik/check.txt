@@ -47,8 +47,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "lightly tousled | curved graduated | short open | ear-revealing temple pieces | 3-crown-to-front-proportion"
   },
-  "alt": "Front view of a fine straight grey bixie with tousled layers and a short open fringe.",
-  "caption": "Front: fine silver strands form light tousled layers and an open fringe.",
+  "alt": "Front view of a fictional adult with grey straight bixie hair, wearing a loose opaque high turtleneck.",
+  "caption": "Front photograph of a generated adult haircut reference; original native dimensions retained.",
   "generator_original_file": "source-media/fine-hair-04-front.png",
   "generator_original_sha256": "0e220195dd999cedf051b8590434a47efca18278868fdebf78e8bced3397c60f",
   "generator_original_bytes": 2687620,
@@ -94,5 +94,43 @@
     "credible_anatomy_and_strands": true,
     "angle_verified": true,
     "expected_meta_matches_actual": true
-  }
+  },
+  "resume_review": {
+    "method": "Actual individual view_image inspection of full-aspect JPEG at no more than 400px long edge; native PNG dimensions and hashes checked separately; lossless WebP decoded RGB pixel equality verified. Reduced inspection does not establish full-native texture quality.",
+    "reviewer": "resume_fine_thick",
+    "inspection_copy": "/workspace/check.txt/wordpress-package/media/inspection/resume-fine-thick/fine-hair-04-front.jpg",
+    "source_inspected": "source-media/fine-hair-04-front.png",
+    "passed": true,
+    "detail": "Straight-on mature adult with fine straight silver-grey layered tips, lightly tousled crown and short open fringe; complete outline and loose opaque grey high collar.",
+    "native_resolution_verified_from_png": {
+      "width": 1122,
+      "height": 1402
+    },
+    "native_original": true,
+    "native_8k": false,
+    "upscaled": false,
+    "single_original_photo": true,
+    "fictional_adult": true,
+    "complete_hair_silhouette": true,
+    "loose_opaque_high_turtleneck": true,
+    "no_fitted_chest_or_torso_contour": true,
+    "no_text_logo_watermark": true,
+    "angle_verified": true,
+    "expected_meta_matches_actual": true
+  },
+  "expected_meta_matches_actual": true,
+  "observed_meta": {
+    "texture": "straight",
+    "strand": "fine",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "short open",
+    "colour": "grey",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "observed_meta_basis": "Visible haircut texture, apparent strand scale, mass/density, fringe and colour assessed from actual <=400px full-aspect JPEGs; strand thickness and density are visual styling descriptions, not physical measurements."
 }

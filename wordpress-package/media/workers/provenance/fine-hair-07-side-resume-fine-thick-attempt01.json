@@ -1,0 +1,14 @@
+{
+  "id": "fine-hair-07-side",
+  "look_id": "fine-hair-07",
+  "angle": "side",
+  "prompt": "TRUE ORTHOGONAL 90 DEGREE LEFT PROFILE. Camera is directly beside left ear. Face points fully screen-left, with exactly ONE eye, one eyebrow and no far eye or far eyelashes. Nose/forehead/chin form a clean side silhouette. No three-quarter turn. Create ONE new separate realistic editorial haircut photograph of a fictional ADULT woman. No collage, crops, rotations, duplicate files or text. STRICT COMPOSITION: HEAD AND NECK WITH ONLY THE TOP SHOULDER LINE. The bottom frame ends immediately below the shoulder line, showing no bust, chest or torso at all. BULKY VERY LOOSE OPAQUE HIGH TURTLENECK completely covers the base of neck with broad folded collar and unshaped fabric, no exposed neckline, cleavage, chest or fitted contours. Retain the entire hair/head silhouette with generous clear margin above crown and at both sides. Light neutral studio background and consistent soft daylight. Hair and face in focus; no artificial blur, fog, grain or watermark. Render original native >=1024 long edge at the supported tool resolution without upscaling. The supplied approved front PNG reference shows the EXACT SAME fictional adult, haircut, colour, fringe, crown, nape, clothing, lighting and background to preserve. Change only camera viewpoint; generate a new photograph. Preserve existing hair length, strand scale, colour, mass and ear/nape graduation. Reference identity and geometry are authoritative. Target haircut metadata: {\"texture\": \"coily\", \"strand\": \"fine\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"short open\", \"colour\": \"copper\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Shape description: {\"crown\": \"compact rounded\", \"nape\": \"low blended\", \"fringe\": \"short open\", \"ear_outline\": \"ear-revealing temple pieces\", \"distinctness_basis\": \"compact rounded | low blended | short open | ear-revealing temple pieces | 1-crown-to-front-proportion\"}.",
+  "references": [
+    "/workspace/check.txt/wordpress-package/source-media/fine-hair-07-front-retry01.png"
+  ],
+  "status": "generated-original-saved",
+  "output_tool_path": "/workspace/generated_images/exec-2468c84e-093f-4d8d-8819-74f7d1636b2d.png",
+  "exact_call_metadata_available": true,
+  "provenance_file": "/workspace/check.txt/wordpress-package/media/workers/provenance/fine-hair-07-side-resume-fine-thick-attempt01.json",
+  "tool_text_metadata": []
+}

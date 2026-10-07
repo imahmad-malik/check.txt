@@ -1,0 +1,70 @@
+{
+  "id": "feathered-04-side-attempt02",
+  "key": "feathered-04-side-attempt02",
+  "look_id": "feathered-04",
+  "look_key": "feathered-04",
+  "canonical_look_key": "feathered-04",
+  "collection": "feathered",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/feathered-04-side-native.webp",
+  "file": "media/rejected/feathered-04-side-attempt02.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "024fa999934e1acd7dbea8c69c60e4f59152966bbe1c9f1749abf99cadd882dc",
+  "display_sha256": "026f8fac6aca60a4f688d31d18a6acb189f10d58b61910a5fc00628c2ede5cf3",
+  "source_bytes": 1411410,
+  "display_bytes": 283242,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-7899c78a-749a-46e6-83ab-67bc5072b562.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Feathered bixie haircuts. Design: directional lifted | compact squared | full | ear-revealing temple pieces | 3-crown-to-front-proportion. Attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"full\", \"colour\": \"grey\", \"finish\": \"feathered\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file. Photograph the SAME adult and actual haircut as the reference, including the actual straight texture, grey colour, side-swept fringe and ivory loose turtleneck. CAMERA EXACTLY 90 DEGREES TO THE FRONT: genuine anatomical left side profile, nose toward the left edge. Exactly ONE eye visible; far eye completely hidden. Do not show a three-quarter face. Preserve the complete hair silhouette with margin and shoulders-only high covered neckline.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/feathered-04-front.png"
+  ],
+  "approved": false,
+  "review_status": "rejected-angle",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "straight",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "full",
+    "colour": "grey",
+    "finish": "feathered",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "directional lifted",
+    "nape": "compact squared",
+    "fringe": "full",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "directional lifted | compact squared | full | ear-revealing temple pieces | 3-crown-to-front-proportion"
+  },
+  "alt": "Pending direct review of actual haircut and clothing",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "generator_original_file": "source-media/feathered-04-side.png",
+  "generator_original_sha256": "68e5f50401eefcf1239cb225a1ee27dd0e5baa42a3d82367feac6052289d7a7f",
+  "generator_original_bytes": 2302254,
+  "native_pixel_sha256": "b92c2471fae4c8937b0e5e18ae09669944b2bac25ddc09c2318aeb2bd00f48bc",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "reference_source_sha256": {
+    "/workspace/check.txt/wordpress-package/source-media/feathered-04-front.png": "88a2ed08c3af214e755fe2fe95015e9d5b5571ebe08084c01fdbe78c96d064f9"
+  },
+  "exact_prompt_status": "recorded-exact-tool-input",
+  "prompt_provenance": "Exact prompt and reference paths saved before generation in cohort-texture jobs.",
+  "review": {
+    "method": "Direct full-aspect inspection",
+    "reason": "Far-side eyelash or eye contour remains visible; fails strict one-eye 90-degree profile requirement. Hair, identity and clothing match front."
+  },
+  "rejected_attempt_of": "feathered-04-side"
+}

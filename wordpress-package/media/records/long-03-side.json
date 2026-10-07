@@ -81,6 +81,11 @@
     "native_detail": "pass: sharp native 1122\u00d71402 source, no upscale or deliberate blur",
     "angle": "pass: side",
     "visible_features": "Medium warm-skinned adult, brown eyes, dark defined spiral curls, extended fringe toward model's right, rounded crown, ear-revealing temple, ivory folded high collar; strict left profile reveals matching crown, temple and graduated short nape",
-    "coherent_set": "pass: all three genuine referenced poses directly compared; matching adult, colour, actual texture, fringe direction, crown, nape, high collar and studio"
+    "coherent_set": "pass: all three genuine referenced poses directly compared; matching adult, colour, actual texture, fringe direction, crown, nape, high collar and studio",
+    "secondary_native_eye_audit": {
+      "passed": true,
+      "method": "Native-pixel400x360eye/bridgeJPEGcrop viewed separately from full-aspect320x400JPEG; no production crop/count",
+      "finding": "One eye visible; no visible far-eye pupil or far-side lashes"
+    }
   }
 }

@@ -47,8 +47,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "smooth flat | curved graduated | short open | ear-revealing temple pieces | 2-crown-to-front-proportion"
   },
-  "alt": "Front view of a short dark coily bixie with open forehead curls and exposed ears.",
-  "caption": "Front: small dark coils form a low compact crown and short open fringe.",
+  "alt": "Front view of a fictional adult with dark coily bixie hair, wearing a loose opaque high turtleneck.",
+  "caption": "Front photograph of a generated adult haircut reference; original native dimensions retained.",
   "generator_original_file": "source-media/fine-hair-03-front.png",
   "generator_original_sha256": "fbd1ebd01a589dd17072118907cdcb326c46e09fc54e4efd1d880115471f3371",
   "generator_original_bytes": 2265677,
@@ -94,5 +94,43 @@
     "credible_anatomy_and_strands": true,
     "angle_verified": true,
     "expected_meta_matches_actual": true
-  }
+  },
+  "resume_review": {
+    "method": "Actual individual view_image inspection of full-aspect JPEG at no more than 400px long edge; native PNG dimensions and hashes checked separately; lossless WebP decoded RGB pixel equality verified. Reduced inspection does not establish full-native texture quality.",
+    "reviewer": "resume_fine_thick",
+    "inspection_copy": "/workspace/check.txt/wordpress-package/media/inspection/resume-fine-thick/fine-hair-03-front.jpg",
+    "source_inspected": "source-media/fine-hair-03-front.png",
+    "passed": true,
+    "detail": "Straight-on adult with fine small dark coils, compact low crown and short open fringe. Full head margins and loose ivory high turtleneck visible.",
+    "native_resolution_verified_from_png": {
+      "width": 1122,
+      "height": 1402
+    },
+    "native_original": true,
+    "native_8k": false,
+    "upscaled": false,
+    "single_original_photo": true,
+    "fictional_adult": true,
+    "complete_hair_silhouette": true,
+    "loose_opaque_high_turtleneck": true,
+    "no_fitted_chest_or_torso_contour": true,
+    "no_text_logo_watermark": true,
+    "angle_verified": true,
+    "expected_meta_matches_actual": true
+  },
+  "expected_meta_matches_actual": true,
+  "observed_meta": {
+    "texture": "coily",
+    "strand": "fine",
+    "density": "medium",
+    "length": "short",
+    "fringe": "short open",
+    "colour": "dark",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "observed_meta_basis": "Visible haircut texture, apparent strand scale, mass/density, fringe and colour assessed from actual <=400px full-aspect JPEGs; strand thickness and density are visual styling descriptions, not physical measurements."
 }

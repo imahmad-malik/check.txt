@@ -1,0 +1,797 @@
+{
+  "worker": "resume-over50-grey",
+  "owned_look_keys": [
+    "over-50-02",
+    "over-50-03",
+    "over-50-04",
+    "over-50-05",
+    "over-50-06",
+    "over-50-07",
+    "natural-grey-02",
+    "natural-grey-03",
+    "natural-grey-04",
+    "natural-grey-05",
+    "natural-grey-06",
+    "natural-grey-07"
+  ],
+  "prior_complete_keys": [
+    "over-50-01",
+    "natural-grey-01"
+  ],
+  "complete_approved_look_count": 0,
+  "approved_image_count": 0,
+  "partial_keys": [
+    "over-50-02",
+    "over-50-03",
+    "over-50-04",
+    "over-50-05",
+    "over-50-06",
+    "over-50-07",
+    "natural-grey-02",
+    "natural-grey-03",
+    "natural-grey-04",
+    "natural-grey-05",
+    "natural-grey-06",
+    "natural-grey-07"
+  ],
+  "looks": [
+    {
+      "key": "over-50-02",
+      "slug": "over-50-02",
+      "title": "Copper curly over bixie",
+      "primary_collection": "over-50",
+      "collections": [
+        "over-50"
+      ],
+      "meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "light broken",
+        "colour": "copper",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "light broken",
+        "colour": "copper",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "light broken",
+        "colour": "copper",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "airy separated",
+        "nape": "compact squared",
+        "fringe": "light broken",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "airy separated | compact squared | light broken | ear-revealing temple pieces | 1-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "over-50-03",
+      "slug": "over-50-03",
+      "title": "Dark coily over bixie",
+      "primary_collection": "over-50",
+      "collections": [
+        "over-50"
+      ],
+      "meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "light broken",
+        "colour": "dark",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "light broken",
+        "colour": "dark",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "light broken",
+        "colour": "dark",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "compact rounded",
+        "nape": "compact squared",
+        "fringe": "light broken",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "compact rounded | compact squared | light broken | ear-revealing temple pieces | 2-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "over-50-04",
+      "slug": "over-50-04",
+      "title": "Grey straight over bixie",
+      "primary_collection": "over-50",
+      "collections": [
+        "over-50"
+      ],
+      "meta": {
+        "texture": "straight",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "light broken",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "straight",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "light broken",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "straight",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "light broken",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "directional lifted",
+        "nape": "compact squared",
+        "fringe": "light broken",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "directional lifted | compact squared | light broken | ear-revealing temple pieces | 3-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "over-50-05",
+      "slug": "over-50-05",
+      "title": "Brunette wavy over bixie",
+      "primary_collection": "over-50",
+      "collections": [
+        "over-50"
+      ],
+      "meta": {
+        "texture": "wavy",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "light broken",
+        "colour": "brunette",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "wavy",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "light broken",
+        "colour": "brunette",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "wavy",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "light broken",
+        "colour": "brunette",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "smooth flat",
+        "nape": "compact squared",
+        "fringe": "light broken",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "smooth flat | compact squared | light broken | ear-revealing temple pieces | 4-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "over-50-06",
+      "slug": "over-50-06",
+      "title": "Blonde curly over bixie",
+      "primary_collection": "over-50",
+      "collections": [
+        "over-50"
+      ],
+      "meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "light broken",
+        "colour": "blonde",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "light broken",
+        "colour": "blonde",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "light broken",
+        "colour": "blonde",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "lightly tousled",
+        "nape": "compact squared",
+        "fringe": "light broken",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "lightly tousled | compact squared | light broken | ear-revealing temple pieces | 0-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "over-50-07",
+      "slug": "over-50-07",
+      "title": "Copper coily over bixie",
+      "primary_collection": "over-50",
+      "collections": [
+        "over-50"
+      ],
+      "meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "light broken",
+        "colour": "copper",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "light broken",
+        "colour": "copper",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "light broken",
+        "colour": "copper",
+        "finish": "natural",
+        "age_reference": "over-50",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "soft rounded",
+        "nape": "curved graduated",
+        "fringe": "light broken",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "soft rounded | curved graduated | light broken | ear-revealing temple pieces | 1-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "natural-grey-02",
+      "slug": "natural-grey-02",
+      "title": "Grey curly natural bixie",
+      "primary_collection": "natural-grey",
+      "collections": [
+        "natural-grey"
+      ],
+      "meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "lightly tousled",
+        "nape": "compact squared",
+        "fringe": "swept-back",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "lightly tousled | compact squared | swept-back | ear-revealing temple pieces | 1-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "natural-grey-03",
+      "slug": "natural-grey-03",
+      "title": "Grey coily natural bixie",
+      "primary_collection": "natural-grey",
+      "collections": [
+        "natural-grey"
+      ],
+      "meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "soft rounded",
+        "nape": "curved graduated",
+        "fringe": "swept-back",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "soft rounded | curved graduated | swept-back | ear-revealing temple pieces | 2-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "natural-grey-04",
+      "slug": "natural-grey-04",
+      "title": "Grey straight natural bixie",
+      "primary_collection": "natural-grey",
+      "collections": [
+        "natural-grey"
+      ],
+      "meta": {
+        "texture": "straight",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "straight",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "straight",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "airy separated",
+        "nape": "curved graduated",
+        "fringe": "swept-back",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "airy separated | curved graduated | swept-back | ear-revealing temple pieces | 3-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "natural-grey-05",
+      "slug": "natural-grey-05",
+      "title": "Grey wavy natural bixie",
+      "primary_collection": "natural-grey",
+      "collections": [
+        "natural-grey"
+      ],
+      "meta": {
+        "texture": "wavy",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "wavy",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "wavy",
+        "strand": "medium",
+        "density": "medium",
+        "length": "long",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "compact rounded",
+        "nape": "curved graduated",
+        "fringe": "swept-back",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "compact rounded | curved graduated | swept-back | ear-revealing temple pieces | 4-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "natural-grey-06",
+      "slug": "natural-grey-06",
+      "title": "Grey curly natural bixie",
+      "primary_collection": "natural-grey",
+      "collections": [
+        "natural-grey"
+      ],
+      "meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "curly",
+        "strand": "medium",
+        "density": "medium",
+        "length": "short",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "directional lifted",
+        "nape": "curved graduated",
+        "fringe": "swept-back",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "directional lifted | curved graduated | swept-back | ear-revealing temple pieces | 0-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    },
+    {
+      "key": "natural-grey-07",
+      "slug": "natural-grey-07",
+      "title": "Grey coily natural bixie",
+      "primary_collection": "natural-grey",
+      "collections": [
+        "natural-grey"
+      ],
+      "meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "actual_meta": {
+        "texture": "coily",
+        "strand": "medium",
+        "density": "medium",
+        "length": "medium",
+        "fringe": "swept-back",
+        "colour": "grey",
+        "finish": "natural",
+        "age_reference": "adult",
+        "face_reference": "unspecified",
+        "maintenance": "discuss",
+        "ai_concept": true
+      },
+      "expected_meta_matches_actual": true,
+      "shape_brief": {
+        "crown": "smooth flat",
+        "nape": "curved graduated",
+        "fringe": "swept-back",
+        "ear_outline": "ear-revealing temple pieces",
+        "distinctness_basis": "smooth flat | curved graduated | swept-back | ear-revealing temple pieces | 1-crown-to-front-proportion"
+      },
+      "images": [],
+      "approved": false,
+      "review_status": "incomplete-review-pending",
+      "coherent_set_review": {
+        "passed": false,
+        "reason": "Incomplete angles or review pending"
+      }
+    }
+  ],
+  "checkpoint_utc": "2026-10-07T15:54:32.486380+00:00",
+  "preserved_prior_declaration": "media/workers/pilot-resume.json"
+}

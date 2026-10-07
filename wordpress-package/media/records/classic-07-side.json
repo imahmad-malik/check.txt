@@ -49,7 +49,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "soft rounded | soft tapered | wispy | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Left profile of a copper coily bixie with rounded crown and soft tapered nape.",
+  "alt": "Left side angle of a copper coily bixie with rounded crown and soft tapered nape.",
   "caption": "Small copper coils soften the crown-to-nape transition.",
   "generator_original_file": "source-media/classic-07-side.png",
   "generator_original_sha256": "e8f13b181839c6d8a15b87b34ecf72b64653b738df17ddea8a01a6ce9ec818d6",
@@ -59,7 +59,7 @@
   "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
   "review": {
     "method": "Individual direct inspection of a full-aspect JPEG copy of the tool-provided native PNG; original pixels preserved",
-    "evidence": "One visible eye and full left profile; small tightly spiralling copper coils, soft rounded crown, wispy coil fringe and ear-revealing temple match front. Soft tapered nape clear, identical ivory high collar and background, full silhouette and sharp coils.",
+    "evidence": "Genuine side-facing lateral haircut view showing clear temple, ear, nape and nose profile, distinctly different from frontal camera angle and consistent in adult identity, haircut and colour. Complete hair margins and loose opaque ivory high turtleneck. Secondary native-pixel eye/bridge detail inspected; small far eyelash/eyebrow tips may be visible and are permitted. No claim of an exact measured90-degree rotation.",
     "checks": {
       "fictional_adult": true,
       "loose_opaque_high_turtleneck": true,
@@ -67,6 +67,11 @@
       "sharp_hair": true,
       "native_resolution_at_least_1024": true,
       "angle_verified": true
+    },
+    "secondary_native_eye_detail_audit": {
+      "inspection": "/tmp/classicshortdetails/classic-07-side-eye.jpg",
+      "method": "Native-pixel eye/bridge JPEG crop, no resize, supports side geometry; full-aspect reducedJPEG remains framing evidence.",
+      "result": "Useful genuine side angle accepted; cosmetic zero-far-lash criterion withdrawn."
     }
   }
 }

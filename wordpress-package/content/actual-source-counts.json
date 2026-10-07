@@ -2,15 +2,15 @@
   "bundle_id": null,
   "manifest": "/workspace/check.txt/wordpress-package/media/manifest.json",
   "status": "synchronized-actual-only",
-  "actual_generated_source_files": 132,
-  "actual_approved_complete_looks": 23,
-  "actual_approved_collection_view_photos": 69,
+  "actual_generated_source_files": 213,
+  "actual_approved_complete_looks": 43,
+  "actual_approved_collection_view_photos": 129,
   "actual_guide_photo_references": 15,
   "actual_approved_home_role_images": 25,
   "missing_home_role_keys": [],
   "home_video_verification": "separate production/runtime check; not inferred from planned metadata",
-  "remaining_launch_looks": 131,
-  "remaining_launch_view_photos": 393,
+  "remaining_launch_looks": 111,
+  "remaining_launch_view_photos": 333,
   "file_diagnostics": [
     {
       "key": "resolution-probe-soft-layered",
@@ -18,28 +18,38 @@
       "reason": "not explicitly approved; not a canonical view angle; no canonical look assignment"
     },
     {
-      "key": "feathered-02-side",
-      "look_key": "feathered-02",
+      "key": "choppy-05-side",
+      "look_key": "choppy-05",
       "reason": "not explicitly approved"
     },
     {
-      "key": "feathered-03-side",
-      "look_key": "feathered-03",
+      "key": "choppy-06-side",
+      "look_key": "choppy-06",
       "reason": "not explicitly approved"
     },
     {
-      "key": "feathered-04-side",
-      "look_key": "feathered-04",
+      "key": "choppy-07-side",
+      "look_key": "choppy-07",
       "reason": "not explicitly approved"
     },
     {
-      "key": "feathered-05-side",
-      "look_key": "feathered-05",
+      "key": "curly-03-back",
+      "look_key": "curly-03",
       "reason": "not explicitly approved"
     },
     {
-      "key": "fine-hair-02-side",
-      "look_key": "fine-hair-02",
+      "key": "curly-04-front",
+      "look_key": "curly-04",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "curly-05-front",
+      "look_key": "curly-05",
+      "reason": "not explicitly approved"
+    },
+    {
+      "key": "curly-06-front",
+      "look_key": "curly-06",
       "reason": "not explicitly approved"
     },
     {
@@ -48,64 +58,62 @@
       "reason": "not explicitly approved; not a canonical view angle; no canonical look assignment"
     },
     {
-      "key": "layered-04-side",
-      "look_key": "layered-04",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "layered-05-side",
-      "look_key": "layered-05",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "long-04-side",
-      "look_key": "long-04",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "long-05-side",
-      "look_key": "long-05",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "shaggy-01-front",
+      "key": "shaggy-01-side",
       "look_key": "shaggy-01",
       "reason": "not explicitly approved"
     },
     {
-      "key": "shaggy-02-front",
+      "key": "shaggy-02-side",
       "look_key": "shaggy-02",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "short-03-front",
-      "look_key": "short-03",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "straight-01-front",
-      "look_key": "straight-01",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "straight-02-front",
-      "look_key": "straight-02",
       "reason": "not explicitly approved"
     }
   ],
-  "look_diagnostics": [],
+  "look_diagnostics": [
+    {
+      "key": "long-04",
+      "reason": "inconsistent reviewed description across real views; inconsistent reviewed description across real views"
+    },
+    {
+      "key": "long-05",
+      "reason": "inconsistent reviewed description across real views; inconsistent reviewed description across real views"
+    },
+    {
+      "key": "long-06",
+      "reason": "inconsistent reviewed description across real views; inconsistent reviewed description across real views"
+    },
+    {
+      "key": "long-07",
+      "reason": "inconsistent reviewed description across real views; inconsistent reviewed description across real views"
+    },
+    {
+      "key": "layered-04",
+      "reason": "inconsistent reviewed description across real views; inconsistent reviewed description across real views"
+    },
+    {
+      "key": "layered-05",
+      "reason": "inconsistent reviewed description across real views; inconsistent reviewed description across real views"
+    },
+    {
+      "key": "layered-06",
+      "reason": "inconsistent reviewed description across real views; inconsistent reviewed description across real views"
+    },
+    {
+      "key": "layered-07",
+      "reason": "inconsistent reviewed description across real views; inconsistent reviewed description across real views"
+    }
+  ],
   "per_collection": [
     {
       "key": "classic",
-      "actual_complete_looks": 5,
-      "actual_unique_views": 15,
-      "status": "draft-until-media-reviewed"
+      "actual_complete_looks": 7,
+      "actual_unique_views": 21,
+      "status": "ready"
     },
     {
       "key": "short",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
-      "status": "draft-until-media-reviewed"
+      "actual_complete_looks": 7,
+      "actual_unique_views": 21,
+      "status": "ready"
     },
     {
       "key": "long",
@@ -121,8 +129,8 @@
     },
     {
       "key": "choppy",
-      "actual_complete_looks": 3,
-      "actual_unique_views": 9,
+      "actual_complete_looks": 4,
+      "actual_unique_views": 12,
       "status": "draft-until-media-reviewed"
     },
     {
@@ -133,8 +141,8 @@
     },
     {
       "key": "feathered",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
+      "actual_complete_looks": 5,
+      "actual_unique_views": 15,
       "status": "draft-until-media-reviewed"
     },
     {
@@ -157,9 +165,9 @@
     },
     {
       "key": "fine-hair",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
-      "status": "draft-until-media-reviewed"
+      "actual_complete_looks": 7,
+      "actual_unique_views": 21,
+      "status": "ready"
     },
     {
       "key": "thin-hair",
@@ -169,8 +177,8 @@
     },
     {
       "key": "thick-hair",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
+      "actual_complete_looks": 2,
+      "actual_unique_views": 6,
       "status": "draft-until-media-reviewed"
     },
     {

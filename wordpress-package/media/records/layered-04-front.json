@@ -78,5 +78,13 @@
     "angle": "pass: front",
     "visible_features": "Fair mature adult, blue-grey eyes, separated straight silver-grey diagonal crown layers, ear-to-cheek medium face frame, directional lifted crown, long sweep toward model's right, ivory high collar",
     "coherent_set": "pending remaining referenced views"
+  },
+  "observed_meta": {
+    "texture": "straight",
+    "colour": "grey",
+    "length": "medium",
+    "fringe": "side-swept",
+    "finish": "layered",
+    "description": "Fair mature adult, blue-grey eyes, separated straight silver-grey diagonal crown layers, ear-to-cheek medium face frame, directional lifted crown, long sweep toward model's right, ivory high collar"
   }
 }

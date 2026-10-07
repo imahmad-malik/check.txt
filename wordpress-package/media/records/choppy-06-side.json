@@ -1,0 +1,69 @@
+{
+  "id": "choppy-06-side",
+  "key": "choppy-06-side",
+  "look_id": "choppy-06",
+  "look_key": "choppy-06",
+  "canonical_look_key": "choppy-06",
+  "collection": "choppy",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/choppy-06-side-retry01-native.webp",
+  "file": "media/choppy-06-side-retry01.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "6f38504e7e9c2ecb5b3faf687eeb0ccd6a7af397fa38649079b29111d0c2a224",
+  "display_sha256": "9b310ca3db6e14bf238d522168d67a5f393ec2e47e91de86c124df446928d513",
+  "source_bytes": 1482330,
+  "display_bytes": 323998,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-eb44b402-9d46-43da-a317-822177d17633.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "ONE NEW ORIGINAL PORTRAIT. Camera exactly90degrees on the RIGHT of this same fictional adult, face pointingRIGHT. The face is FULLY sideways: exactly ONE eye, one eyebrow, one cheek. Far eye, FAR EYELASHES and FAR EYEBROW are COMPLETELY OCCLUDED behind the nasal bridge; zero second lash tuft at bridge. Nose forms full outward side silhouette. This must not be three-quarter. Preserve the exact adult identity, actual hair colour and root tones, actual loose waves/curls and separated fringe, crown height, ear-length side shape and short nape in reference. Keep full head/hair margins above and beside, crisp hair, bulky loose opaque ivory high turtleneck, only head and shoulder line, no exposed neckline/chest/body contours, same ivory studio and daylight. No text/collage/crop/retouching/mirroring, no enlargement or upscale; a genuine NEW separately generated native photograph. Right-side viewpoint is the only change. Reference actual strand shape takes priority over generic planned labels.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/choppy-06-front.png"
+  ],
+  "approved": false,
+  "review_status": "awaiting-direct-source-review",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "curtain",
+    "colour": "blonde",
+    "finish": "choppy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "airy separated",
+    "nape": "compact squared",
+    "fringe": "curtain",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "airy separated | compact squared | curtain | ear-revealing temple pieces | 0-crown-to-front-proportion"
+  },
+  "alt": "Pending direct review of corrected native source",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "generator_original_file": "source-media/choppy-06-side-retry01.png",
+  "generator_original_sha256": "552e17eb6aad94a50fe6eb859874530d61a4cca086e6c80b10c1a706052c04f8",
+  "generator_original_bytes": 2325179,
+  "generation_provenance_file": "media/workers/provenance/resume-choppy-curly/choppy-06-side-retry01.json",
+  "observed_meta": {
+    "texture": "wavy",
+    "colour": "blonde"
+  },
+  "rejection_reason": "Native eye-region audit exposes far-side lashes or brow; near-profile is not exact90. Prior reduced whole-aspect preview missed this detail.",
+  "previous_attempt_records": [
+    "media/records/rejected/choppy-06-side-attempt01.json"
+  ],
+  "native_pixel_sha256": "36ca7db8f76cbdb6b95423d8e3f694a9e66a81ad7ddd36155ddd13c0b0bebcea",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+}

@@ -127,3 +127,14 @@ Core Web Vitals, indexing and rankings cannot be claimed from local tests.
 Cloud startup instructions were saved as an environment draft; user Environment
 settings **Save and Publish** is still needed for snapshot publication. This does
 not block completing and saving the project code/media in the repository.
+
+## Latest resumed production checkpoint
+
+The saved project branch commit `18a2155163f10cd0cc965fab3b035f205dcbff0b` preserves132hash-verified per-record checkpoints and23completeactuallooks/69collectionviews, plus25Homephotos and the separately counted film. These counts are a dated checkpoint, not the final target. User returned after a usage-limit pause and explicitly requested continuation. Current coordinator is `/root/media_coordinator`; current actual runtime owner is `/root/production_qa`. Reconcile their media assignments/progress files before resuming; never regenerate approved existing photos.
+
+The fresh coordinator resumes classic/short,long/layered,fine/thick,feathered/wavy02..07 in four disjoint workers, and choppy/curly02..07 itself. Shaggy/straight01..07 is the next unassigned cohort while QA uses the seventh slot. The source production checklist now reflects actually verified completed sets; content integrity still passes28/28. All helper scripts are portable in media-production/.
+
+Actual authenticated WordPress GUI imported the three Home-only integration parts, all25nativeHomephotographs and the genuine silent1122×1402film. The film source gate passes with its real approved3angle attachments. Home remains draft until the complete real75+photo/allcollection coverage passes. ProductionQA found and is correcting an actual WordPress core poster CSS specificity bug: `.wp-block-video [poster]` was overriding the intended contain fit and cropping the portrait movie. Preserve the actual selector fix and await the production report; do not infer browser playback from the earlier synthetic movie test.
+
+Actual WordPress direct remote-media fetch remains unverified because this cloud has no local DNS for GitHub hosts; safe URL validation rejects before proxy transport. Strict safety/TLS is retained. Proxy-aware realHTTPS downloads and authenticatedGUI ZIP-upload fallback passed. The final delivery must include manual parts and accurately report this cloud limitation.
+

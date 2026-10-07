@@ -69,5 +69,9 @@
     "native_resolution_pass": true,
     "actual_view": "right side profile",
     "evidence": "Direct correctedsource review shows one near eye; far iris/lashes entirely hidden. Same copper curls, adult identity, high opaque loose jumper, full silhouette and studio as front."
+  },
+  "observed_meta": {
+    "texture": "wavy",
+    "colour": "copper"
   }
 }
