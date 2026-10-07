@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "checks_passed": 23,
+  "checks_total": 23,
+  "release_state": "engineering_installable_media_incomplete",
+  "checks": [
+    {
+      "check": "Bixie-WordPress-Engineering-Package.zip checksum",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bixie-WordPress-Engineering-Package.zip CRC integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bixie-WordPress-Engineering-Package.zip safe unique paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bixie-WordPress-Engineering-Package.zip excludes private runtime files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source bundle relative documentation links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Source bundle clearly identifies incomplete media",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-editorial.zip checksum",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-editorial.zip CRC integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-editorial.zip safe unique paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-editorial.zip excludes private runtime files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-editorial.zip single install root",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-editorial.zip excludes diagnostic and synthetic media",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-library.zip checksum",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-library.zip CRC integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-library.zip safe unique paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-library.zip excludes private runtime files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-library.zip single install root",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bixie-library.zip excludes diagnostic and synthetic media",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plugin does not fabricate launch media or looks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "content-plan.zip checksum",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "content-plan.zip CRC integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "content-plan.zip safe unique paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "content-plan.zip excludes private runtime files",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "limitations": [
+    "Archive checks do not verify WordPress behavior, approved photographs, production hosting or ranking."
+  ]
+}

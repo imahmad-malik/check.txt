@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "status": "awaiting-approved-native-complete-media",
+  "records": [],
+  "counts": {
+    "approved_source_photos": 0,
+    "complete_looks": 0
+  },
+  "diagnostics": [
+    "One nonpublic resolution probe exists outside this installable package; it is not a publishable look or homepage source.",
+    "No planning records or synthetic QA fixtures are included as actual assets."
+  ]
+}

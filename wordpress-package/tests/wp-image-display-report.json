@@ -1,0 +1,251 @@
+{
+  "purpose": "Isolated synthetic CODE canvases. Not approved hairstyle media or a production visual audit.",
+  "regression": "WordPress auto sizes intrinsic containment must preserve original image aspect and paint all image edges.",
+  "viewports": {
+    "desktop": {
+      "portrait": {
+        "width": 292,
+        "height": 365,
+        "natural": [
+          1048,
+          1310
+        ],
+        "aspectRatio": "auto 768 / 960",
+        "fit": "contain",
+        "opacity": "1",
+        "visibility": "visible",
+        "display": "block",
+        "contain": "size",
+        "containIntrinsicSize": "none",
+        "sizes": "auto, (max-width: 600px) 90vw, (max-width: 1000px) 44vw, 28vw",
+        "paintedPixels": {
+          "top": [
+            255,
+            220,
+            20
+          ],
+          "middle": [
+            30,
+            100,
+            150
+          ],
+          "bottom": [
+            230,
+            50,
+            50
+          ]
+        },
+        "edgeColorsVisible": true
+      },
+      "panoramic": {
+        "width": 292,
+        "height": 19.390625,
+        "natural": [
+          7680,
+          512
+        ],
+        "aspectRatio": "auto 768 / 51",
+        "fit": "contain",
+        "opacity": "1",
+        "visibility": "visible",
+        "display": "block",
+        "contain": "size",
+        "containIntrinsicSize": "none",
+        "sizes": "auto, (max-width: 600px) 90vw, (max-width: 1000px) 44vw, 28vw",
+        "paintedPixels": {
+          "background": [
+            183,
+            150,
+            146
+          ]
+        },
+        "edgeColorsVisible": true
+      },
+      "overflow": false
+    },
+    "tablet": {
+      "portrait": {
+        "width": 337.453125,
+        "height": 421.8125,
+        "natural": [
+          1048,
+          1310
+        ],
+        "aspectRatio": "auto 768 / 960",
+        "fit": "contain",
+        "opacity": "1",
+        "visibility": "visible",
+        "display": "block",
+        "contain": "size",
+        "containIntrinsicSize": "none",
+        "sizes": "auto, (max-width: 600px) 90vw, (max-width: 1000px) 44vw, 28vw",
+        "paintedPixels": {
+          "top": [
+            255,
+            220,
+            20
+          ],
+          "middle": [
+            30,
+            100,
+            150
+          ],
+          "bottom": [
+            230,
+            50,
+            50
+          ]
+        },
+        "edgeColorsVisible": true
+      },
+      "panoramic": {
+        "width": 337.453125,
+        "height": 22.40625,
+        "natural": [
+          7680,
+          512
+        ],
+        "aspectRatio": "auto 768 / 51",
+        "fit": "contain",
+        "opacity": "1",
+        "visibility": "visible",
+        "display": "block",
+        "contain": "size",
+        "containIntrinsicSize": "none",
+        "sizes": "auto, (max-width: 600px) 90vw, (max-width: 1000px) 44vw, 28vw",
+        "paintedPixels": {
+          "background": [
+            183,
+            150,
+            146
+          ]
+        },
+        "edgeColorsVisible": true
+      },
+      "overflow": false
+    },
+    "phone": {
+      "portrait": {
+        "width": 346,
+        "height": 432.5,
+        "natural": [
+          1048,
+          1310
+        ],
+        "aspectRatio": "auto 768 / 960",
+        "fit": "contain",
+        "opacity": "1",
+        "visibility": "visible",
+        "display": "block",
+        "contain": "size",
+        "containIntrinsicSize": "none",
+        "sizes": "auto, (max-width: 600px) 90vw, (max-width: 1000px) 44vw, 28vw",
+        "paintedPixels": {
+          "top": [
+            255,
+            220,
+            20
+          ],
+          "middle": [
+            30,
+            100,
+            150
+          ],
+          "bottom": [
+            230,
+            50,
+            50
+          ]
+        },
+        "edgeColorsVisible": true
+      },
+      "panoramic": {
+        "width": 346,
+        "height": 22.96875,
+        "natural": [
+          7680,
+          512
+        ],
+        "aspectRatio": "auto 768 / 51",
+        "fit": "contain",
+        "opacity": "1",
+        "visibility": "visible",
+        "display": "block",
+        "contain": "size",
+        "containIntrinsicSize": "none",
+        "sizes": "auto, (max-width: 600px) 90vw, (max-width: 1000px) 44vw, 28vw",
+        "paintedPixels": {
+          "background": [
+            183,
+            150,
+            146
+          ]
+        },
+        "edgeColorsVisible": true
+      },
+      "overflow": false
+    },
+    "small-phone": {
+      "portrait": {
+        "width": 276,
+        "height": 345,
+        "natural": [
+          1048,
+          1310
+        ],
+        "aspectRatio": "auto 768 / 960",
+        "fit": "contain",
+        "opacity": "1",
+        "visibility": "visible",
+        "display": "block",
+        "contain": "size",
+        "containIntrinsicSize": "none",
+        "sizes": "auto, (max-width: 600px) 90vw, (max-width: 1000px) 44vw, 28vw",
+        "paintedPixels": {
+          "top": [
+            255,
+            220,
+            20
+          ],
+          "middle": [
+            30,
+            100,
+            150
+          ],
+          "bottom": [
+            230,
+            50,
+            50
+          ]
+        },
+        "edgeColorsVisible": true
+      },
+      "panoramic": {
+        "width": 276,
+        "height": 18.328125,
+        "natural": [
+          7680,
+          512
+        ],
+        "aspectRatio": "auto 768 / 51",
+        "fit": "contain",
+        "opacity": "1",
+        "visibility": "visible",
+        "display": "block",
+        "contain": "size",
+        "containIntrinsicSize": "none",
+        "sizes": "auto, (max-width: 600px) 90vw, (max-width: 1000px) 44vw, 28vw",
+        "paintedPixels": {
+          "background": [
+            183,
+            150,
+            146
+          ]
+        },
+        "edgeColorsVisible": true
+      },
+      "overflow": false
+    }
+  },
+  "status": "passed"
+}

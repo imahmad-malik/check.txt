@@ -1,0 +1,121 @@
+{
+  "version": "1.0.0",
+  "status": "required-not-provided",
+  "original_counting_rule": "Canonical look views referenced by guides remain counted once as original source assets.",
+  "allocations": [
+    {
+      "page_key": "what-is-a-bixie-haircut",
+      "photo_sets": [
+        {
+          "look_key": "classic-01",
+          "angles": [
+            "front",
+            "side",
+            "back"
+          ],
+          "caption": "Classic bixie concept: compare the crown, face frame and nape."
+        }
+      ],
+      "minimum_photos": 3
+    },
+    {
+      "page_key": "what-to-ask-your-stylist",
+      "photo_sets": [
+        {
+          "look_key": "classic-02",
+          "angles": [
+            "front",
+            "side",
+            "back"
+          ],
+          "caption": "A coherent bixie reference set for discussing the shape with your stylist."
+        }
+      ],
+      "minimum_photos": 3
+    },
+    {
+      "page_key": "styling-a-bixie",
+      "photo_sets": [
+        {
+          "look_key": "easy-styling-03",
+          "angles": [
+            "front",
+            "side",
+            "back"
+          ],
+          "caption": "Bixie concept reference: discuss which details involve styling and which belong to the cut."
+        }
+      ],
+      "minimum_photos": 3
+    },
+    {
+      "page_key": "fine-vs-thin-hair",
+      "photo_sets": [
+        {
+          "look_key": "fine-hair-01",
+          "angles": [
+            "front",
+            "side",
+            "back"
+          ],
+          "caption": "Fine-strand bixie concept reference."
+        },
+        {
+          "look_key": "thin-hair-01",
+          "angles": [
+            "front",
+            "side",
+            "back"
+          ],
+          "caption": "Lower-density bixie concept reference."
+        }
+      ],
+      "minimum_photos": 6
+    },
+    {
+      "page_key": "reading-haircut-references",
+      "photo_sets": [
+        {
+          "look_key": "layered-02",
+          "angles": [
+            "front",
+            "side",
+            "back"
+          ],
+          "caption": "The same layered bixie concept in corresponding front, side and back views."
+        }
+      ],
+      "minimum_photos": 3
+    },
+    {
+      "page_key": "growing-out-a-bixie",
+      "photo_sets": [
+        {
+          "look_key": "long-03",
+          "angles": [
+            "front",
+            "side",
+            "back"
+          ],
+          "caption": "Long bixie target-shape reference; not a documented growth sequence."
+        }
+      ],
+      "minimum_photos": 3
+    },
+    {
+      "page_key": "bixie-shixie-wolf-cut",
+      "photo_sets": [
+        {
+          "look_key": "shaggy-03",
+          "angles": [
+            "front",
+            "side",
+            "back"
+          ],
+          "caption": "Shaggy bixie concept: identify the visible shape before choosing an informal label."
+        }
+      ],
+      "minimum_photos": 3
+    }
+  ]
+}

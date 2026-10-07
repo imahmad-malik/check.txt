@@ -1,0 +1,70 @@
+{
+  "javascript_errors": [],
+  "viewports": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "images": true,
+      "intrinsicImages": true
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "overflow": false,
+      "images": true,
+      "intrinsicImages": true
+    },
+    {
+      "width": 520,
+      "scrollWidth": 520,
+      "overflow": false,
+      "images": true,
+      "intrinsicImages": true
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "images": true,
+      "intrinsicImages": true
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "images": true,
+      "intrinsicImages": true
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "images": true,
+      "intrinsicImages": true
+    }
+  ],
+  "native_anchor_enhanced": true,
+  "owner_initial_pause_label_preserved": true,
+  "motion_advances": true,
+  "pause_stops_motion": true,
+  "resume_advances": true,
+  "reduced_motion_stops": true,
+  "reduced_motion_next_works": true,
+  "owner_disabled_stops_motion": true,
+  "owner_custom_play_label": true,
+  "visitor_can_resume_owner_disabled_rail": true,
+  "owner_speed_clamped": true,
+  "anchor_click_prevents_navigation": true,
+  "native_space_pauses": true,
+  "native_enter_resumes": true,
+  "owner_disabled_no_autoplay": true,
+  "video_manual_play_works": true,
+  "owner_custom_film_pause_label": true,
+  "video_manual_pause_works": true,
+  "owner_initial_film_play_label_preserved": true,
+  "video_autoplay_works": true,
+  "native_pause_stays_paused": true,
+  "reduced_motion_no_video_autoplay": true,
+  "owner_custom_next_label": true
+}

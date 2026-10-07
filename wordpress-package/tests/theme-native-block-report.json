@@ -1,0 +1,53 @@
+{
+  "cases": {
+    "empty_native_home": {
+      "total": 263,
+      "invalid": [],
+      "images": 25,
+      "sections": 22,
+      "headingsOne": 1
+    },
+    "image_serialization_fixture_only": {
+      "total": 263,
+      "invalid": [],
+      "images": 25,
+      "sections": 22,
+      "headingsOne": 1
+    },
+    "native_gallery_serialization_only": {
+      "total": 5,
+      "invalid": [],
+      "images": 4,
+      "sections": 0,
+      "headingsOne": 0
+    },
+    "native_video_serialization_only": {
+      "total": 1,
+      "invalid": [],
+      "images": 0,
+      "sections": 0,
+      "headingsOne": 0
+    },
+    "header": {
+      "total": 11,
+      "invalid": [],
+      "images": 0,
+      "sections": 0,
+      "headingsOne": 0
+    },
+    "footer": {
+      "total": 14,
+      "invalid": [],
+      "images": 0,
+      "sections": 0,
+      "headingsOne": 0
+    }
+  },
+  "limitations": [
+    "Serialization-only media fixture never imported or published. Native-quality photography, actual video playback and the full public site remain separately gated."
+  ],
+  "authenticated_core_editor_package": true,
+  "page_errors": [],
+  "failed_responses": [],
+  "serialization_status": "passed"
+}

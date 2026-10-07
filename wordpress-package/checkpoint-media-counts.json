@@ -1,0 +1,169 @@
+{
+  "saved_at": "2026-10-07T15:27:19.760130+05:00",
+  "state": "development_checkpoint_not_final_launch",
+  "resolution_decision": "accepted_original_native_resolution_no_8k_claim",
+  "verified_individual_records": [
+    {
+      "key": "classic-01-front",
+      "look_key": "classic-01",
+      "angle": "front",
+      "source_file": "source-media/classic-01-front.png",
+      "sha256": "40e26209b1657a18305c07aabae7398797a78fff1c8c19ad42481d95e8d40068",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "classic-01-side",
+      "look_key": "classic-01",
+      "angle": "side",
+      "source_file": "source-media/classic-01-side.png",
+      "sha256": "dbc72c76af1f6c9b1deaa1c9516128a53213bb29ceb5239966ace2435aeb110e",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "feathered-01-front",
+      "look_key": "feathered-01",
+      "angle": "front",
+      "source_file": "source-media/feathered-01-front.png",
+      "sha256": "583de8a62ec2e0d39ee5c7b589701e21bf93cd2e92704ff8fdb50f409f00167f",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "feathered-01-side",
+      "look_key": "feathered-01",
+      "angle": "side",
+      "source_file": "source-media/feathered-01-side.png",
+      "sha256": "6652cc9351796333286b87e060b6c2c9c9f54ac02b51ab1b19befbc9b5340317",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": false
+    },
+    {
+      "key": "fine-hair-01-front",
+      "look_key": "fine-hair-01",
+      "angle": "front",
+      "source_file": "source-media/fine-hair-01-front.png",
+      "sha256": "aee7dcb65980a274cd10f7d114b72965afd3904e5620969a2f3f8e59343fd1e0",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "layered-01-front",
+      "look_key": "layered-01",
+      "angle": "front",
+      "source_file": "source-media/layered-01-front.png",
+      "sha256": "d97df53636b6e32fe84ad6cc2af8f0f1604e0ea0f7b259f2f74b1d1508464d03",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "layered-01-side",
+      "look_key": "layered-01",
+      "angle": "side",
+      "source_file": "source-media/layered-01-side.png",
+      "sha256": "c112d6a029278461ee9feb6934f3027ff7febe6669673f02994a8431125b30c7",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "long-01-front",
+      "look_key": "long-01",
+      "angle": "front",
+      "source_file": "source-media/long-01-front.png",
+      "sha256": "28d5c0e9c223208fdd593f6f43a5193d32347ab62ef321b7410b66d46be7cee4",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "long-01-side",
+      "look_key": "long-01",
+      "angle": "side",
+      "source_file": "source-media/long-01-side.png",
+      "sha256": "80e660c49f49ef247c53065fae24579eeddd94bd1fc078a21381b4f95895a281",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "natural-grey-01-front",
+      "look_key": "natural-grey-01",
+      "angle": "front",
+      "source_file": "source-media/natural-grey-01-front.png",
+      "sha256": "10c77f682bd305abc71f8746824abf30ea587e204435e0dceb05847a6988fd8a",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": false
+    },
+    {
+      "key": "over-50-01-front",
+      "look_key": "over-50-01",
+      "angle": "front",
+      "source_file": "source-media/over-50-01-front.png",
+      "sha256": "6255341fcc278a00a926d61d754d564e83cd4958d5729a2944afee786b453aec",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": false
+    },
+    {
+      "key": "short-01-front",
+      "look_key": "short-01",
+      "angle": "front",
+      "source_file": "source-media/short-01-front.png",
+      "sha256": "2218c3c343711e3c0559cdad5284c2d5f99e2105fb6d4735b47e71c83931acc0",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "short-01-side",
+      "look_key": "short-01",
+      "angle": "side",
+      "source_file": "source-media/short-01-side.png",
+      "sha256": "648178b67aedfbf9b6aef4fba60d1af1d30378101bbea2eb8c74519f7e48fb39",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "thick-hair-01-front",
+      "look_key": "thick-hair-01",
+      "angle": "front",
+      "source_file": "source-media/thick-hair-01-front.png",
+      "sha256": "790b468f0e34d24ed5b215fc5e6469a659b6d2b42cbb72390c6d1ace562aaa02",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "wavy-01-front",
+      "look_key": "wavy-01",
+      "angle": "front",
+      "source_file": "source-media/wavy-01-front.png",
+      "sha256": "ff5121bf14f505c35ee7929f0a6b9d6cfbc9568ac2244b66aac1efd2fe3c5f43",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": true
+    },
+    {
+      "key": "wavy-01-side",
+      "look_key": "wavy-01",
+      "angle": "side",
+      "source_file": "source-media/wavy-01-side.png",
+      "sha256": "29c2fe8d71c79677245a3299e2c9c85bec939d83348a699e7aba84de1631f27c",
+      "width": 1122,
+      "height": 1402,
+      "individual_review_approved": false
+    }
+  ],
+  "verified_individual_record_count": 16,
+  "complete_look_count_source": "read current coherent look declarations in media/manifest.json; view presence alone is not matching review"
+}

@@ -1,0 +1,182 @@
+{
+  "bundle_id": null,
+  "manifest": "/workspace/check.txt/wordpress-package/media/manifest.json",
+  "status": "synchronized-actual-only",
+  "actual_generated_source_files": 5,
+  "actual_approved_complete_looks": 0,
+  "actual_approved_collection_view_photos": 0,
+  "actual_guide_photo_references": 0,
+  "actual_approved_home_role_images": 0,
+  "missing_home_role_keys": [
+    "home-angle-back",
+    "home-angle-front",
+    "home-angle-side",
+    "home-colour-black",
+    "home-colour-copper",
+    "home-colour-silver",
+    "home-fringe-curtain",
+    "home-fringe-side",
+    "home-fringe-wispy",
+    "home-hero",
+    "home-journal-consultation",
+    "home-journal-growth",
+    "home-journal-styling",
+    "home-mature-over40",
+    "home-mature-over50",
+    "home-mature-over60",
+    "home-motion-poster",
+    "home-rail-curly",
+    "home-rail-feathered",
+    "home-rail-long",
+    "home-rail-short",
+    "home-texture-fine",
+    "home-texture-straight",
+    "home-texture-thick",
+    "home-texture-wavy"
+  ],
+  "home_video_verification": "separate production/runtime check; not inferred from planned metadata",
+  "remaining_launch_looks": 154,
+  "remaining_launch_view_photos": 462,
+  "file_diagnostics": [
+    {
+      "key": "resolution-probe-soft-layered",
+      "look_key": null,
+      "reason": "not explicitly approved; not a canonical view angle; no canonical look assignment"
+    }
+  ],
+  "look_diagnostics": [],
+  "per_collection": [
+    {
+      "key": "classic",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "short",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "long",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "layered",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "choppy",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "shaggy",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "feathered",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "straight",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "wavy",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "curly",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "fine-hair",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "thin-hair",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "thick-hair",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "bangs",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "over-40",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "over-50",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "over-60",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "natural-grey",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "90s-inspired",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "round-face",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "undercut",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "easy-styling",
+      "actual_complete_looks": 0,
+      "actual_unique_views": 0,
+      "status": "draft-until-media-reviewed"
+    }
+  ]
+}

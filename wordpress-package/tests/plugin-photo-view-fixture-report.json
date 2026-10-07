@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "Collection cards show real front/side/back with no duplicated source or fabricated missing angle",
+    "Native keyboard activation opens requested real angle first, focuses photograph, and restores thumbnail focus",
+    "Three-view rendering and collection/exclusion settings survive AJAX pagination",
+    "Scoped containment override preserves true thumbnail ratios at desktop, tablet, and two mobile widths",
+    "Duplicate attachment IDs are excluded even if stale records supply different image URLs"
+  ],
+  "page_errors": [],
+  "scope": "Chromium production frontend fixture; actual WordPress portrait/panorama paint tests are separate"
+}

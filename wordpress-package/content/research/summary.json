@@ -1,0 +1,32 @@
+{
+  "export_files": 7,
+  "raw_rows": 13907,
+  "unique_normalized_keywords": 10851,
+  "exact_duplicate_rows_removed_across_same_source": 207,
+  "rows_after_exact_dedup": 13700,
+  "logical_observations_after_source_url_slot_date_metric_dedup": 13700,
+  "laura_exact_overlap_rows": 207,
+  "laura_unique_keyword_union": 1169,
+  "direct_match_unique_keywords": 51,
+  "direct_match_raw_rows": 104,
+  "bixie_word_unique_keywords": 39,
+  "direct_keywords_excluding_celebrity_and_broad_bobs_and_pixie": 48,
+  "selected_supporting_unique_keywords": 30,
+  "classification_counts": {
+    "Outside specialist bixie scope": 7131,
+    "Context only, broader than bixie": 3639,
+    "Primary direct collection": 22,
+    "Primary direct head/synonym": 11,
+    "Selected supporting intent": 30,
+    "Historical direct intent": 1,
+    "Primary direct seasonal intent": 2,
+    "Excluded celebrity-specific intent": 2,
+    "Primary direct gallery": 1,
+    "Primary direct comparison": 3,
+    "Adjacent broad comparison": 1,
+    "Primary equivalent-name intent": 3,
+    "Primary direct definition": 5
+  },
+  "no_live_google_serp_audit_performed": true,
+  "snapshot_warning": "Filename date is not the data snapshot; Keyword Magic Snapshot Date is 20260801."
+}

@@ -1,0 +1,183 @@
+{
+  "status": "passed",
+  "checks_passed": 28,
+  "checks_total": 28,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Distinct stable page keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Distinct canonical page routes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "22 canonical collections",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Seven distinct supporting guides",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "440 explicit planning-only briefs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "154 launch-target complete-set requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No fabricated completed looks",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Accepted original native quality and complete-angle requirement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No fictitious actual media in production briefs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unique intended haircut structure design keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No inflation of collection planned photos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All unpopulated collections remain drafts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Contact and privacy require genuine owner review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All guides allocate complete three-angle canonical photo sets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Image-led guides stay draft with missing actual photo sets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guide allocation totals24 views with no additional originals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fine-versus-thin guide shows two distinct complete reference sets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guide look allocations are distinct across guides",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All native block serialization markers balanced",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "No body H1 or H4-H6",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "All internal editorial links resolve to catalog destinations",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "All page parents declared",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "All mapped keyword destinations resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 81 shortlisted terms accounted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Organic main term rank preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Source snapshot metrics remain separate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SEO titles respect concise 60-character preference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Collection metadata descriptions unique",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "counts": {
+    "required_collections": 22,
+    "minimum_unique_collection_view_images": 440,
+    "required_complete_launch_looks": 154,
+    "planned_launch_view_images": 462,
+    "expansion_look_briefs": 440,
+    "expansion_view_briefs": 1320,
+    "provided_unique_primary_collection_images": 0,
+    "provided_importable_looks": 0,
+    "provided_complete_three_angle_sets": 0,
+    "supporting_guides": 7,
+    "editable_page_records": 42,
+    "reviewed_relevant_and_excluded_terms": 81,
+    "required_guide_photo_references": 24,
+    "additional_originals_required_for_guides": 0,
+    "provided_guide_photo_references": 0,
+    "actual_generated_source_files": 5,
+    "provided_complete_collections": 0,
+    "provided_approved_home_role_images": 0
+  },
+  "keyword_dispositions": {
+    "mapped-canonical": 47,
+    "historical-context-only": 1,
+    "excluded-celebrity-intent": 2,
+    "supporting-comparison-only": 1,
+    "mapped-context": 30
+  },
+  "not_verified": [
+    "WordPress editor round trip and rendering",
+    "Live internal route responses",
+    "Rendered SEO-plugin coexistence",
+    "Full launch media and complete view sets until actual approval/import",
+    "Current external-source content behind proxy403",
+    "Live rankings/field performance"
+  ]
+}

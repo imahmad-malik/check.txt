@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "native_ui_checks": [
+    "Real WordPress 7.1.3 loads native blocks and five registered companion blocks without invalid block markup",
+    "Native core/image replacement synchronizes edited meta and a genuine Gutenberg REST save",
+    "Actual WordPress Media Library chooser updates the same named native image block and image relationship",
+    "Native sidebar captions persist to real image metadata and saved block content",
+    "Real sidebar removal and re-insertion preserve one canonical role image without stale relationships"
+  ],
+  "server_preview_checks": [
+    "bixie/library real server preview passed",
+    "bixie/look-meta real server preview passed",
+    "bixie/saved-looks real server preview passed",
+    "bixie/finder real server preview passed",
+    "bixie/contact-details real server preview passed",
+    "Real library SSR honors perPage and excludes native homepage look IDs",
+    "Authorized draft editor preview works while public REST and public draft block rendering stay suppressed",
+    "Only the temporary SSR TEST draft was deleted; original fourteen fixture looks remain unchanged"
+  ],
+  "page_errors": [],
+  "scope": "Actual isolated WordPress 7.1.3 and native Gutenberg using synthetic TEST sources only. Temporary drafts were deleted; original fourteen QA looks were preserved. Auth used rotated private local state; no cookies, credentials, or nonce values are included.",
+  "limitations": [
+    "Earlier native UI run encountered three external WordPress admin resource connection failures; they did not prevent the verified editing flows.",
+    "The earlier stale contact-block registry failure was resolved by installing final PHP and rerunning all five server previews."
+  ],
+  "static_fixture_report": "Separate frontend behavioral fixture report covers 17 flows and is not a substitute for these live WordPress checks."
+}

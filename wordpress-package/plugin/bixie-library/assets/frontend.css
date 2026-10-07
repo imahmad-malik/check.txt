@@ -1,0 +1,238 @@
+/* Functional library layout. Theme styles can override the Bixie custom properties. */
+.bixie-library,
+.bixie-saved-page,
+.bixie-library-modal {
+  --bixie-library-ink: var(--bixie-ink, #252823);
+  --bixie-library-paper: var(--bixie-paper, #fffdf8);
+  --bixie-library-line: var(--bixie-line, #d9d8cd);
+  --bixie-library-accent: var(--bixie-accent, #4b624c);
+  color: var(--bixie-library-ink);
+}
+.bixie-library *,
+.bixie-library-modal * { box-sizing: border-box; }
+.bixie-library [hidden],
+.bixie-library-modal [hidden] { display: none !important; }
+.bixie-filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1rem;
+  margin-block: 1.5rem;
+}
+.bixie-filter-form label { display: grid; gap: .4rem; min-width: 9rem; }
+.bixie-filter-form input,
+.bixie-filter-form select,
+textarea.bixie-salon-notes {
+  max-width: 100%;
+  min-height: 2.75rem;
+  padding: .6rem .75rem;
+  border: 1px solid var(--bixie-library-line);
+  border-radius: .25rem;
+  background: var(--bixie-library-paper);
+  color: inherit;
+  font: inherit;
+}
+.bixie-results,
+.bixie-saved-items,
+.bixie-saved-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  gap: 1.5rem;
+}
+.bixie-look-card,
+.bixie-unavailable-look { min-width: 0; }
+.bixie-card-photo { display: block; }
+.bixie-look-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+/* WordPress automatic lazy-image sizes must not impose its generic 3000 × 1500
+   placeholder on these photographs. Keep the real HTML width/height ratio. */
+.bixie-library .bixie-card-photo img,
+.bixie-library .bixie-card-angles img,
+.bixie-saved-page .bixie-card-photo img,
+.bixie-library-modal img.bixie-look-image {
+  contain-intrinsic-size: none;
+}
+.bixie-card-angles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: .65rem;
+  margin-top: .65rem;
+}
+.bixie-card-angle { min-width: 0; margin: 0; }
+.bixie-card-angle a { display: block; color: inherit; }
+.bixie-card-angle img { display: block; width: 100%; height: auto; object-fit: contain; }
+.bixie-card-angle figcaption { margin-top: .3rem; font-size: .8rem; }
+.bixie-card-content { padding-block: .9rem; }
+.bixie-card-title { margin-block: 0 .5rem; }
+.bixie-card-title a { color: inherit; }
+.bixie-card-summary { margin-block: .25rem .75rem; }
+.bixie-card-actions,
+.bixie-modal-footer,
+.bixie-pagination { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem; }
+.bixie-card-actions button,
+.bixie-modal-footer button,
+.bixie-modal-close,
+.bixie-remove-saved,
+.bixie-page-link,
+.bixie-page-current {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding: .55rem .85rem;
+  border: 1px solid var(--bixie-library-line);
+  border-radius: .25rem;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: 1.3;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bixie-save[aria-pressed="true"],
+.bixie-page-current {
+  border-color: var(--bixie-library-accent);
+  background: var(--bixie-library-accent);
+  color: var(--bixie-paper, #fffdf8);
+}
+.bixie-card-actions button:disabled,
+.bixie-modal-footer button:disabled { opacity: .5; cursor: default; }
+.bixie-pagination { margin-block: 1.5rem; }
+.bixie-result-status { margin-block: 1rem; }
+.bixie-library[aria-busy="true"] .bixie-results { opacity: .7; }
+.bixie-empty { grid-column: 1 / -1; padding: 1.25rem 0; }
+.bixie-request-fallback { display: inline-block; margin-bottom: 1rem; }
+.bixie-library :focus-visible,
+.bixie-library-modal :focus-visible {
+  outline: 3px solid var(--bixie-library-accent);
+  outline-offset: 4px;
+}
+.bixie-modal-open { overflow: hidden; }
+.bixie-library-modal {
+  width: min(68rem, calc(100vw - 2rem));
+  max-width: none;
+  max-height: calc(100dvh - 2rem);
+  padding: 0;
+  border: 1px solid var(--bixie-library-line);
+  border-radius: .5rem;
+  background: var(--bixie-library-paper);
+  overscroll-behavior: contain;
+}
+.bixie-library-modal::backdrop { background: rgb(20 24 20 / 65%); }
+.bixie-modal-header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--bixie-library-line);
+  background: var(--bixie-library-paper);
+}
+.bixie-modal-title { margin: 0; font-size: clamp(1.3rem, 3vw, 2rem); }
+.bixie-modal-close { flex: 0 0 auto; }
+.bixie-modal-body { padding: 1.5rem; }
+.bixie-modal-footer { padding: 1rem 1.5rem 1.5rem; }
+.bixie-modal-footer:empty { display: none; }
+.bixie-detail-photos,
+.bixie-sheet-images { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: 1rem; }
+.bixie-detail-photo,
+.bixie-sheet-images figure { min-width: 0; margin: 0; }
+.bixie-detail-photo figcaption,
+.bixie-sheet-images figcaption { padding-top: .5rem; text-transform: capitalize; }
+.bixie-look-metadata { margin-block: 1.25rem; }
+.bixie-metadata-row { display: grid; grid-template-columns: minmax(7rem, .45fr) 1fr; gap: 1rem; padding-block: .5rem; border-bottom: 1px solid var(--bixie-library-line); }
+.bixie-metadata-row dt { font-weight: 600; }
+.bixie-metadata-row dd { margin: 0; overflow-wrap: anywhere; }
+.bixie-concept-note,
+.bixie-storage-note { font-size: .875em; line-height: 1.5; }
+.bixie-compare-choice { display: flex; align-items: start; gap: .6rem; padding-top: 1rem; cursor: pointer; }
+.bixie-compare-choice input { flex-shrink: 0; width: 1.2rem; height: 1.2rem; margin-top: .1rem; accent-color: var(--bixie-library-accent); }
+.bixie-compare-region { max-width: 100%; overflow-x: auto; overscroll-behavior-inline: contain; }
+.bixie-compare-grid { display: grid; grid-template-columns: repeat(var(--bixie-compare-columns, 2), minmax(16rem, 1fr)); gap: 1.5rem; }
+.bixie-compare-look { min-width: 0; }
+.bixie-modal-notice { margin: 0 1.5rem 1rem; }
+.bixie-modal-notice:empty { display: none; }
+.bixie-compare-look .bixie-metadata-row { grid-template-columns: 1fr; gap: .2rem; }
+.bixie-library-notice {
+  position: fixed;
+  z-index: 10000;
+  right: 1rem;
+  bottom: 1rem;
+  max-width: min(30rem, calc(100vw - 2rem));
+  padding: .85rem 1rem;
+  border: 1px solid #d9d8cd;
+  border-radius: .25rem;
+  background: #fffdf8;
+  color: #252823;
+  font: 400 .875rem/1.5 system-ui, sans-serif;
+  box-shadow: 0 .25rem 1.5rem rgb(0 0 0 / 10%);
+}
+.bixie-library-notice:empty { display: none; }
+.bixie-image-unavailable { min-height: 8rem; object-fit: contain; }
+.bixie-image-status { display: block; padding: .5rem; font-size: .875em; }
+.bixie-print-sheet { margin-block: 1.5rem 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--bixie-library-line); }
+.bixie-print-sheet h3 { margin-bottom: .5rem; }
+.bixie-sheet-id { margin-top: 0; font-size: .875em; }
+.bixie-sheet-source { display: block; margin-block: 1rem; overflow-wrap: anywhere; font-size: .8em; }
+.bixie-salon-notes-label { display: block; margin-top: 1rem; font-weight: 600; }
+textarea.bixie-salon-notes { display: block; width: 100%; margin-top: .5rem; resize: vertical; }
+.bixie-note-print { display: none; }
+@media (max-width: 600px) {
+  .bixie-filter-form { gap: .75rem; }
+  .bixie-filter-form label { flex: 1 1 8rem; min-width: 0; }
+  .bixie-filter-form input,
+  .bixie-filter-form select { width: 100%; }
+  .bixie-library-modal { width: calc(100vw - 1rem); max-height: calc(100dvh - 1rem); }
+  .bixie-modal-header { gap: .75rem; padding: 1rem; }
+  .bixie-modal-body { padding: 1rem; }
+  .bixie-modal-footer { padding: .75rem 1rem 1rem; }
+  .bixie-detail-photos { grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); }
+  .bixie-compare-grid { gap: 1rem; }
+  .bixie-card-actions { gap: .5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bixie-library *,
+  .bixie-library-modal * { scroll-behavior: auto !important; }
+}
+@media print {
+  .bixie-library-modal { display: none; }
+  html.bixie-printing body > *:not(.bixie-library-modal) { display: none !important; }
+  html.bixie-printing body { overflow: visible !important; margin: 0; background: white; color: black; }
+  html.bixie-printing .bixie-library-modal {
+    display: block !important;
+    position: static;
+    width: 100%;
+    max-width: none;
+    max-height: none;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: white;
+    color: black;
+  }
+  html.bixie-printing .bixie-modal-header { position: static; padding: 0 0 1rem; }
+  html.bixie-printing .bixie-modal-body { padding: 0; }
+  html.bixie-printing .bixie-modal-close,
+  html.bixie-printing .bixie-modal-footer,
+  html.bixie-printing .bixie-modal-notice,
+  html.bixie-printing textarea.bixie-salon-notes,
+  html.bixie-printing .bixie-print-warning { display: none !important; }
+  html.bixie-printing .bixie-note-print { display: block; white-space: pre-wrap; overflow-wrap: anywhere; }
+  html.bixie-printing .bixie-print-sheet { break-inside: avoid; page-break-inside: avoid; margin-block: 1rem; padding-bottom: 1rem; }
+  html.bixie-printing .bixie-sheet-images { grid-template-columns: repeat(3, 1fr); }
+  html.bixie-printing .bixie-sheet-images img { height: 5cm; width: 100%; object-fit: contain; }
+  html.bixie-printing .bixie-look-metadata { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1rem; font-size: 9pt; }
+  html.bixie-printing .bixie-metadata-row { grid-template-columns: 1fr 1fr; gap: .5rem; padding-block: .2rem; }
+  html.bixie-printing .bixie-concept-note,
+  html.bixie-printing .bixie-sheet-intro { font-size: 9pt; }
+  html.bixie-printing .bixie-sheet-source { font-size: 8pt; color: black; text-decoration: none; }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "Five native dynamic blocks register with null save markup and server previews",
+    "Native inspector controls retain collection and bound page size",
+    "Native photo-view toggle inherits collection defaults and preserves explicit owner settings",
+    "REST meta controls preserve other fields and never approve image provenance",
+    "Native Media Library selection updates canonical core/image and image relationships together",
+    "Replacing a native Gutenberg image updates library relationships and plain captions",
+    "Sidebar caption edits round-trip safely into native image captions",
+    "Sidebar removal deletes its named block; missing angles insert into the existing native gallery",
+    "Deleting a native role image removes its stale catalog relationship",
+    "Opening another look preserves pre-existing metadata before canonical blocks load",
+    "Look-only document panels do not appear on ordinary WordPress pages"
+  ],
+  "scope": "WordPress API contract fixture for production editor.js; native live WordPress editor still requires integration validation"
+}

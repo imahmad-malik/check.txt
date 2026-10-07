@@ -1,0 +1,2918 @@
+{
+  "purpose": "Isolated synthetic CODE fixtures; zero approved production hairstyle assets.",
+  "url": "http://127.0.0.1:8766",
+  "viewports": {
+    "desktop": {
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "images": [
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+        }
+      ],
+      "cardImages": [
+        {
+          "width": 292,
+          "height": 19.390625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 292,
+          "height": 19.390625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 292,
+          "height": 19.390625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 292,
+          "height": 19.390625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 292,
+          "height": 19.390625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 292,
+          "height": 19.390625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        }
+      ],
+      "openDialogs": 0,
+      "axe": {
+        "version": "4.14.0",
+        "violations": [],
+        "incomplete": [],
+        "passes": 26
+      },
+      "detail": {
+        "geometry": {
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 back. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 16
+        }
+      },
+      "saved": {
+        "geometry": {
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "targets": [
+                [
+                  "article[data-look=\"60\"] > .bixie-card-content > .bixie-card-title > a"
+                ],
+                [
+                  "article[data-look=\"60\"] > .bixie-card-content > .bixie-compare-choice > span"
+                ],
+                [
+                  "article[data-look=\"64\"] > .bixie-card-content > .bixie-card-title > a"
+                ],
+                [
+                  "article[data-look=\"64\"] > .bixie-card-content > .bixie-compare-choice > span"
+                ],
+                [
+                  "article[data-look=\"68\"] > .bixie-card-content > .bixie-card-title > a"
+                ],
+                [
+                  "article[data-look=\"68\"] > .bixie-card-content > .bixie-compare-choice > span"
+                ]
+              ]
+            }
+          ],
+          "passes": 19
+        }
+      },
+      "comparison": {
+        "geometry": {
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 21
+        },
+        "keyboardRegion": "0"
+      },
+      "print": {
+        "geometry": {
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 back. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 back. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 back. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 292,
+              "height": 19.390625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "targets": [
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(2) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(2) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(3) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(3) > dd"
+                ]
+              ]
+            }
+          ],
+          "passes": 19
+        },
+        "sheets": 3,
+        "anglePhotos": 9
+      },
+      "savedPage": {
+        "geometry": {
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [],
+          "openDialogs": 0
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 22
+        }
+      },
+      "consoleErrors": [],
+      "failedResponses": []
+    },
+    "tablet": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "images": [
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+        }
+      ],
+      "cardImages": [
+        {
+          "width": 337.453125,
+          "height": 22.40625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 337.453125,
+          "height": 22.40625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 337.453125,
+          "height": 22.40625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 337.453125,
+          "height": 22.40625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 337.453125,
+          "height": 22.40625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 337.453125,
+          "height": 22.40625,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        }
+      ],
+      "openDialogs": 0,
+      "axe": {
+        "version": "4.14.0",
+        "violations": [],
+        "incomplete": [],
+        "passes": 26
+      },
+      "detail": {
+        "geometry": {
+          "viewport": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 back. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "targets": [
+                [
+                  "figure[data-angle=\"front\"] > figcaption"
+                ]
+              ]
+            }
+          ],
+          "passes": 16
+        }
+      },
+      "saved": {
+        "geometry": {
+          "viewport": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "targets": [
+                [
+                  "article[data-look=\"60\"] > .bixie-card-content > .bixie-card-title > a"
+                ],
+                [
+                  "article[data-look=\"60\"] > .bixie-card-content > .bixie-compare-choice > span"
+                ],
+                [
+                  "article[data-look=\"64\"] > .bixie-card-content > .bixie-card-title > a"
+                ],
+                [
+                  "article[data-look=\"64\"] > .bixie-card-content > .bixie-compare-choice > span"
+                ],
+                [
+                  "article[data-look=\"68\"] > .bixie-card-content > .bixie-card-title > a"
+                ],
+                [
+                  "article[data-look=\"68\"] > .bixie-card-content > .bixie-compare-choice > span"
+                ]
+              ]
+            }
+          ],
+          "passes": 19
+        }
+      },
+      "comparison": {
+        "geometry": {
+          "viewport": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 20
+        },
+        "keyboardRegion": "0"
+      },
+      "print": {
+        "geometry": {
+          "viewport": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 back. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 back. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 back. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 337.453125,
+              "height": 22.40625,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "targets": [
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(2) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(2) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(3) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(3) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(4) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(4) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > p:nth-child(5)"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > p:nth-child(6)"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-source"
+                ],
+                [
+                  "label[for=\"bixie-salon-notes-60\"]"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > h3"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-id"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-images > figure:nth-child(1) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-images > figure:nth-child(2) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-images > figure:nth-child(3) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(1) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(1) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(2) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(2) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(3) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(3) > dd"
+                ]
+              ]
+            }
+          ],
+          "passes": 19
+        },
+        "sheets": 3,
+        "anglePhotos": 9
+      },
+      "savedPage": {
+        "geometry": {
+          "viewport": 768,
+          "scrollWidth": 768,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [],
+          "openDialogs": 0
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 22
+        }
+      },
+      "consoleErrors": [],
+      "failedResponses": []
+    },
+    "phone": {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "images": [
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+        }
+      ],
+      "cardImages": [
+        {
+          "width": 346,
+          "height": 22.96875,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 346,
+          "height": 22.96875,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 346,
+          "height": 22.96875,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 346,
+          "height": 22.96875,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 346,
+          "height": 22.96875,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 346,
+          "height": 22.96875,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        }
+      ],
+      "openDialogs": 0,
+      "axe": {
+        "version": "4.14.0",
+        "violations": [],
+        "incomplete": [],
+        "passes": 24
+      },
+      "detail": {
+        "geometry": {
+          "viewport": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 back. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 16
+        }
+      },
+      "saved": {
+        "geometry": {
+          "viewport": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 20
+        }
+      },
+      "comparison": {
+        "geometry": {
+          "viewport": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "targets": [
+                [
+                  ".bixie-compare-look:nth-child(1) > h3"
+                ],
+                [
+                  ".bixie-compare-look:nth-child(1) > p:nth-child(5)"
+                ],
+                [
+                  ".bixie-compare-look:nth-child(1) > p:nth-child(7)"
+                ]
+              ]
+            }
+          ],
+          "passes": 21
+        },
+        "keyboardRegion": "0"
+      },
+      "print": {
+        "geometry": {
+          "viewport": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 back. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 back. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 back. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 346,
+              "height": 22.96875,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "targets": [
+                [
+                  "#bixie-library-dialog-title"
+                ],
+                [
+                  ".bixie-sheet-intro"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > h3"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-id"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-images > figure:nth-child(1) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-images > figure:nth-child(2) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-images > figure:nth-child(3) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(1) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(1) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(2) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(2) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(3) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(3) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(4) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(4) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > p:nth-child(5)"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > p:nth-child(6)"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-source"
+                ],
+                [
+                  "label[for=\"bixie-salon-notes-60\"]"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > h3"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-id"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-images > figure:nth-child(1) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-images > figure:nth-child(2) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-images > figure:nth-child(3) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(1) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(1) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(2) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(2) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(3) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(3) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(4) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(4) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > p:nth-child(5)"
+                ]
+              ]
+            }
+          ],
+          "passes": 19
+        },
+        "sheets": 3,
+        "anglePhotos": 9
+      },
+      "savedPage": {
+        "geometry": {
+          "viewport": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [],
+          "openDialogs": 0
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 20
+        }
+      },
+      "consoleErrors": [],
+      "failedResponses": []
+    },
+    "small-phone": {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "images": [
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+        },
+        {
+          "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+          "loaded": true,
+          "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+        }
+      ],
+      "cardImages": [
+        {
+          "width": 276,
+          "height": 18.328125,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 276,
+          "height": 18.328125,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 276,
+          "height": 18.328125,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 276,
+          "height": 18.328125,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 276,
+          "height": 18.328125,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "width": 276,
+          "height": 18.328125,
+          "naturalWidth": 7680,
+          "naturalHeight": 512,
+          "fit": "contain",
+          "opacity": "1",
+          "visibility": "visible"
+        }
+      ],
+      "openDialogs": 0,
+      "axe": {
+        "version": "4.14.0",
+        "violations": [],
+        "incomplete": [],
+        "passes": 24
+      },
+      "detail": {
+        "geometry": {
+          "viewport": 320,
+          "scrollWidth": 320,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 back. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 17
+        }
+      },
+      "saved": {
+        "geometry": {
+          "viewport": 320,
+          "scrollWidth": 320,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 20
+        }
+      },
+      "comparison": {
+        "geometry": {
+          "viewport": 320,
+          "scrollWidth": 320,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "targets": [
+                [
+                  ".bixie-compare-look:nth-child(1) > h3"
+                ]
+              ]
+            }
+          ],
+          "passes": 21
+        },
+        "keyboardRegion": "0"
+      },
+      "print": {
+        "geometry": {
+          "viewport": 320,
+          "scrollWidth": 320,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-01-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 01 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-02-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 02 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-06-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 06 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 back. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 back. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-side.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 side. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-back.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 back. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            },
+            {
+              "width": 276,
+              "height": 18.328125,
+              "naturalWidth": 7680,
+              "naturalHeight": 512,
+              "fit": "contain",
+              "opacity": "1",
+              "visibility": "visible"
+            }
+          ],
+          "openDialogs": 1
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "targets": [
+                [
+                  "#bixie-library-dialog-title"
+                ],
+                [
+                  ".bixie-sheet-intro"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > h3"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-id"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-images > figure:nth-child(1) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-images > figure:nth-child(2) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-images > figure:nth-child(3) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(1) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(1) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(2) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(2) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(3) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(3) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(4) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > dl > .bixie-metadata-row:nth-child(4) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > p:nth-child(5)"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > p:nth-child(6)"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(2) > .bixie-sheet-source"
+                ],
+                [
+                  "label[for=\"bixie-salon-notes-60\"]"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > h3"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-id"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-images > figure:nth-child(1) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-images > figure:nth-child(2) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > .bixie-sheet-images > figure:nth-child(3) > figcaption"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(1) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(1) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(2) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(2) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(3) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(3) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(4) > dt"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > dl > .bixie-metadata-row:nth-child(4) > dd"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > p:nth-child(5)"
+                ],
+                [
+                  ".bixie-print-sheet:nth-child(3) > p:nth-child(6)"
+                ]
+              ]
+            }
+          ],
+          "passes": 19
+        },
+        "sheets": 3,
+        "anglePhotos": 9
+      },
+      "savedPage": {
+        "geometry": {
+          "viewport": 320,
+          "scrollWidth": 320,
+          "overflow": false,
+          "images": [
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-03-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 03 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-04-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 04 front. Not hairstyle photography."
+            },
+            {
+              "src": "http://127.0.0.1:8766/wp-content/uploads/2026/10/isolated-qa-05-front.png",
+              "loaded": true,
+              "alt": "ISOLATED SYNTHETIC QA canvas 05 front. Not hairstyle photography."
+            }
+          ],
+          "cardImages": [],
+          "openDialogs": 0
+        },
+        "axe": {
+          "version": "4.14.0",
+          "violations": [],
+          "incomplete": [],
+          "passes": 20
+        }
+      },
+      "consoleErrors": [],
+      "failedResponses": []
+    }
+  },
+  "flows": {
+    "serverGalleryAndFacets": true,
+    "restFiltersAndSearch": true,
+    "pagination": true,
+    "savedReloadPersistence": true,
+    "savedPage": true,
+    "threeAngleDetail": true,
+    "twoLookComparison": true,
+    "nineAnglePhotosInThreeConsultationSheets": true,
+    "escapeFocusRestoration": true
+  }
+}
