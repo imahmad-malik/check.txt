@@ -1,0 +1,23 @@
+{
+  "purpose": "Isolated unapproved synthetic CODE media upload; not hairstyle photographs or launch assets.",
+  "checks": {
+    "invalidNonce403": true,
+    "authenticatedSubscriberCapability403": true,
+    "anonymousUploadDenied": true,
+    "realAdminMultipartUploadVerified": true,
+    "verifiedPartPersistsReload": true,
+    "samePartUploadIdempotent": true,
+    "realAdminGuiImportComplete": true,
+    "noJavascriptNativeFormVerified": true
+  },
+  "importCounts": {
+    "media": 3,
+    "collections": 0,
+    "looks": 0,
+    "pages": 0,
+    "skipped": 64,
+    "errors": 0
+  },
+  "pageErrors": [],
+  "status": "passed"
+}

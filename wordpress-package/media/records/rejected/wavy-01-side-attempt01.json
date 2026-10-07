@@ -1,0 +1,62 @@
+{
+  "id": "wavy-01-side-attempt01",
+  "key": "wavy-01-side-attempt01",
+  "look_id": "wavy-01",
+  "look_key": "wavy-01",
+  "canonical_look_key": "wavy-01",
+  "collection": "wavy",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/wavy-01-side.png",
+  "file": "media/rejected/wavy-01-side-attempt01.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "29c2fe8d71c79677245a3299e2c9c85bec939d83348a699e7aba84de1631f27c",
+  "display_sha256": "77d5b33fa3561645978260c3d7c44d288f1f5aacc3795fcb04ea1a8bf59f1bde",
+  "source_bytes": 2286165,
+  "display_bytes": 307722,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-7757bd1b-b59a-4c17-9c55-ad40b574364e.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Wavy bixie haircuts. Design: smooth flat | compact squared | no-bangs | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"wavy\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"no-bangs\", \"colour\": \"blonde\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file.",
+  "reference_source_files": [
+    "source-media/wavy-01-front.png"
+  ],
+  "approved": false,
+  "review_status": "rejected-angle-needs-retry",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "no-bangs",
+    "colour": "blonde",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "smooth flat",
+    "nape": "compact squared",
+    "fringe": "no-bangs",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "smooth flat | compact squared | no-bangs | ear-revealing temple pieces | 0-crown-to-front-proportion"
+  },
+  "alt": "Pending direct review of actual haircut and clothing",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "review": {
+    "method": "Direct individual native source inspection with view_image at original detail",
+    "reviewer": "pilot_angles_worker",
+    "source_inspected": "source-media/wavy-01-side.png",
+    "passed": false,
+    "detail": "The profile remains slightly turned toward the camera, exposing a portion of the far eye. Retry required for a strict 90-degree left side profile; source preserved."
+  },
+  "rejected_attempt_of": "wavy-01-side"
+}

@@ -1,0 +1,44 @@
+{
+  "purpose": "Actual WordPress HTTP checks with synthetic CODE records. External provider detection signals are SIMULATED; no third-party plugin distribution was installed.",
+  "officialPluginDistributionAccess": {
+    "metadata": 403,
+    "download": 403,
+    "actualThirdPartyPluginActivation": "not verified"
+  },
+  "checks": {
+    "schemaMatchesSixServerCardsAndThreeActualAngles": true,
+    "paginationCanonicalAndSchemaAligned": true,
+    "facetsNoindexAndOwnerPrivacyPreserved": true,
+    "actualAdminSchemaDisableSetting": true
+  },
+  "simulatedProviders": {
+    "yoast": {
+      "simulatedSignal": true,
+      "bixieSchemaSuppressed": true,
+      "providerOwnedMarkerRetained": true
+    },
+    "rankmath": {
+      "simulatedSignal": true,
+      "bixieSchemaSuppressed": true,
+      "providerOwnedMarkerRetained": true
+    },
+    "aioseo": {
+      "simulatedSignal": true,
+      "bixieSchemaSuppressed": true,
+      "providerOwnedMarkerRetained": true
+    },
+    "seopress": {
+      "simulatedSignal": true,
+      "bixieSchemaSuppressed": true,
+      "providerOwnedMarkerRetained": true
+    },
+    "filter": {
+      "simulatedSignal": true,
+      "bixieSchemaSuppressed": true,
+      "providerOwnedMarkerRetained": true
+    }
+  },
+  "status": "passed",
+  "temporaryProviderFixtureRemoved": true,
+  "ownerSchemaSettingRestored": true
+}

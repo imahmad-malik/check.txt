@@ -7,24 +7,25 @@
   "collection": "wavy",
   "usage": "collection",
   "angle": "side",
-  "source_file": "source-media/wavy-01-side.png",
+  "source_file": "source-media/wavy-01-side-retry02.png",
   "file": "media/wavy-01-side.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "29c2fe8d71c79677245a3299e2c9c85bec939d83348a699e7aba84de1631f27c",
-  "display_sha256": "77d5b33fa3561645978260c3d7c44d288f1f5aacc3795fcb04ea1a8bf59f1bde",
-  "source_bytes": 2286165,
-  "display_bytes": 307722,
+  "sha256": "e2a2e47bcc4b163088922ff55de7518a16cc00de7da44181eaa5c7240a336c3d",
+  "display_sha256": "d6aa8858844541f516bf67aa4b3ef4aa6064fc323f580b85446ea7c165e270a6",
+  "source_bytes": 2222598,
+  "display_bytes": 277402,
   "native_original": true,
   "native_8k": false,
   "upscaled": false,
   "generated": true,
   "fictional_adult": true,
-  "generated_tool_file": "/workspace/generated_images/exec-7757bd1b-b59a-4c17-9c55-ad40b574364e.png",
+  "generated_tool_file": "/workspace/generated_images/exec-c3b3d4e1-7587-4b3b-8e96-e47ca5a27af0.png",
   "generator": "OpenAI image_gen",
-  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Wavy bixie haircuts. Design: smooth flat | compact squared | no-bangs | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"wavy\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"no-bangs\", \"colour\": \"blonde\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file.",
+  "exact_generation_prompt": "VIEWPOINT CORRECTION, HIGHEST PRIORITY: The first supplied side photograph is too frontal. Make a NEW separately rendered original photograph of this exact same adult woman and exact same haircut from a camera placed directly beside her LEFT EAR, perpendicular to her facial midline. Rotate the woman a further 20 degrees AWAY from the camera compared with the first image until the far eye disappears entirely behind her nasal bridge. Final face points exactly to screen-left, a flat 90-degree side profile. Only ONE eye, ONE eyebrow and ONE cheek are visible; NO far eye or far eyelashes can appear at the bridge of her nose. Do not keep the previous three-quarter camera position. Use the second front image only to preserve identity, hair colour and fringe. Preserve the same complete haircut silhouette and ample head margin. Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Wavy bixie haircuts. Design: smooth flat | compact squared | no-bangs | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"wavy\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"no-bangs\", \"colour\": \"blonde\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file.",
   "reference_source_files": [
-    "source-media/wavy-01-front.png"
+    "/workspace/generated_images/exec-5e83bac7-24cc-40b6-a3b1-a9c6561e9683.png",
+    "/workspace/check.txt/wordpress-package/source-media/wavy-01-front.png"
   ],
   "approved": false,
   "review_status": "awaiting-direct-source-review",
@@ -49,6 +50,13 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "smooth flat | compact squared | no-bangs | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded."
+  "alt": "Pending direct review of corrected native source",
+  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "generator_original_file": "source-media/wavy-01-side-retry02.png",
+  "generator_original_sha256": "e2a2e47bcc4b163088922ff55de7518a16cc00de7da44181eaa5c7240a336c3d",
+  "previous_attempt_records": [
+    "media/records/rejected/wavy-01-side-attempt01.json",
+    "media/records/rejected/wavy-01-side-attempt02.json"
+  ],
+  "generator_original_bytes": 2222598
 }

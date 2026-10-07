@@ -31,6 +31,8 @@ function bixie_library_attributes(array $blocks): ?array {
 /** Scope directives to the actual package library/tools and WordPress search. */
 function bixie_should_noindex(): bool {
     if (is_search()) { return true; }
+    if (is_tax('bixie_collection')) { return true; }
+    if (is_attachment() && bixie_is_project_attachment(get_queried_object_id())) { return true; }
     if (!is_singular()) { return false; }
     $post = get_queried_object(); if (!$post instanceof WP_Post) { return false; }
     if (get_post_meta($post->ID, '_bixie_indexability', true) === 'noindex') { return true; }

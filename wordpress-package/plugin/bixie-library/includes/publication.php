@@ -99,8 +99,8 @@ function bixie_check_home(int $post_id = 0, ?string $content = null): array {
 /** A film remains usable only while all of its declared photographic sources qualify. */
 function bixie_check_film(int $id): bool {
     if (get_post_mime_type($id) !== 'video/mp4' || !get_post_meta($id, '_bixie_review_approved', true) || !get_post_meta($id, '_bixie_multiview_declared', true) || !bixie_is_real_mp4((string) get_attached_file($id))) { return false; }
-    $entries = (array) get_post_meta($id, '_bixie_film_sources', true); $angles = []; $ids = []; $hashes = [];
-    if (!$entries) { foreach (array_unique((array) get_post_meta($id, '_bixie_film_source_keys', true)) as $key) { $source = bixie_get_package_attachment((string) $key); $entries[] = ['id' => $source, 'angle' => get_post_meta($source, '_bixie_asset_angle', true)]; } }
+    $entries = bixie_array_meta($id, '_bixie_film_sources'); $angles = []; $ids = []; $hashes = [];
+    if (!$entries) { foreach (array_unique(bixie_array_meta($id, '_bixie_film_source_keys')) as $key) { $source = bixie_get_package_attachment((string) $key); $entries[] = ['id' => $source, 'angle' => get_post_meta($source, '_bixie_asset_angle', true)]; } }
     foreach ($entries as $entry) {
         $source = absint($entry['id'] ?? 0);
         if (!$source || !bixie_check_look(0, [['id' => $source, 'angle' => 'reference']])['ids']) { return false; }
@@ -137,7 +137,7 @@ function bixie_native_photo_ids(array $blocks): array {
 }
 
 function bixie_check_page_photos(int $id, ?string $content = null, ?array $sets = null, ?int $minimum = null): array {
-    $sets = $sets ?? (array) get_post_meta($id, '_bixie_page_photo_sets', true); $minimum = $minimum ?? absint(get_post_meta($id, '_bixie_minimum_page_photos', true));
+    $sets = $sets ?? bixie_array_meta($id, '_bixie_page_photo_sets'); $minimum = $minimum ?? absint(get_post_meta($id, '_bixie_minimum_page_photos', true));
     if (!$sets && !$minimum) { return ['complete' => true, 'reasons' => []]; }
     $reference = bixie_page_reference_images($sets); $reasons = $reference['reasons'];
     $ids = array_unique(bixie_native_photo_ids(parse_blocks($content ?? (string) get_post_field('post_content', $id))));
@@ -241,8 +241,8 @@ add_filter('attachment_fields_to_edit', static function(array $fields, $post): a
     if ($image) { $fields['bixie_native_verified'] = ['label' => __('Original-source provenance', 'bixie-library'), 'input' => 'html', 'html' => '<label><input type="checkbox" name="attachments[' . absint($post->ID) . '][bixie_native_verified]" value="1"' . (get_post_meta($post->ID, '_bixie_native_verified', true) ? ' checked' : '') . '> ' . esc_html__('I have confirmed this is an original native source, not an enlarged or upscaled replica.', 'bixie-library') . '</label>']; }
     if ($video) {
         $fields['bixie_multiview_declared'] = ['label' => __('Photographic film review', 'bixie-library'), 'input' => 'html', 'html' => '<label><input type="checkbox" name="attachments[' . absint($post->ID) . '][bixie_multiview_declared]" value="1"' . (get_post_meta($post->ID, '_bixie_multiview_declared', true) ? ' checked' : '') . '> ' . esc_html__('This film actually presents the corresponding front, side and back photographs chosen below, with consistent styling and attire.', 'bixie-library') . '</label>'];
-        $sources = (array) get_post_meta($post->ID, '_bixie_film_sources', true); $selected = []; foreach ($sources as $source) { $selected[$source['angle']] = absint($source['id']); }
-        if (!$sources) { foreach ((array) get_post_meta($post->ID, '_bixie_film_source_keys', true) as $key) { $source = bixie_get_package_attachment($key); $selected[get_post_meta($source, '_bixie_asset_angle', true)] = $source; } }
+        $sources = bixie_array_meta($post->ID, '_bixie_film_sources'); $selected = []; foreach ($sources as $source) { $selected[$source['angle']] = absint($source['id']); }
+        if (!$sources) { foreach (bixie_array_meta($post->ID, '_bixie_film_source_keys') as $key) { $source = bixie_get_package_attachment($key); $selected[get_post_meta($source, '_bixie_asset_angle', true)] = $source; } }
         $photos = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'post_mime_type' => 'image', 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC']);
         foreach (['front', 'side', 'back'] as $angle) { $html = '<select name="attachments[' . absint($post->ID) . '][bixie_film_' . $angle . ']" aria-label="' . esc_attr(ucfirst($angle) . ' film source') . '"><option value="0">' . esc_html__('Choose an actual corresponding photograph', 'bixie-library') . '</option>'; foreach ($photos as $photo) { $html .= '<option value="' . absint($photo->ID) . '"' . selected($selected[$angle] ?? 0, $photo->ID, false) . '>' . esc_html(get_the_title($photo) . ' (#' . $photo->ID . ')') . '</option>'; } $html .= '</select>'; $fields['bixie_film_' . $angle] = ['label' => ucfirst($angle) . ' source', 'input' => 'html', 'html' => $html]; }
     }

@@ -1,0 +1,163 @@
+{
+    "environment": {
+        "wordpress": "7.1.3",
+        "php": "8.4.26"
+    },
+    "method": "Actual isolated WordPress execution of verifier/importer/source-review hooks; local adversarial archives and explicitly synthetic canvases, not production media. Authenticated HTTP upload checks are a separate report.",
+    "passed": true,
+    "checks": [
+        {
+            "name": "Valid actual PNG/WebP media part is verified and registered",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Identical media part is safely idempotent",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Uploaded roots win when canonical look images also contain full source/file records",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Three optimized display attachments import from uploaded parts without missing-source errors",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Genuine source PNG and optimized WebP delivery remain separate",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "API native dimensions and identity come from the actual retained PNG",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Initial gallery thumbnails use responsive optimized WebP, not original PNG",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Unapproved synthetic media cannot publish a complete look",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Clearly isolated three-source review fixture reaches the real publication gate",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Same attachment file replacement clears review/provenance and old PNG linkage",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Changed image bytes under the same attachment path invalidate review",
+            "passed": true,
+            "detail": []
+        },
+        {
+            "name": "Archive traversal rejected",
+            "passed": true,
+            "detail": {
+                "rejection": "Unsafe archive path rejected."
+            }
+        },
+        {
+            "name": "Unlisted extra file rejected",
+            "passed": true,
+            "detail": {
+                "rejection": "Archive contains files not listed by its manifest."
+            }
+        },
+        {
+            "name": "Missing declared derivative rejected",
+            "passed": true,
+            "detail": {
+                "rejection": "A listed source/derivative or its SHA-256 checksum is missing."
+            }
+        },
+        {
+            "name": "Wrong original checksum rejects whole part",
+            "passed": true,
+            "detail": {
+                "rejection": "An uploaded asset key already has a different original. Existing media will not be overwritten."
+            }
+        },
+        {
+            "name": "Case-colliding archive names rejected",
+            "passed": true,
+            "detail": {
+                "rejection": "Duplicate archive filename rejected."
+            }
+        },
+        {
+            "name": "Changed existing bundle ID preserves original files",
+            "passed": true,
+            "detail": {
+                "rejection": "This bundle_id already exists with different content. Use a new part ID; existing files are preserved."
+            }
+        },
+        {
+            "name": "Missing root manifest rejected",
+            "passed": true,
+            "detail": {
+                "rejection": "A root manifest.json is required."
+            }
+        },
+        {
+            "name": "Archive symbolic link rejected",
+            "passed": true,
+            "detail": {
+                "rejection": "Archive links are not allowed."
+            }
+        },
+        {
+            "name": "Oversized expanded file rejected before extraction",
+            "passed": true,
+            "detail": {
+                "rejection": "Archive expansion or file size exceeds the bounded media-part limit."
+            }
+        },
+        {
+            "name": "ZIP expansion total bounded before extraction",
+            "passed": true,
+            "detail": {
+                "rejection": "Archive expansion or file size exceeds the bounded media-part limit."
+            }
+        },
+        {
+            "name": "Bogus MP4 with a valid SHA-256 checksum rejected",
+            "passed": true,
+            "detail": {
+                "rejection": "A listed file is not actually supported readable image/MP4 media."
+            }
+        },
+        {
+            "name": "Script bytes renamed as image rejected",
+            "passed": true,
+            "detail": {
+                "rejection": "A listed file is not actually supported readable image/MP4 media."
+            }
+        },
+        {
+            "name": "Different original cannot silently replace an existing uploaded asset key",
+            "passed": true,
+            "detail": {
+                "rejection": "An uploaded asset key already has a different original. Existing media will not be overwritten."
+            }
+        },
+        {
+            "name": "Existing source files survived rejected overwrite unchanged",
+            "passed": true,
+            "detail": []
+        }
+    ],
+    "failure": null,
+    "approvedProductionImages": 0
+}

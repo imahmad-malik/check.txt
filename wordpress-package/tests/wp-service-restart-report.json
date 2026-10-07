@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "onlyOwnedProcessesRestarted": true,
+  "databaseContentAndLookRelationshipsRetained": true,
+  "requirementsAndSchemaSettingRetained": true,
+  "repeatStartKeptSameOwnedPids": true,
+  "before": {
+    "posts": 130,
+    "contentDigest": "1e6902cf70ed8708a042345b46a5ac511ac010f139914a2c6dd8f2b1617932d5",
+    "lookIds": [
+      52,
+      56,
+      60,
+      64,
+      68,
+      72,
+      76,
+      80,
+      84,
+      88,
+      92,
+      96,
+      100,
+      104
+    ],
+    "lookRelationshipsDigest": "de104b3c53b0f07db5b908d1d672a3273fa008583452c28c3ae7828abb38a10d",
+    "requirementsDigest": "458b9c65eb34c9e5e3feb864c8dc283f4950cdf7900e7520b5572e45aec605e7",
+    "activeTheme": "bixie-editorial",
+    "pluginActive": true,
+    "homeComplete": false,
+    "schemaDisabled": false
+  },
+  "after": {
+    "posts": 130,
+    "contentDigest": "1e6902cf70ed8708a042345b46a5ac511ac010f139914a2c6dd8f2b1617932d5",
+    "lookIds": [
+      52,
+      56,
+      60,
+      64,
+      68,
+      72,
+      76,
+      80,
+      84,
+      88,
+      92,
+      96,
+      100,
+      104
+    ],
+    "lookRelationshipsDigest": "de104b3c53b0f07db5b908d1d672a3273fa008583452c28c3ae7828abb38a10d",
+    "requirementsDigest": "458b9c65eb34c9e5e3feb864c8dc283f4950cdf7900e7520b5572e45aec605e7",
+    "activeTheme": "bixie-editorial",
+    "pluginActive": true,
+    "homeComplete": false,
+    "schemaDisabled": false
+  },
+  "readyAfterRestart": {
+    "db": true,
+    "http": true
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "status": "final_checks_in_progress",
+  "status": "independent_code_checks_passed_collection_ui_regression_running",
   "scope": "Actual isolatedWordPress code checks with syntheticTESTcanvases; no fixture is launch photography or shipped media.",
   "environment": {
     "wordpress": "7.1.3",
@@ -109,30 +109,55 @@
     "nativeLongEdge": 7680,
     "productionRequirementsWeakened": false,
     "shipped": false,
-    "productionApprovedPhotos": 0,
-    "productionApprovedLooks": 0
+    "sourceDimensions": [
+      7680,
+      512
+    ],
+    "portraitGeometryCanvases": {
+      "dimensions": [
+        1048,
+        1310
+      ],
+      "separateSources": 3,
+      "temporaryFixtureRemoved": true
+    },
+    "configuredMinimumNativeLongEdge": 1024,
+    "originalResolutionWithout8KClaim": true,
+    "productionMediaAssessment": "Production media generation/review is tracked separately; QA synthetic sources never count as approved hairstyle photographs."
   },
   "serviceLifecycle": {
     "startRestartStart": "passed; gracefully stops exactownedPIDcommands only and retains database",
-    "postImportDataRetentionRestart": "pending"
+    "postImportDataRetentionRestart": "passed; tests/wp-service-restart-report.json"
   },
   "SEO": {
     "actualThirdPartyPluginActivation": "not verified: api.wordpress.org and downloads.wordpress.org return proxy403",
-    "simulatedProviderHTTPChecks": "pending",
+    "simulatedProviderHTTPChecks": "passed; tests/wp-seo-report.json; signal simulations only, no actual third-party distribution activation",
     "facetRobotsPrivacy": "fixed and verified noindex,nofollow without contradictoryfollow",
     "publicDraftFooterLinks": "fixed Privacy/Contact removed, published links retained"
   },
   "remainingChecks": [
-    "final delivered ZIP install and hashes",
-    "authenticated plugin editor SSR/save-refresh report",
-    "adversarial publication/cache/guide report",
-    "simulated SEO providers",
-    "post-import service restart data preservation",
-    "fixture cleanup and final zero-approved production state"
+    "Install and hash final delivered ZIP files after all source/media changes",
+    "Actual production photography layout, approved original/image-angle coverage and import audit once available",
+    "Final production media/source count and film verification; synthetic fixtures do not establish these",
+    "Remove isolated fixtures and temporary multipart test parts after remaining agents finish; preserve approved production data",
+    "Consolidate latest publication/guide/cache regression report and final source archive tests"
   ],
   "verificationLimits": [
-    "No native 8K hairstyle quality audit: fixturecanvases are testdata only.",
-    "No verified deployed hosting, live ranking, search indexing, or Core Web Vitals measurement.",
-    "Axechecks on scoped browsers are not blanket accessibility conformance."
+    "Synthetic 7680\u00d7512 panoramic and1048\u00d71310 portrait CODE canvases verify software/layout only; they are not hairstyle photographs, release media or an8K quality claim.",
+    "User-approved original-resolution requirement is minimum1024 long edge without upscaling; actual photograph quality/attire/full-hair review is separate.",
+    "No deployed-hosting, live-ranking, search-indexing, or Core Web Vitals measurement.",
+    "Scoped axe checks are not blanket accessibility conformance.",
+    "Official SEO plugin distributions could not be verified/activated because metadata and downloads returned403; provider signals/hooks were simulated."
+  ],
+  "reportUpdatedUTC": "2026-10-07T10:37:51.321155+00:00",
+  "authenticatedEditorReport": "tests/plugin-wordpress-editor-report.json",
+  "mediaUploaderReport": "tests/wp-admin-upload-report.json",
+  "adversarialBundleAndNativeSourceReport": "tests/wp-bundle-security-report.json",
+  "originalAspectAndPaintedPixelReport": "tests/wp-image-display-report.json",
+  "nativeHeaderFooterReport": "tests/wp-navigation-report.json",
+  "regressionsFoundAndFixed": [
+    "WordPress auto-size image containment produced1500px frames; preserve intrinsic aspect and disable scoped placeholder intrinsic size.",
+    "Uploaded-part loop shadowed persisted catalog path; retain catalog path across batches.",
+    "Missing guide-photo array metadata cast empty string into array with an empty reference; normalize absent/malformed arrays."
   ]
 }

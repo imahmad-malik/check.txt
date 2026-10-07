@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "publicNativeHeaderFooterLinks": [
+    {
+      "label": "BIXIE HAIRCUT",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "label": "Photo library",
+      "path": "/looks/",
+      "status": 200
+    },
+    {
+      "label": "Find your bixie",
+      "path": "/find-your-bixie/",
+      "status": 200
+    },
+    {
+      "label": "Saved looks",
+      "path": "/saved-looks/",
+      "status": 200
+    },
+    {
+      "label": "All haircut looks",
+      "path": "/looks/",
+      "status": 200
+    },
+    {
+      "label": "About the edit",
+      "path": "/about/",
+      "status": 200
+    },
+    {
+      "label": "Editorial disclaimer",
+      "path": "/disclaimer/",
+      "status": 200
+    },
+    {
+      "label": "Image policy",
+      "path": "/image-policy/",
+      "status": 200
+    }
+  ],
+  "knownImportedDraftPrivacyContactLinksSuppressed": true,
+  "rawOwnerEditableBlocksPreserved": "See theme-native-block-report.json; public render gate does not rewrite editor data."
+}

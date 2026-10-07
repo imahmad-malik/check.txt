@@ -1,0 +1,28 @@
+{
+  "purpose": "Actual WordPress collection code verification. Synthetic panoramic canvases are not hairstyle photography or launch assets.",
+  "viewports": {
+    "desktop": {
+      "serverSevenLooksPhotos": 21,
+      "pageTwoPhotos": 21,
+      "ajaxFacetPhotos": 21,
+      "eachOriginalAnglePaintedAndUncropped": true,
+      "sideClickOpensSideFirst": true,
+      "escapeReturnsFocus": true,
+      "consoleErrors": [],
+      "HTTPerrors": [],
+      "overflow": false
+    },
+    "phone": {
+      "serverSevenLooksPhotos": 21,
+      "pageTwoPhotos": 21,
+      "ajaxFacetPhotos": 21,
+      "eachOriginalAnglePaintedAndUncropped": true,
+      "sideClickOpensSideFirst": true,
+      "escapeReturnsFocus": true,
+      "consoleErrors": [],
+      "HTTPerrors": [],
+      "overflow": false
+    }
+  },
+  "status": "passed"
+}

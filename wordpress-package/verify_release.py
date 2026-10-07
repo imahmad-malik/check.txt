@@ -35,8 +35,10 @@ for artifact in manifest['artifacts']:
         if artifact['file'] == 'bixie-library.zip':
             catalog = json.loads(archive.read('bixie-library/content/catalog.json'))
             media = json.loads(archive.read('bixie-library/content/media/manifest.json'))
-            check('Plugin does not fabricate launch media or looks', not catalog['looks'] and not media.get('records'))
-        if artifact['file'] == 'Bixie-WordPress-Engineering-Package.zip':
+            complete = catalog.get('counts', {}).get('provided_complete_three_angle_sets', 0)
+            check('Plugin catalog counts agree with actual complete look records', len(catalog['looks']) == complete)
+            check('Plugin bulk media are separate verified parts', not media.get('records'))
+        if artifact['file'] in ['Bixie-WordPress-Engineering-Package.zip', 'Bixie-WordPress-Package.zip']:
             broken = []
             for name in names:
                 if not name.endswith('.md'):
@@ -50,7 +52,8 @@ for artifact in manifest['artifacts']:
                     if target and candidate not in names:
                         broken.append({'source': name, 'target': target})
             check('Source bundle relative documentation links resolve', not broken, broken)
-            check('Source bundle clearly identifies incomplete media', 'NOT the completed launch' in archive.read('README.md').decode())
+            notice = archive.read('README.md').decode()
+            check('Source bundle identifies its actual media/release state', manifest['release_state'] in notice and 'Planned images are not delivered assets' in notice)
 
 result = {'status': 'passed' if all(c['passed'] for c in checks) else 'failed',
           'checks_passed': sum(c['passed'] for c in checks), 'checks_total': len(checks),

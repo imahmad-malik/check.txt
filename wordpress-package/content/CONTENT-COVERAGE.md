@@ -119,7 +119,7 @@ The final WordPress package remains **asset-incomplete** until the accepted gene
 
 <!-- ACTUAL_MEDIA_ACCOUNTING_START -->
 ## Actual source accounting
-Last synchronization verified **5 existing original source files**, **0 approved complete three-angle looks**, **0 approved collection-view photographs** and **0 available guide-photo references**.
+Last synchronization verified **14 existing original source files**, **0 approved complete three-angle looks**, **0 approved collection-view photographs** and **0 available guide-photo references**.
 The remaining launch requirement is **154 complete looks / 462 collection views**. Planned records, renditions and partial/failed sets are not counted as completed looks.
 See `actual-source-counts.json` for per-collection counts and explicit file/look diagnostics. Homepage-only roles and the real photo-film have separate approval gates.
 <!-- ACTUAL_MEDIA_ACCOUNTING_END -->

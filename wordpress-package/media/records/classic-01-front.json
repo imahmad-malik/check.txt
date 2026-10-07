@@ -7,13 +7,13 @@
   "collection": "classic",
   "usage": "collection",
   "angle": "front",
-  "source_file": "source-media/classic-01-front.png",
+  "source_file": "source-media/classic-01-front-native.webp",
   "file": "media/classic-01-front.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "40e26209b1657a18305c07aabae7398797a78fff1c8c19ad42481d95e8d40068",
+  "sha256": "1f5027fa30fa4ed9373805f2d6629f678b2b49dec2ae420321c2d4f73fb8bb65",
   "display_sha256": "f33e0839b11de0bf6ae03fce6634305a0a760fc06a0f2884b779db70084d9321",
-  "source_bytes": 2315696,
+  "source_bytes": 1445568,
   "display_bytes": 315256,
   "native_original": true,
   "native_8k": false,
@@ -56,5 +56,11 @@
     "native_detail": "pass: face and hair sharp at1122\u00d71402 native source; no upscaling",
     "angle": "pass: clear level front view",
     "coherent_set": "pending genuine side and back photographs; front approval does not approve a complete look"
-  }
+  },
+  "generator_original_file": "source-media/classic-01-front.png",
+  "generator_original_sha256": "40e26209b1657a18305c07aabae7398797a78fff1c8c19ad42481d95e8d40068",
+  "generator_original_bytes": 2315696,
+  "native_pixel_sha256": "d8182ce963ca565aab979c3fa39e0cbb6b5116483d1952b5679f0f646641a298",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
 }

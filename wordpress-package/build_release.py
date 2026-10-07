@@ -64,8 +64,19 @@ def main():
         raise ValueError('Plugin catalog differs from canonical content catalog.')
     catalog = json.loads(catalog_path.read_text())
     manifest = json.loads((ROOT / 'plugin/bixie-library/content/media/manifest.json').read_text())
-    if catalog.get('looks') or manifest.get('records'):
-        raise ValueError('This engineering-only release expects zero launch media; review the release state before bundling approved assets.')
+    if manifest.get('records'):
+        raise ValueError('Bulk actual media belongs in separately verified media parts, not the plugin code archive.')
+    counts = catalog.get('counts', {})
+    complete_looks = int(counts.get('provided_complete_three_angle_sets', 0))
+    gallery_photos = int(counts.get('provided_unique_primary_collection_images', 0))
+    home_photos = int(counts.get('provided_approved_home_role_images', 0))
+    source_manifest = json.loads((ROOT / 'media/manifest.json').read_text())
+    movies = sum(1 for r in source_manifest.get('records', [])
+                 if str(r.get('source_file', r.get('file', ''))).endswith('.mp4')
+                 and r.get('approved') is True and r.get('review_status') == 'approved')
+    assets_complete = complete_looks >= 154 and gallery_photos >= 462 and home_photos >= 25 and movies >= 1
+    release_state = 'assets_complete_target_host_checks_required' if assets_complete else 'engineering_installable_media_incomplete'
+    bundle_name = 'Bixie-WordPress-Package.zip' if assets_complete else 'Bixie-WordPress-Engineering-Package.zip'
 
     for directory, name in [('theme/bixie-editorial', 'bixie-editorial.zip'),
                             ('plugin/bixie-library', 'bixie-library.zip')]:
@@ -74,17 +85,20 @@ def main():
     content_base = ROOT / 'content'
     build_zip(output / 'content-plan.zip', [(str(p.relative_to(ROOT)), p) for p in source_files(content_base)])
 
-    notice = '''# Bixie WordPress engineering package — media incomplete
+    notice = f'''# Bixie WordPress package — {release_state}
 
 This is an installable theme and companion plugin, with editable page content,
-collection definitions and an importer. It is NOT the completed launch requested.
-There are 0 approved launch photographs, 0 complete public looks and no completed
-movie. The 487 image requests are a production plan, not delivered assets.
+collection definitions and an importer.
+Actual complete looks: {complete_looks} / 154. Actual gallery photographs:
+{gallery_photos} / 462. Actual separate homepage photographs: {home_photos} / 25.
+Reviewed production movies: {movies}. Planned images are not delivered assets.
+{'Assets are complete; read the validation report for actual software/hosting checks.' if assets_complete else 'This is NOT the completed launch requested. Missing real media keeps launch incomplete.'}
 
 Install bixie-editorial.zip in Appearance → Themes → Add New → Upload Theme.
 Install bixie-library.zip in Plugins → Add New → Upload Plugin; activate both.
-Open Tools → Bixie package setup and use the tracked content import. Incomplete
-photo-led pages stay in draft. The content plan alone does not fill the galleries.
+Open Tools → Bixie package setup. Import the separately provided verified media
+parts, then use the tracked content import. Incomplete photo-led pages stay draft.
+The code/source archive alone does not include hundreds of bulk photographs.
 
 Read INSTALL.md, OWNER-GUIDE.md, VALIDATION-REPORT.md and LAUNCH-CHECKLIST.md.
 The isolated test site's synthetic media are evidence only, never launch assets.
@@ -101,18 +115,27 @@ is bundled in either installable ZIP.
     entries += [(p.name, output / p.name) for p in docs if p.name != 'README.md']
     # Preserve source-relative documentation links. Diagnostic probe files live
     # only in this review/source archive, never in either installable ZIP.
-    for directory in ['theme', 'plugin', 'content', 'tests', 'media', 'source-media']:
-        entries.extend((str(p.relative_to(ROOT)), p) for p in source_files(ROOT / directory))
+    diagnostic_files = {'media/soft-layered-01.webp', 'source-media/soft-layered-01.png'}
+    media_suffixes = {'.png', '.jpg', '.jpeg', '.webp', '.avif', '.mp4'}
+    for directory in ['theme', 'plugin', 'content', 'tests', 'media', 'source-media', 'dev-environment']:
+        for path in source_files(ROOT / directory):
+            relative = str(path.relative_to(ROOT))
+            if directory in {'media', 'source-media'} and path.suffix.lower() in media_suffixes and relative not in diagnostic_files:
+                continue  # Bulk files are delivered in media parts/source backups.
+            entries.append((relative, path))
     for path in sorted(ROOT.glob('*.py')):
         entries.append((path.name, path))
-    build_zip(output / 'Bixie-WordPress-Engineering-Package.zip', entries)
+    build_zip(output / bundle_name, entries)
 
     artifacts = []
-    for path in sorted(output.glob('*.zip')):
+    for filename in [bundle_name, 'bixie-editorial.zip', 'bixie-library.zip', 'content-plan.zip']:
+        path = output / filename
         artifacts.append({'file': path.name, 'bytes': path.stat().st_size, 'sha256': sha256(path)})
-    state = {'release_state': 'engineering_installable_media_incomplete',
-             'approved_launch_photographs': 0, 'complete_launch_looks': 0,
-             'completed_movies': 0, 'planned_original_photo_requests': 487,
+    state = {'release_state': release_state,
+             'approved_launch_photographs': gallery_photos + home_photos,
+             'complete_launch_looks': complete_looks, 'gallery_photographs': gallery_photos,
+             'homepage_photographs': home_photos,
+             'completed_movies': movies, 'planned_original_photo_requests': 487,
              'artifacts': artifacts}
     (output / 'release-manifest.json').write_text(json.dumps(state, indent=2) + '\n')
     (output / 'SHA256SUMS.txt').write_text(''.join(f"{a['sha256']}  {a['file']}\n" for a in artifacts))

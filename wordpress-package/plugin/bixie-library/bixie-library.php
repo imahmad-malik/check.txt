@@ -77,6 +77,7 @@ function bixie_get_package_attachment(string $key): int {
     $posts = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'posts_per_page' => 1, 'fields' => 'ids', 'meta_key' => '_bixie_asset_key', 'meta_value' => sanitize_text_field($key)]);
     return $posts ? (int) $posts[0] : 0;
 }
+function bixie_array_meta(int $id, string $key): array { $value = get_post_meta($id, $key, true); return is_array($value) ? $value : []; }
 
 function bixie_original_source_path(int $id): string {
     $source = (string) get_post_meta($id, '_bixie_original_source_file', true); $delivery = (string) get_post_meta($id, '_bixie_delivery_file', true);
@@ -144,6 +145,13 @@ function bixie_get_collection_url($term): string {
     if ($page_id && get_post_status($page_id) === 'publish') { return get_permalink($page_id); }
     return home_url('/look-collection/' . $term->slug . '/');
 }
+function bixie_is_project_attachment(int $id): bool { return get_post_type($id) === 'attachment' && (get_post_meta($id, '_bixie_asset_key', true) !== '' || get_post_meta($id, '_bixie_import_key', true) !== ''); }
+add_action('template_redirect', static function(): void {
+    if (!is_attachment() || !bixie_is_project_attachment(get_queried_object_id())) { return; }
+    $id = get_queried_object_id(); $parent = absint(get_post_field('post_parent', $id));
+    $target = $parent && get_post_type($parent) === 'bixie_look' && get_post_status($parent) === 'publish' && bixie_check_look($parent)['complete'] ? get_permalink($parent) : wp_get_attachment_url($id);
+    if ($target && $target !== get_attachment_link($id)) { wp_safe_redirect($target, 301); exit; }
+}, 0);
 
 add_filter('term_link', static function($link, $term, $taxonomy) {
     if ($taxonomy !== 'bixie_collection') { return $link; }
@@ -177,6 +185,7 @@ require_once BIXIE_LIBRARY_DIR . 'includes/relationships.php';
 require_once BIXIE_LIBRARY_DIR . 'includes/blocks.php';
 require_once BIXIE_LIBRARY_DIR . 'includes/settings.php';
 require_once BIXIE_LIBRARY_DIR . 'includes/bundles.php';
+require_once BIXIE_LIBRARY_DIR . 'includes/downloads.php';
 require_once BIXIE_LIBRARY_DIR . 'includes/importer.php';
 require_once BIXIE_LIBRARY_DIR . 'includes/schema.php';
 

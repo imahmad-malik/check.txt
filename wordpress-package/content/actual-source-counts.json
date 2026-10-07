@@ -2,7 +2,7 @@
   "bundle_id": null,
   "manifest": "/workspace/check.txt/wordpress-package/media/manifest.json",
   "status": "synchronized-actual-only",
-  "actual_generated_source_files": 5,
+  "actual_generated_source_files": 14,
   "actual_approved_complete_looks": 0,
   "actual_approved_collection_view_photos": 0,
   "actual_guide_photo_references": 0,
@@ -42,6 +42,11 @@
       "key": "resolution-probe-soft-layered",
       "look_key": null,
       "reason": "not explicitly approved; not a canonical view angle; no canonical look assignment"
+    },
+    {
+      "key": "over-50-01-front",
+      "look_key": "over-50-01",
+      "reason": "not explicitly approved"
     }
   ],
   "look_diagnostics": [],

@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checks_passed": 23,
-  "checks_total": 23,
+  "checks_passed": 24,
+  "checks_total": 24,
   "release_state": "engineering_installable_media_incomplete",
   "checks": [
     {
@@ -30,7 +30,7 @@
       "detail": []
     },
     {
-      "check": "Source bundle clearly identifies incomplete media",
+      "check": "Source bundle identifies its actual media/release state",
       "passed": true,
       "detail": ""
     },
@@ -95,7 +95,12 @@
       "detail": ""
     },
     {
-      "check": "Plugin does not fabricate launch media or looks",
+      "check": "Plugin catalog counts agree with actual complete look records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Plugin bulk media are separate verified parts",
       "passed": true,
       "detail": ""
     },
