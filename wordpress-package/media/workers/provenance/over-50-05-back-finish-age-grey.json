@@ -1,0 +1,24 @@
+{
+  "id": "over-50-05-back",
+  "prompt": "Create exactly ONE new original realistic sharp premium salon editorial photograph of the SAME fictional ADULT in the attached genuine references. It is a separate photograph at a new camera angle. Match identity, mature age, haircut geometry, texture, hair colour, loose ivory knit, plain warm ivory studio background, and neutral soft daylight exactly. Native resolution supported by tool, at least 1024 pixels long edge, no upscaling and no 8K claim. Portrait full aspect. Complete all main hair edges and entire crown with generous breathing room above and both sides; no hair clipping. Sharp natural skin and individual hair strands throughout, no blur or bokeh. Frame HEAD plus SHOULDER LINE ONLY. Bulky loose fully opaque HIGH TURTLENECK covers whole neck, neckline and upper chest, generous non-fitted knit fabric; no chest/torso contour, cleavage, open collar, bare shoulders, sleeveless outfit or exposed back. No jewellery, words, logo, watermark, collage or extra people. Preserve the bob-pixie hybrid with longer front/temple lengths, shaped layered crown and clearly short graduated nape. Observed reference attributes: {\"texture\": \"wavy\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"long\", \"fringe\": \"light broken\", \"colour\": \"brunette\", \"finish\": \"natural\", \"age_reference\": \"over-50\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Use both front and side references. TRUE BACK VIEW: camera directly behind the same adult, head upright and level, back of head centered, face fully turned away and no visible eyes, nose or cheek. Preserve exact crown volume, curls/layers, natural hair colour distribution and short pixie nape from side reference; reveal clean graduated back silhouette, with bulky high collar covering neck directly below short hairline. Photograph upper shoulder line only, no torso. Do not lengthen into ordinary bob or alter the hairstyle. One separately generated rear portrait.",
+  "references": [
+    "source-media/over-50-05-front.png",
+    "source-media/over-50-05-side.png"
+  ],
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/over-50-05-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/over-50-05-side.png"
+  ],
+  "requested_angle": "back",
+  "created_utc": "2026-10-08T03:13:54.083807+00:00",
+  "generated_tool_file": "/workspace/generated_images/exec-fd5ecf93-9c3c-4720-8b17-8ee2abd5feba.png",
+  "generator_original_file": "source-media/over-50-05-back.png",
+  "generator_original_sha256": "2ce25f9907b6933fb42efd95a57dea184ab6fe0c171423eae88544f73cedaa51",
+  "saved_utc": "2026-10-08T03:14:33.097281+00:00",
+  "generator_output_file_id": "exec-fd5ecf93-9c3c-4720-8b17-8ee2abd5feba",
+  "tool_call_id_status": "Not exposed by image_gen result; genuine returned output filepath retained",
+  "reference_sha256": {
+    "source-media/over-50-05-front.png": "b471002f2fa45712155b1106d3e2b65d891b40b215c1b0ec0ec0955d9813f71a",
+    "source-media/over-50-05-side.png": "9929d4a568c9bda6bf42bc5699c8cb82f4de91ef53b5af945537cfc59d901443"
+  }
+}

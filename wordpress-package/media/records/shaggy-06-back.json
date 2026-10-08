@@ -1,0 +1,101 @@
+{
+  "id": "shaggy-06-back",
+  "key": "shaggy-06-back",
+  "look_id": "shaggy-06",
+  "look_key": "shaggy-06",
+  "canonical_look_key": "shaggy-06",
+  "collection": "shaggy",
+  "usage": "collection",
+  "angle": "back",
+  "source_file": "source-media/shaggy-06-back-native.webp",
+  "file": "media/shaggy-06-back.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "92828de8048b5087d5de1908244bf3de051011330ae2fa01cf0d4debe3a1073d",
+  "display_sha256": "c47569a9e9cc1d04ebbb5747ecc3667d913befeb1eae217d4e18dbc6fba50efe",
+  "source_bytes": 1587064,
+  "display_bytes": 390332,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-81839247-45b8-4fc1-a526-de665f8be889.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create exactly ONE separate original realistic sharp premium editorial salon haircut photograph of a fictional ADULT. No collage, crop, illustration, extra person, words, logo, watermark or jewellery. HEAD plus SHOULDER LINE ONLY. Complete main hair outline, entire crown and all side hair edges with generous breathing room above and to both sides. BULKY LOOSE FULLY OPAQUE IVORY HIGH TURTLENECK conceals whole neck, neckline and upper chest; no exposed neck opening, chest, cleavage, torso contour, low collar, sleeveless garment, bare shoulders or exposed back. Plain warm ivory studio, even soft daylight, natural skin texture, sharp detail in all hair strands with adequate depth of field, no blur/bokeh. Full portrait source aspect at genuine tool native resolution >=1024 pixels long edge, no upscale or 8K claim. Use attached genuine references to create a NEW photograph of EXACT SAME fictional adult, identical face and adult age, haircut, hair colour and texture, fringe, crown, short nape, loose high ivory knit and studio daylight. Do not alter haircut or outfit. Observed reference attributes: {\"texture\": \"curly\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"short\", \"fringe\": \"curtain\", \"colour\": \"blonde\", \"finish\": \"shaggy\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Retain choppy shaggy crown layers, tousled separation and short textured tapered nape; no uniform bob or long wolf cut. Use both approved front and side references. TRUE BACK VIEW: camera directly behind same adult upright level head, rear head centered; no visible eyes, nose or cheek. Preserve exact crown silhouette, natural colour distribution, layers/curls and graduated short nape from profile; high loose collar directly under short hairline conceals neck. One separate original rear photograph.",
+  "reference_source_files": [
+    "source-media/shaggy-06-front.png",
+    "source-media/shaggy-06-side.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "curtain",
+    "colour": "blonde",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "directional lifted",
+    "nape": "textured tapered",
+    "fringe": "curtain",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "directional lifted | textured tapered | curtain | ear-revealing temple pieces | 0-crown-to-front-proportion"
+  },
+  "alt": "Back view of a blonde curly shaggy bixie on a fictional adult.",
+  "caption": "Centered rear portrait preserves same blonde rounded curls, darker roots, choppy airy tousled crown and short textured graduated nape; sharp native strands, complete silhouette margins and matching high bulky ivory turtleneck, same adult and studio light.",
+  "generator_original_file": "source-media/shaggy-06-back.png",
+  "generator_original_sha256": "f7454062358db4bcea15250202dbbfb456eb2bbb0e73871efc375ac32de835c4",
+  "generator_original_bytes": 2486217,
+  "native_pixel_sha256": "7b0bfb915c10ddd51cd731b4ea4d785d870998d2a44bbe0c6ad6e79832a0b2ac",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-06-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-06-side.png"
+  ],
+  "provenance_file": "media/workers/provenance/shaggy-06-back-finish-shapes.json",
+  "actual_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "curtain",
+    "colour": "blonde",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": true,
+  "observed_meta": {
+    "texture": "curly",
+    "colour": "blonde",
+    "length": "short",
+    "fringe": "curtain",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "description": "Centered rear portrait preserves same blonde rounded curls, darker roots, choppy airy tousled crown and short textured graduated nape; sharp native strands, complete silhouette margins and matching high bulky ivory turtleneck, same adult and studio light."
+  },
+  "review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native-detail supplement inspection; compared genuine separate reference views",
+    "attire": "pass: bulky loose fully opaque high ivory turtleneck conceals neck, neckline and upper chest without contours or cleavage",
+    "framing": "pass: full main hair edges and crown with generous margins; head and shoulder framing",
+    "angle": "pass: back",
+    "native_detail": "Verified 1122x1402 native size >=1024; directly inspected sharp hair strands at native scale; retained PNG and RGB-identical lossless WebP",
+    "visible_features": "Centered rear portrait preserves same blonde rounded curls, darker roots, choppy airy tousled crown and short textured graduated nape; sharp native strands, complete silhouette margins and matching high bulky ivory turtleneck, same adult and studio light."
+  },
+  "inspection_files": {
+    "full_aspect_preview": "media/reviews/finish-shapes/shaggy-06-back.jpg",
+    "native_detail_supplement": "media/reviews/finish-shapes/native-detail/shaggy-06-back.jpg"
+  }
+}

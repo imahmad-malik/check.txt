@@ -1,7 +1,7 @@
 # Install the Bixie WordPress package
 
-Current state: Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Actual inventory:86looks/258galleryphotos,
-25Homephotos, 10/22complete collections.
+Current state: Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Actual inventory:120looks/360galleryphotos,
+25Homephotos, 12/22complete collections.
 
 The download contains **bixie-editorial.zip** (installable theme),
 **bixie-library.zip** (installable companion plugin), verified media ZIP parts,
@@ -18,7 +18,9 @@ No paid builder or Node/npm is required.
 4. Use Download media and import package. It fetches the pinned verified parts
    one at a time and imports in tracked batches. If the host cannot fetch them,
    select the matching ZIP files from wordpress-media-release, then Upload and
-   verify parts; after all parts verify, choose Start or resume import.
+   verify parts; after all parts verify, choose Start or resume import. If browser
+   JavaScript is disabled, upload one numbered part at a time in ascending order
+   to respect the host's request-size and file-count limits.
 5. Read completion diagnostics: all154looks/22collections/Home/seven guides
    should qualify with the final complete media. Missing or unreviewed sources
    keep affected pages in draft. Part upload progress is not content completion.

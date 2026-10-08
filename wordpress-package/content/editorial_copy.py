@@ -3,7 +3,7 @@ import re
 
 TECHNICAL_COPY = re.compile(r'native|resolution|generated|opaque|turtleneck|shoulder|skin|lighting|same adult|complete head|no-face|coherent|single-eye|leftprofile|rightprofile|matching|studio|fictional|strict.?90|true.?90|head margin', re.I)
 TEXTURES = {'straight': 'straight', 'wavy': 'wavy', 'curly': 'curly', 'coily': 'coiled'}
-FRINGES = {'wispy': 'a wispy fringe', 'side-swept': 'a side-swept fringe', 'short open': 'an open fringe', 'short-open': 'an open fringe', 'curtain': 'a curtain fringe', 'full': 'a full fringe', 'none': 'an open face frame'}
+FRINGES = {'wispy': 'a wispy fringe', 'side-swept': 'a side-swept fringe', 'short open': 'an open fringe', 'short-open': 'an open fringe', 'curtain': 'a curtain fringe', 'full': 'a full fringe', 'none': 'an open face frame', 'no-bangs': 'an open face frame'}
 
 
 def style_phrase(meta):

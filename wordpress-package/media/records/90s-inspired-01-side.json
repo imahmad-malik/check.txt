@@ -26,9 +26,9 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/90s-inspired-01-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
-  "public_status": "draft",
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "ready-after-coherent-set-review",
   "expected_meta": {
     "texture": "wavy",
     "strand": "medium",
@@ -49,13 +49,49 @@
     "ear_outline": "half-covered ears with curved temple pieces",
     "distinctness_basis": "soft rounded | short graduated | wispy | half-covered ears with curved temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Side view of a blonde wavy bixie",
+  "caption": "Three-quarter side angle reveals the curved temple, ear outline and short graduated dark-root blonde nape.",
   "generator_original_file": "source-media/90s-inspired-01-side.png",
   "generator_original_sha256": "c9bdf16a448be814db23edc995b7c611b92c40cf0b8b7e232ab09bca65325ff0",
   "generator_original_bytes": 2286193,
   "native_pixel_sha256": "dc5c4b605cc6267b8cbf2761f588a2ac8cf48f47d1b638895895e2c955b7ef0b",
   "native_pixel_identical_to_generator_png": true,
   "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
-  "provenance_record": "media/workers/finish-media-provenance/90s-inspired-01-side.json"
+  "provenance_record": "media/workers/finish-media-provenance/90s-inspired-01-side.json",
+  "actual_meta": {
+    "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "side-swept",
+    "colour": "blonde",
+    "finish": "90s-inspired",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "observed_meta": {
+    "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "side-swept",
+    "colour": "blonde",
+    "finish": "90s-inspired",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "review": {
+    "reviewer": "finish-media",
+    "attire_pass": true,
+    "complete_hair_outline_pass": true,
+    "sharpness_pass": true,
+    "viewpoint_pass": true,
+    "native_resolution_pass": true,
+    "method": "Actually inspected full-aspect <=400px photograph and a separate 400x400 crop of native hair/eye pixels; does not claim a full-native visual audit. Native dimensions, hashes and decoded PNG/lossless WebP RGB equality checked separately.",
+    "evidence": "Three-quarter side angle reveals the curved temple, ear outline and short graduated dark-root blonde nape. Complete haircut margin, loose bulky opaque ivory high turtleneck covers neck and upper chest, sharp detail and neutral studio daylight."
+  }
 }

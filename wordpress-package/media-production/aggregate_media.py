@@ -106,5 +106,19 @@ progress = {
     'quality': {'minimum_native_long_edge': 1024, 'native_8k_claim': False, 'upscaling_allowed': False},
     'resume_rule': 'Verify existing originals and hashes before generating missing IDs; preserve failed attempts separately.',
 }
+blocker_path = root/'media/production-blocker.json'
+if blocker_path.is_file() and progress['missing_image_ids']:
+    blocker = json.loads(blocker_path.read_text())
+    if blocker.get('error_code') == 'usage_limit_reached':
+        manifest['status'] = 'production_blocked_by_image_generation_quota'
+        progress['external_blocker'] = {
+            'record': 'media/production-blocker.json',
+            'service': blocker.get('service'),
+            'error_code': blocker['error_code'],
+            'reset_at_utc': blocker.get('reset_at_utc'),
+            'reset_at_pkt': blocker.get('reset_at_pkt'),
+            'remaining_missing_photographs': len(progress['missing_image_ids']),
+        }
+        atomic_json(path, manifest)
 atomic_json(root/'media/progress.json', progress)
 print(json.dumps(manifest['counts']))

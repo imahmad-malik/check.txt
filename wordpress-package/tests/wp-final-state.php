@@ -20,7 +20,7 @@ function final_qa_post(WP_Post $post): array {
     return ['id' => $post->ID, 'status' => $post->post_status, 'title' => $post->post_title, 'url' => get_permalink($post), 'editURL' => admin_url('post.php?post=' . $post->ID . '&action=edit'), 'parent' => $post->post_parent, 'contentSHA256' => hash('sha256', $post->post_content), 'nativeBlockTypes' => $types, 'blockCount' => count($blocks), 'unresolvedTokens' => str_contains($post->post_content, '{{media_')];
 }
 $catalog = Bixie_Importer::load();
-$state = ['scope' => 'Separate actual-source local noindex WordPress acceptance; no fixture look or media is imported by this inspector.', 'expectedFinal' => ['looks' => 154, 'photos' => 487, 'films' => 1, 'collections' => 22, 'pages' => 42, 'guides' => 7, 'guideReferences' => 24, 'visibleUniqueHomePhotos' => 77], 'catalogCounts' => ['looks' => count($catalog['looks']), 'pages' => count($catalog['pages']), 'collections' => count($catalog['collections']), 'media' => count($catalog['_media'])], 'looks' => [], 'collections' => [], 'attachments' => [], 'pages' => [], 'guides' => [], 'home' => [], 'settings' => [], 'parts' => [], 'duplicateImportKeys' => [], 'preservation' => ['posts' => [], 'settings' => []]];
+$state = ['scope' => 'Separate actual-source local noindex WordPress acceptance; no fixture look or media is imported by this inspector.', 'expectedFinal' => ['looks' => 154, 'photos' => 487, 'films' => 1, 'collections' => 22, 'pages' => 42, 'guides' => 7, 'guideReferences' => 24, 'uniqueHomeImageElements' => 77, 'distinctHomeFilmPoster' => 1, 'visibleUniqueHomePhotosIncludingPoster' => 78], 'catalogCounts' => ['looks' => count($catalog['looks']), 'pages' => count($catalog['pages']), 'collections' => count($catalog['collections']), 'media' => count($catalog['_media'])], 'looks' => [], 'collections' => [], 'attachments' => [], 'pages' => [], 'guides' => [], 'home' => [], 'settings' => [], 'parts' => [], 'duplicateImportKeys' => [], 'preservation' => ['posts' => [], 'settings' => []]];
 $expected = [];
 foreach ($catalog['_media'] as $record) { $expected[$record['key']] = $record; }
 $package_attachments = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'posts_per_page' => -1, 'orderby' => 'ID', 'order' => 'ASC', 'meta_key' => '_bixie_asset_key']);
@@ -62,6 +62,15 @@ foreach ($posts as $post) {
         }
         if ($meta['_bixie_is_front_page']) {
             $entry['gate'] = bixie_check_home($post->ID); $entry['photoIDs'] = bixie_home_photo_ids(parse_blocks($post->post_content)); $entry['uniquePhotoIDs'] = array_values(array_unique($entry['photoIDs'])); $entry['filmIDs'] = bixie_home_film_ids(parse_blocks($post->post_content));
+            $entry['posterIDs'] = []; $entry['sectionCount'] = 0;
+            foreach (final_qa_blocks(parse_blocks($post->post_content)) as $block) {
+                if (($block['attrs']['tagName'] ?? '') === 'section' && str_contains($block['attrs']['className'] ?? '', 'bixie-section')) { $entry['sectionCount']++; }
+                if ($block['blockName'] === 'core/video') {
+                    $tags = new WP_HTML_Tag_Processor($block['innerHTML'] ?? '');
+                    if ($tags->next_tag('VIDEO') && $tags->get_attribute('poster')) { $entry['posterIDs'][] = attachment_url_to_postid(html_entity_decode((string) $tags->get_attribute('poster'), ENT_QUOTES | ENT_HTML5, 'UTF-8')); }
+                }
+            }
+            $entry['visiblePhotoIDs'] = array_values(array_unique(array_merge($entry['uniquePhotoIDs'], $entry['posterIDs'])));
             $state['home'] = $entry;
         }
     }

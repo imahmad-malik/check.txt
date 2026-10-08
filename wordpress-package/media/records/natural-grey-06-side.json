@@ -91,5 +91,12 @@
     "angle": "pass: side view; useful side reveals temple, ear region and nape",
     "native_detail": "Verified 1122x1402, native long edge >=1024; directly inspected sharp strands at native scale; retained PNG and RGB-identical lossless WebP",
     "visible_features": "Mature dark brown adult with natural silver grey rounded curls, dark root mixture, lifted layered crown and short tapered nape; camera-left profile with clear ear and temple matches front and high ivory knit."
+  },
+  "resume_direct_source_review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native strand-detail supplement inspection",
+    "passed": true,
+    "findings": "Full main hair silhouette and crown margin; sharp native strands; covered neckline and upper chest in bulky opaque ivory high turtleneck; adult identity, cut, colour, outfit and light consistent with separately generated rear view",
+    "preview": "media/reviews/finish-age-grey/natural-grey-06-side.jpg",
+    "native_detail_supplement": "media/reviews/finish-age-grey/native-detail/natural-grey-06-side.jpg"
   }
 }

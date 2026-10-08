@@ -52,6 +52,29 @@ def main():
         release = json.loads((code / 'release-manifest.json').read_text())
         if release['release_state'] != 'assets_complete_target_host_checks_required':
             raise ValueError('Incomplete engineering ZIPs cannot enter final download publication.')
+        acceptance = json.loads((ROOT / 'tests/wp-final-acceptance-report.json').read_text())
+        expected_counts = {'looks': 154, 'publishedLooks': 154, 'photos': 487,
+                           'films': 1, 'uniqueSourceSHA256': 488, 'pages': 42,
+                           'collections': 22, 'readyCollections': 22,
+                           'guides': 7, 'readyGuides': 7,
+                           'home_unique_image_elements': 77,
+                           'home_unique_photos_including_poster': 78,
+                           'home_sections': 22, 'guide_photo_references': 24}
+        if acceptance.get('passed') is not True or any(acceptance.get('actual_counts', {}).get(key) != value for key, value in expected_counts.items()):
+            raise ValueError('Final downloads require complete actual WordPress acceptance, not pilot or fixture evidence.')
+        tested = acceptance.get('tested_archives', {})
+        for row in release['artifacts']:
+            if row['file'] in {'bixie-editorial.zip', 'bixie-library.zip'} and tested.get(row['file']) != row['sha256']:
+                raise ValueError('The installable ZIP differs from the ZIP actually installed and tested in WordPress.')
+        for row in media_manifest['parts']:
+            if tested.get(row['file']) != row['sha256']:
+                raise ValueError('A final media ZIP differs from the part actually uploaded and verified through WordPress.')
+        for name in acceptance.get('supporting_reports', []):
+            if Path(name).name != name or json.loads((ROOT / 'tests' / name).read_text()).get('passed') is not True:
+                raise ValueError('A required final runtime check is missing or failing.')
+        archive_report = json.loads((ROOT / 'tests/release-archive-report.json').read_text())
+        if archive_report.get('status') != 'passed' or archive_report.get('release_state') != release['release_state']:
+            raise ValueError('Final archive integrity and documentation checks must pass before publishing downloads.')
         paths += checked_files(code, release['artifacts'])
         paths += [str(p.relative_to(REPO)) for p in sorted(code.glob('*.md'))]
         paths += [str((code / name).relative_to(REPO)) for name in ['release-manifest.json', 'SHA256SUMS.txt']]

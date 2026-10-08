@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Pin final media downloads to the actual immutable published Git commit."""
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -11,7 +12,10 @@ REPO = ROOT.parent
 
 
 def main():
-    published = json.loads((REPO / 'wordpress-final-media-publish.json').read_text())
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--publication-report', type=Path, default=REPO / 'wordpress-final-media-publish.json')
+    args = parser.parse_args()
+    published = json.loads(args.publication_report.read_text())
     commit = published['commit']
     if published['stage'] != 'media' or not re.fullmatch(r'[0-9a-f]{40}', commit):
         raise ValueError('An actual immutable media publication is required.')

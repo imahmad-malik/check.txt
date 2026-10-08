@@ -9,7 +9,7 @@ function bixie_editorial_home_pattern() {
 	$used_media = array_filter( array_map( 'bixie_editorial_media_id', (array) get_option( 'bixie_required_home_media', array() ) ) );
 	$used_looks = array();
 	$shelves = array();
-	foreach ( array( 'classic' => 6, 'short' => 4, 'long' => 4, 'round-face' => 6, 'fine-hair' => 3, 'thin-hair' => 3, 'easy-styling' => 6, '90s-inspired' => 6, 'shaggy' => 6 ) as $collection => $count ) {
+	foreach ( array( 'classic' => 7, 'short' => 4, 'long' => 4, 'round-face' => 6, 'fine-hair' => 3, 'thin-hair' => 3, 'easy-styling' => 6, '90s-inspired' => 6, 'shaggy' => 6 ) as $collection => $count ) {
 		$shelves[ $collection ] = bixie_editorial_select_photos( $collection, $count, $used_media, $used_looks );
 	}
 
@@ -133,7 +133,7 @@ function bixie_editorial_home_pattern() {
 
 	$index = bixie_editorial_intro( '19 / THE COMPLETE INDEX', 'Every collection, within reach.', 'Move directly to a photo collection or a practical guide.' );
 	$index_links = '';
-	foreach ( array( 'Classic' => '/collections/classic/', 'Short' => '/collections/short/', 'Long' => '/collections/long/', 'Layered' => '/collections/layered/', 'Shaggy' => '/collections/shaggy/', 'Feathered' => '/collections/feathered/', 'Choppy' => '/collections/choppy/', 'Fine hair' => '/collections/fine-hair/', 'Thin hair' => '/collections/thin-hair/', 'Thick hair' => '/collections/thick-hair/', 'Straight hair' => '/collections/straight/', 'Wavy hair' => '/collections/wavy/', 'Curly hair' => '/collections/curly/', 'Bangs' => '/collections/bangs/', 'Over 40' => '/collections/over-40/', 'Over 50' => '/collections/over-50/', 'Over 60' => '/collections/over-60/', 'Natural grey' => '/collections/natural-grey/', '90s inspired' => '/collections/90s-inspired/', 'Round face' => '/collections/round-face/', 'Undercut' => '/collections/undercut/', 'Easy styling' => '/collections/easy-styling/', 'No bangs' => '/looks/?fringe=none', 'Curtain bangs' => '/looks/?fringe=curtain', 'Side-swept bangs' => '/looks/?fringe=side-swept', 'Wispy bangs' => '/looks/?fringe=wispy', 'Copper hair' => '/looks/?colour=copper', 'Black hair' => '/looks/?colour=black' ) as $label => $path ) {
+	foreach ( array( 'Classic' => '/collections/classic/', 'Short' => '/collections/short/', 'Long' => '/collections/long/', 'Layered' => '/collections/layered/', 'Shaggy' => '/collections/shaggy/', 'Feathered' => '/collections/feathered/', 'Choppy' => '/collections/choppy/', 'Fine hair' => '/collections/fine-hair/', 'Thin hair' => '/collections/thin-hair/', 'Thick hair' => '/collections/thick-hair/', 'Straight hair' => '/collections/straight/', 'Wavy hair' => '/collections/wavy/', 'Curly hair' => '/collections/curly/', 'Bangs' => '/collections/bangs/', 'Over 40' => '/collections/over-40/', 'Over 50' => '/collections/over-50/', 'Over 60' => '/collections/over-60/', 'Natural grey' => '/collections/natural-grey/', '90s inspired' => '/collections/90s-inspired/', 'Round face' => '/collections/round-face/', 'Undercut' => '/collections/undercut/', 'Easy styling' => '/collections/easy-styling/', 'No bangs' => '/looks/?fringe=none', 'Curtain bangs' => '/looks/?fringe=curtain', 'Side-swept bangs' => '/looks/?fringe=side-swept', 'Wispy bangs' => '/looks/?fringe=wispy', 'Copper hair' => '/looks/?colour=copper', 'Dark hair' => '/looks/?colour=dark' ) as $label => $path ) {
 		$index_links .= bixie_editorial_paragraph( '<a href="' . esc_url( home_url( $path ) ) . '">' . esc_html( $label ) . '</a>' );
 	}
 	$index .= bixie_editorial_group( $index_links, 'bixie-guide-index' );

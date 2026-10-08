@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/shaggy-05-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "wavy",
@@ -49,12 +49,47 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | textured tapered | curtain | ear-revealing temple pieces | 4-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Side view of a brunette wavy shaggy bixie on a fictional adult.",
+  "caption": "Fictional olive brown adult in useful camera-left profile with choppy brunette soft S-wave layers, uneven feathered crown and short textured tapered nape; parted curtain front lengths and high loose opaque ivory knit match approved front.",
   "generator_original_file": "source-media/shaggy-05-side.png",
   "generator_original_sha256": "8c5a51b065f6b14eb4583c1e9fc56ab02ca055ee53cbfa42799db62f00b5cb52",
   "generator_original_bytes": 2248332,
   "native_pixel_sha256": "9f7805c8c8c40cd956cf413d7dea3c63936cd06261a0aa8a0ada07744093986a",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_meta": {
+    "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "curtain",
+    "colour": "brunette",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": false,
+  "observed_meta": {
+    "texture": "wavy",
+    "colour": "brunette",
+    "length": "medium",
+    "fringe": "curtain",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "description": "Fictional olive brown adult in useful camera-left profile with choppy brunette soft S-wave layers, uneven feathered crown and short textured tapered nape; parted curtain front lengths and high loose opaque ivory knit match approved front."
+  },
+  "review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native-detail supplement inspection; compared genuine separate reference views",
+    "attire": "pass: bulky loose fully opaque high ivory turtleneck conceals neck, neckline and upper chest without contours or cleavage",
+    "framing": "pass: full main hair edges and crown with generous margins; head and shoulder framing",
+    "angle": "pass: side; side view usefully reveals temple, ear region and short nape",
+    "native_detail": "Verified 1122x1402 native size >=1024; directly inspected sharp hair strands at native scale; retained PNG and RGB-identical lossless WebP",
+    "visible_features": "Fictional olive brown adult in useful camera-left profile with choppy brunette soft S-wave layers, uneven feathered crown and short textured tapered nape; parted curtain front lengths and high loose opaque ivory knit match approved front."
+  },
+  "inspection_files": {
+    "full_aspect_preview": "media/reviews/finish-shapes/shaggy-05-side.jpg",
+    "native_detail_supplement": "media/reviews/finish-shapes/native-detail/shaggy-05-side.jpg"
+  }
 }

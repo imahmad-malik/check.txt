@@ -1,0 +1,21 @@
+{
+  "id": "shaggy-07-side",
+  "prompt": "Create exactly ONE separate original realistic sharp premium editorial salon haircut photograph of a fictional ADULT. No collage, crop, illustration, extra person, words, logo, watermark or jewellery. HEAD plus SHOULDER LINE ONLY. Complete main hair outline, entire crown and all side hair edges with generous breathing room above and to both sides. BULKY LOOSE FULLY OPAQUE IVORY HIGH TURTLENECK conceals whole neck, neckline and upper chest; no exposed neck opening, chest, cleavage, torso contour, low collar, sleeveless garment, bare shoulders or exposed back. Plain warm ivory studio, even soft daylight, natural skin texture, sharp detail in all hair strands with adequate depth of field, no blur/bokeh. Full portrait source aspect at genuine tool native resolution >=1024 pixels long edge, no upscale or 8K claim. Use attached genuine references to create a NEW photograph of EXACT SAME fictional adult, identical face and adult age, haircut, hair colour and texture, fringe, crown, short nape, loose high ivory knit and studio daylight. Do not alter haircut or outfit. Observed reference attributes: {\"texture\": \"curly\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"curtain\", \"colour\": \"copper\", \"finish\": \"shaggy\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Retain choppy shaggy crown layers, tousled separation and short textured tapered nape; no uniform bob or long wolf cut. Useful camera-left SIDE PROFILE with level head, temple, near ear region and short nape clearly visible. A small three-quarter turn is acceptable if it reveals these useful haircut details. Preserve complete silhouette with margin; one separate original photograph.",
+  "references": [
+    "source-media/shaggy-07-front.png"
+  ],
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-07-front.png"
+  ],
+  "requested_angle": "side",
+  "created_utc": "2026-10-08T03:30:32.731122+00:00",
+  "generated_tool_file": "/workspace/generated_images/exec-bedf5105-ccee-440c-875d-b0ab9b8ea253.png",
+  "generator_original_file": "source-media/shaggy-07-side.png",
+  "generator_original_sha256": "da3c9406d78177da80230334d34f3fdbddb78c5ad18e8f6d8dc0b054987c3819",
+  "saved_utc": "2026-10-08T03:31:06.538144+00:00",
+  "generator_output_file_id": "exec-bedf5105-ccee-440c-875d-b0ab9b8ea253",
+  "tool_call_id_status": "Not exposed by image_gen result; genuine returned output filepath retained",
+  "reference_sha256": {
+    "source-media/shaggy-07-front.png": "af5f67d11daf271da870c1e6a7a3a8235bfac9155ddc4a9f7d4ef56830e094fe"
+  }
+}

@@ -1,140 +1,136 @@
-# Continue the Bixie Haircut WordPress project
+# Continue the saved Bixie WordPress project
 
-This is a saved development checkpoint, **not the finished launch package**.
-Resume the authorized full-site work; do not return another HTML demonstration.
+Snapshot: **2026-10-08 08:32 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch.
 
-## User decisions that remain in force
+The user's authorized goal is the complete installable WordPress site with
+original image-led collections, an extra-long editable Home, companion plugin,
+supporting content, documentation and reliable HTTPS ZIP downloads. Continue
+existing work; do not replace it with another demo or regenerate approved photos.
 
-- Build the actual installable WordPress block theme, companion plugin, complete
-  photo collections, supporting content, importable media and documentation.
-- Main subject is **bixie haircut**. Supplied Semrush exports have already been
-  reviewed and mapped; preserve canonical intent groups rather than publishing
-  thin pages for every spelling. Seven short guides support the photo library;
-  ordinary/sponsored posts are secondary and stay off the homepage feed.
-- **The user explicitly accepted available generator-native resolution and no
-  8K claim. Do not ask this question again.** Minimum native long edge is 1,024;
-  current new photographs are commonly 1,122 × 1,402. No upscaling or false labels.
-- Every person must wear loose fully opaque high-neck clothing: no cleavage,
-  exposed neckline, chest lines, chest contour, sleeveless or torso emphasis.
-  Preserve the complete head and hair silhouette. Reject blur and cut-off hair.
-- Create separate original front, side and back photographs of the same fictional
-  adult and haircut. Crops/renditions are not different views or different looks.
-- Target 22 collections, seven complete looks / 21 separate photographs per
-  collection: **154 complete looks / 462 view photographs**, plus **25 separate
-  homepage photographs**. The extra-long Home targets **77 unique visible photos**
-  in 22 sections, with real automatic photo flows and accessible pause controls.
-- All 21 collection photographs must be visible on collection pages, rather than
-  showing only seven covers. Clicking a view must expose its other real angles.
-- Text, media, alignment, navigation, templates and styles must be editable with
-  native WordPress controls. Owner edits must survive repeated data imports.
-- Finish and provide real downloadable ZIPs. Identify every missing asset and
-  unverified check accurately. No guaranteed rankings, indexing or perfect audit.
-- The user requested saved progress because a usage limit may arrive, then
-  reiterated **continue from this point and deliver the final ZIP**.
+## Actual inventory and durable files
 
-## Durable source and media
+Canonical content: **120 complete looks / 360 gallery originals**,
+**25 separate Home originals**, **12/22 complete collections**,
+**24/24 guide photo references**, 42 editable page records. The target
+is 154 coherent looks / 462 separately generated gallery photographs + 25 Home
+originals = 487 photographs, plus one separately counted photographic movie.
 
-The repository development branch is `bixie-wordpress-project`.
-The project lives in `wordpress-package/`. Existing `main` and the earlier HTML
-download branch must be preserved. Do not overwrite unrelated user work.
+Current production progress file records 126
+complete looks and 414
+individually approved photos. Treat its timestamp as a dated snapshot, not a
+promise that every saved partial image is a finished look. Consult
+media/progress.json, media/manifest.json, media/records/, media/workers/ and
+media/production-assignments.json before continuing any generation. These files
+record exact missing IDs, immutable original paths, approval and source hashes.
+Do not infer delivered inventory from planning briefs or a worker's forecast.
 
-`media/generation-plan.json` and `content/production-briefs.json` contain exact
-stable keys and prompts. Actual native PNGs live in `source-media/`; optimized
-WebP images live in `media/`. Individual checkpoints are `media/records/*.json`.
-`media/manifest.json` is the aggregate manifest. It separates the diagnostic probe
-from approved production photographs and coherent complete look declarations.
-Keep PNG originals; lossless native WebP source conversion is permitted only when
-decoded pixels match, with separate accurate hashes/provenance. A PNG/WebP pair
-still counts as one source photograph.
+Generator PNG originals and pixel-identical lossless native WebP sources are
+under source-media/. Optimized delivery WebP files are under media/. Encoding
+copies, thumbnails and inspection crops are not new photographs. The accepted
+native resolution is normally 1122×1402; no enlargement or native 8K claim is
+authorized. Every source must pass actual hair/head framing, sharp-detail,
+identity/cut coherence and loose fully opaque high-neck clothing review. No
+cleavage, exposed chest, open necklines or fitted chest contours are acceptable.
+A useful side-facing three-quarter view is acceptable and must be honestly
+labelled a side angle; do not invent a strict 90-degree/far-lash rejection rule.
 
-Use save_checkpoint.py to publish authorized project checkpoints without changing main, the checkout HEAD or the normal Git index. It saves only the package and explicitly named safe delivery files. Check actual files, dimensions and SHA-256 before resuming. **Never regenerate an
-already approved existing record simply because an agent/session disappeared.**
-Partial fronts/sides are real progress, but a look is incomplete until all three
-views pass matching-person/haircut review. See the current media progress files;
-no planned count is a delivered count.
+The actual Home movie is video/home-motion-film.mp4: an 11.625-second silent
+1122×1402 H.264 photographic sequence of the three declared corresponding
+Home angles. Actual WordPress decoded/full-frame/autoplay/keyboard/offscreen/
+reduced-motion tests passed 13 checks. It is not filmed salon footage.
 
-The first 12-look pilot is assigned as follows:
+## Source and runtime status
 
-- Main producer: classic-01, short-01, long-01, layered-01, choppy-01, curly-01.
-- Worker: feathered-01, wavy-01, fine-hair-01, thick-hair-01, over-50-01,
-  natural-grey-01.
+Theme: theme/bixie-editorial/. Plugin: plugin/bixie-library/. Native editable
+blocks, scoped templates, galleries with every angle, filters, pagination,
+saved looks, compare, print, native source zoom, visible links and accessible
+motion are implemented. Home has 22 sections and targets 77 unique image
+elements plus one distinct poster, 78 displayed photographic sources. Blog
+posts remain a secondary owner workflow rather than the homepage focus.
 
-Generate front first, directly inspect it, then reference its local original for
-separate side/back generations. Inspect every result at native size. Bounded
-parallel independent calls are authorized; checkpoint after each image/batch.
-After the coherent 36-image pilot, continue reviewed batches across the remaining
-launch-target keys. Do not stop at the pilot or substitute old rejected photographs.
+Do not reintroduce global aspect-ratio:auto!important: actual WordPress image
+auto-size containment previously created very tall blank frames. Preserve
+.wp-block-video video[poster] and .wp-block-video.bixie-film video specificity
+so WordPress core poster styling cannot crop the portrait movie. Keep object-fit:
+contain and full-frame display, including owner-selected native videos.
 
-All25 Home roles are now genuinely generated and reviewed, with final native-lossless source hashes; see media/HOME-PROGRESS.md. The front/side/back Home roles form a reviewed coherent set. build_photo_film.py produces the actual11.625-second1122×1402 silent H.264 sequence without crop/upscale. Its manifest record is media/records/home-motion-film.json, source_asset_keys names all3actual sources; actual WordPress decoded/autoplay check remains. This is truthfully photographic sequence content, not filmed salon footage. Never reuse the old rejected film.
+The resumable importer preserves owner edits unless overwrite is explicitly
+selected. It validates capability/nonce, exact native SHA and dimensions,
+complete reviewed angles, safe ZIP paths/MIME/size bounds and immutable part
+identities. Directory parents must be rechecked after child pages are imported,
+only when the package-blocked draft's content remains unchanged. Edited drafts,
+private pages and nonproject content must not be silently published. Alias
+queries support none/no-bangs and dark/black while retaining raw owner metadata.
+Actual alias SQL/REST/cache regression passed 16 checks on explicitly synthetic
+software fixtures; actual permalink regression passed 21 checks.
 
-Additional disjoint production assignments: media producer cohort_classic owns classic-02..07 and short-02..07; Home worker now owns long-02..07 and layered-02..07. Do not regenerate their saved partial/approved originals. Coordinator may assign remaining collection ranges while retaining durable individual records and coherent declarations.
+The older isolated synthetic-test site is /workspace/wp-test on port8766.
+The separate actual-source final acceptance site is /workspace/wp-final-test
+on port8767. WordPress7.1.3, PHP8.4.26, MariaDB11.8.6 and verified official
+WP-CLI2.12.0 are prepared. Private credentials/wp-config/cookies, databases,
+runtime packages and synthetic media stay outside the installable project.
+Existing helper python3 /workspace/wp-test/start-test-services.py --status
+checks owned services; dev-environment/prepare-final-qa.py prepares the separate
+site without resetting the older one. Never copy new plugin/catalog files into
+an active importer job: its fingerprint intentionally detects changed input.
 
-## Engineering completed and remaining
+Actual authenticated GUI integration imported an immutable 80-look snapshot,
+240 gallery photos +25 Home photos +1 movie with zero errors. Repeat import
+preserved edits and attachments. That is partial integration evidence, not
+final 154-look acceptance. Final reports must bind the exact delivered theme,
+plugin and all media-part SHA values. Do not substitute fixture or pilot checks.
 
-Theme: `theme/bixie-editorial/`. Plugin: `plugin/bixie-library/`.
-Native templates/blocks, browsing, filters, pagination, saved/compare/print/zoom,
-owner settings and the safe tracked importer are implemented. All native blocks
-passed actual authenticated WordPress/Gutenberg serialization. A real decoded
-synthetic MP4 passed autoplay, pause, reduced-motion and offscreen checks; that
-test movie is not a delivered hairstyle film.
+## Remaining completion sequence
 
-The image display bug was reproduced: WordPress auto-size containment plus a
-forced `aspect-ratio:auto!important` created 1,500-pixel blank frames. Root removed
-that forced theme property; plugin image containment was scoped correctly.
-Actual portrait geometry/pixel checks now pass. Preserve that fix.
+1. Resume only explicitly missing assigned sources and approve complete coherent
+   front/side/back sets. Production coordinator owns the master manifest;
+   production workers own disjoint individual records/declarations. Concurrency
+   cap is seven total agents including children. Do not spawn an eighth worker.
+2. Run python3 content/sync_reviewed_media.py; copy canonical content/catalog.json
+   byte-for-byte to plugin/bixie-library/content/catalog.json; run
+   python3 content/validate_content.py. Gates derive actual files, not plans.
+3. When all154looks/487photos are ready, run audit_production_media.py. Complete
+   release requires verified_complete_assets and no failures. Build actual
+   multipart ZIPs with build_media_bundles.py; each ≤25MiB, each manifest ≤2MiB.
+   Compact look projections contain angle/key/caption; authoritative full
+   provenance remains in each separately verified media record.
+4. Publish media only with publish_delivery.py --stage media on the dedicated
+   bixie-wordpress-download branch. Run build_release_index.py to pin actual
+   part URLs/SHA/bytes to that immutable media commit. Then build_release.py
+   and verify_release.py produce the actual installable theme/plugin ZIPs.
+5. Install those exact ZIPs through WordPress core and upload/import all actual
+   media parts through the authenticated owner GUI on the separate noindex
+   site. Complete final browser, native edit/save, owner-preservation, routing,
+   every collection's21views, source-pixel/hash and movie/motion checks. Save
+   tests/wp-final-acceptance-report.json only with truthful complete counts.
+6. Refresh documentation using refresh_documentation.py. Rebuild docs/source
+   ZIPs without changing the tested installable ZIP bytes. Publish code only
+   after exact tested_archive SHA guards and archive integrity checks pass.
+7. Verify every pinned HTTPS media/code download size/SHA and the full GitHub
+   codeload ZIP response/CRC/contents. Deliver those real HTTPS download links.
+   Local chatfile previews and download links previously failed for this user.
 
-Multipart media upload is implemented in Tools → Bixie package setup. Actual owner GUI upload, persisted part-list, idempotence, authenticated denial and no-JavaScript fallback passed. ZIP parts
-have root `manifest.json` containing `bundle_id`, `records`, and optional actual
-`looks`, with relative `source-media/`, `media/` and `video/` paths. Maximum part
-size is 25 MiB; authenticated nonce/capability checks, path/hash restrictions,
-idempotence and bounded extraction must remain. A catalog-path variable overwrite
-found by the GUI import test was fixed and the actual regression passed.
+## Preserve work and external limits
 
-The plugin implements genuine source zoom, optimized responsive display, same-attachment replacement/review invalidation, all-angle collection cards, guide dependency gates and scoped SEO-provider hooks. MP4 GUI review and front/side/back source selectors are available. A trusted embedded remote media index supports streamed bounded HTTPS downloads with exact size/SHA checks and authenticated resumable owner import. The real four-look integration part has been published and independently downloaded successfully; actual WordPress remote download/import remains an affected integration check. Final-source video-block replacement and project-only attachment redirects are receiving focused follow-up tests.
+save_checkpoint.py commits ONLY authorized project files on
+**bixie-wordpress-project**, using a temporary index and preserving main,
+checkout HEAD and the normal index. The branch tip is the authoritative latest
+saved checkpoint; prior e62213385eb9ba134320a8ce14c59bddcc7a9913 is historical.
+Save reviewed files and exact counts before any usage limit, without packaging
+QA secrets or overwriting earlier originals. Final downloads use the clean
+separate bixie-wordpress-download branch. No live site deployment is authorized
+or needed to finish the package.
 
-## Reproduce and finish
+Actual WordPress remote GitHub media fetch is unverified because local DNS is
+unavailable before its safe URL validation can reach the HTTPS proxy. Do not
+weaken DNS/URL/TLS checks. Proxy-aware HTTPS artifact download and actual owner
+GUI manual ZIP upload are the tested fallback. Actual named SEO-plugin
+coexistence remains unverified after official distribution HTTP403; label
+provider-stub tests simulated. Contact/Privacy await genuine owner details.
+Target hosting, cache/CDN, production HTTPS, field performance, Search Console,
+indexing and rankings remain real target-host checks, without guarantees.
 
-1. Use the existing checkout; no worktree is needed. Preserve user changes.
-2. Validate existing media and resume the reviewed production batches above.
-3. Run `python3 content/sync_reviewed_media.py` after complete coherent declarations
-   are available, then `python3 content/validate_content.py`. Refresh the plugin's
-   embedded catalog with the canonical catalog. Do not invent complete records.
-4. Build media parts with `python3 build_media_bundles.py`. Verify actual file
-   hashes/dimensions and each archive's size. Media source and display files count
-   once, not twice. Keep bulk assets separate from small theme/plugin ZIPs.
-5. Run `build_release.py` and `verify_release.py`; the builder now derives actual nonzero catalog counts, separates incomplete engineering from final launch state, verifies canonical/embedded catalog identity, and the archive verifier passed24 meaningful checks. Refresh final counts and required runtime evidence before declaring launch complete. Bulk media remains separate from the code/docs archive; publish parts first and pin the final plugin release-index.json to their real commit so no GitHub file exceeds100MiB.
-6. Run real WordPress install/import/editor/media/schema/browser tests against the
-   actual final ZIPs and actual photo library, not only synthetic fixtures.
-7. Refresh OWNER-GUIDE, INSTALL, VALIDATION-REPORT and LAUNCH-CHECKLIST with precise
-   real counts, passed/failed/unverified results. Verify archives and downloads.
-8. Publish authorized downloadable delivery ZIPs to the selected GitHub repository
-   and test HTTPS response plus downloaded SHA-256. Local chat file links failed
-   for this user. Do not send localhost preview links or deploy a live site.
-
-Actual QA runtime is isolated WordPress 7.1.3 / PHP 8.4.26 / MariaDB 11.8.6 with
-official verified WP-CLI 2.12.0. Retained local helpers are under `/workspace/wp-test`;
-start/status: `python3 /workspace/wp-test/start-test-services.py --status`.
-Use `/workspace/wp-test/php` for PHP tests. If unavailable in a new environment,
-follow the reproducibility/setup evidence, retaining TLS/signature/checksum trust.
-Never print or package QA credentials, cookies, wp-config, environment variables,
-database/runtime files or synthetic test media. Disposable secrets were rotated;
-keep any replacement configuration local and private.
-
-Actual named SEO-plugin coexistence remains unverified because WordPress.org
-distribution requests were blocked. Label any provider-stub tests as simulations.
-Production hosting/HTTPS/contact/policy details, live cache/CDN behavior, real-user
-Core Web Vitals, indexing and rankings cannot be claimed from local tests.
-Cloud startup instructions were saved as an environment draft; user Environment
-settings **Save and Publish** is still needed for snapshot publication. This does
-not block completing and saving the project code/media in the repository.
-
-## Latest resumed production checkpoint
-
-The saved project branch commit `18a2155163f10cd0cc965fab3b035f205dcbff0b` preserves132hash-verified per-record checkpoints and23completeactuallooks/69collectionviews, plus25Homephotos and the separately counted film. These counts are a dated checkpoint, not the final target. User returned after a usage-limit pause and explicitly requested continuation. Current coordinator is `/root/media_coordinator`; current actual runtime owner is `/root/production_qa`. Reconcile their media assignments/progress files before resuming; never regenerate approved existing photos.
-
-The fresh coordinator resumes classic/short,long/layered,fine/thick,feathered/wavy02..07 in four disjoint workers, and choppy/curly02..07 itself. Shaggy/straight01..07 is the next unassigned cohort while QA uses the seventh slot. The source production checklist now reflects actually verified completed sets; content integrity still passes28/28. All helper scripts are portable in media-production/.
-
-Actual authenticated WordPress GUI imported the three Home-only integration parts, all25nativeHomephotographs and the genuine silent1122×1402film. The film source gate passes with its real approved3angle attachments. Home remains draft until the complete real75+photo/allcollection coverage passes. ProductionQA found and is correcting an actual WordPress core poster CSS specificity bug: `.wp-block-video [poster]` was overriding the intended contain fit and cropping the portrait movie. Preserve the actual selector fix and await the production report; do not infer browser playback from the earlier synthetic movie test.
-
-Actual WordPress direct remote-media fetch remains unverified because this cloud has no local DNS for GitHub hosts; safe URL validation rejects before proxy transport. Strict safety/TLS is retained. Proxy-aware realHTTPS downloads and authenticatedGUI ZIP-upload fallback passed. The final delivery must include manual parts and accurately report this cloud limitation.
-
+Cloud onboarding install_script/start_skill were saved as an environment draft.
+Environment settings Save and Publish is a separate user snapshot action; it
+does not block finishing and saving this authorized project. Continue using
+the existing checkout, without creating a worktree or exposing runtime secrets.

@@ -1,0 +1,176 @@
+{
+  "status": "blocked-by-confirmed-global-image-generation-quota",
+  "created_at": "2026-10-08T03:36:15.409967+00:00",
+  "service": "OpenAI image_gen",
+  "http_status": 429,
+  "error_code": "usage_limit_reached",
+  "account_plan_reported_by_service": "plus",
+  "quota_window_minutes_reported_by_service": 1440,
+  "reset_at_epoch_latest_reported": 1791455644,
+  "reset_at_utc": "2026-10-08T10:34:04Z",
+  "reset_at_pkt": "2026-10-08T15:34:04+05:00",
+  "reset_note": "Service-provided reset time is recorded; it is not a promise that future requests will succeed. Retry one actually missing source after reset, then continue disjoint saved assignments if available.",
+  "actual_stable_counts": {
+    "actual_originals": 423,
+    "actual_generated_photo_attempts": 494,
+    "diagnostic_originals": 1,
+    "actual_production_originals": 422,
+    "reviewed_approved_production_photos": 422,
+    "approved_collection_originals": 384,
+    "complete_looks": 128,
+    "approved_homepage_originals": 25,
+    "actual_photo_sequence_films": 1,
+    "approved_photo_sequence_films": 1,
+    "rejected_photo_attempts": 71,
+    "rejected_archive_records": 74,
+    "collection_photos_required": 462,
+    "complete_looks_required": 154,
+    "homepage_photos_required": 25,
+    "collections_completed": 16
+  },
+  "individually_approved_collection_photos": 397,
+  "approved_collection_photos_in_partial_sets": 13,
+  "missing_image_ids": [
+    "straight-05-back",
+    "straight-06-side",
+    "straight-06-back",
+    "straight-07-front",
+    "straight-07-side",
+    "straight-07-back",
+    "bangs-01-side",
+    "bangs-01-back",
+    "bangs-02-front",
+    "bangs-02-side",
+    "bangs-02-back",
+    "bangs-03-front",
+    "bangs-03-side",
+    "bangs-03-back",
+    "bangs-04-front",
+    "bangs-04-side",
+    "bangs-04-back",
+    "bangs-05-front",
+    "bangs-05-side",
+    "bangs-05-back",
+    "bangs-06-front",
+    "bangs-06-side",
+    "bangs-06-back",
+    "bangs-07-front",
+    "bangs-07-side",
+    "bangs-07-back",
+    "over-60-03-back",
+    "over-60-04-front",
+    "over-60-04-side",
+    "over-60-04-back",
+    "over-60-05-front",
+    "over-60-05-side",
+    "over-60-05-back",
+    "over-60-06-front",
+    "over-60-06-side",
+    "over-60-06-back",
+    "over-60-07-front",
+    "over-60-07-side",
+    "over-60-07-back",
+    "90s-inspired-06-back",
+    "90s-inspired-07-back",
+    "round-face-02-back",
+    "round-face-03-side",
+    "round-face-03-back",
+    "round-face-04-front",
+    "round-face-04-side",
+    "round-face-04-back",
+    "round-face-05-front",
+    "round-face-05-side",
+    "round-face-05-back",
+    "round-face-06-front",
+    "round-face-06-side",
+    "round-face-06-back",
+    "round-face-07-front",
+    "round-face-07-side",
+    "round-face-07-back",
+    "easy-styling-05-front",
+    "easy-styling-05-side",
+    "easy-styling-05-back",
+    "easy-styling-06-front",
+    "easy-styling-06-side",
+    "easy-styling-06-back",
+    "easy-styling-07-front",
+    "easy-styling-07-side",
+    "easy-styling-07-back"
+  ],
+  "unapproved_existing_image_ids": [],
+  "partial_look_available_approved_ids": {
+    "90s-inspired-06": [
+      "90s-inspired-06-front",
+      "90s-inspired-06-side"
+    ],
+    "90s-inspired-07": [
+      "90s-inspired-07-front",
+      "90s-inspired-07-side"
+    ],
+    "bangs-01": [
+      "bangs-01-front"
+    ],
+    "over-60-03": [
+      "over-60-03-front",
+      "over-60-03-side"
+    ],
+    "round-face-02": [
+      "round-face-02-front",
+      "round-face-02-side"
+    ],
+    "round-face-03": [
+      "round-face-03-front"
+    ],
+    "straight-05": [
+      "straight-05-front",
+      "straight-05-side"
+    ],
+    "straight-06": [
+      "straight-06-front"
+    ]
+  },
+  "missing_by_collection": {
+    "straight": 6,
+    "bangs": 20,
+    "over-60": 13,
+    "90s-inspired": 2,
+    "round-face": 15,
+    "easy-styling": 9
+  },
+  "image_generation_calls_in_flight": 0,
+  "workers_checkpointed_and_stopped": [
+    "media/workers/resume-over40-over60.json",
+    "media/workers/resume-over50-grey.json",
+    "media/workers/resume-shapes.json",
+    "media/workers/resume-thin-bangs.json",
+    "media/workers/resume-undercut-easy.json",
+    "media/workers/finish-90s-round.json"
+  ],
+  "assignment_queue": "media-production/assignments.json",
+  "preservation_rules": [
+    "All actual generator PNGs are immutable; preserve retries and rejection records.",
+    "Do not regenerate any saved approved photographic slot.",
+    "Review each missing output at actual native-supported dimensions and whole source aspect before approval.",
+    "A coherent look requires three distinct separately generated inspected front, useful side-facing angle and faceless back sources.",
+    "Continue truthful primary texture and observed structured metadata.",
+    "No image or count exists for quota-denied calls."
+  ],
+  "unresolved_response_provenance": [
+    {
+      "worker": "resume-over40-over60",
+      "image_id": "over-40-05-side",
+      "attempt": "finish-attempt01",
+      "status": "exact request preserved; response structure unavailable; no attributable tool output identified",
+      "counted_as_actual_photo": false,
+      "successful_replacement_preserved": true
+    }
+  ],
+  "full_154_look_launch_gate_satisfied": false,
+  "files_hash_audit": {
+    "all_manifest_photographic_source_display_generator_original_hashes_checked_by_aggregator": true,
+    "own25_front_side_back_native_PNG_to_lossless_WebP_RGB_comparison_rechecked": true,
+    "global_original_source_unique": true,
+    "global_native_pixels_unique": true,
+    "global_generator_PNG_hashes_unique": true
+  }
+}

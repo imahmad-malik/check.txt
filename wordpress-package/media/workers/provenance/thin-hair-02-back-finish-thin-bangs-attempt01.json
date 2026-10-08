@@ -1,0 +1,15 @@
+{
+  "id": "thin-hair-02-back",
+  "prompt": "BACK: head/shoulders entirely turned away from camera, no face; show complete rear crown, both ear edges and short pixie nape. Create ONE separate new original realistic sharp editorial haircut photograph of a fictional ADULT woman. STRICT COMPOSITION: HEAD AND NECK WITH ONLY TOP SHOULDER LINE; bottom frame ends immediately below the shoulders, no bust, chest or torso. BULKY VERY LOOSE fully opaque ivory HIGH TURTLENECK with broad folded collar covers neck base and all upper chest, unshaped fabric, no neckline/cleavage/fitted contours/sleeveless. Entire head and all hair edges with generous crown and side margin. Light neutral studio background and soft daylight; all face/hair sharp at genuine native supported resolution >=1024 longedge; full portrait 4:5 source aspect. No upscaling/8K, blur/grain/fog, collage, text, logo, watermark, jewellery or celebrity likeness. Exactly SAME fictional adult identity, haircut geometry, colour, texture, short nape, clothing, daylight and studio as supplied APPROVED front and side references. Maintain airy separated low-density styling, fine strands, divided fringe and bob-like upper lengths with short pixie graduation.",
+  "references": [
+    "source-media/thin-hair-02-front.png",
+    "source-media/thin-hair-02-side.png"
+  ],
+  "provenance_file": "media/workers/provenance/thin-hair-02-back-finish-thin-bangs-attempt01.json",
+  "generated_tool_file": "/workspace/generated_images/exec-e5392f93-6c03-4f2e-a968-5d0471fc839d.png",
+  "tool_output": {
+    "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e5392f93-6c03-4f2e-a968-5d0471fc839d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "image_data_saved_in_original_png": true
+  },
+  "exact_call_metadata_available": true
+}

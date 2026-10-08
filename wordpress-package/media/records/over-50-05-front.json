@@ -47,7 +47,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "smooth flat | compact squared | light broken | ear-revealing temple pieces | 4-crown-to-front-proportion"
   },
-  "alt": "Front view of a brunette wavy bixie.",
+  "alt": "Front view of a brunette wavy bixie on a fictional mature adult.",
   "caption": "Visibly mature olive-skinned adult with brunette soft waves and warm lighter strands, longer face frame over short nape, compact crown and light broken swept fringe; loose high ivory collar.",
   "generator_original_file": "source-media/over-50-05-front.png",
   "generator_original_sha256": "b471002f2fa45712155b1106d3e2b65d891b40b215c1b0ec0ec0955d9813f71a",
@@ -87,5 +87,12 @@
     "angle": "pass: level direct front, both eyes",
     "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
     "visible_features": "Visibly mature olive-skinned adult with brunette soft waves and warm lighter strands, longer face frame over short nape, compact crown and light broken swept fringe; loose high ivory collar."
+  },
+  "resume_direct_source_review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native strand-detail supplement inspection",
+    "passed": true,
+    "findings": "Full main hair silhouette and crown margin; sharp native strands; covered neckline and upper chest in bulky opaque ivory high turtleneck; adult identity, cut, colour, outfit and light consistent with separately generated rear view",
+    "preview": "media/reviews/finish-age-grey/over-50-05-front.jpg",
+    "native_detail_supplement": "media/reviews/finish-age-grey/native-detail/over-50-05-front.jpg"
   }
 }

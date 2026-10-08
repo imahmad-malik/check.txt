@@ -58,7 +58,17 @@ def main():
     by_key = {row['key']: row for row in manifest['records'] if row.get('key')}
     gallery = [image for look in catalog['looks'] for image in look['images']]
     home = [by_key[key] for key in catalog['requirements']['required_home_media'] if key in by_key]
-    selected = gallery + home
+    canonical_keys = {row['key'] for row in gallery + home}
+    partial_gallery = [row for row in manifest['records']
+                       if row.get('key') not in canonical_keys
+                       and row.get('approved') is True
+                       and row.get('review_status') == 'approved'
+                       and row.get('usage') != 'resolution-probe'
+                       and row.get('angle') in {'front', 'side', 'back'}
+                       and (row.get('look_id') or row.get('look_key'))]
+    # Save and independently verify genuine partial angle sources, without
+    # pretending they are finished three-angle looks or publishable collections.
+    selected = gallery + home + partial_gallery
     failures = []
     for row in gallery:
         canonical = by_key.get(row['key'], {})
@@ -99,6 +109,9 @@ def main():
               'status': 'verified_complete_assets' if complete and not failures else ('verified_partial_assets' if not failures else 'failed'),
               'actual_complete_looks': len(catalog['looks']), 'actual_gallery_photographs': len(gallery),
               'actual_home_photographs': len(home), 'required_unique_photographs': 487,
+              'actual_approved_photographs': len(selected),
+              'actual_individually_approved_partial_gallery_photographs': len(partial_gallery),
+              'remaining_actual_photographs': max(0, 487 - len(selected)),
               'remaining_gallery_photographs': max(0, 462 - len(gallery)), 'checks': checks,
               'film': film_result, 'failures': failures,
               'limits': ['This checks actual original pixels, encodings, unique identities, dimensions, hashes and declared reviews. Visual inspection is separately recorded per asset.',

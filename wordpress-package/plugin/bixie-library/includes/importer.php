@@ -230,14 +230,14 @@ final class Bixie_Importer {
         $status = $check['complete'] ? $desired : 'draft';
         $content = self::reference_content(self::content((string) apply_filters('bixie_import_page_content', $record['content'] ?? '', $record, $state)), $record);
         $existing_content = $id ? (string) get_post_field('post_content', $id) : '';
-        $unchanged_blocked = $id && get_post_meta($id, '_bixie_gate_blocked', true) && hash_equals((string) get_post_meta($id, '_bixie_import_content_hash', true), hash('sha256', $existing_content));
+        $unchanged_blocked = $id && get_post_status($id) === 'draft' && get_post_meta($id, '_bixie_gate_blocked', true) && hash_equals((string) get_post_meta($id, '_bixie_import_content_hash', true), hash('sha256', $existing_content));
         if (!$new && !$state['overwrite'] && !$unchanged_blocked) { $content = $existing_content; }
         if ($home) { $check = bixie_check_home($id, $content); $status = $check['complete'] ? $desired : 'draft'; }
         if ($sets || $minimum) { $check = bixie_check_page_photos($id, $content, $sets, $minimum); $status = $check['complete'] ? $desired : 'draft'; }
         if ($directory) { $check = bixie_check_directory($directory); $status = $check['complete'] ? $desired : 'draft'; }
         $data = ['post_type' => 'page', 'post_title' => sanitize_text_field($record['title']), 'post_name' => sanitize_title($record['slug']), 'post_content' => $content, 'post_excerpt' => sanitize_textarea_field($record['excerpt'] ?? ''), 'post_parent' => $parent, 'menu_order' => absint($record['menu_order'] ?? 0), 'post_status' => $status, 'meta_input' => ['_bixie_import_key' => $key, '_bixie_collection_slug' => sanitize_title($collection), '_bixie_is_front_page' => $home ? 1 : 0, '_bixie_content_type' => sanitize_key($record['type'] ?? 'page'), '_bixie_directory_kind' => $directory, '_bixie_page_photo_sets' => $sets, '_bixie_minimum_page_photos' => $minimum]];
         if ($new || $state['overwrite']) { if ($id) { $data['ID'] = $id; } $result = wp_insert_post(wp_slash($data), true); if (is_wp_error($result)) { throw new RuntimeException($result->get_error_message()); } $id = $result; $state['counts']['pages']++; }
-        else { $state['counts']['skipped']++; if ($unchanged_blocked) { wp_update_post(wp_slash(['ID' => $id, 'post_content' => $content])); } if (get_post_meta($id, '_bixie_gate_blocked', true) && $check['complete']) { wp_update_post(['ID' => $id, 'post_status' => $desired]); } }
+        else { $state['counts']['skipped']++; if ($unchanged_blocked) { wp_update_post(wp_slash(['ID' => $id, 'post_content' => $content])); } if ($unchanged_blocked && $check['complete']) { wp_update_post(['ID' => $id, 'post_status' => $desired]); } }
         foreach (['_bixie_content_type', '_bixie_directory_kind', '_bixie_page_photo_sets', '_bixie_minimum_page_photos'] as $field) { update_post_meta($id, $field, $data['meta_input'][$field]); }
         if ($new || $state['overwrite'] || $unchanged_blocked) { update_post_meta($id, '_bixie_import_content_hash', hash('sha256', (string) get_post_field('post_content', $id))); }
         if (!$check['complete'] && get_post_status($id) === 'publish') { wp_update_post(['ID' => $id, 'post_status' => 'draft']); }
@@ -248,10 +248,22 @@ final class Bixie_Importer {
     }
 
     private static function finish(array $catalog, array &$state): void {
+        // Directory parents are imported before their child pages. Recheck only
+        // untouched drafts that this importer withheld while those children were
+        // missing; owner-edited drafts and deliberate private statuses stay put.
+        foreach ($catalog['pages'] as $page) {
+            if (!in_array($page['key'] ?? '', ['collections', 'looks', 'guides'], true) || ($page['status'] ?? 'draft') !== 'publish') { continue; }
+            $id = self::existing($page['key'], 'page');
+            if (!$id || get_post_status($id) !== 'draft' || !get_post_meta($id, '_bixie_gate_blocked', true)) { continue; }
+            $saved_hash = (string) get_post_meta($id, '_bixie_import_content_hash', true);
+            if (!$saved_hash || !hash_equals($saved_hash, hash('sha256', (string) get_post_field('post_content', $id)))) { continue; }
+            self::page($page, $state);
+        }
         bixie_enforce_owned_pages();
-        $diagnostics = ['home' => bixie_check_home(), 'collections' => [], 'guides' => []];
+        $diagnostics = ['home' => bixie_check_home(), 'collections' => [], 'guides' => [], 'directories' => []];
         foreach ($catalog['collections'] as $collection) { $diagnostics['collections'][$collection['slug'] ?? $collection['key']] = bixie_check_collection($collection['slug'] ?? $collection['key']); }
         foreach ($catalog['pages'] as $page) { if (!empty($page['photo_set_requirements'])) { $id = self::existing($page['key'], 'page'); $diagnostics['guides'][$page['key']] = bixie_check_page_photos($id); } }
+        foreach (['collections', 'looks', 'guides'] as $kind) { $id = self::existing($kind, 'page'); $diagnostics['directories'][$kind] = ['id' => $id, 'status' => $id ? get_post_status($id) : 'missing', 'check' => bixie_check_directory($kind)]; }
         $state['diagnostics'] = $diagnostics;
         if ($state['configure']) {
             update_option('blogname', sanitize_text_field($catalog['site']['title'] ?? 'Bixie Haircut'));

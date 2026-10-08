@@ -1,0 +1,15 @@
+{
+  "id": "shaggy-07-front",
+  "prompt": "Create exactly ONE separate original realistic sharp premium editorial salon haircut photograph of a fictional ADULT. No collage, crop, illustration, extra person, words, logo, watermark or jewellery. HEAD plus SHOULDER LINE ONLY. Complete main hair outline, entire crown and all side hair edges with generous breathing room above and to both sides. BULKY LOOSE FULLY OPAQUE IVORY HIGH TURTLENECK conceals whole neck, neckline and upper chest; no exposed neck opening, chest, cleavage, torso contour, low collar, sleeveless garment, bare shoulders or exposed back. Plain warm ivory studio, even soft daylight, natural skin texture, sharp detail in all hair strands with adequate depth of field, no blur/bokeh. Full portrait source aspect at genuine tool native resolution >=1024 pixels long edge, no upscale or 8K claim. A fictional Latina adult aged 53 with warm olive skin and brown eyes. Medium copper spring curls and compact rounded ringlets, choppy short lifted crown layers, deliberately uneven parted curtain curl fringe, longer front pieces framing ears, short textured tapered pixie nape. Distinct shaggy bob-pixie hybrid with tousled separation and feathered uneven ends, no ordinary bob or long wolf cut. FRONT view directly level at camera, both eyes visible. Observed target attributes: {\"texture\": \"coily\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"curtain\", \"colour\": \"copper\", \"finish\": \"shaggy\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. One new original photograph.",
+  "references": [],
+  "actual_tool_reference_paths": [],
+  "requested_angle": "front",
+  "created_utc": "2026-10-08T03:29:26.374137+00:00",
+  "generated_tool_file": "/workspace/generated_images/exec-50e8e082-cc3a-4b76-a1a7-e3ffaa70f7da.png",
+  "generator_original_file": "source-media/shaggy-07-front.png",
+  "generator_original_sha256": "af5f67d11daf271da870c1e6a7a3a8235bfac9155ddc4a9f7d4ef56830e094fe",
+  "saved_utc": "2026-10-08T03:30:05.342241+00:00",
+  "generator_output_file_id": "exec-50e8e082-cc3a-4b76-a1a7-e3ffaa70f7da",
+  "tool_call_id_status": "Not exposed by image_gen result; genuine returned output filepath retained",
+  "reference_sha256": {}
+}

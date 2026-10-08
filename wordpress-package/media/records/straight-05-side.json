@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/straight-05-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "straight",
@@ -49,12 +49,47 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "soft rounded | short graduated | no-bangs | ear-revealing temple pieces | 4-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Side view of a brunette straight straight bixie on a fictional adult.",
+  "caption": "Fictional warm olive adult in camera-left profile with genuine smooth straight brunette strands, subtle warm ribbons, rounded layered crown, longer upper-jaw side lengths and short graduated nape; high loose ivory knit matches front.",
   "generator_original_file": "source-media/straight-05-side.png",
   "generator_original_sha256": "0c38555b3e3eaee27911b6924ccacb998e3fed487f1e113e91fa68e15066d89e",
   "generator_original_bytes": 2256716,
   "native_pixel_sha256": "0ce282f7c29ee053aa3d0a8ca6ef8db098b2b1b4b36e24158163712d334dc5a8",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_meta": {
+    "texture": "straight",
+    "strand": "medium",
+    "density": "medium",
+    "length": "long",
+    "fringe": "side-swept",
+    "colour": "brunette",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": false,
+  "observed_meta": {
+    "texture": "straight",
+    "colour": "brunette",
+    "length": "long",
+    "fringe": "side-swept",
+    "finish": "natural",
+    "age_reference": "adult",
+    "description": "Fictional warm olive adult in camera-left profile with genuine smooth straight brunette strands, subtle warm ribbons, rounded layered crown, longer upper-jaw side lengths and short graduated nape; high loose ivory knit matches front."
+  },
+  "review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native-detail supplement inspection; compared genuine separate reference views",
+    "attire": "pass: bulky loose fully opaque high ivory turtleneck conceals neck, neckline and upper chest without contours or cleavage",
+    "framing": "pass: full main hair edges and crown with generous margins; head and shoulder framing",
+    "angle": "pass: side; side view usefully reveals temple, ear region and short nape",
+    "native_detail": "Verified 1122x1402 native size >=1024; directly inspected sharp hair strands at native scale; retained PNG and RGB-identical lossless WebP",
+    "visible_features": "Fictional warm olive adult in camera-left profile with genuine smooth straight brunette strands, subtle warm ribbons, rounded layered crown, longer upper-jaw side lengths and short graduated nape; high loose ivory knit matches front."
+  },
+  "inspection_files": {
+    "full_aspect_preview": "media/reviews/finish-shapes/straight-05-side.jpg",
+    "native_detail_supplement": "media/reviews/finish-shapes/native-detail/straight-05-side.jpg"
+  }
 }

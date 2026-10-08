@@ -37,6 +37,9 @@ if action == 'request':
         assert r.get('approved') is True, 'Reference awaits direct review: '+key
         refs.append(str(ROOT/r['generator_original_file']))
     prompt = item['prompt'].replace('True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter.', 'LEFT SIDE-FACING ANGLE, revealing temple, ear outline and whole short nape clearly; a profile or useful three-quarter side angle is acceptable. Keep it clearly distinct from the front.')
+    if refs:
+        front_record = record(item['look_id']+'-front')
+        prompt += ' The actually approved front is authoritative: observed attributes '+json.dumps(front_record.get('actual_meta',front_record['expected_meta']))+'. Preserve its actual visible texture and shape rather than changing hair to an earlier optional planned texture label.'
     prompt += ' Final framing requirement: image ends at the shoulder line, no lower torso visible; loose BULKY fully opaque high folded turtleneck covers the neck and all upper chest without chest contour, ivory cloth fills the lower edge. Adult subject only. Complete hair margin on every side.'
     q = {'image_id':image_id,'prompt':prompt,'references':refs,'state':'requested','requested_at':datetime.datetime.now(datetime.timezone.utc).isoformat()}
     write(PROVENANCE/f'{image_id}.json',q)

@@ -1,0 +1,24 @@
+{
+  "id": "shaggy-06-back",
+  "prompt": "Create exactly ONE separate original realistic sharp premium editorial salon haircut photograph of a fictional ADULT. No collage, crop, illustration, extra person, words, logo, watermark or jewellery. HEAD plus SHOULDER LINE ONLY. Complete main hair outline, entire crown and all side hair edges with generous breathing room above and to both sides. BULKY LOOSE FULLY OPAQUE IVORY HIGH TURTLENECK conceals whole neck, neckline and upper chest; no exposed neck opening, chest, cleavage, torso contour, low collar, sleeveless garment, bare shoulders or exposed back. Plain warm ivory studio, even soft daylight, natural skin texture, sharp detail in all hair strands with adequate depth of field, no blur/bokeh. Full portrait source aspect at genuine tool native resolution >=1024 pixels long edge, no upscale or 8K claim. Use attached genuine references to create a NEW photograph of EXACT SAME fictional adult, identical face and adult age, haircut, hair colour and texture, fringe, crown, short nape, loose high ivory knit and studio daylight. Do not alter haircut or outfit. Observed reference attributes: {\"texture\": \"curly\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"short\", \"fringe\": \"curtain\", \"colour\": \"blonde\", \"finish\": \"shaggy\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Retain choppy shaggy crown layers, tousled separation and short textured tapered nape; no uniform bob or long wolf cut. Use both approved front and side references. TRUE BACK VIEW: camera directly behind same adult upright level head, rear head centered; no visible eyes, nose or cheek. Preserve exact crown silhouette, natural colour distribution, layers/curls and graduated short nape from profile; high loose collar directly under short hairline conceals neck. One separate original rear photograph.",
+  "references": [
+    "source-media/shaggy-06-front.png",
+    "source-media/shaggy-06-side.png"
+  ],
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-06-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-06-side.png"
+  ],
+  "requested_angle": "back",
+  "created_utc": "2026-10-08T03:28:29.766309+00:00",
+  "generated_tool_file": "/workspace/generated_images/exec-81839247-45b8-4fc1-a526-de665f8be889.png",
+  "generator_original_file": "source-media/shaggy-06-back.png",
+  "generator_original_sha256": "f7454062358db4bcea15250202dbbfb456eb2bbb0e73871efc375ac32de835c4",
+  "saved_utc": "2026-10-08T03:29:10.364501+00:00",
+  "generator_output_file_id": "exec-81839247-45b8-4fc1-a526-de665f8be889",
+  "tool_call_id_status": "Not exposed by image_gen result; genuine returned output filepath retained",
+  "reference_sha256": {
+    "source-media/shaggy-06-front.png": "3c754a2b8b63a16f010975abcef84f7cb436a5c83fbbb5888c6afc140fb2ee5c",
+    "source-media/shaggy-06-side.png": "725c315dc3a307bbd8d4f3249ce64c0a0a51d6b7e99bc8238f17a10dd5e412a0"
+  }
+}

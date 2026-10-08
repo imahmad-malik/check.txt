@@ -120,6 +120,7 @@ def main():
                 page.locator('#bixie-import-start').click()
                 page.wait_for_function('()=>!document.querySelector("#bixie-import-start").disabled&&document.querySelector("#bixie-import-message").textContent.startsWith("Import finished.")', timeout=900000)
                 report['afterRepeat'] = inspect()
+                assert report['afterRepeat']['import']['status'] == 'complete', 'Repeated owner GUI import did not finish.'
                 assert before_repeat['preservation'] == report['afterRepeat']['preservation'], 'Repeated preserve import changed stored content, relationships or settings.'
                 report['checks']['repeatedPreserveGUIImportIdempotent'] = True
                 save()

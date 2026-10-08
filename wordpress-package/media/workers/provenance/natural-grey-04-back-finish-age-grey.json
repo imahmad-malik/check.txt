@@ -1,0 +1,24 @@
+{
+  "id": "natural-grey-04-back",
+  "prompt": "Create exactly ONE new original realistic sharp premium salon editorial photograph of the SAME fictional ADULT in the attached genuine references. It is a separate photograph at a new camera angle. Match identity, mature age, haircut geometry, texture, hair colour, loose ivory knit, plain warm ivory studio background, and neutral soft daylight exactly. Native resolution supported by tool, at least 1024 pixels long edge, no upscaling and no 8K claim. Portrait full aspect. Complete all main hair edges and entire crown with generous breathing room above and both sides; no hair clipping. Sharp natural skin and individual hair strands throughout, no blur or bokeh. Frame HEAD plus SHOULDER LINE ONLY. Bulky loose fully opaque HIGH TURTLENECK covers whole neck, neckline and upper chest, generous non-fitted knit fabric; no chest/torso contour, cleavage, open collar, bare shoulders, sleeveless outfit or exposed back. No jewellery, words, logo, watermark, collage or extra people. Preserve the bob-pixie hybrid with longer front/temple lengths, shaped layered crown and clearly short graduated nape. Observed reference attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"side-swept\", \"colour\": \"grey\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Use both front and side references. TRUE BACK VIEW: camera directly behind the same adult, head upright and level, back of head centered, face fully turned away and no visible eyes, nose or cheek. Preserve exact crown volume, curls/layers, natural hair colour distribution and short pixie nape from side reference; reveal clean graduated back silhouette, with bulky high collar covering neck directly below short hairline. Photograph upper shoulder line only, no torso. Do not lengthen into ordinary bob or alter the hairstyle. One separately generated rear portrait.",
+  "references": [
+    "source-media/natural-grey-04-front.png",
+    "source-media/natural-grey-04-side.png"
+  ],
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/natural-grey-04-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/natural-grey-04-side.png"
+  ],
+  "requested_angle": "back",
+  "created_utc": "2026-10-08T03:18:59.691766+00:00",
+  "generated_tool_file": "/workspace/generated_images/exec-ed6cf398-c5db-4325-9a16-adecc09ae631.png",
+  "generator_original_file": "source-media/natural-grey-04-back.png",
+  "generator_original_sha256": "e994c5b6305ac2d00daa59bf7a54d1fc5f022d62c3bb261c53423d27ee0690a3",
+  "saved_utc": "2026-10-08T03:19:36.418054+00:00",
+  "generator_output_file_id": "exec-ed6cf398-c5db-4325-9a16-adecc09ae631",
+  "tool_call_id_status": "Not exposed by image_gen result; genuine returned output filepath retained",
+  "reference_sha256": {
+    "source-media/natural-grey-04-front.png": "e67a109edebd2fa3bdbff27b4d14faf9c6940f22bd59d140f1f0524c28627448",
+    "source-media/natural-grey-04-side.png": "a40e85363176c5ced6ffe6738bc16d89dbcc4323eede77f693a1907fb50541eb"
+  }
+}

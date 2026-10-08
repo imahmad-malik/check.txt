@@ -1,14 +1,29 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
 
+function bixie_public_filter_value(string $field, string $value): string {
+    if ($field === 'fringe' && in_array(strtolower($value), ['none', 'no-bangs', 'no bangs'], true)) { return 'none'; }
+    if ($field === 'colour' && in_array(strtolower($value), ['dark', 'black'], true)) { return 'dark'; }
+    return $value;
+}
+
+function bixie_normalize_catalog_facets(array $facets): array {
+    foreach (['texture', 'length', 'fringe', 'colour'] as $field) {
+        $values = is_array($facets[$field] ?? null) ? $facets[$field] : [];
+        $facets[$field] = array_values(array_unique(array_map(static fn($value) => bixie_public_filter_value($field, sanitize_text_field($value)), $values)));
+    }
+    return $facets;
+}
+
 function bixie_catalog_facets(): array {
     $cached = get_transient('bixie_catalog_facets');
-    if (is_array($cached)) { return $cached; }
+    if (is_array($cached)) { return bixie_normalize_catalog_facets($cached); }
     global $wpdb; $facets = [];
     foreach (['texture', 'length', 'fringe', 'colour'] as $field) {
         $values = $wpdb->get_col($wpdb->prepare("SELECT DISTINCT m.meta_value FROM {$wpdb->postmeta} m INNER JOIN {$wpdb->posts} p ON p.ID=m.post_id INNER JOIN {$wpdb->postmeta} c ON c.post_id=p.ID AND c.meta_key='_bixie_record_complete' AND c.meta_value='1' WHERE p.post_type='bixie_look' AND p.post_status='publish' AND m.meta_key=%s AND m.meta_value<>'' ORDER BY m.meta_value LIMIT 100", 'bixie_' . $field));
         $facets[$field] = array_values(array_map('sanitize_text_field', $values));
     }
+    $facets = bixie_normalize_catalog_facets($facets);
     set_transient('bixie_catalog_facets', $facets, HOUR_IN_SECONDS);
     return $facets;
 }
@@ -18,7 +33,12 @@ function bixie_query_looks(array $parameters = []): array {
     $per_page = max(1, min(48, absint($parameters['per_page'] ?? 12)));
     $args = ['post_type' => 'bixie_look', 'post_status' => 'publish', 'posts_per_page' => $per_page, 'paged' => $page, 'ignore_sticky_posts' => true, 'meta_query' => [['key' => '_bixie_record_complete', 'value' => '1']]];
     if (!empty($parameters['q'])) { $text = sanitize_text_field($parameters['q']); $args['s'] = function_exists('mb_substr') ? mb_substr($text, 0, 120) : substr($text, 0, 120); }
-    foreach (['texture', 'length', 'fringe', 'colour'] as $field) { if (!empty($parameters[$field])) { $args['meta_query'][] = ['key' => 'bixie_' . $field, 'value' => sanitize_text_field($parameters[$field])]; } }
+    foreach (['texture', 'length', 'fringe', 'colour'] as $field) {
+        if (empty($parameters[$field])) { continue; }
+        $value = bixie_public_filter_value($field, sanitize_text_field($parameters[$field]));
+        $aliases = $field === 'fringe' && $value === 'none' ? ['none', 'no-bangs', 'no bangs'] : ($field === 'colour' && $value === 'dark' ? ['dark', 'black'] : null);
+        $args['meta_query'][] = ['key' => 'bixie_' . $field, 'value' => $aliases ?: $value, 'compare' => $aliases ? 'IN' : '='];
+    }
     if (!empty($parameters['collection'])) { $slug = sanitize_title($parameters['collection']); $args['tax_query'] = [['taxonomy' => 'bixie_collection', 'field' => 'slug', 'terms' => $slug]]; if (!bixie_requirements()['allow_source_reuse_between_primary_collections']) { $args['meta_query'][] = ['key' => 'bixie_primary_collection', 'value' => $slug]; } }
     if (!empty($parameters['exclude'])) { $args['post__not_in'] = array_slice(array_values(array_filter(array_map('absint', is_array($parameters['exclude']) ? $parameters['exclude'] : explode(',', $parameters['exclude'])))), 0, 200); }
     $sort = sanitize_key($parameters['sort'] ?? 'curated');
@@ -72,7 +92,7 @@ function bixie_get_form_route_fields(string $action): string {
 function bixie_render_library(array $attributes = []): string {
     $parameters = ['per_page' => absint($attributes['perPage'] ?? 12), 'collection' => sanitize_title($attributes['collection'] ?? ''), 'page' => max(1, absint($_GET['bixie_page'] ?? 1))];
     $parameters['exclude'] = implode(',', array_slice(array_filter(array_map('absint', (array) ($attributes['excludeLookIds'] ?? []))), 0, 200));
-    foreach (['q', 'texture', 'length', 'fringe', 'colour', 'sort'] as $field) { $parameters[$field] = isset($_GET[$field]) && is_scalar($_GET[$field]) ? sanitize_text_field(wp_unslash($_GET[$field])) : ''; }
+    foreach (['q', 'texture', 'length', 'fringe', 'colour', 'sort'] as $field) { $parameters[$field] = isset($_GET[$field]) && is_scalar($_GET[$field]) ? bixie_public_filter_value($field, sanitize_text_field(wp_unslash($_GET[$field]))) : ''; }
     $results = bixie_query_looks($parameters); $facets = bixie_catalog_facets();
     $show_angles = array_key_exists('showViews', $attributes) ? (bool) $attributes['showViews'] : !empty($parameters['collection']);
     $uid = wp_unique_id('bixie-library-');

@@ -1,0 +1,31 @@
+{
+  "id": "straight-05-back",
+  "prompt": "Create exactly ONE separate original realistic sharp premium editorial salon haircut photograph of a fictional ADULT. No collage, crop, illustration, extra person, words, logo, watermark or jewellery. HEAD plus SHOULDER LINE ONLY. Complete main hair outline, entire crown and all side hair edges with generous breathing room above and to both sides. BULKY LOOSE FULLY OPAQUE IVORY HIGH TURTLENECK conceals whole neck, neckline and upper chest; no exposed neck opening, chest, cleavage, torso contour, low collar, sleeveless garment, bare shoulders or exposed back. Plain warm ivory studio, even soft daylight, natural skin texture, sharp detail in all hair strands with adequate depth of field, no blur/bokeh. Full portrait source aspect at genuine tool native resolution >=1024 pixels long edge, no upscale or 8K claim. Use attached genuine references to create a NEW photograph of EXACT SAME fictional adult, identical face and adult age, haircut, hair colour and texture, fringe, crown, short nape, loose high ivory knit and studio daylight. Do not alter haircut or outfit. Observed reference attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"long\", \"fringe\": \"side-swept\", \"colour\": \"brunette\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Retain genuine straight separated smooth strands with layered crown and short graduated nape; no waves or curls. Use both approved front and side references. TRUE BACK VIEW: camera directly behind same adult upright level head, rear head centered; no visible eyes, nose or cheek. Preserve exact crown silhouette, natural colour distribution, layers/curls and graduated short nape from profile; high loose collar directly under short hairline conceals neck. One separate original rear photograph.",
+  "references": [
+    "source-media/straight-05-front.png",
+    "source-media/straight-05-side.png"
+  ],
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/straight-05-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/straight-05-side.png"
+  ],
+  "requested_angle": "back",
+  "created_utc": "2026-10-08T03:32:29.548582+00:00",
+  "failed_attempt": {
+    "error": "image generation failed: http 429 Too Many Requests: usage_limit_reached",
+    "tool_call_id_status": "Not exposed by image_gen error response",
+    "logical_attempt_id": "straight-05-back-finish-shapes",
+    "no_output_returned": true,
+    "source_saved": false,
+    "approved": false,
+    "resets_at": 1791455643,
+    "reset_utc": "2026-10-08T10:34:03+00:00",
+    "resets_in_seconds_at_failure": 25291,
+    "plan_type": "plus",
+    "limit_window_minutes": 1440
+  },
+  "reference_sha256": {
+    "source-media/straight-05-front.png": "0666e2326be47152da38f7e3cfc7df9e9298235444cb5740a9babd1a4454b9c7",
+    "source-media/straight-05-side.png": "0c38555b3e3eaee27911b6924ccacb998e3fed487f1e113e91fa68e15066d89e"
+  }
+}

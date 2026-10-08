@@ -173,7 +173,7 @@
       ]
     },
     {
-      "worker": "undercut_easy-pending-slot",
+      "worker": "undercut_easy",
       "look_keys": [
         "undercut-03",
         "undercut-04",
@@ -188,7 +188,7 @@
       ]
     },
     {
-      "worker": "earliest-finisher-pending",
+      "worker": "age50_grey-next",
       "look_keys": [
         "shaggy-05",
         "shaggy-06",
@@ -198,5 +198,13 @@
         "straight-07"
       ]
     }
-  ]
+  ],
+  "active_resume_assignments_status": "All generation cohorts checkpointed; no calls in flight. Further originals blocked by confirmed global image_gen HTTP429 usage_limit_reached until reported2026-10-08T10:34:04Z. Do not regenerate saved sources.",
+  "global_blocker": {
+    "error": "usage_limit_reached",
+    "http_status": 429,
+    "reset_at_utc": "2026-10-08T10:34:04+00:00",
+    "missing_actual_photo_count": 65,
+    "unapproved_actual_photo_count": 0
+  }
 }

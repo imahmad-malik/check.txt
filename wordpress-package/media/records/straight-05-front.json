@@ -47,7 +47,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "soft rounded | short graduated | no-bangs | ear-revealing temple pieces | 4-crown-to-front-proportion"
   },
-  "alt": "Front view: straight brunette layers, long diagonal face frame and an asymmetric outline.",
+  "alt": "Front view of a brunette straight straight bixie on a fictional adult.",
   "caption": "Front: straight brunette layers, long diagonal face frame and an asymmetric outline.",
   "generator_original_file": "source-media/straight-05-front.png",
   "generator_original_sha256": "0666e2326be47152da38f7e3cfc7df9e9298235444cb5740a9babd1a4454b9c7",
@@ -64,10 +64,16 @@
   },
   "actual_meta": {
     "texture": "straight",
+    "strand": "medium",
+    "density": "medium",
     "length": "long",
     "fringe": "side-swept",
     "colour": "brunette",
-    "finish": "natural"
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
   },
   "review": {
     "passed": true,
@@ -79,5 +85,15 @@
     "primary_style": "pass: straight strands and short graduated bixie silhouette",
     "observed_features": "straight brunette layers, long diagonal face frame and an asymmetric outline",
     "note": "Planned no-bangs brief rendered a long side-swept face-framing fringe."
+  },
+  "expected_meta_matches_actual": false,
+  "inspection_files": {
+    "full_aspect_preview": "media/reviews/finish-shapes/straight-05-front.jpg",
+    "native_detail_supplement": "media/reviews/finish-shapes/native-detail/straight-05-front.jpg"
+  },
+  "resume_direct_source_review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native-detail supplement inspection",
+    "passed": true,
+    "findings": "Full main hair silhouette, sharp strands and generous crown margin; neck, neckline and upper chest covered in bulky opaque high ivory knit; matches generated side/back references"
   }
 }

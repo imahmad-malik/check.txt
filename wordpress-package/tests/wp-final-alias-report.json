@@ -1,0 +1,54 @@
+{
+    "scope": "Only actually imported approved production looks in separate local noindex WordPress. Actual SQL result sets, real HTTP REST and server-rendered GET filters, plus a cached facet list made from those same raw records. No synthetic looks or raw metadata changes.",
+    "checks": {
+        "fringe:none:actualSQLCompleteSet": true,
+        "fringe:none:realHTTPRESTTotalAndFirstPage": true,
+        "fringe:none:realHTTPNonemptySSRMatchesActualRecords": true,
+        "fringe:no-bangs:actualSQLCompleteSet": true,
+        "fringe:no-bangs:realHTTPRESTTotalAndFirstPage": true,
+        "fringe:no-bangs:realHTTPNonemptySSRMatchesActualRecords": true,
+        "fringe:no bangs:actualSQLCompleteSet": true,
+        "fringe:no bangs:realHTTPRESTTotalAndFirstPage": true,
+        "fringe:no bangs:realHTTPNonemptySSRMatchesActualRecords": true,
+        "colour:dark:actualSQLCompleteSet": true,
+        "colour:dark:realHTTPRESTTotalAndFirstPage": true,
+        "colour:dark:realHTTPNonemptySSRMatchesActualRecords": true,
+        "colour:black:actualSQLCompleteSet": true,
+        "colour:black:realHTTPRESTTotalAndFirstPage": true,
+        "colour:black:realHTTPNonemptySSRMatchesActualRecords": true,
+        "fringe:liveFacetCanonicalOnly": true,
+        "fringe:cachedActualRawFacetCanonicalOnly": true,
+        "colour:liveFacetCanonicalOnly": true,
+        "colour:cachedActualRawFacetCanonicalOnly": true,
+        "allRawActualOwnerMetadataUnchanged": true
+    },
+    "observations": {
+        "fringe:none": {
+            "actualMatchingApprovedLooks": 7,
+            "actualHTTPRESTFirstPageLooks": 7,
+            "actualServerRenderedCards": 7
+        },
+        "fringe:no-bangs": {
+            "actualMatchingApprovedLooks": 7,
+            "actualHTTPRESTFirstPageLooks": 7,
+            "actualServerRenderedCards": 7
+        },
+        "fringe:no bangs": {
+            "actualMatchingApprovedLooks": 7,
+            "actualHTTPRESTFirstPageLooks": 7,
+            "actualServerRenderedCards": 7
+        },
+        "colour:dark": {
+            "actualMatchingApprovedLooks": 11,
+            "actualHTTPRESTFirstPageLooks": 11,
+            "actualServerRenderedCards": 11
+        },
+        "colour:black": {
+            "actualMatchingApprovedLooks": 11,
+            "actualHTTPRESTFirstPageLooks": 11,
+            "actualServerRenderedCards": 11
+        }
+    },
+    "passed": true,
+    "actualPublishedLookCount": 80
+}

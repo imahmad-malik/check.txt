@@ -1,0 +1,25 @@
+{
+  "id": "bangs-01-side",
+  "prompt": "SIDE: turn head and shoulder line left to useful side profile, show temple, ear and nape; 3/4 side acceptable only if nape/ear/temple all clear. Create ONE separate new original realistic sharp editorial haircut photograph of a fictional ADULT woman. STRICT COMPOSITION: HEAD AND NECK WITH ONLY TOP SHOULDER LINE; bottom frame ends immediately below the shoulders, no bust, chest or torso. BULKY VERY LOOSE fully opaque ivory HIGH TURTLENECK with broad folded collar covers neck base and all upper chest, unshaped fabric, no neckline/cleavage/fitted contours/sleeveless. Entire head and all hair edges with generous crown and side margin. Light neutral studio background and soft daylight; all face/hair sharp at genuine native supported resolution >=1024 longedge; full portrait 4:5 source aspect. No upscaling/8K, blur/grain/fog, collage, text, logo, watermark, jewellery or celebrity likeness. Exactly SAME fictional adult identity, haircut geometry, colour, texture, short nape, clothing, daylight and studio as supplied APPROVED front reference. Keep the SAME visible substantial ANGLED FOREHEAD BANGS and medium density as reference; eyes clear, bob-like upper lengths with short pixie graduation.",
+  "references": [
+    "source-media/bangs-01-front-retry01.png"
+  ],
+  "provenance_file": "media/workers/provenance/bangs-01-side-finish-thin-bangs-attempt01.json",
+  "tool_error": {
+    "tool": "image_gen.imagegen",
+    "failed_image_id": "bangs-01-side",
+    "http_status": 429,
+    "error": {
+      "type": "usage_limit_reached",
+      "message": "The usage limit has been reached",
+      "plan_type": "plus",
+      "resets_at": 1791455644,
+      "eligible_promo": null,
+      "limit_window_minutes": 1440,
+      "resets_in_seconds": 25271
+    },
+    "observed_result": "Tool call failed before output; no new PNG exists",
+    "quota_reset_utc": "2026-10-08T10:34:04+00:00",
+    "remaining_owned_missing_photos": 20
+  }
+}

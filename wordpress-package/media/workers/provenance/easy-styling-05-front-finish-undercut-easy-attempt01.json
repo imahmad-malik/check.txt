@@ -1,0 +1,19 @@
+{
+  "image_id": "easy-styling-05-front",
+  "prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. a fictional adult Latina woman with warm olive skin and brown eyes, age 53, wearing a loose opaque ivory HIGH TURTLENECK long-sleeved jumper with very loose fabric covering upper chest completely. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Bixie haircuts with easy styling. Design: smooth flat | low blended | side-swept | half-covered ears with curved temple pieces | 4-crown-to-front-proportion. Attributes: {\"texture\": \"wavy\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"long\", \"fringe\": \"side-swept\", \"colour\": \"brunette\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"simple\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. FRONT view: face directly forward and level, both eyes and full front haircut outline visible, no three-quarter turn. Quiet natural expression. Hair/cut attributes in this brief are authoritative; clothing rule is high loose opaque turtleneck. FINAL REQUIREMENTS: fictional ADULT, one separate original photograph, SHOULDER LINE ONLY, lower edge immediately under shoulders; no torso visible. Loose BULKY OVERSIZED fully opaque ivory high folded TURTLENECK rises to beneath chin and covers ALL neck and upper chest with fabric, no cleavage, visible chest, body contour, bare shoulders or sleeveless clothes. Full head and hair silhouette with generous margins on every side. All hair and face sharp in neutral studio light. Native genuine resolution at least1024 long edge; no8Kclaim and NOupscaling. Preserve full source aspect. Natural wearable styling concept. No promise of styling time or maintenance ease, no tools or text.",
+  "references": [],
+  "state": "failed-no-output",
+  "requested_at": "2026-10-08T03:33:15.755738+00:00",
+  "provenance_file": "media/workers/provenance/easy-styling-05-front-finish-undercut-easy-attempt01.json",
+  "failed_at": "2026-10-08T03:34:06.918519+00:00",
+  "tool_error": {
+    "http_status": 429,
+    "type": "usage_limit_reached",
+    "message": "The usage limit has been reached",
+    "plan_type": "plus",
+    "resets_at": 1791455644,
+    "resets_in_seconds": 25241,
+    "limit_window_minutes": 1440
+  },
+  "generated_output_file": null
+}

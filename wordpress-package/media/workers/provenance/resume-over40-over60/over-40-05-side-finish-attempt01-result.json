@@ -1,0 +1,7 @@
+{
+  "id": "over-40-05-side",
+  "tool_response_unavailable": true,
+  "reason": "Image-generation tool returned an unexpected result without output_hint; runner failed before retaining the response. No generated photograph is claimed or ingested from this call.",
+  "runner_error": "TypeError: Cannot read properties of undefined (reading 'match')",
+  "prompt_and_reference_arguments_preserved_in": "media/workers/provenance/resume-over40-over60/over-40-05-side-finish-attempt01.json"
+}

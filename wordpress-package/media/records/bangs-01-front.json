@@ -7,23 +7,25 @@
   "collection": "bangs",
   "usage": "collection",
   "angle": "front",
-  "source_file": "source-media/bangs-01-front-native.webp",
-  "file": "media/bangs-01-front.webp",
+  "source_file": "source-media/bangs-01-front-retry01-native.webp",
+  "file": "media/bangs-01-front-retry01.webp",
   "width": 1122,
   "height": 1402,
-  "sha256": "953f432bcbfa76361aeb1b1723cb2a9b9193397cc71a75913e3ea4f59d5f5fb1",
-  "display_sha256": "5be5848537978c01291e65d5cc7c3fd554fcfbb6ea1e92130fb0abbe52ce651c",
-  "source_bytes": 1507450,
-  "display_bytes": 339162,
+  "sha256": "c78a1ceb62d6cc5b370ab53b0902310c03effd10180d61896016e9c0ff6d11fd",
+  "display_sha256": "25f4050b136dd48618b5f5a68c2051bf85142827cd4df511d57842282a94c74b",
+  "source_bytes": 1514722,
+  "display_bytes": 346166,
   "native_original": true,
   "native_8k": false,
   "upscaled": false,
   "generated": true,
   "fictional_adult": true,
-  "generated_tool_file": "/workspace/generated_images/exec-e01a6a3d-1c61-4917-8879-ecc7ddb3c6d4.png",
+  "generated_tool_file": "/workspace/generated_images/exec-3521b5a2-293d-4c80-a9ad-cad14572fa70.png",
   "generator": "OpenAI image_gen",
-  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. a fictional adult white woman with natural fair skin and grey eyes, age 67, wearing a loose opaque ivory HIGH TURTLENECK long-sleeved jumper with very loose fabric covering upper chest completely. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Bixie haircuts with bangs. Design: compact rounded | soft tapered | angled | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"wavy\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"angled\", \"colour\": \"blonde\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. FRONT view: face directly forward and level, both eyes and full front haircut outline visible, no three-quarter turn. Quiet natural expression. Hair/cut attributes in this brief are authoritative; clothing rule is high loose opaque turtleneck. STRICT composition: crop ends immediately at the shoulder line; only the head, neck covered by a tall collar, and a thin strip of bulky loose shoulder fabric appear. No upper torso. The thick high turtleneck completely covers the entire neck base and upper chest. Broad oversized fabric folds, no fitted outline or bust contour. Clearly visible substantial diagonal forehead bangs; do not sweep them entirely away from forehead. Keep all hair and head inside frame with margin. One single native original photo.",
-  "reference_source_files": [],
+  "exact_generation_prompt": "CORRECT THE FRAMING of the provided inspected fictional adult reference, preserve exactly same adult/haircut/colour/texture. FRONT VIEW face level directly toward camera, both eyes visible, no turn. Create ONE separate new original realistic sharp editorial haircut photograph of a fictional ADULT woman. STRICT COMPOSITION: HEAD AND NECK WITH ONLY TOP SHOULDER LINE; bottom frame ends immediately below the shoulders, no bust, chest or torso. BULKY VERY LOOSE fully opaque ivory HIGH TURTLENECK with broad folded collar covers neck base and all upper chest, unshaped fabric, no neckline/cleavage/fitted contours/sleeveless. Entire head and all hair edges with generous crown and side margin. Light neutral studio background and soft daylight; all face/hair sharp at genuine native supported resolution >=1024 longedge; full portrait 4:5 source aspect. No upscaling/8K, blur/grain/fog, collage, text, logo, watermark, jewellery or celebrity likeness. A fictional ADULT white woman with natural fair skin and grey eyes, age 67. PRIMARY bangs constraint: clearly visible angled forehead BANGS, diagonal fringe above eyes; medium density. Natural blonde hair, distinct flowing S-waves, not ringlets. MEDIUM upper/temple pieces, COMPACT ROUNDED crown and SOFT TAPERED SHORT PIXIE-LENGTH NAPE. UPPER SECTIONS retain bob-like length and movement above a visibly shorter tapered pixie nape; genuine BOB-PIXIE HYBRID, not ordinary bob, close pixie or long wolf cut. Distinct angled bangs cross the forehead with eyes unobscured. Ear edges visible. COMPOSITION OVERRIDE: bottom frame immediately at TOP shoulder line beneath tall bulky high collar. No sweater body, no torso, no arm/sleeve panel; head and covered neck only, tiny narrow shoulder strip at bottom. All head/hair inside frame with generous margin.",
+  "reference_source_files": [
+    "source-media/bangs-01-front.png"
+  ],
   "approved": true,
   "review_status": "approved",
   "public_status": "draft",
@@ -48,13 +50,10 @@
     "distinctness_basis": "compact rounded | soft tapered | angled | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
   "alt": "Front view of a fictional adult woman with a blonde wavy bixie, wearing a loose opaque high turtleneck.",
-  "caption": "Direct front view of a fictional older adult with blonde, softly wavy layered bixie, distinct long angled bangs across the forehead, a complete crown and side outline with clear margin, sharp face and strands, and a bulky opaque ivory high turtleneck fully covering the neck base and shoulder line. Neutral ivory studio and natural daylight.",
-  "generator_original_file": "source-media/bangs-01-front.png",
-  "generator_original_sha256": "e471ae42571d19a1d2b3128646da5ff52cbd7308c0909f298fa4e9b4ea8191e1",
-  "generator_original_bytes": 2410932,
-  "native_pixel_sha256": "4015caf8abf6211e17a1b94f407b8a4d2b38cb01bdd10aec3bb5a3883bd8f11a",
-  "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "caption": "Corrected separate native front source retains same mature adult and blonde softly wavy medium-density bixie. Substantial diagonal forehead bangs, ear openings and bob-like upper layers above shorter lower pixie shaping. Framing now ends beneath the tall bulky ivory collar with only top shoulder line. Whole head margin, sharp native face/hair and fully opaque coverage.",
+  "generator_original_file": "source-media/bangs-01-front-retry01.png",
+  "generator_original_sha256": "547898c88b43e5495f08c102d411ee63db57862a434a7e5f4d491be22761d09b",
+  "generator_original_bytes": 2426087,
   "exact_prompt_available": true,
   "tool_output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e01a6a3d-1c61-4917-8879-ecc7ddb3c6d4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
   "actual_meta": {
@@ -70,10 +69,18 @@
     "maintenance": "discuss",
     "ai_concept": true
   },
+  "generation_provenance_file": "media/workers/provenance/bangs-01-front-finish-thin-bangs-attempt02.json",
+  "previous_attempt_records": [
+    "media/records/rejected/bangs-01-front-attempt01.json"
+  ],
+  "native_pixel_sha256": "e102101ea6258f76b93f50162c6deee4a48ffc3e038a21798daef4ccc44f5160",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "exact_call_metadata_available": true,
   "review": {
     "method": "Direct small full-aspect JPEG inspection plus unscaled native hair/face detail inspection",
-    "reviewer": "finish_bangs",
-    "source_inspected": "source-media/bangs-01-front.png",
+    "reviewer": "resume_thin_bangs",
+    "source_inspected": "source-media/bangs-01-front-retry01.png",
     "inspection_jpeg": "/tmp/bangs-01-front-small.jpg",
     "native_detail_supplement": "/tmp/bangs-01-front-detail.png",
     "single_original_photo": true,
@@ -89,7 +96,7 @@
     "credible_anatomy_and_strands": true,
     "bob_pixie_hybrid": true,
     "expected_meta_matches_actual": true,
-    "detail": "Direct front view of a fictional older adult with blonde, softly wavy layered bixie, distinct long angled bangs across the forehead, a complete crown and side outline with clear margin, sharp face and strands, and a bulky opaque ivory high turtleneck fully covering the neck base and shoulder line. Neutral ivory studio and natural daylight.",
+    "detail": "Corrected separate native front source retains same mature adult and blonde softly wavy medium-density bixie. Substantial diagonal forehead bangs, ear openings and bob-like upper layers above shorter lower pixie shaping. Framing now ends beneath the tall bulky ivory collar with only top shoulder line. Whole head margin, sharp native face/hair and fully opaque coverage.",
     "native_resolution_verified_from_png": {
       "width": 1122,
       "height": 1402
@@ -97,6 +104,5 @@
     "native_original": true,
     "native_8k": false,
     "upscaled": false
-  },
-  "generation_provenance_file": "media/workers/provenance/bangs-01-front-finish-thin-bangs-attempt01.json"
+  }
 }

@@ -1,0 +1,5 @@
+{
+  "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-2a9e9ac3-93d2-4e98-88ce-2fd2d20385c5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "generated_tool_file": "/workspace/generated_images/exec-2a9e9ac3-93d2-4e98-88ce-2fd2d20385c5.png",
+  "image_payload_preserved_in_original_png": true
+}

@@ -47,7 +47,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | compact squared | light broken | ear-revealing temple pieces | 2-crown-to-front-proportion"
   },
-  "alt": "Front view of a dark coily bixie.",
+  "alt": "Front view of a dark curly bixie on a fictional mature adult.",
   "caption": "Visibly mature fair freckled adult with dark tight curls, compact rounded layered crown and broken curly fringe; observed curly rather than planned coily. Loose high ivory knit and complete margins.",
   "generator_original_file": "source-media/over-50-03-front.png",
   "generator_original_sha256": "d535117ac035745cc14cd5694d5b0ba916df95581d7b83c141971fc43d50de30",
@@ -87,5 +87,12 @@
     "angle": "pass: level direct front, both eyes",
     "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
     "visible_features": "Visibly mature fair freckled adult with dark tight curls, compact rounded layered crown and broken curly fringe; observed curly rather than planned coily. Loose high ivory knit and complete margins."
+  },
+  "resume_direct_source_review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native strand-detail supplement inspection",
+    "passed": true,
+    "findings": "Full main hair silhouette and crown margin; sharp native strands; covered neckline and upper chest in bulky opaque ivory high turtleneck; adult identity, cut, colour, outfit and light consistent with separately generated rear view",
+    "preview": "media/reviews/finish-age-grey/over-50-03-front.jpg",
+    "native_detail_supplement": "media/reviews/finish-age-grey/native-detail/over-50-03-front.jpg"
   }
 }

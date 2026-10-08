@@ -1,0 +1,24 @@
+{
+    "passed": true,
+    "check_count": 16,
+    "checks": {
+        "Fringe none returns both stored aliases": true,
+        "Fringe no-bangs returns both stored aliases": true,
+        "Fringe no bangs returns both stored aliases": true,
+        "Colour dark returns both stored aliases": true,
+        "Colour black returns both stored aliases": true,
+        "Combined aliases retain intersection": true,
+        "Unrelated fringe remains an exact filter": true,
+        "Unrelated colour remains an exact filter": true,
+        "Other facet values remain unchanged": true,
+        "Public REST uses the same alias SQL": true,
+        "Live facets expose one no-bangs choice": true,
+        "Live facets expose one dark choice": true,
+        "Old cached choices normalize without stale aliases": true,
+        "Querying does not rewrite owner metadata": true,
+        "Exact original fixture metadata restored": true,
+        "No source or publication gate weakened": true
+    },
+    "failure": null,
+    "scope": "Actual WordPress SQL, public REST and live/cached facets with explicitly synthetic software fixtures on the older local noindex site. Exact fixture metadata restored; no production photographs or publication requirements changed."
+}

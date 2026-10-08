@@ -1,0 +1,40 @@
+{
+    "scope": "Actual isolated final-site importer using existing approved production photography. Parents are newly created before new child collection/guide pages; all temporary pages and saved owner state are restored. No synthetic look or image is imported.",
+    "checks": {
+        "newParentsCreatedBeforeNewChildrenAndRemainDraftWhileChildrenAbsent": true,
+        "oneActualImportPublishesBothUneditedDirectoriesAfterRealChildrenCreated": true,
+        "editedOwnerBlockedDraftContentAndDraftStatusPreserved": true,
+        "unchangedOwnerPrivateStatusAndContentPreserved": true,
+        "allExactOriginalNativePageStatusesAndContentRestored": true,
+        "allExactTemporaryPagesRemoved": true
+    },
+    "passed": true,
+    "firstPassDirectoryDiagnostics": {
+        "collections": {
+            "id": 425,
+            "status": "publish",
+            "check": {
+                "complete": true,
+                "reasons": []
+            }
+        },
+        "looks": {
+            "id": 352,
+            "status": "publish",
+            "check": {
+                "complete": true,
+                "reasons": []
+            }
+        },
+        "guides": {
+            "id": 426,
+            "status": "publish",
+            "check": {
+                "complete": true,
+                "reasons": []
+            }
+        }
+    },
+    "temporaryPageCountRemoved": 4,
+    "originalAttachmentCountPreserved": 266
+}

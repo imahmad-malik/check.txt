@@ -1,0 +1,17 @@
+{
+  "id": "over-60-03-back",
+  "generated_tool_file": null,
+  "generation_failed": true,
+  "tool_error": "image generation failed: http 429 Too Many Requests: Some(\"{\\\"error\\\":{\\\"type\\\":\\\"usage_limit_reached\\\",\\\"message\\\":\\\"The usage limit has been reached\\\",\\\"plan_type\\\":\\\"plus\\\",\\\"resets_at\\\":1791455643,\\\"eligible_promo\\\":null,\\\"limit_window_minutes\\\":1440,\\\"resets_in_seconds\\\":25260}}\")",
+  "error": {
+    "type": "usage_limit_reached",
+    "message": "The usage limit has been reached",
+    "plan_type": "plus",
+    "resets_at": 1791455643,
+    "eligible_promo": null,
+    "limit_window_minutes": 1440,
+    "resets_in_seconds": 25260
+  },
+  "prompt_and_reference_arguments_preserved_in": "media/workers/provenance/resume-over40-over60/over-60-03-back-finish-attempt01.json",
+  "image_count_claimed": 0
+}

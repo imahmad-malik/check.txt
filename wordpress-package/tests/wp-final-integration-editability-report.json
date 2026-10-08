@@ -1,0 +1,38 @@
+{
+  "generatedAtUTC": "2026-10-08T03:36:07.143669+00:00",
+  "scope": "Actual authenticated native WordPress Gutenberg SAVE, owner edit preserved by real GUI import in default preserve mode, then exact original public content restored. Only actual project content; no new fixture media or looks.",
+  "phase": "integration",
+  "checks": {
+    "actualNativeGutenbergOwnerEditSaved": true,
+    "realGUIImportPreservesActualNativeOwnerEditAndAllOtherContentRelationshipsSettings": true,
+    "exactOwnerPageContentAndOriginalStatusesRestored": true
+  },
+  "passed": true,
+  "beforeCounts": {
+    "looks": 80,
+    "publishedLooks": 80,
+    "photos": 265,
+    "films": 1,
+    "uniqueSourceSHA256": 266,
+    "pages": 42,
+    "publishedPages": 24,
+    "collections": 22,
+    "readyCollections": 9,
+    "guides": 7,
+    "readyGuides": 5
+  },
+  "ownerEditedPageID": 365,
+  "afterCounts": {
+    "looks": 80,
+    "publishedLooks": 80,
+    "photos": 265,
+    "films": 1,
+    "uniqueSourceSHA256": 266,
+    "pages": 42,
+    "publishedPages": 24,
+    "collections": 22,
+    "readyCollections": 9,
+    "guides": 7,
+    "readyGuides": 5
+  }
+}

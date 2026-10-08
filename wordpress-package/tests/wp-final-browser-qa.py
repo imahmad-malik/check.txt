@@ -54,7 +54,7 @@ def painted_images(page, selector, context, expected=None, sample_edges=True):
     for index, element in enumerate(elements.all()):
         element.scroll_into_view_if_needed()
         element.evaluate('async e=>{await e.decode();}')
-        observation = element.evaluate('''e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return {element:[r.width,r.height],natural:[e.naturalWidth,e.naturalHeight],source:e.currentSrc||e.src,objectFit:s.objectFit,aspectRatio:s.aspectRatio,opacity:s.opacity,visibility:s.visibility,transform:s.transform,containIntrinsicSize:s.containIntrinsicSize,attachmentID:(e.className.match(/wp-image-(\d+)/)||[])[1]||null};}''')
+        observation = element.evaluate(r'''e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return {element:[r.width,r.height],natural:[e.naturalWidth,e.naturalHeight],source:e.currentSrc||e.src,objectFit:s.objectFit,aspectRatio:s.aspectRatio,opacity:s.opacity,visibility:s.visibility,transform:s.transform,containIntrinsicSize:s.containIntrinsicSize,attachmentID:(e.className.match(/wp-image-(\d+)/)||[])[1]||null};}''')
         assert observation['element'][0] > 0 and observation['element'][1] > 0, observation
         assert abs(observation['element'][1] / observation['element'][0] - observation['natural'][1] / observation['natural'][0]) < .015, observation
         assert observation['objectFit'] == 'contain' and observation['opacity'] == '1' and observation['visibility'] == 'visible' and observation['transform'] == 'none', observation
@@ -66,16 +66,40 @@ def painted_images(page, selector, context, expected=None, sample_edges=True):
     return observations
 
 
+def editor_check(browser,data,report,save):
+    admin, editor = authenticate(browser)
+    representative = data['pages']['about']; editor.goto(representative['editURL'],wait_until='networkidle')
+    editor.wait_for_function('()=>window.wp?.data?.select("core/block-editor")?.getBlocks()?.length>0',timeout=60000)
+    expected_ids = [record['id'] for kind in ['pages','looks'] for record in data[kind].values()]
+    content = editor.evaluate('''async expected=>{const pages=await wp.apiFetch({path:'/wp/v2/pages?context=edit&per_page=100&status[]=publish&status[]=draft&status[]=private&status[]=pending'});const looks1=await wp.apiFetch({path:'/wp/v2/bixie_look?context=edit&per_page=100&page=1&status[]=publish&status[]=draft&status[]=private&status[]=pending'});const looks2=looks1.length===100?await wp.apiFetch({path:'/wp/v2/bixie_look?context=edit&per_page=100&page=2&status[]=publish&status[]=draft&status[]=private&status[]=pending'}):[];const flatten=bs=>bs.flatMap(b=>[b,...flatten(b.innerBlocks||[])]);return [...pages,...looks1,...looks2].filter(p=>expected.includes(p.id)).map(p=>{const bs=wp.blocks.parse(p.content.raw),flat=flatten(bs),round=flatten(wp.blocks.parse(wp.blocks.serialize(bs)));return {id:p.id,type:p.type,status:p.status,totalBlocks:flat.length,invalid:flat.filter(b=>b.isValid===false).map(b=>b.name),roundtripInvalid:round.filter(b=>b.isValid===false).map(b=>b.name)};});}''',expected_ids)
+    report['nativeGutenbergRegisteredParseAndRoundtrip'] = content; save()
+    assert not any(item['invalid'] or item['roundtripInvalid'] for item in content), [item for item in content if item['invalid'] or item['roundtripInvalid']]
+    assert len(content) == len(expected_ids), (len(content),len(expected_ids))
+    report['checks']['actualRegisteredGutenbergNativeParseAndRoundtripNoInvalidBlocks'] = True
+    admin.close()
+
+
 def main():
-    parser = argparse.ArgumentParser(); parser.add_argument('--phase', choices=['integration', 'final'], default='integration'); parser.add_argument('--editor', action='store_true')
+    parser = argparse.ArgumentParser(); parser.add_argument('--phase', choices=['integration', 'final'], default='integration'); parser.add_argument('--editor', action='store_true'); parser.add_argument('--editor-only', action='store_true')
     args = parser.parse_args(); destination = TESTS / ('wp-final-' + args.phase + '-browser-report.json')
     report = {'generatedAtUTC': datetime.now(timezone.utc).isoformat(), 'scope': 'Actual sources in separate local noindex WordPress. No synthetic fixture records. Public HTTP, natural geometry, selected painted photo edges, GET no-JavaScript forms and actual registered native Gutenberg parser.', 'phase': args.phase, 'checks': {}, 'collections': {}, 'passed': False}
     def save(): destination.write_text(json.dumps(report, indent=2) + '\n')
     try:
-        data = inspect(); report['databaseCounts'] = data['databaseCounts']; save()
+        data = inspect()
+        if args.editor_only:
+            previous=json.loads(destination.read_text())
+            assert previous['databaseCounts']==data['databaseCounts']
+            for check in ['everyActualPublishedPageAndLookHTTP200','allRenderedInternalHTTPLinksResolve','everyImportedNativeSourceHTTPHashAndReviewGateVerified','everyReadyCollection21ActualFrontSideBackViewsAtDesktopAndPhone','actualSideBackDetailSelectionAndEscapeFocus','nativeGETFiltersWorkWithJavaScriptDisabled']: assert previous['checks'][check] is True
+            report=previous; report['passed']=False; report.pop('failure',None); report.pop('traceback',None); report['continuedAffectedEditorCheckOnly']=True; save()
+            with sync_playwright() as playwright:
+                browser=playwright.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
+                editor_check(browser,data,report,save); browser.close()
+            report['passed']=True
+            return
+        report['databaseCounts'] = data['databaseCounts']; save()
         if args.phase == 'final':
             for key, value in [('looks',154),('publishedLooks',154),('photos',487),('films',1),('pages',42),('readyCollections',22),('readyGuides',7)]: assert data['databaseCounts'][key] == value, (key,data['databaseCounts'][key])
-            assert data['home']['status'] == 'publish' and data['home']['gate']['complete'] and len(data['home']['uniquePhotoIDs']) == 77
+            assert data['home']['status'] == 'publish' and data['home']['gate']['complete'] and len(data['home']['uniquePhotoIDs']) == 77 and len(data['home']['visiblePhotoIDs']) == 78 and data['home']['sectionCount'] == 22
             assert data['settings']['show_on_front'] == 'page' and int(data['settings']['page_on_front']) == data['home']['id']
             assert data['pages']['privacy']['status'] == 'draft' and data['pages']['contact']['status'] == 'draft'
         with sync_playwright() as playwright:
@@ -86,7 +110,7 @@ def main():
                 for key, record in data[kind].items():
                     if record['status'] != 'publish': continue
                     response = context.request.get(record['url']); assert response.status == 200, (key,response.status)
-                    html = PageHTML(response.text()); public.append({'key':key,'status':response.status,'url':response.url})
+                    html = PageHTML(response.text()); public.append({'key':key,'status':response.status,'url':response.url}); response.dispose()
                     links.update(link.split('#')[0] for link in html.links if link.startswith(SITE) and urlsplit(link).path not in ['/wp-login.php'] and '/wp-admin/' not in link)
                     graph = [node for item in html.graphs for node in item.get('@graph',[])]; schema_types[key] = [node.get('@type') for node in graph]
                     if kind == 'looks':
@@ -96,20 +120,25 @@ def main():
                         article = next(node for node in graph if node.get('@type') == 'Article'); assert len(article['image']) == len(data['guides'][key]['nativePhotoIDs'])
             report['publicHTTP'] = public; report['schemaTypes'] = schema_types; report['checks']['everyActualPublishedPageAndLookHTTP200'] = True; save()
             failed_links = []
-            for link in sorted(links):
+            already_verified = {record['url'] for record in public}
+            separately_requested = 0
+            for link in sorted(links - already_verified):
                 response = context.request.get(link)
+                separately_requested += 1
                 if response.status != 200: failed_links.append({'url':link,'status':response.status})
-            report['internalLinkHTTP'] = {'uniqueURLs':len(links),'failures':failed_links}; save(); assert not failed_links
+                response.dispose()
+            report['internalLinkHTTP'] = {'uniqueURLs':len(links),'alreadyVerifiedPublicDestinations':len(links & already_verified),'additionalRealHTTPRequests':separately_requested,'failures':failed_links}; save(); assert not failed_links
             report['checks']['allRenderedInternalHTTPLinksResolve'] = True
             for key, attachment in data['attachments'].items():
                 assert attachment['sourceExists'] and attachment['displayExists'] and attachment['approved'] and attachment['qualified'], (key,attachment)
                 assert attachment['sourceSHA256'] == attachment['expectedSHA256'], key
                 response = context.request.get(attachment['nativeURL']); assert response.status == 200 and hashlib.sha256(response.body()).hexdigest() == attachment['sourceSHA256'], key
+                response.dispose()
                 source_requests.append({'key':key,'HTTP':200,'actualNativeSourceSHA256MatchesManifest':True,'nativeSize':attachment['nativeSize']})
             report['nativeOriginalHTTP'] = source_requests; report['checks']['everyImportedNativeSourceHTTPHashAndReviewGateVerified'] = True; save()
             first_collection = None
             for name,width,height in [('desktop',1440,1000),('phone',390,844)]:
-                page = context.new_page(viewport={'width':width,'height':height}); errors = []; failures = []
+                page = context.new_page(); page.set_viewport_size({'width':width,'height':height}); errors = []; failures = []
                 page.on('pageerror',lambda error:errors.append(str(error)))
                 page.on('response',lambda response:failures.append({'url':response.url,'status':response.status}) if response.status>=400 else None)
                 for slug, collection in data['collections'].items():
@@ -141,15 +170,7 @@ def main():
             assert page.locator('.bixie-results img').count() == 21 and 'sort=title' in page.url
             report['noJavaScriptGET'] = {'realBrowserJavaScriptDisabled':True,'sortFormSubmitted':True,'actual21PhotosRemain':True,'url':page.url}; report['checks']['nativeGETFiltersWorkWithJavaScriptDisabled'] = True; save()
             nojs.close()
-            if args.editor:
-                admin, editor = authenticate(browser)
-                representative = data['pages']['about']; editor.goto(representative['editURL'],wait_until='networkidle')
-                editor.wait_for_function('()=>window.wp?.data?.select("core/block-editor")?.getBlocks()?.length>0',timeout=60000)
-                content = editor.evaluate('''async()=>{const pages=await wp.apiFetch({path:'/wp/v2/pages?context=edit&per_page=100'});const looks1=await wp.apiFetch({path:'/wp/v2/bixie_look?context=edit&per_page=100&page=1'});const looks2=looks1.length===100?await wp.apiFetch({path:'/wp/v2/bixie_look?context=edit&per_page=100&page=2'}):[];const flatten=bs=>bs.flatMap(b=>[b,...flatten(b.innerBlocks||[])]);return [...pages,...looks1,...looks2].filter(p=>p.meta?._bixie_import_key||p.content.raw.includes('wp:')).map(p=>{const bs=wp.blocks.parse(p.content.raw),flat=flatten(bs),round=flatten(wp.blocks.parse(wp.blocks.serialize(bs)));return {id:p.id,type:p.type,status:p.status,totalBlocks:flat.length,invalid:flat.filter(b=>b.isValid===false).map(b=>b.name),roundtripInvalid:round.filter(b=>b.isValid===false).map(b=>b.name)};});}''')
-                report['nativeGutenbergRegisteredParseAndRoundtrip'] = content; save()
-                assert not any(item['invalid'] or item['roundtripInvalid'] for item in content), [item for item in content if item['invalid'] or item['roundtripInvalid']]
-                report['checks']['actualRegisteredGutenbergNativeParseAndRoundtripNoInvalidBlocks'] = True
-                admin.close()
+            if args.editor: editor_check(browser,data,report,save)
             context.close(); browser.close()
         report['passed'] = True
     except Exception as error:

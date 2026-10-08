@@ -14,5 +14,11 @@
   "generated_tool_file": "/workspace/generated_images/exec-70e001d5-2395-4dab-a161-f4309e0e9c85.png",
   "generator_original_file": "source-media/over-50-04-back.png",
   "generator_original_sha256": "317cfb0cd3c49e77f8f9ae018929a5775c036cac8643c3c652b2fd5c09669056",
-  "saved_utc": "2026-10-08T03:13:34.520638+00:00"
+  "saved_utc": "2026-10-08T03:13:34.520638+00:00",
+  "generator_output_file_id": "exec-70e001d5-2395-4dab-a161-f4309e0e9c85",
+  "tool_call_id_status": "Not exposed by image_gen result; genuine returned output filepath retained",
+  "reference_sha256": {
+    "source-media/over-50-04-front.png": "1d0cbc3944010f2c28ebe5136a6e772f9263f80382c0853291df16b50ab12dd9",
+    "source-media/over-50-04-side.png": "b6e6d9c0248731adccd6e1da6e0448a73ef5953b5c6cbc426cd85e3bf0fe12bd"
+  }
 }

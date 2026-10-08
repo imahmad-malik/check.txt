@@ -68,6 +68,11 @@
       "native_resolution_at_least_1024": true,
       "angle_verified": true,
       "pixel_identical_native_encoding": true
+    },
+    "native_detail_supplement": {
+      "reviewer": "finish-undercut-easy",
+      "method": "Actually inspected a separate 400x400 crop of native hair and face pixels in addition to the whole full-aspect <=400px image.",
+      "evidence": "Hair strands/curls, eyes and skin detail sharply resolved; full head margin and opaque bulky high turtleneck verified in whole image. No full-native visual audit claim."
     }
   },
   "observed_meta": {

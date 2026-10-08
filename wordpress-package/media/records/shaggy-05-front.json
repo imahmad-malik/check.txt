@@ -47,7 +47,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | textured tapered | curtain | ear-revealing temple pieces | 4-crown-to-front-proportion"
   },
-  "alt": "Front view: brunette tousled waves, open curtain fringe and shaggy ear-length sides.",
+  "alt": "Front view of a brunette wavy shaggy bixie on a fictional adult.",
   "caption": "Front: brunette tousled waves, open curtain fringe and shaggy ear-length sides.",
   "generator_original_file": "source-media/shaggy-05-front.png",
   "generator_original_sha256": "b062372ccc1c02c5c34dcb1f7c7606746fd77d10341974cdf881157f6e3e4d0e",
@@ -64,10 +64,16 @@
   },
   "actual_meta": {
     "texture": "wavy",
+    "strand": "medium",
+    "density": "medium",
     "length": "medium",
     "fringe": "curtain",
     "colour": "brunette",
-    "finish": "shaggy"
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
   },
   "review": {
     "passed": true,
@@ -79,5 +85,15 @@
     "primary_style": "pass: shaggy layered bob-pixie silhouette with short nape",
     "observed_features": "brunette tousled waves, open curtain fringe and shaggy ear-length sides",
     "note": "Planned long length rendered a medium ear-length bixie."
+  },
+  "expected_meta_matches_actual": false,
+  "inspection_files": {
+    "full_aspect_preview": "media/reviews/finish-shapes/shaggy-05-front.jpg",
+    "native_detail_supplement": "media/reviews/finish-shapes/native-detail/shaggy-05-front.jpg"
+  },
+  "resume_direct_source_review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native-detail supplement inspection",
+    "passed": true,
+    "findings": "Full main hair silhouette, sharp strands and generous crown margin; neck, neckline and upper chest covered in bulky opaque high ivory knit; matches generated side/back references"
   }
 }

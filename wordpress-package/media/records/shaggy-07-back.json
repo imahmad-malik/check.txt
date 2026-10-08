@@ -1,0 +1,101 @@
+{
+  "id": "shaggy-07-back",
+  "key": "shaggy-07-back",
+  "look_id": "shaggy-07",
+  "look_key": "shaggy-07",
+  "canonical_look_key": "shaggy-07",
+  "collection": "shaggy",
+  "usage": "collection",
+  "angle": "back",
+  "source_file": "source-media/shaggy-07-back-native.webp",
+  "file": "media/shaggy-07-back.webp",
+  "width": 1312,
+  "height": 1199,
+  "sha256": "76bbf74eda7490fcce6bc46ce068b91fb719732cba06e662fa9a434202ad6307",
+  "display_sha256": "f2ba9b8563f41607d76f0a2201bd5473c4483bc79320f2dda13ce4483f63c922",
+  "source_bytes": 1609910,
+  "display_bytes": 405978,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-d26dfb42-8bcc-47ac-bc4d-71755cf86b39.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create exactly ONE separate original realistic sharp premium editorial salon haircut photograph of a fictional ADULT. No collage, crop, illustration, extra person, words, logo, watermark or jewellery. HEAD plus SHOULDER LINE ONLY. Complete main hair outline, entire crown and all side hair edges with generous breathing room above and to both sides. BULKY LOOSE FULLY OPAQUE IVORY HIGH TURTLENECK conceals whole neck, neckline and upper chest; no exposed neck opening, chest, cleavage, torso contour, low collar, sleeveless garment, bare shoulders or exposed back. Plain warm ivory studio, even soft daylight, natural skin texture, sharp detail in all hair strands with adequate depth of field, no blur/bokeh. Full portrait source aspect at genuine tool native resolution >=1024 pixels long edge, no upscale or 8K claim. Use attached genuine references to create a NEW photograph of EXACT SAME fictional adult, identical face and adult age, haircut, hair colour and texture, fringe, crown, short nape, loose high ivory knit and studio daylight. Do not alter haircut or outfit. Observed reference attributes: {\"texture\": \"curly\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"curtain\", \"colour\": \"copper\", \"finish\": \"shaggy\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Retain choppy shaggy crown layers, tousled separation and short textured tapered nape; no uniform bob or long wolf cut. Use both approved front and side references. TRUE BACK VIEW: camera directly behind same adult upright level head, rear head centered; no visible eyes, nose or cheek. Preserve exact crown silhouette, natural colour distribution, layers/curls and graduated short nape from profile; high loose collar directly under short hairline conceals neck. One separate original rear photograph.",
+  "reference_source_files": [
+    "source-media/shaggy-07-front.png",
+    "source-media/shaggy-07-side.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "coily",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "curtain",
+    "colour": "copper",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "smooth flat",
+    "nape": "textured tapered",
+    "fringe": "curtain",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "smooth flat | textured tapered | curtain | ear-revealing temple pieces | 1-crown-to-front-proportion"
+  },
+  "alt": "Back view of a copper curly shaggy bixie on a fictional adult.",
+  "caption": "Matching copper curly rear portrait with compact rounded ringlets, tousled choppy lifted crown, uneven feathered side ends and short textured nape just above high ivory collar; full silhouette margin and sharp native strands cohere with front and useful three-quarter side.",
+  "generator_original_file": "source-media/shaggy-07-back.png",
+  "generator_original_sha256": "33460135ece5c67488eb50df13391a1d3d944305fafc3181b966f78535d9baa7",
+  "generator_original_bytes": 2452475,
+  "native_pixel_sha256": "c578c842f905af0ccdabddbaecc95007a66637ca2e6eee3d62f3238a1904cbdb",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-07-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-07-side.png"
+  ],
+  "provenance_file": "media/workers/provenance/shaggy-07-back-finish-shapes.json",
+  "actual_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "curtain",
+    "colour": "copper",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": false,
+  "observed_meta": {
+    "texture": "curly",
+    "colour": "copper",
+    "length": "medium",
+    "fringe": "curtain",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "description": "Matching copper curly rear portrait with compact rounded ringlets, tousled choppy lifted crown, uneven feathered side ends and short textured nape just above high ivory collar; full silhouette margin and sharp native strands cohere with front and useful three-quarter side."
+  },
+  "review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native-detail supplement inspection; compared genuine separate reference views",
+    "attire": "pass: bulky loose fully opaque high ivory turtleneck conceals neck, neckline and upper chest without contours or cleavage",
+    "framing": "pass: full main hair edges and crown with generous margins; head and shoulder framing",
+    "angle": "pass: back",
+    "native_detail": "Verified 1312x1199 native size >=1024; directly inspected sharp hair strands at native scale; retained PNG and RGB-identical lossless WebP",
+    "visible_features": "Matching copper curly rear portrait with compact rounded ringlets, tousled choppy lifted crown, uneven feathered side ends and short textured nape just above high ivory collar; full silhouette margin and sharp native strands cohere with front and useful three-quarter side."
+  },
+  "inspection_files": {
+    "full_aspect_preview": "media/reviews/finish-shapes/shaggy-07-back.jpg",
+    "native_detail_supplement": "media/reviews/finish-shapes/native-detail/shaggy-07-back.jpg"
+  }
+}

@@ -24,8 +24,8 @@
   "generator": "OpenAI image_gen",
   "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. a fictional adult Middle Eastern woman with olive skin and dark eyes, age 61, wearing a loose opaque ivory HIGH TURTLENECK long-sleeved jumper with very loose fabric covering upper chest completely. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Straight-hair bixies. Design: airy separated | short graduated | no-bangs | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"short\", \"fringe\": \"no-bangs\", \"colour\": \"blonde\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. FRONT view: face directly forward and level, both eyes and full front haircut outline visible, no three-quarter turn. Quiet natural expression. Hair/cut attributes in this brief are authoritative; clothing rule is high loose opaque turtleneck.\nSTRICT FINAL: ONE NEW original realistic premium editorial haircut photograph, one person and one view, not collage/crop/reused source. Fictional ADULT. SHOULDERS ONLY: bottom edge just below shoulders, BULKY VERY LOOSE OPAQUE IVORY HIGH TURTLENECK jumper fully conceals neck and all chest without chest/torso contour. Complete crown/head and all hair edges with generous breathing room above and around. Plain ivory studio, even daylight, sharp natural skin and ALL hair detail; no blur, text, logos, jewellery. Full portrait source aspect at original tool native resolution at least1024 long edge, no upscale. Front directly forward, level with both eyes. AUTHORITY: genuine straight hair, straight separated strands, no waves/curls; short graduated bixie nape.  DISTINCT DESIGN: short blonde bixie, airy separated STRAIGHT strands lifted and brushed backward, OPEN forehead without bangs, full layered crown approximately 3 inches long and short graduated nape. Side pieces sit at upper ear, no curls or waves.",
   "reference_source_files": [],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "straight",
@@ -47,12 +47,47 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "airy separated | short graduated | no-bangs | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Front view of a blonde straight straight bixie on a fictional adult.",
+  "caption": "Fictional olive adult with blonde straight separated layered strands brushed diagonally from a side part, airy short crown and side-swept edge opening forehead, short graduated nape; direct front, mature skin detail, full margins and high loose opaque ivory knit.",
   "generator_original_file": "source-media/straight-06-front.png",
   "generator_original_sha256": "b7656cb3549db3bd71580c3e5282593733ec2c9039ffdfa08bb751e8b56e8784",
   "generator_original_bytes": 2260314,
   "native_pixel_sha256": "e29816d8bcbc0c7ecb4a97a70499c83f900a5406dbdd572048644d7ed1a262aa",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_meta": {
+    "texture": "straight",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "side-swept",
+    "colour": "blonde",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": false,
+  "observed_meta": {
+    "texture": "straight",
+    "colour": "blonde",
+    "length": "short",
+    "fringe": "side-swept",
+    "finish": "natural",
+    "age_reference": "adult",
+    "description": "Fictional olive adult with blonde straight separated layered strands brushed diagonally from a side part, airy short crown and side-swept edge opening forehead, short graduated nape; direct front, mature skin detail, full margins and high loose opaque ivory knit."
+  },
+  "review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native-detail supplement inspection; compared genuine separate reference views",
+    "attire": "pass: bulky loose fully opaque high ivory turtleneck conceals neck, neckline and upper chest without contours or cleavage",
+    "framing": "pass: full main hair edges and crown with generous margins; head and shoulder framing",
+    "angle": "pass: front",
+    "native_detail": "Verified 1122x1402 native size >=1024; directly inspected sharp hair strands at native scale; retained PNG and RGB-identical lossless WebP",
+    "visible_features": "Fictional olive adult with blonde straight separated layered strands brushed diagonally from a side part, airy short crown and side-swept edge opening forehead, short graduated nape; direct front, mature skin detail, full margins and high loose opaque ivory knit."
+  },
+  "inspection_files": {
+    "full_aspect_preview": "media/reviews/finish-shapes/straight-06-front.jpg",
+    "native_detail_supplement": "media/reviews/finish-shapes/native-detail/straight-06-front.jpg"
+  }
 }

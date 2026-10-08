@@ -49,7 +49,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "airy separated | compact squared | light broken | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Side view of a copper curly bixie.",
+  "alt": "Side view of a copper curly bixie on a fictional mature adult.",
   "caption": "Side-facing mature medium brown adult with matching copper ringlets, airy layered crown, broken curl fringe and compact short nape; matching loose high ivory knit and lighting. Small far-eye glimpse; no exact90-degree claim.",
   "generator_original_file": "source-media/over-50-02-side.png",
   "generator_original_sha256": "a2bbb8bbfa723153c62543168870928b816535bc90d7c6a00c2ef59ddc51fdef",
@@ -96,5 +96,12 @@
       "method": "Native-pixel400x360eye/bridgeJPEGcrop viewed beside full-aspect320x400JPEG",
       "criterion": "Genuine lateral side-facing angle with temple/ear/nape and clear change from front; small far-eye or lash glimpse allowed, no exact90-degree claim"
     }
+  },
+  "resume_direct_source_review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native strand-detail supplement inspection",
+    "passed": true,
+    "findings": "Full main hair silhouette and crown margin; sharp native strands; covered neckline and upper chest in bulky opaque ivory high turtleneck; adult identity, cut, colour, outfit and light consistent with separately generated rear view",
+    "preview": "media/reviews/finish-age-grey/over-50-02-side.jpg",
+    "native_detail_supplement": "media/reviews/finish-age-grey/native-detail/over-50-02-side.jpg"
   }
 }

@@ -1,22 +1,23 @@
 # Bixie WordPress validation
 
-Snapshot: **2026-10-08 08:13 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch.
+Snapshot: **2026-10-08 08:32 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch.
 
 ## Actual content inventory
 
 | Asset | Actual synchronized inventory | Launch target |
 |---|---:|---:|
-| Coherent separately generated front/side/back looks | 86 | 154 |
-| Distinct primary-collection original photographs | 258 | 462 |
+| Coherent separately generated front/side/back looks | 120 | 154 |
+| Distinct primary-collection original photographs | 360 | 462 |
 | Separate Home original photographs | 25 | 25 |
-| Fully covered collections | 10 | 22 |
-| Image-led guide photograph references | 18 | 24 |
+| Fully covered collections | 12 | 22 |
+| Image-led guide photograph references | 24 | 24 |
 | Editable native page records | 42 | 42 |
 
 Guide references and homepage library covers reuse the relevant canonical look;
 they are not counted as additional originals. Every photograph belongs to one
-primary collection. The Home design has22sections and targets77 unique displayed
-photos; each completed collection has7looks/21actual separate photographs.
+primary collection. The Home design has 22 sections, 77 unique image elements
+and one distinct movie poster: 78 displayed photographic sources. Each completed
+collection has 7 looks and 21 actual separate photographs.
 Contact and Privacy await genuine owner details/policy review rather than
 invented information.
 
@@ -30,7 +31,7 @@ described honestly. A useful side-facing three-quarter reference is labelled a
 side angle rather than falsely described as an exact90-degree profile.
 
 [Actual pixel/hash audit](tests/production-media-report.json),
-[content checks](content/validation-report.json) and
+[content checks](content/content-validation.json) and
 [per-collection inventory](content/actual-source-counts.json) distinguish complete
 sets from saved partial images. Planned expansion briefs are never imported as
 fake completed looks. Rejected photographs and synthetic QA images are excluded
@@ -48,7 +49,9 @@ acceptance; it retains the earlier synthetic-test site unchanged.
 | [wp-production-home-film-report.json](tests/wp-production-home-film-report.json) | Passed within its stated scope |
 | [wp-live-pilot-report.json](tests/wp-live-pilot-report.json) | Passed within its stated scope |
 | [wp-permalink-report.json](tests/wp-permalink-report.json) | Passed within its stated scope |
-| [wp-final-environment-report.json](tests/wp-final-environment-report.json) | Read report; incomplete or failing checks remain |
+| [wp-final-environment-report.json](tests/wp-final-environment-report.json) | Passed within its stated scope |
+| [wp-filter-alias-report.json](tests/wp-filter-alias-report.json) | Passed within its stated scope |
+| [release-archive-report.json](tests/release-archive-report.json) | Passed within its stated scope |
 | [wp-publication-report.json](tests/wp-publication-report.json) | Passed within its stated scope |
 | [wp-bundle-security-report.json](tests/wp-bundle-security-report.json) | Passed within its stated scope |
 | [wp-attachment-film-report.json](tests/wp-attachment-film-report.json) | Passed within its stated scope |
@@ -73,7 +76,7 @@ synthetic images, their scope remains synthetic software QA. They do not approve
 new hairstyle sources or replace final real-content acceptance.
 
 Full final ZIP/core installation, all production media import and completed
-77-photo Home/22collection browser acceptance must be assessed from the final
+78-source Home/22-collection browser acceptance must be assessed from the final
 reports, not inferred from the four-look pilot or80-look integration snapshot.
 Archive CRC/SHA and published HTTPS downloads require separate delivery checks.
 

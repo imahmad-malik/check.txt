@@ -1,0 +1,99 @@
+{
+  "id": "shaggy-06-side",
+  "key": "shaggy-06-side",
+  "look_id": "shaggy-06",
+  "look_key": "shaggy-06",
+  "canonical_look_key": "shaggy-06",
+  "collection": "shaggy",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/shaggy-06-side-native.webp",
+  "file": "media/shaggy-06-side.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "3d41005cdac1b7c00c3593711d93033796c8d0877284cf6539dfa852e477f686",
+  "display_sha256": "69e4b484d9f2b21e67987b3ba60a2282c075bf458d4b4dd8181abc923c47f99b",
+  "source_bytes": 1513688,
+  "display_bytes": 345978,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-9ed69436-8783-4db3-a1f6-d755403eb4e0.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create exactly ONE separate original realistic sharp premium editorial salon haircut photograph of a fictional ADULT. No collage, crop, illustration, extra person, words, logo, watermark or jewellery. HEAD plus SHOULDER LINE ONLY. Complete main hair outline, entire crown and all side hair edges with generous breathing room above and to both sides. BULKY LOOSE FULLY OPAQUE IVORY HIGH TURTLENECK conceals whole neck, neckline and upper chest; no exposed neck opening, chest, cleavage, torso contour, low collar, sleeveless garment, bare shoulders or exposed back. Plain warm ivory studio, even soft daylight, natural skin texture, sharp detail in all hair strands with adequate depth of field, no blur/bokeh. Full portrait source aspect at genuine tool native resolution >=1024 pixels long edge, no upscale or 8K claim. Use attached genuine references to create a NEW photograph of EXACT SAME fictional adult, identical face and adult age, haircut, hair colour and texture, fringe, crown, short nape, loose high ivory knit and studio daylight. Do not alter haircut or outfit. Observed reference attributes: {\"texture\": \"curly\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"short\", \"fringe\": \"curtain\", \"colour\": \"blonde\", \"finish\": \"shaggy\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\", \"ai_concept\": true}. Retain choppy shaggy crown layers, tousled separation and short textured tapered nape; no uniform bob or long wolf cut. Useful camera-left SIDE PROFILE with level head, temple, near ear region and short nape clearly visible. A small three-quarter turn is acceptable if it reveals these useful haircut details. Preserve complete silhouette with margin; one separate original photograph.",
+  "reference_source_files": [
+    "source-media/shaggy-06-front.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "curtain",
+    "colour": "blonde",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "directional lifted",
+    "nape": "textured tapered",
+    "fringe": "curtain",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "directional lifted | textured tapered | curtain | ear-revealing temple pieces | 0-crown-to-front-proportion"
+  },
+  "alt": "Side view of a blonde curly shaggy bixie on a fictional adult.",
+  "caption": "Useful camera-left three-quarter side view of same fair adult, showing near temple, ear and short tapered nape; blonde rounded ringlet curls, darker roots, choppy airy crown and parted curled fringe remain coherent with front, high loose ivory knit.",
+  "generator_original_file": "source-media/shaggy-06-side.png",
+  "generator_original_sha256": "725c315dc3a307bbd8d4f3249ce64c0a0a51d6b7e99bc8238f17a10dd5e412a0",
+  "generator_original_bytes": 2376214,
+  "native_pixel_sha256": "527808babe89658fea9809a0f8f122e589b19f3fcfdc91452e1f2836dcf17b6f",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/shaggy-06-front.png"
+  ],
+  "provenance_file": "media/workers/provenance/shaggy-06-side-finish-shapes.json",
+  "actual_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "curtain",
+    "colour": "blonde",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": true,
+  "observed_meta": {
+    "texture": "curly",
+    "colour": "blonde",
+    "length": "short",
+    "fringe": "curtain",
+    "finish": "shaggy",
+    "age_reference": "adult",
+    "description": "Useful camera-left three-quarter side view of same fair adult, showing near temple, ear and short tapered nape; blonde rounded ringlet curls, darker roots, choppy airy crown and parted curled fringe remain coherent with front, high loose ivory knit."
+  },
+  "review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native-detail supplement inspection; compared genuine separate reference views",
+    "attire": "pass: bulky loose fully opaque high ivory turtleneck conceals neck, neckline and upper chest without contours or cleavage",
+    "framing": "pass: full main hair edges and crown with generous margins; head and shoulder framing",
+    "angle": "pass: side; side view usefully reveals temple, ear region and short nape",
+    "native_detail": "Verified 1122x1402 native size >=1024; directly inspected sharp hair strands at native scale; retained PNG and RGB-identical lossless WebP",
+    "visible_features": "Useful camera-left three-quarter side view of same fair adult, showing near temple, ear and short tapered nape; blonde rounded ringlet curls, darker roots, choppy airy crown and parted curled fringe remain coherent with front, high loose ivory knit."
+  },
+  "inspection_files": {
+    "full_aspect_preview": "media/reviews/finish-shapes/shaggy-06-side.jpg",
+    "native_detail_supplement": "media/reviews/finish-shapes/native-detail/shaggy-06-side.jpg"
+  }
+}

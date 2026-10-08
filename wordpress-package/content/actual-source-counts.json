@@ -2,15 +2,15 @@
   "bundle_id": null,
   "manifest": "/workspace/check.txt/wordpress-package/media/manifest.json",
   "status": "synchronized-actual-only",
-  "actual_generated_source_files": 321,
-  "actual_approved_complete_looks": 86,
-  "actual_approved_collection_view_photos": 258,
-  "actual_guide_photo_references": 18,
+  "actual_generated_source_files": 424,
+  "actual_approved_complete_looks": 128,
+  "actual_approved_collection_view_photos": 384,
+  "actual_guide_photo_references": 24,
   "actual_approved_home_role_images": 25,
   "missing_home_role_keys": [],
   "home_video_verification": "separate production/runtime check; not inferred from planned metadata",
-  "remaining_launch_looks": 68,
-  "remaining_launch_view_photos": 204,
+  "remaining_launch_looks": 26,
+  "remaining_launch_view_photos": 78,
   "file_diagnostics": [
     {
       "key": "resolution-probe-soft-layered",
@@ -21,41 +21,6 @@
       "key": "home-motion-poster-rejected-first",
       "look_key": null,
       "reason": "not explicitly approved; not a canonical view angle; no canonical look assignment"
-    },
-    {
-      "key": "natural-grey-06-side",
-      "look_key": "natural-grey-06",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "over-50-06-side",
-      "look_key": "over-50-06",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "over-50-07-side",
-      "look_key": "over-50-07",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "shaggy-05-side",
-      "look_key": "shaggy-05",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "shaggy-06-front",
-      "look_key": "shaggy-06",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "straight-05-side",
-      "look_key": "straight-05",
-      "reason": "not explicitly approved"
-    },
-    {
-      "key": "straight-06-front",
-      "look_key": "straight-06",
-      "reason": "not explicitly approved"
     }
   ],
   "look_diagnostics": [],
@@ -92,9 +57,9 @@
     },
     {
       "key": "shaggy",
-      "actual_complete_looks": 4,
-      "actual_unique_views": 12,
-      "status": "draft-until-media-reviewed"
+      "actual_complete_looks": 7,
+      "actual_unique_views": 21,
+      "status": "ready"
     },
     {
       "key": "feathered",
@@ -128,9 +93,9 @@
     },
     {
       "key": "thin-hair",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
-      "status": "draft-until-media-reviewed"
+      "actual_complete_looks": 7,
+      "actual_unique_views": 21,
+      "status": "ready"
     },
     {
       "key": "thick-hair",
@@ -146,50 +111,50 @@
     },
     {
       "key": "over-40",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
-      "status": "draft-until-media-reviewed"
+      "actual_complete_looks": 7,
+      "actual_unique_views": 21,
+      "status": "ready"
     },
     {
       "key": "over-50",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
-      "status": "draft-until-media-reviewed"
+      "actual_complete_looks": 7,
+      "actual_unique_views": 21,
+      "status": "ready"
     },
     {
       "key": "over-60",
-      "actual_complete_looks": 1,
-      "actual_unique_views": 3,
+      "actual_complete_looks": 2,
+      "actual_unique_views": 6,
       "status": "draft-until-media-reviewed"
     },
     {
       "key": "natural-grey",
+      "actual_complete_looks": 7,
+      "actual_unique_views": 21,
+      "status": "ready"
+    },
+    {
+      "key": "90s-inspired",
+      "actual_complete_looks": 5,
+      "actual_unique_views": 15,
+      "status": "draft-until-media-reviewed"
+    },
+    {
+      "key": "round-face",
       "actual_complete_looks": 1,
       "actual_unique_views": 3,
       "status": "draft-until-media-reviewed"
     },
     {
-      "key": "90s-inspired",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
-      "status": "draft-until-media-reviewed"
-    },
-    {
-      "key": "round-face",
-      "actual_complete_looks": 0,
-      "actual_unique_views": 0,
-      "status": "draft-until-media-reviewed"
-    },
-    {
       "key": "undercut",
-      "actual_complete_looks": 2,
-      "actual_unique_views": 6,
-      "status": "draft-until-media-reviewed"
+      "actual_complete_looks": 7,
+      "actual_unique_views": 21,
+      "status": "ready"
     },
     {
       "key": "easy-styling",
-      "actual_complete_looks": 2,
-      "actual_unique_views": 6,
+      "actual_complete_looks": 4,
+      "actual_unique_views": 12,
       "status": "draft-until-media-reviewed"
     }
   ]

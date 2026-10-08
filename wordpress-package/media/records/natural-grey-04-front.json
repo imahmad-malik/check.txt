@@ -47,7 +47,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "airy separated | curved graduated | swept-back | ear-revealing temple pieces | 3-crown-to-front-proportion"
   },
-  "alt": "Front view of a grey straight bixie.",
+  "alt": "Front view of a grey straight bixie on a fictional mature adult.",
   "caption": "Mature fair adult with genuine silver-grey straight layers and darker root mixture, airy separated crown and diagonal side-swept fringe; short nape, high ivory knit, complete front margin.",
   "generator_original_file": "source-media/natural-grey-04-front.png",
   "generator_original_sha256": "e67a109edebd2fa3bdbff27b4d14faf9c6940f22bd59d140f1f0524c28627448",
@@ -87,5 +87,12 @@
     "angle": "pass: level direct front, both eyes",
     "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
     "visible_features": "Mature fair adult with genuine silver-grey straight layers and darker root mixture, airy separated crown and diagonal side-swept fringe; short nape, high ivory knit, complete front margin."
+  },
+  "resume_direct_source_review": {
+    "method": "Direct full-aspect <=400px preview plus unscaled 280x250 native strand-detail supplement inspection",
+    "passed": true,
+    "findings": "Full main hair silhouette and crown margin; sharp native strands; covered neckline and upper chest in bulky opaque ivory high turtleneck; adult identity, cut, colour, outfit and light consistent with separately generated rear view",
+    "preview": "media/reviews/finish-age-grey/natural-grey-04-front.jpg",
+    "native_detail_supplement": "media/reviews/finish-age-grey/native-detail/natural-grey-04-front.jpg"
   }
 }

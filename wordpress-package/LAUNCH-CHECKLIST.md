@@ -1,16 +1,16 @@
 # Launch checklist
 
-Snapshot:2026-10-08 08:13 PKT. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. See [validation evidence](VALIDATION-REPORT.md).
+Snapshot:2026-10-08 08:32 PKT. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. See [validation evidence](VALIDATION-REPORT.md).
 
 - [ ] Actual487photographs:154coherent looks/462galleryviews plus25Home originals.
 - [ ] All22collections have7complete looks and21actual separately generated photos.
 - [x] Home originals individually reviewed for full hair/head, sharp detail and loose opaque high-neck clothing.
-- [ ] Seven useful image-led guides have all24corresponding canonical photograph references.
+- [x] Seven useful image-led guides have all24corresponding canonical photograph references.
 - [x] Genuine native pixel equality and source dimensions/hashes recorded; no native8K/upscale claim.
 - [x] Production11.625-second photograph film passed actual WordPress decode/autoplay/full-frame/control checks.
 - [x] Plain/pretty links and no-JavaScript GET routing passed21actual WordPress checks.
 - [ ] Final actual ZIP/core install and complete real-media import pass on the separate fresh site.
-- [ ] Finished Home77uniquephotos/22sections and all collection/detail/guide/tool routes pass final browser checks.
+- [ ] Finished Home:77unique image elements plus1distinct poster/22sections; all collection/detail/guide/tool routes pass final browser checks.
 - [ ] Final native owner edit/save/reload, preserved repeated import and accessible motion/saved/compare/print pass.
 - [ ] Final part manifests, trusted download index, archive CRC/SHA and pinned HTTPS downloads verify.
 - [ ] Owner installs on staging, supplies genuine contact information and reviews Privacy/About/Image Policy/Disclaimer.

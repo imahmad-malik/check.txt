@@ -110,7 +110,12 @@ def main():
     for look in catalog.get('looks', []):
         views = look.get('images', [])
         if look.get('status') == 'publish' and {v.get('angle') for v in views} >= {'front', 'side', 'back'} and all((v.get('key') or v.get('id')) in seen_keys for v in views):
-            approved_looks.append(look)
+            # Source provenance, dimensions and hashes already live in the
+            # authoritative media records. Do not duplicate all that per-image
+            # data154times in the final manifest (the verifier bounds it at2MiB).
+            approved_looks.append({**look, 'images': [
+                {'key': image.get('key') or image.get('id'), 'angle': image['angle'],
+                 'caption': image.get('caption', '')} for image in views]})
     parts = []
     for index, group in enumerate(groups, 1):
         bundle_id = f'{args.bundle_prefix}-{index:03d}'
@@ -119,8 +124,11 @@ def main():
         manifest = {'bundle_id': bundle_id, 'schema_version': '1.0',
                     'records': [a[0] for a in group], 'looks': approved_looks if index == len(groups) else [],
                     'native_resolution_claim': 'Actual original dimensions are recorded per asset; no native 8K claim.'}
+        manifest_bytes=(json.dumps(manifest, indent=2) + '\n').encode()
+        if len(manifest_bytes)>2*1024*1024:
+            raise ValueError('Media manifest exceeds the actual WordPress verifier2MiB bound.')
         with zipfile.ZipFile(target, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
-            put(archive, 'manifest.json', (json.dumps(manifest, indent=2) + '\n').encode())
+            put(archive, 'manifest.json', manifest_bytes)
             emitted = set()
             for record, files in group:
                 for relative, path in files.items():
