@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-07T16:03:29.112397+00:00",
+  "timestamp": "2026-10-08T03:06:33.944737+00:00",
   "status": "verified_durable_record_snapshot",
-  "actual_hash_verified_media_records": 230,
-  "individually_approved_photo_records": 190,
-  "homepage_photo_records": 26,
-  "canonical_coherent_completed_looks": 43,
-  "master_declared_complete_looks": 51,
+  "actual_hash_verified_media_records": 321,
+  "individually_approved_photo_records": 305,
+  "approved_required_homepage_photos": 25,
+  "canonical_coherent_completed_looks": 80,
+  "master_declared_complete_looks": 80,
   "hash_mismatches": [],
-  "note": "Dated snapshot; side-angle label audit/retractions may make canonical count stale until the next stable synchronization. Partial views and movies are not complete gallery looks."
+  "note": "Actual dated progress. Partial views and film are not additional complete photographic looks; final production is still underway."
 }

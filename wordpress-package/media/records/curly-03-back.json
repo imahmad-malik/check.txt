@@ -27,8 +27,8 @@
     "/workspace/check.txt/wordpress-package/source-media/curly-03-front.png",
     "/workspace/check.txt/wordpress-package/source-media/curly-03-side.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "curly",
@@ -50,13 +50,29 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | short graduated | short open | ear-revealing temple pieces | 2-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Back view of a dark curly bixie with a compact crown and cropped nape.",
+  "caption": "Dark curls converge into a short graduated nape.",
   "generator_original_file": "source-media/curly-03-back.png",
   "generator_original_sha256": "568c1018a5d24c6507c80d0ec9ecfd09da1b9aed9b3569fcead6f95d0c8f404b",
   "generator_original_bytes": 2274625,
   "native_pixel_sha256": "274a9a93e624f0184ed9b9c2d0e65c71367d4d42e6e2561d94204009627e26f3",
   "native_pixel_identical_to_generator_png": true,
   "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
-  "generation_provenance_file": "media/workers/provenance/resume-choppy-curly/curly-03-back.json"
+  "generation_provenance_file": "media/workers/provenance/resume-choppy-curly/curly-03-back.json",
+  "review": {
+    "method": "Individual visual inspection of a 320px-wide full-aspect JPEG copy of the generator PNG, plus native dimensions, file checksums and lossless decoded RGB equality audit. The reduced preview establishes framing, clothing, direction and haircut coherence; it does not assert a full-resolution texture audit.",
+    "evidence": "Face-free straight rear view with compact crown of dark brunette loose curls matching frontal and side-facing reference, longer upper curl pieces and short graduated nape, same loose opaque bulky ivory high collar and ivory studio. Full head and hair margins retained.",
+    "checks": {
+      "fictional_adult": true,
+      "loose_opaque_high_turtleneck": true,
+      "complete_hair_silhouette": true,
+      "sharp_hair_in_inspection_preview": true,
+      "native_resolution_at_least_1024": true,
+      "angle_verified": true
+    }
+  },
+  "observed_meta": {
+    "texture": "curly",
+    "colour": "dark"
+  }
 }

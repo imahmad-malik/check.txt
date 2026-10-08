@@ -1,0 +1,92 @@
+{
+  "worker": "resume_thin_bangs",
+  "owned_look_keys": [
+    "thin-hair-01",
+    "thin-hair-02",
+    "thin-hair-03",
+    "thin-hair-04",
+    "thin-hair-05",
+    "thin-hair-06",
+    "thin-hair-07",
+    "bangs-01",
+    "bangs-02",
+    "bangs-03",
+    "bangs-04",
+    "bangs-05",
+    "bangs-06",
+    "bangs-07"
+  ],
+  "coherent_reviews": {
+    "thin-hair-01": {
+      "approved": true,
+      "review_status": "approved",
+      "reviewer": "resume_thin_bangs",
+      "method": "Direct three separate full-aspect source previews with native detail supplements",
+      "image_ids": [
+        "thin-hair-01-front",
+        "thin-hair-01-side",
+        "thin-hair-01-back"
+      ],
+      "same_identity": true,
+      "same_cut_geometry": true,
+      "same_colour": true,
+      "same_clothing": true,
+      "same_light_and_background": true,
+      "front_side_back_distinct_originals": true,
+      "detail": "Three separately generated front, useful side and rear photographs consistently show the same adult, blonde darker-root airy fine-stranded S-wave bixie, divided fringe, ear openings and short pixie graduation. Identity, ivory high folded turtleneck, neutral background and daylight match; all views have complete hair margin and sharp native detail."
+    }
+  },
+  "looks": [
+    "thin-hair-01"
+  ],
+  "complete_approved_look_count": 1,
+  "approved_image_count": 5,
+  "approved_ids": [
+    "thin-hair-01-front",
+    "thin-hair-01-side",
+    "thin-hair-01-back",
+    "thin-hair-02-front",
+    "bangs-01-front"
+  ],
+  "missing_ids": [
+    "thin-hair-02-side",
+    "thin-hair-02-back",
+    "thin-hair-03-front",
+    "thin-hair-03-side",
+    "thin-hair-03-back",
+    "thin-hair-04-front",
+    "thin-hair-04-side",
+    "thin-hair-04-back",
+    "thin-hair-05-front",
+    "thin-hair-05-side",
+    "thin-hair-05-back",
+    "thin-hair-06-front",
+    "thin-hair-06-side",
+    "thin-hair-06-back",
+    "thin-hair-07-front",
+    "thin-hair-07-side",
+    "thin-hair-07-back",
+    "bangs-01-side",
+    "bangs-01-back",
+    "bangs-02-front",
+    "bangs-02-side",
+    "bangs-02-back",
+    "bangs-03-front",
+    "bangs-03-side",
+    "bangs-03-back",
+    "bangs-04-front",
+    "bangs-04-side",
+    "bangs-04-back",
+    "bangs-05-front",
+    "bangs-05-side",
+    "bangs-05-back",
+    "bangs-06-front",
+    "bangs-06-side",
+    "bangs-06-back",
+    "bangs-07-front",
+    "bangs-07-side",
+    "bangs-07-back"
+  ],
+  "in_flight_imagegen_calls": 0,
+  "unresolved_ids": []
+}

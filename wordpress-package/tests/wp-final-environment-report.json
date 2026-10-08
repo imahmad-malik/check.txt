@@ -1,0 +1,11 @@
+{
+  "separateFinalSitePrepared": true,
+  "oldSiteDatabaseAndUploadsPreserved": true,
+  "wordpress": "7.1.3",
+  "theme": "bixie-editorial",
+  "plugin": true,
+  "visibility": "0",
+  "httpOwnedPid": 116635,
+  "credentialsRemainPrivate": true,
+  "assetImport": "Not executed by this environment preparation helper."
+}

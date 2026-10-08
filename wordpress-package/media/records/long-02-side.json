@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/long-02-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "curly",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "lightly tousled | short graduated | side-swept | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Side-facing view of a copper curly bixie showing the temple and nape.",
+  "caption": "Side-facing copper curly portrait of the same freckled fair adult, distinct ear/nape view over high ivory collar; slight far-eye glimpse, so no exact90-degree profile claim.",
   "generator_original_file": "source-media/long-02-side-retry01.png",
   "generator_original_sha256": "1dd82777ecb08b5d30aac48839b2454b5de7c6db7169b4631f2db351468942d1",
   "generator_original_bytes": 2244828,
@@ -70,12 +70,25 @@
     "maintenance": "discuss",
     "ai_concept": true
   },
-  "expected_meta_matches_actual": false,
+  "expected_meta_matches_actual": true,
   "previous_attempt_records": [
     "media/records/rejected/long-02-side-attempt01.json"
   ],
   "native_pixel_sha256": "f4ee2f3d6bc5b64a41a0b842fe65f110f53d61abd8a19b012c3bfa922604301b",
   "native_pixel_identical_to_generator_png": true,
   "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
-  "provenance_file": "media/workers/provenance/long-02-side-resume-long-layered-attempt01.json"
+  "provenance_file": "media/workers/provenance/long-02-side-resume-long-layered-attempt01.json",
+  "review": {
+    "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
+    "attire": "pass: bulky loose opaque high turtleneck covers neckline/chest, shoulder line framing, no fitted chest contours",
+    "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
+    "angle": "pass: genuine side-facing lateral portrait clearly distinct from front, revealing temple/ear/nape; no exact90-degree claim",
+    "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
+    "visible_features": "Side-facing copper curly portrait of the same freckled fair adult, distinct ear/nape view over high ivory collar; slight far-eye glimpse, so no exact90-degree profile claim.",
+    "secondary_native_eye_audit": {
+      "passed": true,
+      "method": "Native-pixel400x360eye/bridgeJPEGcrop and full-aspect320x400JPEG viewed",
+      "criterion": "Genuine side-facing view clearly distinct from front with temple/ear/nape revealed; minor far-eye/lash glimpse allowed. No exact90-degree claim."
+    }
+  }
 }

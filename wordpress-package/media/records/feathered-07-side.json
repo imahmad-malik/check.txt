@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/feathered-07-front-retry01.png"
   ],
-  "approved": false,
-  "review_status": "rejected-angle-secondary-audit",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "coily",
@@ -74,9 +74,30 @@
     "ai_concept": true
   },
   "review": {
-    "method": "Full-aspect 400px JPEG followed by unscaled 390\u00d7290 native facial JPEG crop for eye/bridge audit only. Inspection copy never a production original.",
-    "secondary_inspection_file": "media/workers/inspection/resume-feathered-wavy/feathered-07-side-eye-audit.jpg",
-    "reason": "Far-side lash tuft visible or far-eye geometry obscured by fringe; strict natural occlusion at90degrees not established. Previous reduced full-image approval retracted."
+    "method": "Direct individual visual inspection of full-aspect JPEG reduced to maximum 400px long edge; native dimensions and lossless decoded RGB pixel equality audited separately. No claim of native full-image texture review.",
+    "reviewer": "resume-feathered-wavy",
+    "inspection_file": "media/workers/inspection/resume-feathered-wavy/feathered-07-side.jpg",
+    "source_inspected_via_reduced_JPEG": "source-media/feathered-07-side.png",
+    "angle": "Left side-facing angle showing ear, temple and short nape; no exact90 claim, a small far-side eyelash glimpse may remain",
+    "complete_hair_silhouette": true,
+    "clear_margin_above_crown_and_sides": true,
+    "fictional_adult": true,
+    "loose_opaque_high_turtleneck": true,
+    "neckline_upper_chest_covered_no_contours": true,
+    "head_and_shoulderline_only": true,
+    "no_text_or_watermark": true,
+    "matches_approved_reference_identity_hair_clothing_lighting": true,
+    "native_resolution": {
+      "width": 1122,
+      "height": 1402
+    },
+    "native_8k": false,
+    "upscaled": false,
+    "secondary_eye_audit": {
+      "file": "media/workers/inspection/resume-feathered-wavy/feathered-07-side-eye-audit.jpg",
+      "method": "Unscaled native facial JPEG crop, secondary eye/bridge inspection only; not a production source",
+      "result": "Useful side-facing view; no exact90 claim. Small far-side lash glimpse allowed by final user-facing side-angle requirement."
+    }
   },
   "observed_meta": {
     "texture": "curly",

@@ -1,0 +1,978 @@
+{
+  "generatedAtUTC": "2026-10-08T03:10:08.096751+00:00",
+  "scope": "Actual native authenticated WordPress owner GUI upload/import on the separate localhost8767 noindex site. Only actual supplied sources; no synthetic fixture import.",
+  "phase": "integration",
+  "finalAcceptance": false,
+  "checks": {
+    "selectedPartsMatchImmutableDownloadManifestHashesAndBytes": true,
+    "ownerAuthenticatedViaNativeGUI": true,
+    "actualMultipartGUIUploadVerifierCompleted": true
+  },
+  "parts": [
+    {
+      "filename": "bixie-production-oct8-001.zip",
+      "bundleID": "bixie-production-oct8-001",
+      "bytes": 24830141,
+      "sha256": "ec9b2dcb27e4f023ceefdf2f33237667399e1d7c34bba0dc828f29ea29063bf9",
+      "records": 14,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-002.zip",
+      "bundleID": "bixie-production-oct8-002",
+      "bytes": 23437530,
+      "sha256": "1bab9e9b5fadd2a07438c11e72892818bea9eef946ba5ef7cfaf813309c8502a",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-003.zip",
+      "bundleID": "bixie-production-oct8-003",
+      "bytes": 23368998,
+      "sha256": "f20dfcbfc4c1bbcdb9a868c455124c20eeb7129290f2710af16a8976026c9956",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-004.zip",
+      "bundleID": "bixie-production-oct8-004",
+      "bytes": 24962258,
+      "sha256": "2fc6516ebf130ecd67e4a9a9645a9f7fb57c19a80a150bc5573315b644408340",
+      "records": 14,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-005.zip",
+      "bundleID": "bixie-production-oct8-005",
+      "bytes": 23202808,
+      "sha256": "875bf9a0610a9fe156ea3020acfad3c75e8b776873c16a00df0e02a01431a711",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-006.zip",
+      "bundleID": "bixie-production-oct8-006",
+      "bytes": 23637891,
+      "sha256": "aaa5fd95270b35c2cf21eaee5ba993e713dca22873b6e9aae6cd8ba131c92e94",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-007.zip",
+      "bundleID": "bixie-production-oct8-007",
+      "bytes": 23434355,
+      "sha256": "a845360e65f8483e861fb3c915a6f479569585964610e026b6d5b42a7206215a",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-008.zip",
+      "bundleID": "bixie-production-oct8-008",
+      "bytes": 24226265,
+      "sha256": "184889a77998cdc4fc371c2c798fd6cee6daabc09e46ebca72d6ca947e939062",
+      "records": 14,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-009.zip",
+      "bundleID": "bixie-production-oct8-009",
+      "bytes": 24405801,
+      "sha256": "1661ed19316709e9cee8c85ef093154d9680f5fa4e23b0cfbab5c78c39408515",
+      "records": 14,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-010.zip",
+      "bundleID": "bixie-production-oct8-010",
+      "bytes": 23792573,
+      "sha256": "669505c40ce89c24da6525ae689150d5f3cbc9024e3ee61b5d372fc83780a9e5",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-011.zip",
+      "bundleID": "bixie-production-oct8-011",
+      "bytes": 23604236,
+      "sha256": "b164a48e50392c3ed9e6a02ecfbc2b655e99de48412d865fd7468b836a4afb6e",
+      "records": 12,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-012.zip",
+      "bundleID": "bixie-production-oct8-012",
+      "bytes": 23310609,
+      "sha256": "af9979c7999e59ad2c60381c330b2400bb85298afffb809ebb542590190f2edc",
+      "records": 12,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-013.zip",
+      "bundleID": "bixie-production-oct8-013",
+      "bytes": 23521604,
+      "sha256": "6927abb90caa398e7d370be5ffaebf028c44f1ddc6e28f2e807400c581a072f6",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-014.zip",
+      "bundleID": "bixie-production-oct8-014",
+      "bytes": 23396058,
+      "sha256": "f18c3663f8cc056140358983140511a53f5701c0650da2f8a733305aeafe7ddb",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-015.zip",
+      "bundleID": "bixie-production-oct8-015",
+      "bytes": 24450173,
+      "sha256": "21b300674c4d3bd4a2ab54a44fbdedfbb9b6f8eb6bb88ca17b295cc3ba841699",
+      "records": 14,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-016.zip",
+      "bundleID": "bixie-production-oct8-016",
+      "bytes": 23266646,
+      "sha256": "fe82af07c5eec5b53aa918cca3e85e3064602d091f817c5f2f0b3c2f6b4826f0",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-017.zip",
+      "bundleID": "bixie-production-oct8-017",
+      "bytes": 24561182,
+      "sha256": "f38e06329a698e28cb1aa8d79ca461e133cb63099646fceff437fa06426532fb",
+      "records": 14,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-018.zip",
+      "bundleID": "bixie-production-oct8-018",
+      "bytes": 24748852,
+      "sha256": "0334fa3fcbb4f5ae7217ca246850d7e30f6f613295e50adf5a19b0d70dfc887a",
+      "records": 14,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-019.zip",
+      "bundleID": "bixie-production-oct8-019",
+      "bytes": 23515514,
+      "sha256": "85c61fd48e3f87cd548ead1f32862dd367205638712d7887b9ef13eb245d4f52",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-020.zip",
+      "bundleID": "bixie-production-oct8-020",
+      "bytes": 23584572,
+      "sha256": "8e40b9508adbfeca051567d0fdff3f2dc094edc9c3525913e8eeff519544c096",
+      "records": 13,
+      "looks": 0
+    },
+    {
+      "filename": "bixie-production-oct8-021.zip",
+      "bundleID": "bixie-production-oct8-021",
+      "bytes": 4473013,
+      "sha256": "18ee9a55d3a78b71eae3099779ea97291f1a362d380eda1422252c55a11fd4b2",
+      "records": 1,
+      "looks": 80
+    }
+  ],
+  "passed": false,
+  "remoteWordPressHTTPSFetchVerified": false,
+  "expectedSuppliedUniqueMedia": 266,
+  "before": {
+    "scope": "Separate actual-source local noindex WordPress acceptance; no fixture look or media is imported by this inspector.",
+    "expectedFinal": {
+      "looks": 154,
+      "photos": 487,
+      "films": 1,
+      "collections": 22,
+      "pages": 42,
+      "guides": 7,
+      "guideReferences": 24,
+      "visibleUniqueHomePhotos": 77
+    },
+    "catalogCounts": {
+      "looks": 80,
+      "pages": 42,
+      "collections": 22,
+      "media": 240
+    },
+    "looks": [],
+    "collections": {
+      "classic": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "short": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "long": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "layered": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "choppy": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "shaggy": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "feathered": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "straight": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "wavy": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "curly": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "fine-hair": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "thin-hair": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "thick-hair": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "bangs": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "over-40": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "over-50": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "over-60": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "natural-grey": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "90s-inspired": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "round-face": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "undercut": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "easy-styling": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      }
+    },
+    "attachments": [],
+    "pages": [],
+    "guides": [],
+    "home": [],
+    "settings": {
+      "blog_public": "0",
+      "blogname": "Bixie Haircut final asset QA",
+      "blogdescription": "",
+      "show_on_front": "posts",
+      "page_on_front": "0",
+      "permalink_structure": "/%postname%/",
+      "wp_attachment_pages_enabled": "0",
+      "bixie_motion_enabled": null,
+      "bixie_video_autoplay": null,
+      "bixie_schema_disabled": null
+    },
+    "parts": [],
+    "duplicateImportKeys": [],
+    "preservation": {
+      "posts": [],
+      "settings": {
+        "blog_public": "0",
+        "blogname": "Bixie Haircut final asset QA",
+        "blogdescription": "",
+        "show_on_front": "posts",
+        "page_on_front": "0",
+        "permalink_structure": "/%postname%/",
+        "wp_attachment_pages_enabled": "0",
+        "bixie_motion_enabled": null,
+        "bixie_video_autoplay": null,
+        "bixie_schema_disabled": null
+      }
+    },
+    "databaseCounts": {
+      "looks": 0,
+      "publishedLooks": 0,
+      "photos": 0,
+      "films": 0,
+      "uniqueSourceSHA256": 0,
+      "pages": 0,
+      "publishedPages": 0,
+      "collections": 0,
+      "readyCollections": 0,
+      "guides": 0,
+      "readyGuides": 0
+    },
+    "import": []
+  },
+  "uploadStatus": "21 of 21 selected part(s) verified and stored. Uploading does not import or publish content. Upload all required parts before running the separate import action.",
+  "afterUpload": {
+    "scope": "Separate actual-source local noindex WordPress acceptance; no fixture look or media is imported by this inspector.",
+    "expectedFinal": {
+      "looks": 154,
+      "photos": 487,
+      "films": 1,
+      "collections": 22,
+      "pages": 42,
+      "guides": 7,
+      "guideReferences": 24,
+      "visibleUniqueHomePhotos": 77
+    },
+    "catalogCounts": {
+      "looks": 80,
+      "pages": 42,
+      "collections": 22,
+      "media": 266
+    },
+    "looks": [],
+    "collections": {
+      "classic": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "short": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "long": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "layered": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "choppy": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "shaggy": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "feathered": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "straight": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "wavy": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "curly": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "fine-hair": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "thin-hair": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "thick-hair": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "bangs": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "over-40": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "over-50": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "over-60": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "natural-grey": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "90s-inspired": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "round-face": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "undercut": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      },
+      "easy-styling": {
+        "gate": {
+          "complete": false,
+          "photos": 0,
+          "looks": 0,
+          "reasons": [
+            "Collection has no imported classification term."
+          ]
+        },
+        "pageID": 0,
+        "url": ""
+      }
+    },
+    "attachments": [],
+    "pages": [],
+    "guides": [],
+    "home": [],
+    "settings": {
+      "blog_public": "0",
+      "blogname": "Bixie Haircut final asset QA",
+      "blogdescription": "",
+      "show_on_front": "posts",
+      "page_on_front": "0",
+      "permalink_structure": "/%postname%/",
+      "wp_attachment_pages_enabled": "0",
+      "bixie_motion_enabled": null,
+      "bixie_video_autoplay": null,
+      "bixie_schema_disabled": null
+    },
+    "parts": {
+      "bixie-production-oct8-001": {
+        "archive_sha256": "ec9b2dcb27e4f023ceefdf2f33237667399e1d7c34bba0dc828f29ea29063bf9",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-002": {
+        "archive_sha256": "1bab9e9b5fadd2a07438c11e72892818bea9eef946ba5ef7cfaf813309c8502a",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-003": {
+        "archive_sha256": "f20dfcbfc4c1bbcdb9a868c455124c20eeb7129290f2710af16a8976026c9956",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-004": {
+        "archive_sha256": "2fc6516ebf130ecd67e4a9a9645a9f7fb57c19a80a150bc5573315b644408340",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-005": {
+        "archive_sha256": "875bf9a0610a9fe156ea3020acfad3c75e8b776873c16a00df0e02a01431a711",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-006": {
+        "archive_sha256": "aaa5fd95270b35c2cf21eaee5ba993e713dca22873b6e9aae6cd8ba131c92e94",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-007": {
+        "archive_sha256": "a845360e65f8483e861fb3c915a6f479569585964610e026b6d5b42a7206215a",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-008": {
+        "archive_sha256": "184889a77998cdc4fc371c2c798fd6cee6daabc09e46ebca72d6ca947e939062",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-009": {
+        "archive_sha256": "1661ed19316709e9cee8c85ef093154d9680f5fa4e23b0cfbab5c78c39408515",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-010": {
+        "archive_sha256": "669505c40ce89c24da6525ae689150d5f3cbc9024e3ee61b5d372fc83780a9e5",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-011": {
+        "archive_sha256": "b164a48e50392c3ed9e6a02ecfbc2b655e99de48412d865fd7468b836a4afb6e",
+        "media_count": 12,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-012": {
+        "archive_sha256": "af9979c7999e59ad2c60381c330b2400bb85298afffb809ebb542590190f2edc",
+        "media_count": 12,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-013": {
+        "archive_sha256": "6927abb90caa398e7d370be5ffaebf028c44f1ddc6e28f2e807400c581a072f6",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-014": {
+        "archive_sha256": "f18c3663f8cc056140358983140511a53f5701c0650da2f8a733305aeafe7ddb",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-015": {
+        "archive_sha256": "21b300674c4d3bd4a2ab54a44fbdedfbb9b6f8eb6bb88ca17b295cc3ba841699",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-016": {
+        "archive_sha256": "fe82af07c5eec5b53aa918cca3e85e3064602d091f817c5f2f0b3c2f6b4826f0",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-017": {
+        "archive_sha256": "f38e06329a698e28cb1aa8d79ca461e133cb63099646fceff437fa06426532fb",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-018": {
+        "archive_sha256": "0334fa3fcbb4f5ae7217ca246850d7e30f6f613295e50adf5a19b0d70dfc887a",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-019": {
+        "archive_sha256": "85c61fd48e3f87cd548ead1f32862dd367205638712d7887b9ef13eb245d4f52",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-020": {
+        "archive_sha256": "8e40b9508adbfeca051567d0fdff3f2dc094edc9c3525913e8eeff519544c096",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-production-oct8-021": {
+        "archive_sha256": "18ee9a55d3a78b71eae3099779ea97291f1a362d380eda1422252c55a11fd4b2",
+        "media_count": 1,
+        "looks_count": 80,
+        "status": "verified"
+      }
+    },
+    "duplicateImportKeys": [],
+    "preservation": {
+      "posts": [],
+      "settings": {
+        "blog_public": "0",
+        "blogname": "Bixie Haircut final asset QA",
+        "blogdescription": "",
+        "show_on_front": "posts",
+        "page_on_front": "0",
+        "permalink_structure": "/%postname%/",
+        "wp_attachment_pages_enabled": "0",
+        "bixie_motion_enabled": null,
+        "bixie_video_autoplay": null,
+        "bixie_schema_disabled": null
+      }
+    },
+    "databaseCounts": {
+      "looks": 0,
+      "publishedLooks": 0,
+      "photos": 0,
+      "films": 0,
+      "uniqueSourceSHA256": 0,
+      "pages": 0,
+      "publishedPages": 0,
+      "collections": 0,
+      "readyCollections": 0,
+      "guides": 0,
+      "readyGuides": 0
+    },
+    "import": []
+  }
+}

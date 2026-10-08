@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/choppy-06-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "curly",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "airy separated | compact squared | curtain | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Right side-facing three-quarter view of a blonde wavy choppy bixie.",
+  "caption": "A side-facing angle reveals dark roots and the short nape beneath blonde waves.",
   "generator_original_file": "source-media/choppy-06-side-retry01.png",
   "generator_original_sha256": "552e17eb6aad94a50fe6eb859874530d61a4cca086e6c80b10c1a706052c04f8",
   "generator_original_bytes": 2325179,
@@ -59,11 +59,23 @@
     "texture": "wavy",
     "colour": "blonde"
   },
-  "rejection_reason": "Native eye-region audit exposes far-side lashes or brow; near-profile is not exact90. Prior reduced whole-aspect preview missed this detail.",
   "previous_attempt_records": [
     "media/records/rejected/choppy-06-side-attempt01.json"
   ],
   "native_pixel_sha256": "36ca7db8f76cbdb6b95423d8e3f694a9e66a81ad7ddd36155ddd13c0b0bebcea",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "method": "Individual visual inspection of a 320px-wide full-aspect JPEG copy of the generator PNG, plus native dimensions, file checksums and lossless decoded RGB equality audit. The reduced preview establishes framing, clothing, direction and haircut coherence; it does not assert a full-resolution texture audit.",
+    "evidence": "Genuine right side-facing three-quarter angle revealing temple, ear and short graduated nape, distinct from frontal. Native eye crop reveals a small far-eye glimpse; no exact90 claim. Matching adult, dark-root blonde loose waves and divided fringe, crown and nape proportions, full outline with margins and same bulky high loose ivory collar.",
+    "checks": {
+      "fictional_adult": true,
+      "loose_opaque_high_turtleneck": true,
+      "complete_hair_silhouette": true,
+      "sharp_hair_in_inspection_preview": true,
+      "native_resolution_at_least_1024": true,
+      "angle_verified": true
+    },
+    "supplementary_native_eye_detail_audit": "Inspected a native-pixel eye/bridge crop. Visible far-eye/lash detail documented; useful side-facing geometry accepted and no exact90 assertion."
+  }
 }

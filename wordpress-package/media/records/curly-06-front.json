@@ -24,8 +24,8 @@
   "generator": "OpenAI image_gen",
   "exact_generation_prompt": "PRIMARY CURLY COLLECTION PRIORITY: visibly defined spiralling ringlets and full loop curls, not merely S-waves or swept straight locks. Each strand bends into a visible curl loop; compact bob-pixie silhouette and cropped nape with longer ear-level curls. Keep the specified open short fringe. Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. a fictional adult East Asian woman with warm fair skin and dark eyes, age 29, wearing a loose opaque ivory HIGH TURTLENECK long-sleeved jumper with very loose fabric covering upper chest completely. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Curly bixie haircuts. Design: lightly tousled | short graduated | short open | ear-revealing temple pieces | 0-crown-to-front-proportion. Attributes: {\"texture\": \"curly\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"short\", \"fringe\": \"short open\", \"colour\": \"blonde\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. FRONT view: face directly forward and level, both eyes and full front haircut outline visible, no three-quarter turn. Quiet natural expression. Hair/cut attributes in this brief are authoritative; clothing rule is high loose opaque turtleneck. STRICT FINAL FRAMING: head and only the shoulder line, substantial plain studio margins above complete hair and at both sides. Exceptionally bulky loose fully opaque thick knitted ivory high turtleneck reaches directly beneath the jawline. No chest, cleavage, exposed neckline, body shape, tight fabric or torso emphasis. All hair must be crisp in focus, full original aspect, true original tool native resolution without enlargement. Haircut stays a bob-pixie hybrid, with longer ear-level sides and visibly cropped nape, never a full bob or very short pixie.",
   "reference_source_files": [],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "curly",
@@ -47,13 +47,51 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "lightly tousled | short graduated | short open | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of actual haircut and clothing",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Front view of a blonde curly bixie with dark roots.",
+  "caption": "Blonde loop curls separate over the short open fringe.",
   "generator_original_file": "source-media/curly-06-front.png",
   "generator_original_sha256": "7a5a82065af9eb344fdcd990aee7ff755b5f5d1bbdc7defce24bb04bf90e001b",
   "generator_original_bytes": 2289328,
   "native_pixel_sha256": "518a09f722e612ecbfc739c33df0792cfb16002bdbccf4b0834482943815d800",
   "native_pixel_identical_to_generator_png": true,
   "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
-  "generation_provenance_file": "media/workers/provenance/resume-choppy-curly/curly-06-front.json"
+  "generation_provenance_file": "media/workers/provenance/resume-choppy-curly/curly-06-front.json",
+  "review": {
+    "method": "Individual visual inspection of a 320px-wide full-aspect JPEG copy of the generator PNG, plus native dimensions, file checksums and lossless decoded RGB equality audit. The reduced preview establishes framing, clothing, direction and haircut coherence; it does not assert a full-resolution texture audit.",
+    "evidence": "Fictional adult East Asian woman faces directly forward, both eyes visible, dark-root blonde loop curls and short open fringe, longer curl pieces at ears and cropped nape outline. Full sharp hair margins with no deliberate blur, loose high bulky opaque ivory collar and studio.",
+    "checks": {
+      "fictional_adult": true,
+      "loose_opaque_high_turtleneck": true,
+      "complete_hair_silhouette": true,
+      "sharp_hair_in_inspection_preview": true,
+      "native_resolution_at_least_1024": true,
+      "angle_verified": true
+    }
+  },
+  "observed_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "wispy",
+    "colour": "blonde",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "actual_meta": {
+    "texture": "curly",
+    "strand": "medium",
+    "density": "medium",
+    "length": "short",
+    "fringe": "wispy",
+    "colour": "blonde",
+    "finish": "natural",
+    "age_reference": "adult",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  }
 }

@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/choppy-05-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "wavy",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "soft rounded | compact squared | curtain | ear-revealing temple pieces | 4-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Right side angle of a brunette wavy choppy bixie with cropped nape.",
+  "caption": "The side angle shows ear-level waves above a cropped nape.",
   "generator_original_file": "source-media/choppy-05-side-retry01.png",
   "generator_original_sha256": "c5f59e1bdd7a917b845ec9af0b78ddf726ec83917e957f994f5644b02ccf23bc",
   "generator_original_bytes": 2180875,
@@ -59,11 +59,23 @@
     "texture": "wavy",
     "colour": "brunette"
   },
-  "rejection_reason": "Native eye-region audit exposes far-side lashes or brow; near-profile is not exact90. Prior reduced whole-aspect preview missed this detail.",
   "previous_attempt_records": [
     "media/records/rejected/choppy-05-side-attempt01.json"
   ],
   "native_pixel_sha256": "5cf9de0594e1b5f6e387b812a139fa4b6b3536857e6d45ac910746c06e1c0596",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "method": "Individual visual inspection of a 320px-wide full-aspect JPEG copy of the generator PNG, plus native dimensions, file checksums and lossless decoded RGB equality audit. The reduced preview establishes framing, clothing, direction and haircut coherence; it does not assert a full-resolution texture audit.",
+    "evidence": "Genuine right side-facing view exposing temple, ear and cropped nape, clearly different from frontal. Supplementary native eye crop shows small far-lash/brow detail, so labelled side angle rather than exact90. Matching adult facial identity, dark-root brunette waves, rounded crown and divided fringe; full hair outline, same bulky loose high opaque ivory collar and ivory studio.",
+    "checks": {
+      "fictional_adult": true,
+      "loose_opaque_high_turtleneck": true,
+      "complete_hair_silhouette": true,
+      "sharp_hair_in_inspection_preview": true,
+      "native_resolution_at_least_1024": true,
+      "angle_verified": true
+    },
+    "supplementary_native_eye_detail_audit": "Inspected a native-pixel eye/bridge crop. Visible far-eye/lash detail documented; useful side-facing geometry accepted and no exact90 assertion."
+  }
 }

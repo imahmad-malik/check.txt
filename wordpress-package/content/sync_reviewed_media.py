@@ -8,6 +8,8 @@ from pathlib import Path
 from collections import defaultdict, Counter
 import argparse, csv, hashlib, json, re, html
 from PIL import Image
+from media_metadata import LOOK_METADATA_FIELDS, public_metadata_value
+from editorial_copy import title_and_excerpt, caption_for_view
 
 ROOT=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser()
@@ -117,24 +119,23 @@ for declaration in declared_looks:
     observations={}
     for image in images:
         for field,value in (image.get('observed_meta') or {}).items():
+            if field not in LOOK_METADATA_FIELDS:
+                continue  # Each actual angle naturally has a different description.
             if field in observations and observations[field]!=value:
                 reasons.append('inconsistent reviewed '+field+' across real views')
             observations[field]=value
-    observations.update(declaration.get('observed_meta') or {})
+    observations.update({field:value for field,value in (declaration.get('observed_meta') or {}).items() if field in LOOK_METADATA_FIELDS})
     if reasons:
         look_diagnostics.append({'key':key,'reason':'; '.join(reasons)});continue
     images=sorted(images,key=lambda x:['front','side','back'].index(x['angle']))
-    title=declaration.get('title') or ('Bixie concept '+key)
-    reviewed_shape=' '.join(i.get('caption','') for i in [images[0],images[-1]] if i.get('caption'))
-    short_copy=declaration.get('excerpt') or reviewed_shape or title+'. Corresponding front, side and back views.'
-    content=declaration.get('content') or '\n\n'.join([
-        paragraph(html.escape(short_copy)),
-        paragraph('Discuss the crown, fringe and nape details you prefer with your stylist. AI-created concept featuring a fictional adult; an image does not guarantee the same result on your own hair.')])
     meta={**declaration.get('meta',{}),**observations,'ai_concept':True}
+    meta={field:public_metadata_value(field,value) for field,value in meta.items()}
+    title,short_copy=title_and_excerpt(declaration,meta)
+    content=declaration.get('content') or paragraph(html.escape(short_copy))
     final_images=[]
     for image in images:
         angle=image['angle']
-        caption=image.get('caption') or {'front':'Front: compare the face frame and fringe.','side':'Side: compare ear coverage and the crown-to-nape transition.','back':'Back: compare the crown outline and nape.'}[angle]
+        caption=caption_for_view(image,meta)
         final_images.append({**image,'caption':caption,'approved':True,'review_status':'approved','native_8k':bool(image.get('native_8k',False)),'upscaled':False})
     actual_looks.append({'key':key,'slug':declaration.get('slug',key),'title':title,'content':content,'excerpt':short_copy,
                          'collections':[collection],'primary_collection':collection,'meta':meta,'images':final_images,
@@ -164,6 +165,28 @@ for p in catalog['pages']:
         p['status']='publish' if ready else 'draft'
         p['provided_photo_references']=sum(3 for x in requirements if x['look_key'] in actual_keys)
         guide_count+=p['provided_photo_references']
+# Desired Home publication advances only with the complete real media inventory.
+# WordPress separately validates the actual imported native blocks, photo count
+# and reviewed film before publishing, even when this desired status is publish.
+film_key=catalog['requirements']['required_home_video']
+film=next((r for r in records if (r.get('key') or r.get('id'))==film_key),{})
+film_relative=film.get('source_file') or film.get('file') or ''
+film_path=(args.bundle_root/film_relative).resolve()
+film_sources=film.get('source_asset_keys',[])
+film_ready=(bool(film_relative) and args.bundle_root.resolve() in film_path.parents
+            and film_path.is_file() and film_path.suffix.lower()=='.mp4'
+            and approved(film) and film.get('upscaled') is False
+            and film.get('multiview') is True
+            and len(set(film_sources))==3
+            and all(key in approved_home_records for key in film_sources)
+            and {approved_home_records[key]['angle'] for key in film_sources if key in approved_home_records}=={'front','side','back'}
+            and hashlib.sha256(film_path.read_bytes()).hexdigest()==film.get('sha256'))
+home_ready=(all(c['status']=='ready' for c in catalog['collections'])
+            and len(actual_looks)>=catalog['counts']['required_complete_launch_looks']
+            and required_home_keys<=set(approved_home_records) and film_ready)
+for p in catalog['pages']:
+    if p['key']=='home' or p.get('is_front_page'):
+        p['status']='publish' if home_ready else 'draft'
 catalog['counts'].update({'actual_generated_source_files':len(all_real_sources),
                          'provided_unique_primary_collection_images':len(used_hashes),
                          'provided_importable_looks':len(actual_looks),

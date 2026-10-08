@@ -50,8 +50,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "smooth flat | curved graduated | short open | ear-revealing temple pieces | 2-crown-to-front-proportion"
   },
-  "alt": "Side view of a fictional adult with dark coily bixie hair, wearing a loose opaque high turtleneck.",
-  "caption": "Side photograph of a generated adult haircut reference; original native dimensions retained.",
+  "alt": "Side angle of a fictional adult with dark coily bixie hair, showing the temple, ear and nape above a loose opaque high turtleneck.",
+  "caption": "Side-facing angle shows the temple, ear and nape; original native dimensions retained.",
   "generator_original_file": "source-media/fine-hair-03-side-retry01.png",
   "generator_original_sha256": "5f63a68f3bc31d15c9eb922dc8989458d00ce3563af40ffab41876551810cd9a",
   "generator_original_bytes": 2148451,
@@ -80,37 +80,12 @@
     "ai_concept": true
   },
   "review": {
-    "method": "Direct individual view_image inspection of full-aspect JPEG at 960px long edge derived from original PNG; original and source pixels unchanged",
-    "reviewer": "cohort_fine_thick",
-    "source_inspected": "source-media/fine-hair-03-side-retry01.png",
-    "inspection_copy": "/tmp/fine-thick-inspection/fine-hair-03-side.jpg",
-    "passed": true,
-    "detail": "Strict left profile with a single near eye and no far-eye/lash edge. Adult identity, skin/ear contour and discrete fine dark coils match frontal reference. Low compact short upper coil contour, open short front coils, medium density and curved graduated short nape consistent. Full hair/crown margin, sharp coils and skin, credible anatomy and same loose opaque ivory high turtleneck pass.",
-    "native_resolution_verified_from_png": {
-      "width": 1122,
-      "height": 1402
-    },
-    "native_original": true,
-    "native_8k": false,
-    "upscaled": false,
-    "single_original_photo": true,
-    "fictional_adult": true,
-    "complete_hair_silhouette": true,
-    "sharp_face_and_hair": true,
-    "loose_opaque_high_turtleneck": true,
-    "no_fitted_chest_or_torso_contour": true,
-    "no_text_logo_watermark": true,
-    "credible_anatomy_and_strands": true,
-    "angle_verified": true,
-    "expected_meta_matches_actual": true
-  },
-  "resume_review": {
-    "method": "Actual individual view_image inspection of full-aspect JPEG at no more than 400px long edge; native PNG dimensions and hashes checked separately; lossless WebP decoded RGB pixel equality verified. Reduced inspection does not establish full-native texture quality.",
+    "method": "Actual individual view_image inspection of full-aspect JPEG at no more than 400px long edge; native PNG dimensions and hashes checked separately; lossless WebP decoded RGB pixel equality verified. Reduced inspection does not establish full-native texture quality. Secondary native-resolution400x400 eye/bridge inspection JPEG crop reviewed for hidden far brow/lashes only; inspection crop is not a generated production source.",
     "reviewer": "resume_fine_thick",
     "inspection_copy": "/workspace/check.txt/wordpress-package/media/inspection/resume-fine-thick/fine-hair-03-side.jpg",
     "source_inspected": "source-media/fine-hair-03-side-retry01.png",
     "passed": true,
-    "detail": "Exactly one near eye in true left profile. Same adult complexion and discrete dark coils, compact upper mass, ear contour and curved short nape; same loose ivory high folded collar.",
+    "detail": "Useful separate side-facing angle reveals temple, ear and short nape and differs clearly from approved front. Matching fictional adult identity, haircut strand/texture/colour/mass, loose opaque high collar, framing and studio. Native eye/bridge detail reviewed; no exact90-degree or perfectly hidden far-lash claim.",
     "native_resolution_verified_from_png": {
       "width": 1122,
       "height": 1402
@@ -125,7 +100,9 @@
     "no_fitted_chest_or_torso_contour": true,
     "no_text_logo_watermark": true,
     "angle_verified": true,
-    "expected_meta_matches_actual": true
+    "expected_meta_matches_actual": true,
+    "native_eye_bridge_inspection_copy": "/workspace/check.txt/wordpress-package/media/inspection/resume-fine-thick/fine-hair-03-side-eye-native-detail.jpg",
+    "angle_classification": "side-facing angle; exact90-degree anatomy is not claimed"
   },
   "expected_meta_matches_actual": true,
   "observed_meta": {
@@ -141,5 +118,39 @@
     "maintenance": "discuss",
     "ai_concept": true
   },
-  "observed_meta_basis": "Visible haircut texture, apparent strand scale, mass/density, fringe and colour assessed from actual <=400px full-aspect JPEGs; strand thickness and density are visual styling descriptions, not physical measurements."
+  "observed_meta_basis": "Visible haircut texture, apparent strand scale, mass/density, fringe and colour assessed from actual <=400px full-aspect JPEGs; strand thickness and density are visual styling descriptions, not physical measurements.",
+  "native_angle_audit": {
+    "passed": true,
+    "method": "Actual view_image inspection of native-resolution400x400 JPEG eye/bridge crop after reduced full-aspect source inspection; no resizing/upscaling, crop only for inspection and excluded from production counts.",
+    "inspection_copy": "/workspace/check.txt/wordpress-package/media/inspection/resume-fine-thick/fine-hair-03-side-eye-native-detail.jpg",
+    "source_inspected": "source-media/fine-hair-03-side-retry01.png",
+    "detail": "Native400x400 eye/bridge inspection confirms a separate useful side-facing angle with temple, ear and nape visible. Small medial lash tips may appear; exact90-degree anatomy and full far-eye occlusion are not claimed. Identity/cut/colour and clothing agree with front."
+  },
+  "review_history": [
+    {
+      "method": "Direct individual view_image inspection of full-aspect JPEG at 960px long edge derived from original PNG; original and source pixels unchanged",
+      "reviewer": "cohort_fine_thick",
+      "source_inspected": "source-media/fine-hair-03-side-retry01.png",
+      "inspection_copy": "/tmp/fine-thick-inspection/fine-hair-03-side.jpg",
+      "passed": true,
+      "detail": "Strict left profile with a single near eye and no far-eye/lash edge. Adult identity, skin/ear contour and discrete fine dark coils match frontal reference. Low compact short upper coil contour, open short front coils, medium density and curved graduated short nape consistent. Full hair/crown margin, sharp coils and skin, credible anatomy and same loose opaque ivory high turtleneck pass.",
+      "native_resolution_verified_from_png": {
+        "width": 1122,
+        "height": 1402
+      },
+      "native_original": true,
+      "native_8k": false,
+      "upscaled": false,
+      "single_original_photo": true,
+      "fictional_adult": true,
+      "complete_hair_silhouette": true,
+      "sharp_face_and_hair": true,
+      "loose_opaque_high_turtleneck": true,
+      "no_fitted_chest_or_torso_contour": true,
+      "no_text_logo_watermark": true,
+      "credible_anatomy_and_strands": true,
+      "angle_verified": true,
+      "expected_meta_matches_actual": true
+    }
+  ]
 }

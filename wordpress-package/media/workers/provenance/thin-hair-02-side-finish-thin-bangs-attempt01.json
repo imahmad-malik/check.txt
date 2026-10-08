@@ -1,0 +1,8 @@
+{
+  "id": "thin-hair-02-side",
+  "prompt": "SIDE: turn head and shoulder line left to useful side profile, show temple, ear and nape; 3/4 side acceptable only if nape/ear/temple all clear. Create ONE separate new original realistic sharp editorial haircut photograph of a fictional ADULT woman. STRICT COMPOSITION: HEAD AND NECK WITH ONLY TOP SHOULDER LINE; bottom frame ends immediately below the shoulders, no bust, chest or torso. BULKY VERY LOOSE fully opaque ivory HIGH TURTLENECK with broad folded collar covers neck base and all upper chest, unshaped fabric, no neckline/cleavage/fitted contours/sleeveless. Entire head and all hair edges with generous crown and side margin. Light neutral studio background and soft daylight; all face/hair sharp at genuine native supported resolution >=1024 longedge; full portrait 4:5 source aspect. No upscaling/8K, blur/grain/fog, collage, text, logo, watermark, jewellery or celebrity likeness. Exactly SAME fictional adult identity, haircut geometry, colour, texture, short nape, clothing, daylight and studio as supplied APPROVED front reference. Maintain airy separated low-density styling, fine strands, divided fringe and bob-like upper lengths with short pixie graduation.",
+  "references": [
+    "source-media/thin-hair-02-front.png"
+  ],
+  "provenance_file": "media/workers/provenance/thin-hair-02-side-finish-thin-bangs-attempt01.json"
+}

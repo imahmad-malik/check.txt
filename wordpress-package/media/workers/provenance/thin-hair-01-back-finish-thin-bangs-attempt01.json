@@ -1,0 +1,14 @@
+{
+  "id": "thin-hair-01-back",
+  "prompt": "Create ONE separate NEW original realistic sharp editorial haircut photograph of exactly the same fictional ADULT woman and blonde fine low-density airy wavy bixie haircut as the two supplied approved front and side photographs. BACK VIEW PRIORITY: head and shoulders turned entirely away from camera, no face visible; show full rear crown, both ear edges and clear short graduated pixie-length nape. Copy exact blonde highlights/darker roots, airy separated S-wave upper layers and bob-pixie geometry with short graduated nape from reference side. Same bulky loose opaque folded ivory high turtleneck, light neutral studio and soft daylight. STRICT HEAD AND NECK WITH ONLY TOP SHOULDER LINE; bottom frame immediately below shoulders, no chest/bust/torso. Broad bulky fully opaque HIGH TURTLENECK covers neck base and all upper chest without fitted contours. Entire head/all hair edges with generous top and side margins. Sharp all hair detail and realistic strands, no blur/grain/fog/text/logos/jewellery; single image, no collage. Portrait4:5 full native source aspect >=1024 longedge, no upscaling.",
+  "references": [
+    "source-media/thin-hair-01-front.png",
+    "source-media/thin-hair-01-side.png"
+  ],
+  "generated_tool_file": "/workspace/generated_images/exec-b1b171f1-3e25-4778-abe9-83d842a25ff3.png",
+  "tool_output": {
+    "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-b1b171f1-3e25-4778-abe9-83d842a25ff3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "image_data_saved_in_original_png": true
+  },
+  "exact_call_metadata_available": true
+}

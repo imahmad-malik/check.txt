@@ -57,11 +57,23 @@ if len(hashes) != len(set(hashes)):
 pixel_hashes = [r['native_pixel_sha256'] for r in photos if r.get('native_pixel_sha256')]
 if len(pixel_hashes) != len(set(pixel_hashes)):
     raise ValueError('Repeated decoded original pixels across photographic slots')
+def attempt_identity(row):
+    # Historical attribution/recovery can archive one tool output more than
+    # once. Each PNG/native/display encoding still represents one photograph.
+    if row.get('generator_original_sha256'):
+        return ('generator-png', row['generator_original_sha256'])
+    if row.get('source_file', '').endswith('.png'):
+        return ('generator-png', row['sha256'])
+    if row.get('native_pixel_sha256'):
+        return ('native-rgb', row['native_pixel_sha256'])
+    return ('source-bytes', row['sha256'])
+current_attempts = {attempt_identity(r) for r in diagnostic + photos}
+rejected_attempts = {attempt_identity(r) for r in rejected} - current_attempts
 manifest.update(records=diagnostic + records, rejected_attempts=rejected, looks=approved_looks,
                 status='production_underway', updated_at=datetime.datetime.now(datetime.timezone.utc).isoformat())
 manifest['counts'] = {
     'actual_originals': len(diagnostic) + len(photos),
-    'actual_generated_photo_attempts': len(diagnostic) + len(photos) + len(rejected),
+    'actual_generated_photo_attempts': len(current_attempts | rejected_attempts),
     'diagnostic_originals': len(diagnostic),
     'actual_production_originals': len(photos),
     'reviewed_approved_production_photos': sum(r.get('approved') is True for r in photos),
@@ -70,7 +82,8 @@ manifest['counts'] = {
     'approved_homepage_originals': sum(r.get('usage') == 'homepage' and r.get('approved') is True for r in photos),
     'actual_photo_sequence_films': len(films),
     'approved_photo_sequence_films': sum(r.get('approved') is True for r in films),
-    'rejected_photo_attempts': len(rejected),
+    'rejected_photo_attempts': len(rejected_attempts),
+    'rejected_archive_records': len(rejected),
     'collection_photos_required': 462,
     'complete_looks_required': 154,
     'homepage_photos_required': 25,

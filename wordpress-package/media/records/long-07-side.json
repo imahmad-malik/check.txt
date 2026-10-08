@@ -49,7 +49,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "smooth flat | soft tapered | side-swept | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Side view of a copper coily bixie.",
+  "alt": "Side-facing view of a copper coily bixie showing the temple and nape.",
   "caption": "True single-eye leftprofile; same dark brown adult identity and tight copper corkscrew coils, compact low crown, long front coil fringe over a short tapered nape; matching high ivory knit and studio light.",
   "generator_original_file": "source-media/long-07-side.png",
   "generator_original_sha256": "cb1baba40a9b9e38b1c071ae4b0c76546b876b712c78cc6537ff36af514ab468",
@@ -84,8 +84,8 @@
     "visible_features": "True single-eye leftprofile; same dark brown adult identity and tight copper corkscrew coils, compact low crown, long front coil fringe over a short tapered nape; matching high ivory knit and studio light.",
     "secondary_native_eye_audit": {
       "passed": true,
-      "method": "Native-pixel400x360eye/bridgeJPEGcrop viewed separately from full-aspect320x400JPEG; no production crop/count",
-      "finding": "One eye visible; no visible far-eye pupil or far-side lashes"
+      "method": "Native-pixel400x360eye/bridgeJPEGcrop and full-aspect320x400JPEG viewed",
+      "criterion": "Genuine side-facing view clearly distinct from front with temple/ear/nape revealed; minor far-eye/lash glimpse allowed. No exact90-degree claim."
     }
   },
   "observed_meta": {

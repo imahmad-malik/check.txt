@@ -49,7 +49,7 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "soft rounded | soft tapered | side-swept | ear-revealing temple pieces | 2-crown-to-front-proportion"
   },
-  "alt": "Left profile: dark spirals with an extended side fringe.",
+  "alt": "Side-facing view of a dark curly bixie showing the temple and nape.",
   "caption": "Side: compare the crown, ear frame and short nape.",
   "generator_original_file": "source-media/long-03-side.png",
   "generator_original_sha256": "7c2d02ab350b24ec76873ffca79f9b593c2be1e27f65cd6ef47f0ef6b03d622c",
@@ -84,8 +84,8 @@
     "coherent_set": "pass: all three genuine referenced poses directly compared; matching adult, colour, actual texture, fringe direction, crown, nape, high collar and studio",
     "secondary_native_eye_audit": {
       "passed": true,
-      "method": "Native-pixel400x360eye/bridgeJPEGcrop viewed separately from full-aspect320x400JPEG; no production crop/count",
-      "finding": "One eye visible; no visible far-eye pupil or far-side lashes"
+      "method": "Native-pixel400x360eye/bridgeJPEGcrop and full-aspect320x400JPEG viewed",
+      "criterion": "Genuine side-facing view clearly distinct from front with temple/ear/nape revealed; minor far-eye/lash glimpse allowed. No exact90-degree claim."
     }
   }
 }

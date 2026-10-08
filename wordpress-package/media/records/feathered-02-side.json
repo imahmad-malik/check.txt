@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/feathered-02-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "curly",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "airy separated | compact squared | full | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Side view of a fictional adult with a copper feathered bixie, wearing a bulky opaque ivory high turtleneck.",
+  "caption": "Side: separately generated original haircut reference at actual native resolution.",
   "generator_original_file": "source-media/feathered-02-side-retry02.png",
   "generator_original_sha256": "2b963880e2cd729ba81473b3f59e6759e5cb47ab0a60301ffde8cb975ea56a29",
   "generator_original_bytes": 2216856,
@@ -96,5 +96,31 @@
   "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
   "provenance_file": "media/workers/provenance/resume-feathered-wavy/feathered-02-side-new-attempt01.json",
   "exact_generation_prompt_available": true,
-  "exact_reference_arguments_available": true
+  "exact_reference_arguments_available": true,
+  "review": {
+    "method": "Direct individual visual inspection of full-aspect JPEG reduced to maximum 400px long edge; native dimensions and lossless decoded RGB pixel equality audited separately. No claim of native full-image texture review.",
+    "reviewer": "resume-feathered-wavy",
+    "inspection_file": "media/workers/inspection/resume-feathered-wavy/feathered-02-side.jpg",
+    "source_inspected_via_reduced_JPEG": "source-media/feathered-02-side-retry02.png",
+    "angle": "Right side-facing angle showing ear, temple and short nape; slight three-quarter geometry with a small far-side eyelash glimpse",
+    "complete_hair_silhouette": true,
+    "clear_margin_above_crown_and_sides": true,
+    "fictional_adult": true,
+    "loose_opaque_high_turtleneck": true,
+    "neckline_upper_chest_covered_no_contours": true,
+    "head_and_shoulderline_only": true,
+    "no_text_or_watermark": true,
+    "matches_approved_reference_identity_hair_clothing_lighting": true,
+    "native_resolution": {
+      "width": 1122,
+      "height": 1402
+    },
+    "native_8k": false,
+    "upscaled": false,
+    "secondary_eye_audit": {
+      "file": "media/workers/inspection/resume-feathered-wavy/feathered-02-side-eye-audit.jpg",
+      "method": "Unscaled native facial JPEG crop, secondary eye/bridge inspection only; not a production source",
+      "result": "Useful side-facing view; no exact90 claim. Small far-side lash glimpse allowed by final user-facing side-angle requirement."
+    }
+  }
 }

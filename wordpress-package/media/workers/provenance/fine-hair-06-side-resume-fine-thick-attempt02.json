@@ -7,8 +7,9 @@
     "/workspace/check.txt/wordpress-package/source-media/fine-hair-06-side.png",
     "/workspace/check.txt/wordpress-package/source-media/fine-hair-06-front-retry01.png"
   ],
-  "status": "tool-call-prepared",
-  "output_tool_path": null,
+  "status": "generated-original-saved",
+  "output_tool_path": "/workspace/generated_images/exec-4a73b04b-646a-4e5e-8642-8280fd73a704.png",
   "exact_call_metadata_available": true,
-  "provenance_file": "/workspace/check.txt/wordpress-package/media/workers/provenance/fine-hair-06-side-resume-fine-thick-attempt02.json"
+  "provenance_file": "/workspace/check.txt/wordpress-package/media/workers/provenance/fine-hair-06-side-resume-fine-thick-attempt02.json",
+  "tool_text_metadata": []
 }

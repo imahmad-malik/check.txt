@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/straight-01-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "straight",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | textured tapered | full | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Side view: straight blonde layers and compact graduated nape.",
+  "caption": "Side: straight blonde layers and compact graduated nape.",
   "generator_original_file": "source-media/straight-01-side-retry01.png",
   "generator_original_sha256": "cea248fdf6f1804815cd73fc392cd4a561aa3771d9a3dcdebcf308367654d680",
   "generator_original_bytes": 2238491,
@@ -74,5 +74,18 @@
   ],
   "native_pixel_sha256": "4e0bc22eeedfa24f0f28b68cedf304f74a7854300d9af46b95564f81fa3a502b",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "passed": true,
+    "method": "Direct review of full-aspect 320x400-or-smaller inspection JPEG; native file dimensions, source SHA and pixel-equivalent lossless WebP checked separately",
+    "fictional_adult": "pass",
+    "clothing": "pass: loose opaque high turtleneck conceals neckline and chest; shoulders-only composition",
+    "hair_margin": "pass: entire hair outline and crown with margin",
+    "angle": "pass: distinct side-facing angle reveals temple, ear and nape",
+    "primary_style": "pass: straight strands and short graduated bixie silhouette",
+    "observed_features": "straight blonde layers and compact graduated nape",
+    "note": "Left-facing side angle; small far-eye or eyelash glimpse visible on native diagnostic detail. Useful side angle accepted; no exact 90-degree claim.",
+    "native_eye_detail_audit": "Reviewed diagnostic native eye/bridge pixels; far lash glimpse recorded honestly."
+  },
+  "actual_view": "side-facing angle"
 }

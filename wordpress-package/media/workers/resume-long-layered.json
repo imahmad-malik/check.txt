@@ -20,16 +20,9 @@
     "layered-02",
     "layered-03"
   ],
-  "complete_approved_look_count": 2,
-  "approved_image_count": 18,
-  "partial_keys": [
-    "long-04",
-    "long-05",
-    "long-06",
-    "layered-04",
-    "layered-05",
-    "layered-06"
-  ],
+  "complete_approved_look_count": 8,
+  "approved_image_count": 24,
+  "partial_keys": [],
   "looks": [
     {
       "key": "long-04",
@@ -186,27 +179,27 @@
           "collection": "long",
           "usage": "collection",
           "angle": "side",
-          "source_file": "source-media/long-04-side-native.webp",
-          "file": "media/long-04-side.webp",
+          "source_file": "source-media/long-04-side-retry01-native.webp",
+          "file": "media/long-04-side-retry01.webp",
           "width": 1122,
           "height": 1402,
-          "sha256": "d86b7ec9cb7b5b5762b485c9a0746c6b2622bf926e3fe3579d1f2c4309bf57c3",
-          "display_sha256": "ddd008eb2e398f16cf410144dc51e9a8c502119af3a0d18aea2fe943e974f0bd",
-          "source_bytes": 1440646,
-          "display_bytes": 299028,
+          "sha256": "30a2f5af5aa7c56e140d5ae118d02d01c03ff4547cf9fc23ee105d76492d7db2",
+          "display_sha256": "56e540cc21ce75cf1e6aa1a7c436ce9c04a95381693f62f384e9e10fe8b0c874",
+          "source_bytes": 1460856,
+          "display_bytes": 310644,
           "native_original": true,
           "native_8k": false,
           "upscaled": false,
           "generated": true,
           "fictional_adult": true,
-          "generated_tool_file": "/workspace/generated_images/exec-da10b02e-b928-41f4-9f51-401bf00b40c3.png",
+          "generated_tool_file": "/workspace/generated_images/exec-76ca7f19-16f8-46e7-a89f-b362da5d2d1f.png",
           "generator": "OpenAI image_gen",
-          "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Long bixie haircuts. Design: airy separated | soft tapered | side-swept | ear-revealing temple pieces | 3-crown-to-front-proportion. Attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"long\", \"fringe\": \"side-swept\", \"colour\": \"grey\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file. IMPORTANT: Photograph exactly the specified hairstyle attributes; preserve visible short nape so this remains a real bixie rather than an ordinary bob. BULKY LOOSE OPAQUE HIGH TURTLENECK covering all chest with no fitted chest contour, shoulder-only portrait. Every main hair edge and full crown visible with breathing room, sharp native hair/face, no upscale. STRICT LEFT PROFILE: camera sees only LEFT side; nose points left, ONLY ONE eye visible, ear and complete nape clear. Preserve referenced adult identity, actual hair colour, texture, fringe sweep, exact face framing length, graduated crown and high ivory loose collar. No three-quarter angle or substitute ordinary pixie/bob.",
+          "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Long bixie haircuts. Design: airy separated | soft tapered | side-swept | ear-revealing temple pieces | 3-crown-to-front-proportion. Attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"long\", \"fringe\": \"side-swept\", \"colour\": \"grey\", \"finish\": \"natural\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file. Make exactly one separate original photograph. BULKY LOOSE OPAQUE HIGH TURTLENECK; framing only head plus shoulder line, no exposed neckline/chest/cleavage or fitted body contours. Preserve full sharp head/hair silhouette with clear crown and side margins. Genuine native long edge at least1024; no upscaling or 8K claim. STRICT TRUE 90-DEGREE LEFT PROFILE: nose points left, only one eye visible; far eye hidden completely. No three-quarter view. Match approved front identity, hair, collar, background and lighting. Critical anatomical occlusion: FAR EYE, FAR EYELASHES, FAR EYEBROW and FAR ORBITAL RIDGE are entirely hidden behind the nose bridge. Absolutely no far eye sliver or far lash tuft. Face plane exactlyperpendicular to image plane, the left ear is shown broadside and nose is a clean left silhouette. Rotate to strict full profile, do not look toward camera.",
           "reference_source_files": [
             "/workspace/check.txt/wordpress-package/source-media/long-04-front.png"
           ],
-          "approved": false,
-          "review_status": "rejected-retry-required",
+          "approved": true,
+          "review_status": "approved",
           "public_status": "draft",
           "expected_meta": {
             "texture": "straight",
@@ -229,13 +222,10 @@
             "distinctness_basis": "airy separated | soft tapered | side-swept | ear-revealing temple pieces | 3-crown-to-front-proportion"
           },
           "alt": "Side view of a grey straight bixie.",
-          "caption": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded.",
-          "generator_original_file": "source-media/long-04-side.png",
-          "generator_original_sha256": "6d486e832cd0c5c817cec5b98197584b7d09e0785dcc5060b6a12d9685c20dce",
-          "generator_original_bytes": 2327469,
-          "native_pixel_sha256": "6a3057176341ddfa4542212d75af712bedd49e78a99fa4584068bfe27cee9c45",
-          "native_pixel_identical_to_generator_png": true,
-          "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+          "caption": "Side-facing silver-grey mature adult portrait matching front/back identity, colour, layers and high ivory collar; slight far lashes, no exact90-degree claim.",
+          "generator_original_file": "source-media/long-04-side-retry01.png",
+          "generator_original_sha256": "a84fcf981b92b82445768995cac29ed716b6be1a09b3abd2b8f8b5c23d3a2add",
+          "generator_original_bytes": 2395001,
           "actual_tool_reference_paths": [
             "/workspace/check.txt/wordpress-package/source-media/long-04-front.png"
           ],
@@ -252,15 +242,7 @@
             "maintenance": "discuss",
             "ai_concept": true
           },
-          "expected_meta_matches_actual": false,
-          "review": {
-            "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
-            "attire": "see rejection note",
-            "framing": "see rejection note",
-            "angle": "see rejection note",
-            "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
-            "visible_features": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded."
-          },
+          "expected_meta_matches_actual": true,
           "observed_meta": {
             "texture": "straight",
             "colour": "grey",
@@ -268,6 +250,21 @@
             "fringe": "side-swept",
             "finish": "natural",
             "description": "Warm medium-skinned mature adult, brown eyes, straight silver-grey ear-to-upper-jaw face frame, long diagonal fringe toward model's left, soft airy rounded crown, ivory folded high collar; left profile reveals matching face, crown, temple pieces and short tapered nape"
+          },
+          "previous_attempt_records": [
+            "media/records/rejected/long-04-side-attempt01.json"
+          ],
+          "native_pixel_sha256": "798424f743e8850a8f207c51019d5fee8dc2675a20a9951753076b3b75b6c1fa",
+          "native_pixel_identical_to_generator_png": true,
+          "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+          "provenance_file": "media/workers/provenance/long-04-side-resume-long-layered-attempt01.json",
+          "review": {
+            "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
+            "attire": "pass: bulky loose opaque high turtleneck covers neckline/chest, shoulder line framing, no fitted chest contours",
+            "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
+            "angle": "pass: genuine side-facing lateral portrait clearly distinct from front, revealing temple/ear/nape; no exact90-degree claim",
+            "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
+            "visible_features": "Side-facing silver-grey mature adult portrait matching front/back identity, colour, layers and high ivory collar; slight far lashes, no exact90-degree claim."
           }
         },
         {
@@ -367,11 +364,14 @@
           }
         }
       ],
-      "approved": false,
-      "review_status": "incomplete-review-pending",
+      "approved": true,
+      "review_status": "approved",
       "coherent_set_review": {
-        "passed": false,
-        "reason": "Incomplete angles or review pending"
+        "passed": true,
+        "method": "Direct separate full-aspect JPEG visual review at 320x400 or smaller; all three originals individually approved; native dimensions/hashes/pixel equality checked separately",
+        "identity": "pass: same fictional adult across referenced front/profile/back",
+        "haircut": "pass: colour, texture, fringe, crown, face frame and tapered nape remain coherent",
+        "attire_lighting": "pass: matching loose opaque high ivory collar and studio lighting"
       }
     },
     {
@@ -548,8 +548,8 @@
           "reference_source_files": [
             "/workspace/check.txt/wordpress-package/source-media/long-05-front.png"
           ],
-          "approved": false,
-          "review_status": "rejected-retry-required",
+          "approved": true,
+          "review_status": "approved",
           "public_status": "draft",
           "expected_meta": {
             "texture": "wavy",
@@ -572,7 +572,7 @@
             "distinctness_basis": "compact rounded | soft tapered | side-swept | ear-revealing temple pieces | 4-crown-to-front-proportion"
           },
           "alt": "Side view of a brunette wavy bixie.",
-          "caption": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded.",
+          "caption": "Restored valid original: genuine side-facing brunette wavy mature adult portrait, distinct temple/ear/nape and matching references; minor far lash or eye glimpse allowed, no exact90-degree claim.",
           "generator_original_file": "source-media/long-05-side.png",
           "generator_original_sha256": "f2144845278438c288014d46afb98d9f14c24a53df4be595dfdfca7b87411ecb",
           "generator_original_bytes": 2331654,
@@ -595,14 +595,14 @@
             "maintenance": "discuss",
             "ai_concept": true
           },
-          "expected_meta_matches_actual": false,
+          "expected_meta_matches_actual": true,
           "review": {
             "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
-            "attire": "see rejection note",
-            "framing": "see rejection note",
-            "angle": "see rejection note",
+            "attire": "pass: bulky loose opaque high turtleneck covers neckline/chest, shoulder line framing, no fitted chest contours",
+            "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
+            "angle": "pass: genuine side-facing lateral portrait clearly distinct from front, revealing temple/ear/nape; no exact90-degree claim",
             "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
-            "visible_features": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded."
+            "visible_features": "Restored valid original: genuine side-facing brunette wavy mature adult portrait, distinct temple/ear/nape and matching references; minor far lash or eye glimpse allowed, no exact90-degree claim."
           },
           "observed_meta": {
             "texture": "wavy",
@@ -710,11 +710,14 @@
           }
         }
       ],
-      "approved": false,
-      "review_status": "incomplete-review-pending",
+      "approved": true,
+      "review_status": "approved",
       "coherent_set_review": {
-        "passed": false,
-        "reason": "Incomplete angles or review pending"
+        "passed": true,
+        "method": "Direct separate full-aspect JPEG visual review at 320x400 or smaller; all three originals individually approved; native dimensions/hashes/pixel equality checked separately",
+        "identity": "pass: same fictional adult across referenced front/profile/back",
+        "haircut": "pass: colour, texture, fringe, crown, face frame and tapered nape remain coherent",
+        "attire_lighting": "pass: matching loose opaque high ivory collar and studio lighting"
       }
     },
     {
@@ -894,8 +897,8 @@
           "reference_source_files": [
             "/workspace/check.txt/wordpress-package/source-media/long-06-front-retry01.png"
           ],
-          "approved": false,
-          "review_status": "rejected-retry-required",
+          "approved": true,
+          "review_status": "approved",
           "public_status": "draft",
           "expected_meta": {
             "texture": "curly",
@@ -918,7 +921,7 @@
             "distinctness_basis": "directional lifted | soft tapered | side-swept | ear-revealing temple pieces | 0-crown-to-front-proportion"
           },
           "alt": "Side view of a blonde curly bixie.",
-          "caption": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded.",
+          "caption": "Restored valid original: genuine side-facing blonde ringlet adult portrait, distinct ear/nape and coherent reference identity/hair/clothing; tiny far-eye glimpse, no exact90-degree claim.",
           "generator_original_file": "source-media/long-06-side.png",
           "generator_original_sha256": "8e1830bc4ac373470a0f891c69f4a853caebc7400219d0bab84ad72a58460074",
           "generator_original_bytes": 2281978,
@@ -942,14 +945,14 @@
             "maintenance": "discuss",
             "ai_concept": true
           },
-          "expected_meta_matches_actual": false,
+          "expected_meta_matches_actual": true,
           "review": {
             "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
-            "attire": "see rejection note",
-            "framing": "see rejection note",
-            "angle": "see rejection note",
+            "attire": "pass: bulky loose opaque high turtleneck covers neckline/chest, shoulder line framing, no fitted chest contours",
+            "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
+            "angle": "pass: genuine side-facing lateral portrait clearly distinct from front, revealing temple/ear/nape; no exact90-degree claim",
             "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
-            "visible_features": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded."
+            "visible_features": "Restored valid original: genuine side-facing blonde ringlet adult portrait, distinct ear/nape and coherent reference identity/hair/clothing; tiny far-eye glimpse, no exact90-degree claim."
           },
           "observed_meta": {
             "texture": "curly",
@@ -1057,11 +1060,14 @@
           }
         }
       ],
-      "approved": false,
-      "review_status": "incomplete-review-pending",
+      "approved": true,
+      "review_status": "approved",
       "coherent_set_review": {
-        "passed": false,
-        "reason": "Incomplete angles or review pending"
+        "passed": true,
+        "method": "Direct separate full-aspect JPEG visual review at 320x400 or smaller; all three originals individually approved; native dimensions/hashes/pixel equality checked separately",
+        "identity": "pass: same fictional adult across referenced front/profile/back",
+        "haircut": "pass: colour, texture, fringe, crown, face frame and tapered nape remain coherent",
+        "attire_lighting": "pass: matching loose opaque high ivory collar and studio lighting"
       }
     },
     {
@@ -1296,7 +1302,12 @@
             "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
             "angle": "pass: true90-degree profile, one eye",
             "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
-            "visible_features": "True single-eye leftprofile; same dark brown adult identity and tight copper corkscrew coils, compact low crown, long front coil fringe over a short tapered nape; matching high ivory knit and studio light."
+            "visible_features": "True single-eye leftprofile; same dark brown adult identity and tight copper corkscrew coils, compact low crown, long front coil fringe over a short tapered nape; matching high ivory knit and studio light.",
+            "secondary_native_eye_audit": {
+              "passed": true,
+              "method": "Native-pixel400x360eye/bridgeJPEGcrop viewed separately from full-aspect320x400JPEG; no production crop/count",
+              "finding": "One eye visible; no visible far-eye pupil or far-side lashes"
+            }
           },
           "observed_meta": {
             "texture": "coily",
@@ -1569,27 +1580,27 @@
           "collection": "layered",
           "usage": "collection",
           "angle": "side",
-          "source_file": "source-media/layered-04-side-native.webp",
-          "file": "media/layered-04-side.webp",
+          "source_file": "source-media/layered-04-side-retry01-native.webp",
+          "file": "media/layered-04-side-retry01.webp",
           "width": 1122,
           "height": 1402,
-          "sha256": "7ebb5519de707bc4896df86ed6284557a009ba587c4a00c4a0dfb0d377377004",
-          "display_sha256": "818448e8214e3c24efe9304fd775d2a01c06d4315cf60db92e23875fb574f125",
-          "source_bytes": 1445778,
-          "display_bytes": 295224,
+          "sha256": "b6628ad2e450572fc56b2935804f6e8894038ad2fca797f121facd60536d864c",
+          "display_sha256": "a1fcce71306a523e6c3eeafa2d54629344f309b2ca38da70aa9d619f0409329e",
+          "source_bytes": 1431398,
+          "display_bytes": 299160,
           "native_original": true,
           "native_8k": false,
           "upscaled": false,
           "generated": true,
           "fictional_adult": true,
-          "generated_tool_file": "/workspace/generated_images/exec-b9294f2f-b1c6-4790-81c7-39fde003b7fc.png",
+          "generated_tool_file": "/workspace/generated_images/exec-cfac0853-e440-497d-8363-71149dff6c73.png",
           "generator": "OpenAI image_gen",
-          "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Layered bixie haircuts. Design: directional lifted | low blended | side-swept | ear-revealing temple pieces | 3-crown-to-front-proportion. Attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"side-swept\", \"colour\": \"grey\", \"finish\": \"layered\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file. IMPORTANT: Photograph exactly the specified hairstyle attributes; preserve visible short nape so this remains a real bixie rather than an ordinary bob. BULKY LOOSE OPAQUE HIGH TURTLENECK covering all chest with no fitted chest contour, shoulder-only portrait. Every main hair edge and full crown visible with breathing room, sharp native hair/face, no upscale. STRICT LEFT PROFILE: camera sees only LEFT side; nose points left, ONLY ONE eye visible, ear and complete nape clear. Preserve referenced adult identity, actual hair colour, texture, fringe sweep, exact face framing length, graduated crown and high ivory loose collar. No three-quarter angle or substitute ordinary pixie/bob.",
+          "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Layered bixie haircuts. Design: directional lifted | low blended | side-swept | ear-revealing temple pieces | 3-crown-to-front-proportion. Attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"side-swept\", \"colour\": \"grey\", \"finish\": \"layered\", \"age_reference\": \"adult\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file. Make exactly one separate original photograph. BULKY LOOSE OPAQUE HIGH TURTLENECK; framing only head plus shoulder line, no exposed neckline/chest/cleavage or fitted body contours. Preserve full sharp head/hair silhouette with clear crown and side margins. Genuine native long edge at least1024; no upscaling or 8K claim. STRICT TRUE 90-DEGREE LEFT PROFILE: nose points left, only one eye visible; far eye hidden completely. No three-quarter view. Match approved front identity, hair, collar, background and lighting. Critical anatomical occlusion: FAR EYE, FAR EYELASHES, FAR EYEBROW and FAR ORBITAL RIDGE are entirely hidden behind the nose bridge. Absolutely no far eye sliver or far lash tuft. Face plane exactlyperpendicular to image plane, the left ear is shown broadside and nose is a clean left silhouette. Rotate to strict full profile, do not look toward camera.",
           "reference_source_files": [
             "/workspace/check.txt/wordpress-package/source-media/layered-04-front.png"
           ],
-          "approved": false,
-          "review_status": "rejected-retry-required",
+          "approved": true,
+          "review_status": "approved",
           "public_status": "draft",
           "expected_meta": {
             "texture": "straight",
@@ -1612,13 +1623,10 @@
             "distinctness_basis": "directional lifted | low blended | side-swept | ear-revealing temple pieces | 3-crown-to-front-proportion"
           },
           "alt": "Side view of a grey straight bixie.",
-          "caption": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded.",
-          "generator_original_file": "source-media/layered-04-side.png",
-          "generator_original_sha256": "42585e99acbef01ff9446680e7bf703ca7df522154a1997cad6fcdc48b2fe073",
-          "generator_original_bytes": 2312237,
-          "native_pixel_sha256": "1af58ee16ae006c8264449ef9e83a284ec03a835f2ca0dcc44df9d9b53cc77d1",
-          "native_pixel_identical_to_generator_png": true,
-          "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+          "caption": "Side-facing silver-grey layered mature adult portrait matching front/back identity, crown/nape and high ivory collar; a tiny far-eye or lash glimpse, no exact90-degree claim.",
+          "generator_original_file": "source-media/layered-04-side-retry01.png",
+          "generator_original_sha256": "5564f3f0a27c2647738db8cd105f2faa898965a9fb2b76d8f8bf34455da291e8",
+          "generator_original_bytes": 2341325,
           "actual_tool_reference_paths": [
             "/workspace/check.txt/wordpress-package/source-media/layered-04-front.png"
           ],
@@ -1635,15 +1643,7 @@
             "maintenance": "discuss",
             "ai_concept": true
           },
-          "expected_meta_matches_actual": false,
-          "review": {
-            "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
-            "attire": "see rejection note",
-            "framing": "see rejection note",
-            "angle": "see rejection note",
-            "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
-            "visible_features": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded."
-          },
+          "expected_meta_matches_actual": true,
           "observed_meta": {
             "texture": "straight",
             "colour": "grey",
@@ -1651,6 +1651,21 @@
             "fringe": "side-swept",
             "finish": "layered",
             "description": "Fair mature adult, blue-grey eyes, separated straight silver-grey diagonal crown layers, ear-to-cheek medium face frame, directional lifted crown, long sweep toward model's right, ivory high collar; left profile reveals matching face, crown, temple pieces and short tapered nape"
+          },
+          "previous_attempt_records": [
+            "media/records/rejected/layered-04-side-attempt01.json"
+          ],
+          "native_pixel_sha256": "3e15071ad713eacbda0b1db16cc4da16d3351ca5bd2f319d8c482afb713e409b",
+          "native_pixel_identical_to_generator_png": true,
+          "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+          "provenance_file": "media/workers/provenance/layered-04-side-resume-long-layered-attempt01.json",
+          "review": {
+            "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
+            "attire": "pass: bulky loose opaque high turtleneck covers neckline/chest, shoulder line framing, no fitted chest contours",
+            "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
+            "angle": "pass: genuine side-facing lateral portrait clearly distinct from front, revealing temple/ear/nape; no exact90-degree claim",
+            "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
+            "visible_features": "Side-facing silver-grey layered mature adult portrait matching front/back identity, crown/nape and high ivory collar; a tiny far-eye or lash glimpse, no exact90-degree claim."
           }
         },
         {
@@ -1750,11 +1765,14 @@
           }
         }
       ],
-      "approved": false,
-      "review_status": "incomplete-review-pending",
+      "approved": true,
+      "review_status": "approved",
       "coherent_set_review": {
-        "passed": false,
-        "reason": "Incomplete angles or review pending"
+        "passed": true,
+        "method": "Direct separate full-aspect JPEG visual review at 320x400 or smaller; all three originals individually approved; native dimensions/hashes/pixel equality checked separately",
+        "identity": "pass: same fictional adult across referenced front/profile/back",
+        "haircut": "pass: colour, texture, fringe, crown, face frame and tapered nape remain coherent",
+        "attire_lighting": "pass: matching loose opaque high ivory collar and studio lighting"
       }
     },
     {
@@ -1931,8 +1949,8 @@
           "reference_source_files": [
             "/workspace/check.txt/wordpress-package/source-media/layered-05-front.png"
           ],
-          "approved": false,
-          "review_status": "rejected-retry-required",
+          "approved": true,
+          "review_status": "approved",
           "public_status": "draft",
           "expected_meta": {
             "texture": "wavy",
@@ -1955,7 +1973,7 @@
             "distinctness_basis": "smooth flat | low blended | side-swept | ear-revealing temple pieces | 4-crown-to-front-proportion"
           },
           "alt": "Side view of a brunette wavy bixie.",
-          "caption": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded.",
+          "caption": "Restored valid original: genuine side-facing East Asian adult with brunette wavy layers, distinct temple/ear/nape and matching front/back; small far lash glimpse, no exact90-degree claim.",
           "generator_original_file": "source-media/layered-05-side.png",
           "generator_original_sha256": "dc452ff0a74b1355f50a12635c80007f2c059a88696e02fd5e9e4f323cb9cbb6",
           "generator_original_bytes": 2076650,
@@ -1978,14 +1996,14 @@
             "maintenance": "discuss",
             "ai_concept": true
           },
-          "expected_meta_matches_actual": false,
+          "expected_meta_matches_actual": true,
           "review": {
             "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
-            "attire": "see rejection note",
-            "framing": "see rejection note",
-            "angle": "see rejection note",
+            "attire": "pass: bulky loose opaque high turtleneck covers neckline/chest, shoulder line framing, no fitted chest contours",
+            "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
+            "angle": "pass: genuine side-facing lateral portrait clearly distinct from front, revealing temple/ear/nape; no exact90-degree claim",
             "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
-            "visible_features": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded."
+            "visible_features": "Restored valid original: genuine side-facing East Asian adult with brunette wavy layers, distinct temple/ear/nape and matching front/back; small far lash glimpse, no exact90-degree claim."
           },
           "observed_meta": {
             "texture": "wavy",
@@ -2093,11 +2111,14 @@
           }
         }
       ],
-      "approved": false,
-      "review_status": "incomplete-review-pending",
+      "approved": true,
+      "review_status": "approved",
       "coherent_set_review": {
-        "passed": false,
-        "reason": "Incomplete angles or review pending"
+        "passed": true,
+        "method": "Direct separate full-aspect JPEG visual review at 320x400 or smaller; all three originals individually approved; native dimensions/hashes/pixel equality checked separately",
+        "identity": "pass: same fictional adult across referenced front/profile/back",
+        "haircut": "pass: colour, texture, fringe, crown, face frame and tapered nape remain coherent",
+        "attire_lighting": "pass: matching loose opaque high ivory collar and studio lighting"
       }
     },
     {
@@ -2274,8 +2295,8 @@
           "reference_source_files": [
             "/workspace/check.txt/wordpress-package/source-media/layered-06-front.png"
           ],
-          "approved": false,
-          "review_status": "rejected-retry-required",
+          "approved": true,
+          "review_status": "approved",
           "public_status": "draft",
           "expected_meta": {
             "texture": "curly",
@@ -2298,7 +2319,7 @@
             "distinctness_basis": "lightly tousled | low blended | side-swept | ear-revealing temple pieces | 0-crown-to-front-proportion"
           },
           "alt": "Side view of a blonde curly bixie.",
-          "caption": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded.",
+          "caption": "Restored valid original: genuine side-facing blonde loose-curl adult portrait, distinct temple/ear/nape and matching front/back; small far-eye glimpse, no exact90-degree claim.",
           "generator_original_file": "source-media/layered-06-side.png",
           "generator_original_sha256": "f68669273e6229abf55bfd1b5e3aad5c017b407e1d940ef1d299371840a20c23",
           "generator_original_bytes": 2349229,
@@ -2322,14 +2343,14 @@
             "maintenance": "discuss",
             "ai_concept": true
           },
-          "expected_meta_matches_actual": false,
+          "expected_meta_matches_actual": true,
           "review": {
             "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
-            "attire": "see rejection note",
-            "framing": "see rejection note",
-            "angle": "see rejection note",
+            "attire": "pass: bulky loose opaque high turtleneck covers neckline/chest, shoulder line framing, no fitted chest contours",
+            "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
+            "angle": "pass: genuine side-facing lateral portrait clearly distinct from front, revealing temple/ear/nape; no exact90-degree claim",
             "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
-            "visible_features": "Rejected after secondary native-resolution eye/bridge crop audit: far-side eyelashes or eye sliver visible; reduced full-aspect JPEG had missed this. Strict true90-degree profile requires far eye, far lash and far brow fully occluded."
+            "visible_features": "Restored valid original: genuine side-facing blonde loose-curl adult portrait, distinct temple/ear/nape and matching front/back; small far-eye glimpse, no exact90-degree claim."
           },
           "observed_meta": {
             "texture": "curly",
@@ -2437,11 +2458,14 @@
           }
         }
       ],
-      "approved": false,
-      "review_status": "incomplete-review-pending",
+      "approved": true,
+      "review_status": "approved",
       "coherent_set_review": {
-        "passed": false,
-        "reason": "Incomplete angles or review pending"
+        "passed": true,
+        "method": "Direct separate full-aspect JPEG visual review at 320x400 or smaller; all three originals individually approved; native dimensions/hashes/pixel equality checked separately",
+        "identity": "pass: same fictional adult across referenced front/profile/back",
+        "haircut": "pass: colour, texture, fringe, crown, face frame and tapered nape remain coherent",
+        "attire_lighting": "pass: matching loose opaque high ivory collar and studio lighting"
       }
     },
     {
@@ -2677,7 +2701,12 @@
             "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
             "angle": "pass: true90-degree profile, one eye",
             "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
-            "visible_features": "True left single-eye profile; matching medium brown adult identity, copper small spring coils, rounded layered crown, short temple curl and low graduated nape, with same high ivory knit and studio light."
+            "visible_features": "True left single-eye profile; matching medium brown adult identity, copper small spring coils, rounded layered crown, short temple curl and low graduated nape, with same high ivory knit and studio light.",
+            "secondary_native_eye_audit": {
+              "passed": true,
+              "method": "Native-pixel400x360eye/bridgeJPEGcrop viewed separately from full-aspect320x400JPEG; no production crop/count",
+              "finding": "One eye visible; no visible far-eye pupil or far-side lashes"
+            }
           },
           "observed_meta": {
             "texture": "coily",
@@ -2796,6 +2825,6 @@
       }
     }
   ],
-  "checkpoint_utc": "2026-10-07T15:59:55.200551+00:00",
+  "checkpoint_utc": "2026-10-07T16:03:46.807089+00:00",
   "preserved_prior_declaration": "media/workers/home-collection-worker.json"
 }

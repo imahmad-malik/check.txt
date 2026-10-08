@@ -1,0 +1,13 @@
+{
+  "id": "thin-hair-01-side",
+  "prompt": "Create ONE separate new original realistic sharp editorial haircut photograph of exactly the same fictional ADULT woman, haircut, blonde colour, bulky loose opaque ivory high turtleneck, neutral studio background and soft daylight as the supplied approved front reference. SIDE VIEW: turn the whole head and shoulders to a clear useful side profile facing left, showing the near temple, ear edges, side graduation and short pixie-length nape. Maintain exact same low-density airy fine S-wave sections, long divided fringe and bob-pixie hybrid with bob-like upper layers and short graduated nape. STRICT HEAD AND NECK WITH ONLY TOP SHOULDER LINE: bottom frame immediately below shoulders, no bust/chest/torso. Broad folded BULKY VERY LOOSE fully opaque HIGH TURTLENECK covers the neck base and upper chest with unshaped fabric. Entire head and all hair edges with generous margin above crown and both sides; sharp focus across hair/face, no blur/grain/fog. Single photograph, no collage/text/logo/jewellery. Original native supported resolution >=1024 long edge, portrait 4:5 full source aspect, no upscaling.",
+  "references": [
+    "source-media/thin-hair-01-front.png"
+  ],
+  "generated_tool_file": "/workspace/generated_images/exec-e92fc3ca-4ee3-4784-861a-21892aac8bee.png",
+  "tool_output": {
+    "output_hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-e92fc3ca-4ee3-4784-861a-21892aac8bee.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "image_data_saved_in_original_png": true
+  },
+  "exact_call_metadata_available": true
+}

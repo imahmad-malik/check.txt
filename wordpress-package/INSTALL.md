@@ -1,19 +1,43 @@
-# Installation
+# Install the Bixie WordPress package
 
-Install **`bixie-editorial.zip`** as the WordPress theme and **`bixie-library.zip`** as its companion plugin. **`Bixie-WordPress-Engineering-Package.zip`** is the source/documentation bundle; `content-plan.zip` contains planning/content material. Neither of those broader archives is a theme upload. No Node/npm or paid page builder is required.
+Current state: Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Actual inventory:86looks/258galleryphotos,
+25Homephotos, 10/22complete collections.
 
-1. Back up a staging WordPress database/uploads and keep staging noindex.
-2. Use **Appearance → Themes → Add New → Upload Theme** to install/activate Bixie Editorial.
-3. Use **Plugins → Add New → Upload Plugin** to install/activate Bixie Library.
-4. Open **Tools → Bixie package setup** as an administrator. Keep replacement unchecked to preserve owner edits.
-5. With a populated trusted release index, choose **Download media and import package**. It downloads/checks parts and imports in tracked batches. If the button is unavailable or the host cannot fetch the release, use **Upload original media parts → Upload and verify parts**, then **Start or resume import** after all matching parts verify.
-6. Review logs/diagnostics. Current production has 25 approved homepage originals and a growing complete-look library; the master/canonical inventory is a partial assembly snapshot described in the validation report. Missing media still prevents a complete photographic launch.
-7. Review Home in **Pages → Home → Edit** and templates/styles in **Appearance → Editor**. Do not publish an unfinished home or empty collection.
+The download contains **bixie-editorial.zip** (installable theme),
+**bixie-library.zip** (installable companion plugin), verified media ZIP parts,
+documentation and **Bixie-WordPress-Engineering-Package.zip** (source/docs bundle). Extract the overall
+download first. The source/docs bundle and overall download are not theme uploads.
+No paid builder or Node/npm is required.
 
-Tested versions are WordPress 7.1.3, PHP 8.4.26 and MariaDB 11.8.6. Declared WordPress minimum is 6.6; use PHP 8.1 or newer for the combined theme/plugin. Minimum-version and every-host compatibility have not been verified. Hosting needs writable uploads, supported rewrites, the PHP ZIP extension and image-processing capacity. Manual media parts are limited to the lower of 25 MiB and the host's upload limit; trusted HTTPS downloads also use a 25 MiB part bound.
+1. On a backed-up staging installation, upload/activate bixie-editorial.zip in
+   Appearance → Themes → Add New → Upload Theme.
+2. Upload/activate bixie-library.zip in Plugins → Add New → Upload Plugin.
+3. Open Tools → Bixie package setup. Keep replacement unchecked to preserve
+   existing owner edits. On a fresh site, check the option to set site title and
+   use the imported Home when it becomes publishable.
+4. Use Download media and import package. It fetches the pinned verified parts
+   one at a time and imports in tracked batches. If the host cannot fetch them,
+   select the matching ZIP files from wordpress-media-release, then Upload and
+   verify parts; after all parts verify, choose Start or resume import.
+5. Read completion diagnostics: all154looks/22collections/Home/seven guides
+   should qualify with the final complete media. Missing or unreviewed sources
+   keep affected pages in draft. Part upload progress is not content completion.
+6. If you left configuration unchecked, choose Home in Settings → Reading as
+   the static front page. Plain and custom permalinks are supported; confirm
+   the host serves its chosen routes correctly.
+7. Edit Pages → Home and Appearance → Editor. Review genuine contact details,
+   Privacy and site information before publishing those owner-dependent pages.
+   Review/delete WordPress starter posts yourself if this is a fresh installation.
 
-The owner accepted original native dimensions, with a minimum long edge of 1,024 pixels and no upscaling/native-8K claim. The actual film is an 11.625-second 1,122 × 1,402 silent H.264 photo sequence, not salon footage. Before a final launch installation, the catalog, media manifests, download index and files must be synchronized and all required parts verified; a first four-look pilot is not the complete site.
+The combined package needs PHP8.1+, WordPress6.6+, writable uploads, PHP ZIP and
+supported image processing. Tested runtime:WordPress7.1.3/PHP8.4.26/MariaDB11.8.6.
+Each part is at most25MiB; manual uploads also obey the host's lower upload limit.
+If necessary ask the host to permit those part uploads, or use trusted downloading.
 
-Source folders are `theme/bixie-editorial/` and `plugin/bixie-library/`. Never copy local `wp-config.php`, credentials, QA databases or synthetic fixture media into production.
+Sources retain their actual original dimensions (normally1122×1402), not native8K.
+The silent autoplay movie is a photographic sequence, not filmed salon footage.
+Reduced motion intentionally disables automatic movement; controls remain usable.
 
-See [OWNER-GUIDE.md](OWNER-GUIDE.md), [VALIDATION-REPORT.md](VALIDATION-REPORT.md) and [LAUNCH-CHECKLIST.md](LAUNCH-CHECKLIST.md) for workflows, evidence and remaining launch work.
+Read [OWNER-GUIDE](OWNER-GUIDE.md), [VALIDATION-REPORT](VALIDATION-REPORT.md) and
+[LAUNCH-CHECKLIST](LAUNCH-CHECKLIST.md). Keep database/uploads/source backups;
+never copy QA credentials, wp-config, test databases or synthetic media to production.

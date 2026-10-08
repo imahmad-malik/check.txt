@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/shaggy-01-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "wavy",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "smooth flat | low blended | curtain | ear-revealing temple pieces | 0-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Side view: blonde shaggy layers, ear framing and short nape.",
+  "caption": "Side: blonde shaggy layers, ear framing and short nape.",
   "generator_original_file": "source-media/shaggy-01-side-retry02.png",
   "generator_original_sha256": "b3f1a9d11fefcd47d48df4da0177691bdcbd1254c32c94e6aad04d87717cc58e",
   "generator_original_bytes": 2362163,
@@ -61,5 +61,32 @@
   ],
   "native_pixel_sha256": "7ad0181dcddc4612496c48b3dc2a2a3544c5c3b99944b603416b208b7f07bc30",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "observed_meta": {
+    "texture": "wavy",
+    "length": "medium",
+    "fringe": "curtain",
+    "colour": "blonde",
+    "finish": "shaggy"
+  },
+  "actual_meta": {
+    "texture": "wavy",
+    "length": "medium",
+    "fringe": "curtain",
+    "colour": "blonde",
+    "finish": "shaggy"
+  },
+  "review": {
+    "passed": true,
+    "method": "Direct review of full-aspect 320x400-or-smaller inspection JPEG; native file dimensions, source SHA and pixel-equivalent lossless WebP checked separately",
+    "fictional_adult": "pass",
+    "clothing": "pass: loose opaque high turtleneck conceals neckline and chest; shoulders-only composition",
+    "hair_margin": "pass: entire hair outline and crown with margin",
+    "angle": "pass: distinct side-facing angle reveals temple, ear and nape",
+    "primary_style": "pass: shaggy layered bob-pixie silhouette with short nape",
+    "observed_features": "blonde shaggy layers, ear framing and short nape",
+    "note": "Left-facing side angle; small far-eye or eyelash glimpse visible on native diagnostic detail. Useful side angle accepted; no exact 90-degree claim.",
+    "native_eye_detail_audit": "Reviewed diagnostic native eye/bridge pixels; far lash glimpse recorded honestly."
+  },
+  "actual_view": "side-facing angle"
 }

@@ -4,8 +4,9 @@
   "angle": "front",
   "prompt": "FRONT VIEW, face level and symmetrically toward camera, both eyes visible, no turn. Create ONE new separate realistic editorial haircut photograph of a fictional ADULT woman. No collage, crops, rotations, duplicate files or text. STRICT COMPOSITION: HEAD AND NECK WITH ONLY THE TOP SHOULDER LINE. The bottom frame ends immediately below the shoulder line, showing no bust, chest or torso at all. BULKY VERY LOOSE OPAQUE HIGH TURTLENECK completely covers the base of neck with broad folded collar and unshaped fabric, no exposed neckline, cleavage, chest or fitted contours. Retain the entire hair/head silhouette with generous clear margin above crown and at both sides. Light neutral studio background and consistent soft daylight. Hair and face in focus; no artificial blur, fog, grain or watermark. Render original native >=1024 long edge at the supported tool resolution without upscaling. Fictional Latina ADULT woman age53 with warm olive skin and brown eyes. HIGH DENSITY COPPER TINY TIGHT SPRING COILS, medium strand thickness, distinctly narrow corkscrews not broad curls/waves. Medium-length SOFT ROUNDED upper coil mass, LONG DIVIDED front coil sections part over middle forehead, extend at temples with eyes visible. Ear outlines visible, TEXTURED TAPERED SHORT NAPE. Dense upper bob-like coil shape transitions to short pixie graduation. Portrait4:5 full source aspect.",
   "references": [],
-  "status": "tool-call-prepared",
-  "output_tool_path": null,
+  "status": "generated-original-saved",
+  "output_tool_path": "/workspace/generated_images/exec-0d62177f-4ec2-44a5-aec4-29d244b7c303.png",
   "exact_call_metadata_available": true,
-  "provenance_file": "/workspace/check.txt/wordpress-package/media/workers/provenance/thick-hair-07-front-resume-fine-thick-attempt01.json"
+  "provenance_file": "/workspace/check.txt/wordpress-package/media/workers/provenance/thick-hair-07-front-resume-fine-thick-attempt01.json",
+  "tool_text_metadata": []
 }

@@ -1,0 +1,11 @@
+{
+  "id": "thin-hair-02-front",
+  "look_id": "thin-hair-02",
+  "angle": "front",
+  "prompt": "FRONT VIEW PRIORITY: face level straight toward camera, both eyes visible, no turn. Create ONE new separate realistic editorial haircut photograph of a fictional ADULT woman. No collage, crops, rotations, duplicate files or text. STRICT COMPOSITION: HEAD AND NECK WITH ONLY THE TOP SHOULDER LINE. The bottom frame ends immediately below the shoulder line, showing no bust, chest or torso at all. BULKY VERY LOOSE OPAQUE HIGH TURTLENECK completely covers the base of neck with broad folded collar and unshaped fabric, no exposed neckline, cleavage, chest or fitted contours. Retain the entire hair/head silhouette with generous clear margin above crown and at both sides. Light neutral studio background and consistent soft daylight. Hair and face in focus; no artificial blur, fog, grain or watermark. Render original native >=1024 long edge at the supported tool resolution without upscaling. A fictional ADULT Middle Eastern woman with olive skin and dark eyes, age 61. PRIMARY HAIRCUT CONSTRAINT: light LOW-DENSITY styling, fine airy strands, modest low-volume hair mass and clear separation between wispy sections. A little scalp naturally glimpses along part and between sections, natural full hairline. No bulky dense dome of hair; avoid thick heavy fringe. Longer divided airy forehead pieces open above the middle forehead and keep eyes visible. A plausible light, lower-density bixie styling example; no medical depiction. Natural copper separate spring ringlets with distinct curling ends. LONG upper/temple sections, LIGHTLY TOUSLED crown and SHORT GRADUATED SHORT PIXIE-LENGTH NAPE. Upper sections retain bob-like movement above visibly shorter graduation, a genuine BOB-PIXIE HYBRID rather than ordinary bob, close pixie or long wolf cut. Ear edges visible. Portrait4:5 full source aspect.",
+  "references": [],
+  "status": "tool-call-prepared",
+  "output_tool_path": null,
+  "exact_call_metadata_available": true,
+  "provenance_file": "/workspace/check.txt/wordpress-package/media/workers/provenance/thin-hair-02-front-resume-thin-bangs-attempt01.json"
+}

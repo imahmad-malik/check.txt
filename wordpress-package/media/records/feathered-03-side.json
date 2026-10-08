@@ -50,8 +50,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | compact squared | full | ear-revealing temple pieces | 2-crown-to-front-proportion"
   },
-  "alt": "True left profile of a fictional adult with a dark feathered bixie, wearing a bulky ivory turtleneck.",
-  "caption": "True profile: a separate original photograph showing the short graduated nape and layered crown.",
+  "alt": "Side view of a fictional adult with a dark feathered bixie, wearing a bulky opaque ivory high turtleneck.",
+  "caption": "Side: separately generated original haircut reference at actual native resolution.",
   "generator_original_file": "source-media/feathered-03-side-retry01.png",
   "generator_original_sha256": "a164c84660b9d6069f6060926bf862808fa5cd79d3365c2c0d4050ebbf9f0dda",
   "generator_original_bytes": 2219146,
@@ -81,26 +81,29 @@
     "ai_concept": true
   },
   "review": {
-    "method": "Direct visual review of full-aspect JPEG reduced to 400px long edge; native dimensions and lossless decoded pixel equality audited separately, no claim of native texture inspection.",
-    "inspection_file": "media/workers/inspection/resume-feathered-wavy/feathered-03-side.jpg",
+    "method": "Direct individual visual inspection of full-aspect JPEG reduced to maximum 400px long edge; native dimensions and lossless decoded RGB pixel equality audited separately. No claim of native full-image texture review.",
     "reviewer": "resume-feathered-wavy",
-    "angle": "True 90-degree left profile; only one eye visible, no far-side eye or lashes",
+    "inspection_file": "media/workers/inspection/resume-feathered-wavy/feathered-03-side.jpg",
+    "source_inspected_via_reduced_JPEG": "source-media/feathered-03-side-retry01.png",
+    "angle": "Left side-facing angle showing ear, temple and short nape; no exact90 claim, a small far-side eyelash glimpse may remain",
     "complete_hair_silhouette": true,
-    "clear_hair_margin": true,
+    "clear_margin_above_crown_and_sides": true,
     "fictional_adult": true,
     "loose_opaque_high_turtleneck": true,
-    "no_exposed_neckline_or_chest_contours": true,
+    "neckline_upper_chest_covered_no_contours": true,
     "head_and_shoulderline_only": true,
-    "matches_approved_front_identity_colour_haircut_clothing_lighting": true,
-    "native_width": 1122,
-    "native_height": 1402,
+    "no_text_or_watermark": true,
+    "matches_approved_reference_identity_hair_clothing_lighting": true,
+    "native_resolution": {
+      "width": 1122,
+      "height": 1402
+    },
     "native_8k": false,
     "upscaled": false,
     "secondary_eye_audit": {
-      "passed": true,
-      "method": "Unscaled390\u00d7290 native eye/bridge JPEG crop after full-aspect review",
       "file": "media/workers/inspection/resume-feathered-wavy/feathered-03-side-eye-audit.jpg",
-      "result": "Single near eye and near eyelashes only; far-side eye/lashes/brow occluded."
+      "method": "Unscaled native facial JPEG crop, secondary eye/bridge inspection only; not a production source",
+      "result": "Useful side-facing view; no exact90 claim. Small far-side lash glimpse allowed by final user-facing side-angle requirement."
     }
   },
   "observed_meta": {

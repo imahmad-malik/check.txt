@@ -1,0 +1,12 @@
+{
+  "id": "over-40-02-back",
+  "prompt": "Create ONE original realistic sharp premium editorial haircut photograph of a fictional ADULT. Portrait full source aspect 4:5, genuine native long edge >=1024, no upscale. Only the FULL HEAD and TOP SHOULDERLINE; all main hair edges, crown, ears and nape visible with generous blank margin above and both sides. A BULKY VERY LOOSE OPAQUE IVORY HIGH TURTLENECK sweater covers neck base and ALL chest; abundant loose knit fabric has NO bust, chest or torso contour. No neckline, exposed shoulder, cleavage, jewelry, text, logo or watermark. Plain light ivory studio, neutral daylight, sharp detailed hair and skin, no blur or bokeh. Use supplied original references for EXACT SAME fictional adult, haircut length and geometry, copper curly hair, fringe, crown and nape, sweater knit, lighting and background. Change ONLY camera viewpoint. Create a NEW separate photograph, never crop or mirror a reference. CENTERED STRAIGHT BACK VIEW, rear head faces camera, ear regions and short tapered nape visible, no face or eyes. ",
+  "references": [
+    "/workspace/check.txt/wordpress-package/source-media/over-40-02-front.png",
+    "/workspace/check.txt/wordpress-package/source-media/over-40-02-side.png"
+  ],
+  "transparent_background": false,
+  "worker": "resume-over40-over60",
+  "exact_prompt_available": true,
+  "exact_reference_arguments_available": true
+}

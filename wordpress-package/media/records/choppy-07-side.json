@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/choppy-07-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "coily",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | compact squared | curtain | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Right side-facing three-quarter view of a copper curly choppy bixie.",
+  "caption": "Copper curls reveal the ear region and cropped nape in this side-facing angle.",
   "generator_original_file": "source-media/choppy-07-side-retry01.png",
   "generator_original_sha256": "160d99a88f07406ea1420d022d7089ccaa9daaa55e93560fc6cf9ceca6a5700e",
   "generator_original_bytes": 2197650,
@@ -59,11 +59,23 @@
     "texture": "curly",
     "colour": "copper"
   },
-  "rejection_reason": "Native eye-region audit exposes far-side lashes or brow; near-profile is not exact90. Prior reduced whole-aspect preview missed this detail.",
   "previous_attempt_records": [
     "media/records/rejected/choppy-07-side-attempt01.json"
   ],
   "native_pixel_sha256": "7c177a4f64cbe13eb59cf4adeeb37c00af5df290e54451ce93e293d11f755626",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "method": "Individual visual inspection of a 320px-wide full-aspect JPEG copy of the generator PNG, plus native dimensions, file checksums and lossless decoded RGB equality audit. The reduced preview establishes framing, clothing, direction and haircut coherence; it does not assert a full-resolution texture audit.",
+    "evidence": "Genuine right side-facing three-quarter angle clearly distinct from front, with visible temple, ear and cropped nape. Native eye crop confirms small far-eye detail, recorded truthfully as three-quarter side angle. Matching freckled adult, copper loose curls, divided fringe and compact rounded crown; same loose bulky opaque high collar and ivory studio.",
+    "checks": {
+      "fictional_adult": true,
+      "loose_opaque_high_turtleneck": true,
+      "complete_hair_silhouette": true,
+      "sharp_hair_in_inspection_preview": true,
+      "native_resolution_at_least_1024": true,
+      "angle_verified": true
+    },
+    "supplementary_native_eye_detail_audit": "Inspected a native-pixel eye/bridge crop. Visible far-eye/lash detail documented; useful side-facing geometry accepted and no exact90 assertion."
+  }
 }

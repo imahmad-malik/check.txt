@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/straight-02-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "straight",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "directional lifted | textured tapered | full | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Side view: straight copper layers, lifted crown and tapered nape.",
+  "caption": "Side: straight copper layers, lifted crown and tapered nape.",
   "generator_original_file": "source-media/straight-02-side-retry02.png",
   "generator_original_sha256": "b25b4c068e7386670e76b390af3093dfea99e408dfdcfaedfa2eaba0281e086d",
   "generator_original_bytes": 2331129,
@@ -61,5 +61,32 @@
   ],
   "native_pixel_sha256": "dc943b658a2aaf0139159065eb1d15c896fc852f0bdcfdbba2043a63f317e8c8",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "observed_meta": {
+    "texture": "straight",
+    "length": "medium",
+    "fringe": "side-swept",
+    "colour": "copper",
+    "finish": "natural"
+  },
+  "actual_meta": {
+    "texture": "straight",
+    "length": "medium",
+    "fringe": "side-swept",
+    "colour": "copper",
+    "finish": "natural"
+  },
+  "review": {
+    "passed": true,
+    "method": "Direct review of full-aspect 320x400-or-smaller inspection JPEG; native file dimensions, source SHA and pixel-equivalent lossless WebP checked separately",
+    "fictional_adult": "pass",
+    "clothing": "pass: loose opaque high turtleneck conceals neckline and chest; shoulders-only composition",
+    "hair_margin": "pass: entire hair outline and crown with margin",
+    "angle": "pass: distinct side-facing angle reveals temple, ear and nape",
+    "primary_style": "pass: straight strands and short graduated bixie silhouette",
+    "observed_features": "straight copper layers, lifted crown and tapered nape",
+    "note": "Left-facing side angle; small far-eye or eyelash glimpse visible on native diagnostic detail. Useful side angle accepted; no exact 90-degree claim.",
+    "native_eye_detail_audit": "Reviewed diagnostic native eye/bridge pixels; far lash glimpse recorded honestly."
+  },
+  "actual_view": "side-facing angle"
 }

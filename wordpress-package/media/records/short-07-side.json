@@ -26,8 +26,8 @@
   "reference_source_files": [
     "/workspace/check.txt/wordpress-package/source-media/short-07-front.png"
   ],
-  "approved": false,
-  "review_status": "awaiting-direct-source-review",
+  "approved": true,
+  "review_status": "approved",
   "public_status": "draft",
   "expected_meta": {
     "texture": "coily",
@@ -49,8 +49,8 @@
     "ear_outline": "ear-revealing temple pieces",
     "distinctness_basis": "compact rounded | low blended | wispy | ear-revealing temple pieces | 1-crown-to-front-proportion"
   },
-  "alt": "Pending direct review of corrected native source",
-  "caption": "Generated fictional adult haircut reference; actual native dimensions recorded.",
+  "alt": "Right side angle of the compact copper-coil short bixie.",
+  "caption": "Side-facing camera angle shows the temple, ear outline and short nape.",
   "generator_original_file": "source-media/short-07-side-retry02.png",
   "generator_original_sha256": "0b3791c818c08f8d603acecc3209da9560ebaf208d085a07c17aa8bc8c45ae3b",
   "generator_original_bytes": 2274861,
@@ -61,5 +61,24 @@
   ],
   "native_pixel_sha256": "818d7652d5dc3bf5e0a2350b017ef42d3f21226e527cb0ed1064e5e575a57bdd",
   "native_pixel_identical_to_generator_png": true,
-  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG"
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "review": {
+    "method": "Individual direct visual inspection of a full-aspect JPEG reduced to at most 400 pixels long edge; this visual review is not a native-resolution texture audit. Native originals and lossless WebP preserved.",
+    "evidence": "Genuine new right side-facing lateral photograph with clear nose profile, temple, ear and nape, clearly different from frontal view. Adult identity, haircut, colour and texture match approved front and back. Complete hair margins, bulky loose ivory opaque high turtleneck and studio light retained. Full-aspect400px JPEG reviewed; additional native-pixel eye/bridge detail crop inspected. Small far-lash tips may appear; exact measured90-degree rotation not claimed.",
+    "checks": {
+      "fictional_adult": true,
+      "loose_opaque_high_turtleneck": true,
+      "no_exposed_neckline_or_chest": true,
+      "complete_hair_silhouette": true,
+      "hair_detail_visible_in_reduced_inspection": true,
+      "native_resolution_at_least_1024": true,
+      "angle_verified": true,
+      "pixel_identical_native_encoding": true
+    },
+    "secondary_native_eye_detail_audit": {
+      "inspection": "/tmp/classicshortdetails/short-07-side-current-eye.jpg",
+      "method": "400x300 native-pixel JPEG crop without scaling; secondary detail supports angle, full-aspect review supports whole haircut/clothing.",
+      "result": "Distinct useful lateral side-facing angle accepted; cosmetic far-lash tips permitted."
+    }
+  }
 }

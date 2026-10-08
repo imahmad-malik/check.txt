@@ -1,0 +1,100 @@
+{
+  "id": "over-50-04-side",
+  "key": "over-50-04-side",
+  "look_id": "over-50-04",
+  "look_key": "over-50-04",
+  "canonical_look_key": "over-50-04",
+  "collection": "over-50",
+  "usage": "collection",
+  "angle": "side",
+  "source_file": "source-media/over-50-04-side-native.webp",
+  "file": "media/over-50-04-side.webp",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "06abbc89860f28dd51eae622c01044886b9206c0692010ef42aa572d38321985",
+  "display_sha256": "3abd7200887a422c2a65b34ff49ff6048a4d09d86825709d95bd91bcc2366233",
+  "source_bytes": 1435518,
+  "display_bytes": 299592,
+  "native_original": true,
+  "native_8k": false,
+  "upscaled": false,
+  "generated": true,
+  "fictional_adult": true,
+  "generated_tool_file": "/workspace/generated_images/exec-7165ca49-e6c7-48ad-a4db-73941c3283fd.png",
+  "generator": "OpenAI image_gen",
+  "exact_generation_prompt": "Create ONE original sharp realistic premium editorial haircut photograph, NOT a collage, contact sheet, sprite or illustration. The person is a fictional ADULT. HEAD AND SHOULDERS only: complete top of head, all main hair edges, ears and entire haircut silhouette visible, with clear breathing room above the crown and generous margin at both sides. No close crop, no torso emphasis. LOOSE OPAQUE HIGH TURTLENECK LONG-SLEEVED jumper covers neckline and all upper chest, with generous fabric so no chest or torso contour; no low cut, open collar, sleeveless outfit or exposed upper chest. Plain light ivory studio; neutral daylight, sharp face and ALL hair detail, sufficient depth of field; no deliberate blur, bokeh, grain, fog or defocus filter. Natural skin texture, restrained premium salon colour. No text, logos, watermark, jewellery, celebrity likeness, stock or competitor reference. Preserve full source aspect. Render at genuine original native resolution supported by this tool, preferably at least1024pixels long edge. No enlargement or upscaling. Refer to the approved FRONT source. Make a NEW separate photograph of the EXACT SAME fictional adult woman, EXACT SAME haircut, hair colour, fringe, crown and nape geometry, loose opaque high-turtleneck jumper, lighting and studio background. Change only camera viewpoint. Create one original editorial photograph of a fictional adult with a true bob-pixie hybrid. Primary collection: Bixie haircuts over 50. Design: directional lifted | compact squared | light broken | ear-revealing temple pieces | 3-crown-to-front-proportion. Attributes: {\"texture\": \"straight\", \"strand\": \"medium\", \"density\": \"medium\", \"length\": \"medium\", \"fringe\": \"light broken\", \"colour\": \"grey\", \"finish\": \"natural\", \"age_reference\": \"over-50\", \"face_reference\": \"unspecified\", \"maintenance\": \"discuss\"}. Neutral warm stone setting, natural skin, soft studio daylight, full head/hair/ears/nape visible without crop. Fully covered modest outfit, closed high neckline, long sleeves, no exposed shoulders, chest or back. Portrait 4:5, no words, watermark or logos. Do not substitute an ordinary bob, close pixie or long wolf cut. Render a clearly distinct haircut concept rather than only changing colour or model age. True LEFT SIDE PROFILE, face fully side-on and whole short nape visible, not three-quarter. Never create a collage or crop an existing image; this must be one genuine new angle output file. Make exactly one separate original photograph. BULKY LOOSE OPAQUE HIGH TURTLENECK; framing only head plus shoulder line, no exposed neckline/chest/cleavage or fitted body contours. Preserve full sharp head/hair silhouette with clear crown and side margins. Genuine native long edge at least1024; no upscaling or 8K claim. Age requirement: the adult is visibly at least50, with natural mature skin texture and facial lines appropriate to the specified age; preserve an authentic mature appearance. The approved reference actual texture straight and colour grey are authoritative; preserve exactly what is visible in those reference photographs even if the initial brief differs. LEFT SIDE-FACING PORTRAIT, face genuinely lateral with nose pointing left, ear/temple and entire nape revealed, clearly distinct from front. No near-frontal duplicate. Preserve the approved adult identity, actual haircut/colour, high ivory collar, background and lighting. A small far-eye glimpse may occur naturally; actual view will be described truthfully.",
+  "reference_source_files": [
+    "/workspace/check.txt/wordpress-package/source-media/over-50-04-front.png"
+  ],
+  "approved": true,
+  "review_status": "approved",
+  "public_status": "draft",
+  "expected_meta": {
+    "texture": "straight",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "light broken",
+    "colour": "grey",
+    "finish": "natural",
+    "age_reference": "over-50",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "shape_brief": {
+    "crown": "directional lifted",
+    "nape": "compact squared",
+    "fringe": "light broken",
+    "ear_outline": "ear-revealing temple pieces",
+    "distinctness_basis": "directional lifted | compact squared | light broken | ear-revealing temple pieces | 3-crown-to-front-proportion"
+  },
+  "alt": "Side view of a grey straight bixie.",
+  "caption": "Side-facing three-quarter view with a small far-eye glimpse, temple/ear and compact nape visible; same mature olive adult, silver-grey straight separated layers and high ivory knit as front. No exact90-degree claim.",
+  "generator_original_file": "source-media/over-50-04-side.png",
+  "generator_original_sha256": "b6e6d9c0248731adccd6e1da6e0448a73ef5953b5c6cbc426cd85e3bf0fe12bd",
+  "generator_original_bytes": 2318176,
+  "native_pixel_sha256": "1662314cc07ac75a01f007d20fef805edc64de8bcf868f584d9cf13e6a77fc2a",
+  "native_pixel_identical_to_generator_png": true,
+  "native_source_encoding": "lossless WebP; decoded RGB pixels identical to generator PNG",
+  "actual_tool_reference_paths": [
+    "/workspace/check.txt/wordpress-package/source-media/over-50-04-front.png"
+  ],
+  "provenance_file": "media/workers/provenance/over-50-04-side-resume-over50-grey-attempt01.json",
+  "actual_meta": {
+    "texture": "straight",
+    "strand": "medium",
+    "density": "medium",
+    "length": "medium",
+    "fringe": "light broken",
+    "colour": "grey",
+    "finish": "natural",
+    "age_reference": "over-50",
+    "face_reference": "unspecified",
+    "maintenance": "discuss",
+    "ai_concept": true
+  },
+  "expected_meta_matches_actual": true,
+  "observed_meta": {
+    "texture": "straight",
+    "colour": "grey",
+    "length": "medium",
+    "fringe": "light broken",
+    "finish": "natural",
+    "age_reference": "over-50",
+    "description": "Side-facing three-quarter view with a small far-eye glimpse, temple/ear and compact nape visible; same mature olive adult, silver-grey straight separated layers and high ivory knit as front. No exact90-degree claim."
+  },
+  "review": {
+    "method": "Direct separate full-aspect reduced JPEG inspection at 320x400 or smaller; native texture not inspected at full size",
+    "attire": "pass: bulky loose opaque high turtleneck covers neckline/chest, shoulder line framing, no fitted chest contours",
+    "framing": "pass: full sharp-appearing main hair/head silhouette with margins",
+    "angle": "pass: genuine side-facing lateral portrait clearly distinct from front, revealing temple/ear/nape; no exact90-degree claim",
+    "native_detail": "Dimensions verified 1122x1402; native long edge >=1024, PNG retained and lossless WebP decoded pixel equality verified; fine texture not judged at native scale",
+    "visible_features": "Side-facing three-quarter view with a small far-eye glimpse, temple/ear and compact nape visible; same mature olive adult, silver-grey straight separated layers and high ivory knit as front. No exact90-degree claim.",
+    "secondary_native_eye_audit": {
+      "passed": true,
+      "method": "Native-pixel400x360eye/bridgeJPEGcrop viewed beside full-aspect320x400JPEG",
+      "criterion": "Genuine lateral side-facing angle with temple/ear/nape and clear change from front; small far-eye or lash glimpse allowed, no exact90-degree claim"
+    }
+  }
+}
