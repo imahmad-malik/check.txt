@@ -1,6 +1,6 @@
 # Continue the saved Bixie WordPress project
 
-Snapshot: **2026-10-08 15:01 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
+Snapshot: **2026-10-08 15:16 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 The user's authorized goal is the complete installable WordPress site with
 original image-led collections, an extra-long editable Home, companion plugin,

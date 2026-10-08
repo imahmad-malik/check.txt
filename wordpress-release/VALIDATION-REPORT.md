@@ -1,6 +1,6 @@
 # Bixie WordPress validation
 
-Snapshot: **2026-10-08 15:01 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
+Snapshot: **2026-10-08 15:16 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 ## Actual content inventory
 
@@ -74,7 +74,7 @@ acceptance; it retains the earlier synthetic-test site unchanged.
 | [wp-bundle-security-report.json](tests/wp-bundle-security-report.json) | Passed within its stated scope |
 | [wp-attachment-film-report.json](tests/wp-attachment-film-report.json) | Passed within its stated scope |
 | [wp-seo-report.json](tests/wp-seo-report.json) | Passed within its stated scope |
-| [wp-browser-report.json](tests/wp-browser-report.json) | Read report; incomplete or failing checks remain |
+| [wp-browser-report.json](tests/wp-browser-report.json) | Diagnostic observations; no overall acceptance verdict |
 | [plugin-wordpress-editor-report.json](tests/plugin-wordpress-editor-report.json) | Passed within its stated scope |
 
 The available 128-look engineering package passed actual WordPress core ZIP
@@ -115,6 +115,9 @@ Full final ZIP/core installation, all production media import and completed
 78-source Home/22-collection browser acceptance must be assessed from the final
 reports, not inferred from the four-look pilot or80-look integration snapshot.
 Archive CRC/SHA and published HTTPS downloads require separate delivery checks.
+HTTPS checks approve only the immutable commit and file hashes named in their
+report. Download verification follows archive assembly; an earlier diagnostic
+report does not approve a later documentation/source ZIP revision.
 
 ## Unverified host and external integration checks
 
