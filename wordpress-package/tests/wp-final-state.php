@@ -31,6 +31,16 @@ foreach ($package_attachments as $post) {
     $hash = $source && is_file($source) ? hash_file('sha256', $source) : '';
     $source_hashes[$key] = $hash;
     $state['attachments'][$key] = ['id' => $id, 'parent' => $post->post_parent, 'mime' => get_post_mime_type($id), 'sourceExists' => $source && is_file($source), 'displayExists' => $display && is_file($display), 'nativeSize' => $size ? [$size[0], $size[1]] : null, 'recordedSize' => [(int) get_post_meta($id, '_bixie_source_width', true), (int) get_post_meta($id, '_bixie_source_height', true)], 'sourceSHA256' => $hash, 'expectedSHA256' => $expected[$key]['sha256'] ?? '', 'nativeURL' => bixie_original_source_url($id), 'displayURL' => wp_get_attachment_url($id), 'approved' => (bool) get_post_meta($id, '_bixie_review_approved', true), 'nativeVerified' => (bool) get_post_meta($id, '_bixie_native_verified', true), 'qualified' => $film ? bixie_check_film($id) : (bool) bixie_check_look(0, [['id' => $id, 'angle' => 'reference']])['ids'], 'filmSourceKeys' => $film ? bixie_array_meta($id, '_bixie_film_source_keys') : []];
+    $variants = [$state['attachments'][$key]['displayURL'], $state['attachments'][$key]['nativeURL']];
+    if (!$film) {
+        $metadata = wp_get_attachment_metadata($id);
+        foreach ((array) ($metadata['sizes'] ?? []) as $name => $variant) {
+            $file = dirname($display) . '/' . basename($variant['file'] ?? '');
+            $image = wp_get_attachment_image_src($id, $name);
+            if ($image && is_file($file)) { $variants[] = $image[0]; }
+        }
+    }
+    $state['attachments'][$key]['registeredImageVariantURLs'] = array_values(array_unique($variants));
     if ($film) { $film_count++; } else { $photo_count++; }
 }
 $posts = get_posts(['post_type' => ['bixie_look', 'page'], 'post_status' => ['publish', 'draft', 'private', 'pending'], 'posts_per_page' => -1, 'orderby' => 'ID', 'order' => 'ASC', 'meta_key' => '_bixie_import_key']);

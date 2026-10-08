@@ -1,6 +1,6 @@
 # Bixie WordPress validation
 
-Snapshot: **2026-10-08 13:54 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
+Snapshot: **2026-10-08 14:33 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 ## Actual content inventory
 
@@ -58,10 +58,14 @@ acceptance; it retains the earlier synthetic-test site unchanged.
 | [wp-live-pilot-report.json](tests/wp-live-pilot-report.json) | Passed within its stated scope |
 | [wp-permalink-report.json](tests/wp-permalink-report.json) | Passed within its stated scope |
 | [wp-final-environment-report.json](tests/wp-final-environment-report.json) | Passed within its stated scope |
+| [wp-engineering-core-zip-report.json](tests/wp-engineering-core-zip-report.json) | Passed within its stated scope |
+| [wp-final-engineering-import-report.json](tests/wp-final-engineering-import-report.json) | Passed within its stated scope |
+| [wp-engineering-home-report.json](tests/wp-engineering-home-report.json) | Read report; incomplete or failing checks remain |
 | [wp-final-alias-report.json](tests/wp-final-alias-report.json) | Passed within its stated scope |
 | [wp-final-permalink-report.json](tests/wp-final-permalink-report.json) | Passed within its stated scope |
 | [wp-filter-alias-report.json](tests/wp-filter-alias-report.json) | Passed within its stated scope |
 | [release-archive-report.json](tests/release-archive-report.json) | Passed within its stated scope |
+| [https-saved-media-report.json](tests/https-saved-media-report.json) | Passed within its stated scope |
 | [wp-publication-report.json](tests/wp-publication-report.json) | Passed within its stated scope |
 | [wp-bundle-security-report.json](tests/wp-bundle-security-report.json) | Passed within its stated scope |
 | [wp-attachment-film-report.json](tests/wp-attachment-film-report.json) | Passed within its stated scope |

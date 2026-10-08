@@ -2,6 +2,7 @@
 """Actual authenticated incomplete Home preview; never publishes it."""
 import base64
 import importlib.util
+import hashlib
 import json
 import traceback
 from datetime import datetime, timezone
@@ -23,7 +24,7 @@ def main():
     report={'generatedAtUTC':datetime.now(timezone.utc).isoformat(),'release_scope':'engineering_installable_media_incomplete','scope':'Actual authenticated draft Home on local noindex WordPress. This incomplete checkpoint does not publish Home or claim the 154-look target. Preview capability tokens and owner authentication are excluded.','checks':{},'geometry':{},'motion':{},'film':{},'screenshots':{},'passed':False}
     def save():destination.write_text(json.dumps(report,indent=2)+'\n')
     try:
-        data=inspect();home=data['home'];before=data['preservation'];report['homeState']=home;save()
+        data=inspect();home=data['home'];before=data['preservation'];report['homeState']=home;report['actualStructure']={'nativeGalleries':9,'photoShelfGalleries':8,'multiplePhotoMovingShelfGalleries':7,'openingMovingRail':1,'overflowingMovingRails':8,'genuinelySinglePhotoShelf':1,'separateStaticFrontSideBackPlate':1};save()
         assert home['status']=='draft' and not home['gate']['complete'] and home['sectionCount']==22
         expected=len(home['uniquePhotoIDs']);assert expected>50
         # This owner preview has no capability nonce in its URL. No private URL is recorded.
@@ -33,55 +34,90 @@ def main():
         with sync_playwright() as playwright:
             browser=playwright.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
             auth,page=authenticate(browser);auth.close()
+            anonymous=browser.new_context();public_home=anonymous.request.get(home['url'])
+            assert public_home.status==404,public_home.status
+            report['anonymousDraftHomeHTTP']=public_home.status;report['checks']['incompleteHomeIsUnavailableToAnonymousVisitors']=True
+            public_home.dispose();anonymous.close();save()
             for name,width,height in [('desktop',1440,1100),('phone',390,844)]:
                 context=browser.new_context(storage_state=str(AUTH),viewport={'width':width,'height':height},reduced_motion='reduce')
                 page=context.new_page();page.on('pageerror',lambda error:errors.append(str(error)))
                 page.on('response',lambda response:failures.append({'HTTP':response.status,'path':response.url.split('?')[0]}) if response.status>=400 else None)
                 response=page.goto(preview,wait_until='networkidle');assert response.status==200
+                assert page.locator('main h1').count()==1 and page.locator('main .wp-block-post-title').count()==0
+                report['checks']['nativeHomeSlugDraftPreviewUsesSingleHeroHeadingWithoutDuplicatePostTitle']=True;save()
                 assert page.locator('main .bixie-section').count()==22
-                assert page.locator('main .bixie-moving-shelf').count()==9
-                photos=browser_utilities.painted_images(page,'main .bixie-home img',context,expected,sample_edges=False)
+                assert page.locator('main .bixie-moving-shelf').count()==8 and page.locator('main .bixie-home .wp-block-gallery').count()==9
+                photos=browser_utilities.painted_images(page,'main .bixie-home img',context,expected,sample_edges=False,attachment_records=data['attachments'])
+                report['geometry'][name]={'actualImageElements':expected,'allNaturalPhotoGeometry':photos};save()
                 assert {int(photo['attachmentID']) for photo in photos}==set(home['uniquePhotoIDs'])
-                for shelf in page.locator('main .bixie-moving-shelf').all():
+                for shelf in page.locator('main .bixie-home .wp-block-gallery').all():
                     # First and last original of every shelf exercise both ends of its horizontal flow.
                     for element in [shelf.locator('img').first,shelf.locator('img').last]:
-                        element.scroll_into_view_if_needed();source=context.request.get(element.evaluate('e=>e.currentSrc||e.src'))
+                        element.scroll_into_view_if_needed();selected=element.evaluate('e=>e.currentSrc||e.src')
+                        original=next(record for record in data['attachments'].values() if selected in record['registeredImageVariantURLs'])
+                        source=context.request.get(original['nativeURL'])
                         assert source.status==200
+                        assert hashlib.sha256(source.body()).hexdigest()==original['sourceSHA256']
                         edge=utilities.edge_comparison(element.screenshot(),source.body());source.dispose()
                         assert edge['fullSourceEdgesPainted'],(name,edge)
                 assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
+                contrast=page.locator('main .bixie-section:is(.is-moss,.is-ink,.is-copper)').evaluate_all('''es=>{
+ const values=c=>(c.match(/[0-9.]+/g)||[]).map(Number);
+ const luminance=rgb=>rgb.slice(0,3).map(x=>{x/=255;return x<=.04045?x/12.92:((x+.055)/1.055)**2.4;}).reduce((s,x,i)=>s+x*[.2126,.7152,.0722][i],0);
+ return es.map(section=>{const background=values(getComputedStyle(section).backgroundColor);return {palette:[...section.classList].find(c=>['is-moss','is-ink','is-copper'].includes(c)),background,text:[...section.querySelectorAll('.bixie-section-intro p,.bixie-caption,figcaption')].map(e=>{const style=getComputedStyle(e),color=values(style.color);let opacity=color.length>3?color[3]:1;for(let n=e;n&&n!==section;n=n.parentElement)opacity*=Number(getComputedStyle(n).opacity);const painted=color.slice(0,3).map((x,i)=>x*opacity+background[i]*(1-opacity));const a=luminance(painted),b=luminance(background);return {element:e.tagName,className:e.className,color:style.color,opacity,ratio:(Math.max(a,b)+.05)/(Math.min(a,b)+.05)};})};});
+ }''')
+                assert {row['palette'] for row in contrast}=={'is-moss','is-ink','is-copper'}
+                assert all(row['text'] and all(text['ratio']>=4.5 for text in row['text']) for row in contrast),contrast
+                report.setdefault('actualDarkSectionTextContrast',{})[name]=contrast;report['checks']['actualMossInkCopperCaptionAndIntroComputedContrastAtLeast4point5']=True;save()
                 poster=data['attachments']['home-motion-poster'];assert page.locator(utilities.VIDEO).get_attribute('poster')==poster['displayURL']
-                report['geometry'][name]={'actualImageElements':expected,'uniqueImageAttachmentIDs':expected,'distinctFilmPoster':len(set(home['posterIDs'])),'allNaturalPhotoGeometry':photos,'nineShelfFirstAndLastSourceEdgesPainted':True,'horizontalOverflow':False};save()
+                report['geometry'][name]={'actualImageElements':expected,'uniqueImageAttachmentIDs':expected,'distinctFilmPoster':len(set(home['posterIDs'])),'allNaturalPhotoGeometry':photos,'allNineNativeGalleriesFirstAndLastSourceEdgesPainted':True,'horizontalOverflow':False};save()
                 page.locator('.bixie-photo-row').evaluate_all('es=>es.forEach(e=>e.scrollLeft=0)');page.evaluate('scrollTo(0,0)');page.wait_for_timeout(150)
                 for shape,full in [('opening',False),('full-page',True)]:
                     path=screenshots/('engineering-home-'+name+'-'+shape+'.png')
                     page.screenshot(path=str(path),full_page=full,style='#wpadminbar{display:none!important}')
                     report['screenshots'][name+'-'+shape]=str(path.relative_to(TESTS));save()
+                page.locator('.bixie-shelf-flow').first.scroll_into_view_if_needed()
+                path=screenshots/('engineering-home-'+name+'-shelf-controls.png')
+                page.screenshot(path=str(path),style='#wpadminbar{display:none!important}')
+                report['screenshots'][name+'-shelf-controls']=str(path.relative_to(TESTS));save()
                 collection=next(record for record in data['collections'].values() if record['gate']['complete'])
                 page.goto(collection['url'],wait_until='networkidle');assert page.locator('.bixie-results img').count()==21
                 browser_utilities.painted_images(page,'.bixie-results img',context,21,sample_edges=False)
                 page.evaluate('scrollTo(0,0)');path=screenshots/('engineering-real-21-view-collection-'+name+'.png')
-                page.screenshot(path=str(path),full_page=True,style='#wpadminbar{display:none!important}');report['screenshots']['collection-'+name]=str(path.relative_to(TESTS));save();context.close()
-            report['checks']['draftHomeActualImagesAndNineShelvesWholeSourceAtDesktopPhone']=True
+                page.screenshot(path=str(path),full_page=True,style='#wpadminbar{display:none!important}');report['screenshots']['collection-'+name]=str(path.relative_to(TESTS));save()
+                page.locator('.bixie-results .bixie-look-card').first.scroll_into_view_if_needed()
+                path=screenshots/('engineering-real-three-view-card-'+name+'.png')
+                page.screenshot(path=str(path),style='#wpadminbar{display:none!important}')
+                report['screenshots']['three-view-card-'+name]=str(path.relative_to(TESTS));save();context.close()
+            report['checks']['draftHomeActualImagesAndAllNineNativeGalleriesWholeSourceAtDesktopPhone']=True
             for name,width,height in [('desktop',1440,1100),('phone',390,844)]:
                 context=browser.new_context(storage_state=str(AUTH),viewport={'width':width,'height':height})
                 page=context.new_page();page.goto(preview,wait_until='networkidle')
-                rails=page.locator('main .bixie-photo-row');assert rails.count()==10
+                rails=page.locator('main .bixie-photo-row');assert rails.count()==9
                 observations=[]
                 for index,rail in enumerate(rails.all()):
                     rail.scroll_into_view_if_needed();page.wait_for_timeout(250)
+                    travel=rail.evaluate('e=>e.scrollWidth-e.clientWidth');photo_count=rail.locator('img').count()
+                    if photo_count==1:
+                        static=rail.evaluate('e=>{const g=e.closest(".bixie-shelf-flow");return {wrapperAnchor:g?.id,controls:g?.querySelectorAll("[data-bixie-motion-toggle]").length||0};}')
+                        assert travel<=1 and static['controls']==0,(name,index,travel,static)
+                        observations.append({**static,'actualPhotos':1,'travel':travel,'genuinelyPartialSinglePhotoShelfStaticWithoutEmptyControl':True});report['motion'][name]=observations;save();continue
                     rail_id=rail.get_attribute('id');assert rail_id
-                    control=page.locator('[data-bixie-motion-toggle][aria-controls="'+rail_id+'"]');assert control.count()==1
-                    travel=rail.evaluate('e=>e.scrollWidth-e.clientWidth');assert travel>1,(name,index,travel)
+                    control=page.locator('[data-bixie-motion-toggle][aria-controls="'+rail_id+'"]')
+                    assert travel>1 and control.count()==1,(name,index,travel,control.count())
                     start=rail.evaluate('e=>e.scrollLeft');page.wait_for_timeout(650);advanced=rail.evaluate('e=>e.scrollLeft');assert abs(advanced-start)>2,(name,index,start,advanced)
                     control.click();rail.scroll_into_view_if_needed();page.wait_for_timeout(200);paused=rail.evaluate('e=>e.scrollLeft');page.wait_for_timeout(400)
                     assert abs(rail.evaluate('e=>e.scrollLeft')-paused)<1 and control.get_attribute('aria-pressed')=='true'
                     other_controls=page.locator('[data-bixie-motion-toggle]').evaluate_all('(es,id)=>es.filter(e=>e.getAttribute("aria-controls")!==id).map(e=>e.getAttribute("aria-pressed"))',rail_id)
                     assert all(value=='false' for value in other_controls),other_controls
-                    control.click();rail.scroll_into_view_if_needed();page.wait_for_timeout(250);resumed=rail.evaluate('e=>e.scrollLeft');page.wait_for_timeout(450);assert abs(rail.evaluate('e=>e.scrollLeft')-resumed)>2
+                    control.click();rail.scroll_into_view_if_needed();page.wait_for_timeout(250);resumed=rail.evaluate('e=>e.scrollLeft');page.wait_for_timeout(650)
+                    resumed_after=rail.evaluate('e=>e.scrollLeft')
+                    report['motionResumeObservations']=report.get('motionResumeObservations',[])+[{'viewport':name,'railID':rail_id,'before':resumed,'after':resumed_after,'ariaPressed':control.get_attribute('aria-pressed'),'geometry':rail.evaluate('e=>{const r=e.getBoundingClientRect();return {top:r.top,bottom:r.bottom,height:r.height,viewport:innerHeight};}') }];save()
+                    assert abs(resumed_after-resumed)>2,(name,rail_id,resumed,resumed_after,report['motionResumeObservations'][-1])
                     rail.evaluate('e=>window.scrollTo(0,e.getBoundingClientRect().top<1000?document.body.scrollHeight:0)');page.wait_for_timeout(250)
                     offscreen=rail.evaluate('e=>e.scrollLeft');page.wait_for_timeout(400);assert abs(rail.evaluate('e=>e.scrollLeft')-offscreen)<1
-                    observations.append({'railID':rail_id,'actualPhotos':rail.locator('img').count(),'travel':travel,'start':start,'advanced':advanced,'scopedPause':True,'otherRailsUnpaused':True,'resumed':True,'offscreenStopped':True});report['motion'][name]=observations;save()
+                    observations.append({'railID':rail_id,'actualPhotos':photo_count,'travel':travel,'start':start,'advanced':advanced,'scopedPause':True,'otherRailsUnpaused':True,'resumed':True,'offscreenStopped':True});report['motion'][name]=observations;save()
+                assert sum(row.get('scopedPause') is True for row in observations)==8 and sum(row.get('genuinelyPartialSinglePhotoShelfStaticWithoutEmptyControl') is True for row in observations)==1
                 video=page.locator(utilities.VIDEO);video.scroll_into_view_if_needed();utilities.wait_playing(page)
                 film=utilities.sample(page);assert film['timeAdvanced'] and film['after']['muted'] and film['after']['playsInline'] and film['after']['controls'] and film['after']['decodedFrames']>0
                 assert [film['after']['videoWidth'],film['after']['videoHeight']]==[1122,1402]
@@ -93,28 +129,37 @@ def main():
                 page.evaluate('scrollTo(0,0)');page.wait_for_timeout(200);video.scroll_into_view_if_needed();page.wait_for_timeout(250);assert utilities.sample(page)['timeStopped']
                 video.focus();page.keyboard.press('Space');utilities.wait_playing(page);page.evaluate('scrollTo(0,0)');utilities.wait_paused(page)
                 report['film'][name]={'visibleMutedInlineAutoplay':film,'geometry':geometry,'actualDecodedSourceEdges':edge,'nativeSpacePauseAndVisibilityReturnPreserved':True,'offscreenStopped':True};save();context.close()
-            report['checks']['openingRailAndNineNativeShelvesMovePauseIndependentlyAndStopOffscreen']=True
+            report['checks']['openingRailAndSevenMultiplePhotoNativeShelvesMovePauseIndependentlyOneGenuineSinglePhotoShelfAndThreeAnglePlateStayStatic']=True
             report['checks']['actualFilmAutoplayMutedInlineFullDecodedFrameNativeKeyboardPauseOffscreen']=True
             context=browser.new_context(storage_state=str(AUTH),viewport={'width':390,'height':844},reduced_motion='reduce')
             page=context.new_page();page.goto(preview,wait_until='networkidle');reduced=[]
             for rail in page.locator('main .bixie-photo-row').all():
                 rail.scroll_into_view_if_needed();page.wait_for_timeout(200);initial=rail.evaluate('e=>e.scrollLeft');page.wait_for_timeout(400);assert abs(rail.evaluate('e=>e.scrollLeft')-initial)<1
-                control=page.locator('[data-bixie-motion-toggle][aria-controls="'+rail.get_attribute('id')+'"]');assert control.get_attribute('data-bixie-reduced')=='true'
+                if rail.locator('img').count()==1:
+                    static=rail.evaluate('e=>{const g=e.closest(".bixie-shelf-flow");return {wrapperAnchor:g?.id,controls:g?.querySelectorAll("[data-bixie-motion-toggle]").length||0};}')
+                    assert static['controls']==0 and rail.evaluate('e=>e.scrollWidth-e.clientWidth')<=1
+                    reduced.append({**static,'actualPhotos':1,'staticSinglePhotoWithoutEmptyControl':True});continue
+                control=page.locator('[data-bixie-motion-toggle][aria-controls="'+rail.get_attribute('id')+'"]')
+                assert control.count()==1 and control.get_attribute('data-bixie-reduced')=='true'
                 control.click();advanced=rail.evaluate('e=>e.scrollLeft');assert abs(advanced-initial)>2
                 reduced.append({'railID':rail.get_attribute('id'),'automaticStopped':True,'explicitNextAdvanced':True})
             video=page.locator(utilities.VIDEO);video.scroll_into_view_if_needed();page.wait_for_timeout(300);assert utilities.state(page)['paused']
             page.locator('[data-bixie-video-toggle]').click();utilities.wait_playing(page);assert utilities.sample(page)['timeAdvanced']
-            report['reducedMotion']=reduced;report['checks']['reducedMotionAllTenRailsAndFilmStopAutomaticAndExplicitControlsWork']=True;save()
+            assert len(reduced)==9 and sum(row.get('explicitNextAdvanced') is True for row in reduced)==8
+            report['reducedMotion']=reduced;report['checks']['reducedMotionEightOverflowingRailsAndFilmStopAutomaticAndExplicitControlsWorkSinglePhotoShelfStatic']=True;save()
             page.emulate_media(media='print');printing=page.locator('.bixie-moving-shelf').evaluate_all('es=>es.map(e=>{const s=getComputedStyle(e);return {flow:s.gridAutoFlow,columns:s.gridTemplateColumns,overflow:s.overflow,photos:e.querySelectorAll("img").length};})')
-            assert len(printing)==9 and all(row['flow']=='row' and row['overflow']=='visible' and len(row['columns'].split())==3 for row in printing),printing
-            report['printNineShelves']=printing;report['checks']['printReturnsNineFullVisibleThreeColumnNativeGalleries']=True;save();context.close()
+            assert len(printing)==8 and all(row['flow']=='row' and row['overflow']=='visible' and len(row['columns'].split())==3 for row in printing),printing
+            print_text=page.locator('main .bixie-section:is(.is-moss,.is-ink,.is-copper)').evaluate_all('es=>es.map(e=>({background:getComputedStyle(e).backgroundColor,text:[...e.querySelectorAll(".bixie-section-intro p,.bixie-caption,figcaption")].map(t=>getComputedStyle(t).color)}))')
+            assert print_text and all(row['background']=='rgb(255, 255, 255)' and row['text'] and all(color=='rgb(0, 0, 0)' for color in row['text']) for row in print_text),print_text
+            report['printDarkSectionText']=print_text;report['checks']['printDarkSectionsUseBlackCaptionAndIntroTextOnWhite']=True
+            report['printEightShelves']=printing;report['checks']['printReturnsEightShelfGalleriesToFullVisibleThreeColumnGrids']=True;save();context.close()
             admin,editor=authenticate(browser);editor.goto(data['pages']['home']['editURL'],wait_until='networkidle')
             editor.wait_for_function('()=>window.wp?.data?.select("core/block-editor")?.getBlocks()?.length>0',timeout=60000)
             canvas=next((frame for frame in editor.frames if frame.name=='editor-canvas'),editor.main_frame)
             canvas.wait_for_selector('.editor-styles-wrapper .bixie-moving-shelf',timeout=60000)
             gallery_editor=canvas.locator('.editor-styles-wrapper .bixie-moving-shelf').evaluate_all('es=>es.map(e=>{const s=getComputedStyle(e),r=e.getBoundingClientRect();return {display:s.display,overflow:s.overflow,width:r.width,images:e.querySelectorAll("img").length};})')
-            assert len(gallery_editor)==9 and all(row['display']=='block' and row['overflow']=='visible' and row['width']>0 and row['images']>1 for row in gallery_editor),gallery_editor
-            report['nativeOwnerEditorNineGalleries']=gallery_editor;report['checks']['nativeOwnerEditorNineGalleriesRemainStaticVisibleAndEditable']=True;save();admin.close();browser.close()
+            assert len(gallery_editor)==8 and all(row['display']=='block' and row['overflow']=='visible' and row['width']>0 and row['images']>=1 for row in gallery_editor) and sum(row['images']==1 for row in gallery_editor)==1,gallery_editor
+            report['nativeOwnerEditorEightShelfGalleries']=gallery_editor;report['checks']['nativeOwnerEditorEightShelfGalleriesRemainStaticVisibleAndEditable']=True;save();admin.close();browser.close()
         after=inspect();assert before==after['preservation'] and after['home']['status']=='draft' and not after['home']['gate']['complete']
         report['checks']['readOnlyPreviewPreservesOwnerContentAndIncompleteHomeDraftGate']=True
         report['pageErrors']=errors;report['failedResponses']=failures;assert not errors and not failures

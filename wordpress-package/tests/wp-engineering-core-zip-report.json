@@ -8,13 +8,13 @@
     "archives": {
         "theme": {
             "filename": "bixie-editorial.zip",
-            "bytes": 517083,
-            "sha256": "bdafd2243ca6e4390d3536c5e09850465084a14b2074aae3d067402b17a07ecd"
+            "bytes": 518074,
+            "sha256": "b8fe5f75a030b5db40921a6a9ad2a4a04d0d66dcd410cc1bc39a5df6e65a5f89"
         },
         "plugin": {
             "filename": "bixie-library.zip",
-            "bytes": 328870,
-            "sha256": "80e2dedd99b67e726d372cdb8bbde37420abcb8b48b3c6af387c4277eeb0bc64"
+            "bytes": 329513,
+            "sha256": "8c7953dce0473f03007a1c7311a9bf94c73054add4fcb85c6ee64b79dd97975c"
         }
     },
     "passed": true,

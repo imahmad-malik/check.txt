@@ -150,3 +150,12 @@ source photographs, complete collections,75+ actual unique Home photos, final
 whole-library ZIP import or real WordPress HTTPS remote fetch. Those remain
 separate launch checks. The previous cloud DNS/WordPress safe URL limitation is
 unchanged; TLS and URL safety remain enabled.
+
+## Engineering checkpoint QA continuation (2026-10-08)
+Fresh runtime is retained at `/workspace/wp-final-test/wordpress`, local noindex port 8767. Do not rerun prepare-final-qa.py during an active import: it copies runtime source. Private credentials/auth/restore backups remain outside the package.
+
+Actual authenticated GUI resumed persisted cursor 357/616 after interrupted browser; all 33 saved parts were already GUI verified and registry SHA checks passed. Active process session 83052 was last observed advancing through 567 with successful HTTP 200 AJAX batches. Report checkpoints are `wp-final-engineering-import-report.json` and contain no request nonces. No DB/source reset or media reupload occurred. Recheck actual report/process before resuming if interrupted again.
+
+Final frozen core artifacts require theme SHA `680b9b95342ec4155dfaf5c0a0019bd2adaaf7d23a8d72138b02ea64c34cfab9` and plugin SHA `8c7953dce0473f03007a1c7311a9bf94c73054add4fcb85c6ee64b79dd97975c`. Do not accept older bdaf/36ec theme or 80e plugin proofs. After stable import/repeat, install current ZIPs through wp-final-install-package.php engineering mode, regenerate the unchanged blocked draft Home with actual default preserving GUI import, then run engineering browser/editor, native owner edit preservation, and wp-engineering-home-qa.py.
+
+Engineering acceptance is strictly 128 looks, 422 photos, one film, 423 unique source identities, 16 ready collections, 42 native pages, seven guides with 24 real references. Home remains draft and incomplete. The 65 missing photos/26 missing looks must not be replaced with fixtures or declared complete. Both wp-engineering-acceptance-report.json and wp-saved-acceptance-report.json must match exact current core and all 33 saved archive SHA values. No full154 acceptance may pass.

@@ -48,7 +48,7 @@ WordPress checkout, generated local configuration and a normal WordPress
 installation before the service helper can work. Never copy QA credentials,
 authentication state or a database into a public release. Do not overwrite an
 existing owner WordPress installation. The retained-runtime startup path above
-was tested; a completely fresh installation from just these four files has
+was tested; a completely fresh installation from only these helpers has
 not been independently reproduced. No runtime packages need reinstalling in the
 current retained cloud instance; its tested startup instructions are saved in
 the onboarding configuration draft. Publishing an environment snapshot remains

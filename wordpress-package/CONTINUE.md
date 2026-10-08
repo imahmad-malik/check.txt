@@ -1,6 +1,6 @@
 # Continue the saved Bixie WordPress project
 
-Snapshot: **2026-10-08 13:54 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
+Snapshot: **2026-10-08 14:33 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 The user's authorized goal is the complete installable WordPress site with
 original image-led collections, an extra-long editable Home, companion plugin,
@@ -47,6 +47,12 @@ saved looks, compare, print, native source zoom, visible links and accessible
 motion are implemented. Home has 22 sections and targets 77 unique image
 elements plus one distinct poster, 78 displayed photographic sources. Blog
 posts remain a secondary owner workflow rather than the homepage focus.
+
+Theme1.0.3 includes the native page-home.html template for the imported Home slug,
+including authenticated draft preview. Its own hero supplies the single H1;
+the generic page title must not appear above it. If the owner changes that slug,
+the registered Photo collection home template remains selectable in the page
+editor. Preserve the full-width layout and native editable content.
 
 Do not reintroduce global aspect-ratio:auto!important: actual WordPress image
 auto-size containment previously created very tall blank frames. Preserve

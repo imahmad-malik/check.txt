@@ -47,14 +47,23 @@ def edge_check(painted, original):
     return {'edgeMeanAbsoluteRGBDifference': values, 'fullSourceEdgesPainted': all(max(value) < 25 for value in values), 'nonFlatPixels': max(ImageStat.Stat(image).var) > 100}
 
 
-def painted_images(page, selector, context, expected=None, sample_edges=True):
+def painted_images(page, selector, context, expected=None, sample_edges=True, attachment_records=None):
     elements = page.locator(selector)
     if expected is not None: assert elements.count() == expected, (selector, elements.count(), expected)
     observations = []
     for index, element in enumerate(elements.all()):
         element.scroll_into_view_if_needed()
         element.evaluate('async e=>{await e.decode();}')
-        observation = element.evaluate(r'''e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return {element:[r.width,r.height],natural:[e.naturalWidth,e.naturalHeight],source:e.currentSrc||e.src,objectFit:s.objectFit,aspectRatio:s.aspectRatio,opacity:s.opacity,visibility:s.visibility,transform:s.transform,containIntrinsicSize:s.containIntrinsicSize,attachmentID:(e.className.match(/wp-image-(\d+)/)||[])[1]||null};}''')
+        observation = element.evaluate(r'''e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return {element:[r.width,r.height],natural:[e.naturalWidth,e.naturalHeight],source:e.currentSrc||e.src,objectFit:s.objectFit,aspectRatio:s.aspectRatio,opacity:s.opacity,visibility:s.visibility,transform:s.transform,containIntrinsicSize:s.containIntrinsicSize,attachmentID:(e.className.match(/wp-image-([0-9]+)/)||[])[1]||null};}''')
+        if attachment_records is not None:
+            matches=[record['id'] for record in attachment_records.values() if observation['source'] in record['registeredImageVariantURLs']]
+            assert len(matches)==1,(observation['source'],matches)
+            if observation['attachmentID'] is not None: assert int(observation['attachmentID'])==matches[0]
+            observation['attachmentID']=matches[0]
+            observation['identityMatchedActualRegisteredAttachmentVariant']=True
+            native=next(record['nativeSize'] for record in attachment_records.values() if record['id']==matches[0])
+            assert native and abs(observation['natural'][1]/observation['natural'][0]-native[1]/native[0])<.015,(observation,native)
+            observation['verifiedNativeSourceSize']=native
         assert observation['element'][0] > 0 and observation['element'][1] > 0, observation
         assert abs(observation['element'][1] / observation['element'][0] - observation['natural'][1] / observation['natural'][0]) < .015, observation
         assert observation['objectFit'] == 'contain' and observation['opacity'] == '1' and observation['visibility'] == 'visible' and observation['transform'] == 'none', observation
@@ -146,7 +155,7 @@ def main():
                     first_collection = first_collection or collection['url']
                     response = page.goto(collection['url'],wait_until='networkidle'); assert response.status == 200
                     assert page.locator('.bixie-results .bixie-look-card').count() == 7
-                    observations = painted_images(page,'.bixie-results .bixie-look-card img',context,21)
+                    observations = painted_images(page,'.bixie-results .bixie-look-card img',context,21,attachment_records=data['attachments'])
                     angles = page.locator('.bixie-results .bixie-card-angle a').evaluate_all('es=>es.map(e=>e.dataset.angle)'); assert angles == ['side','back']*7
                     assert not page.locator('.bixie-empty').count()
                     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
@@ -160,7 +169,7 @@ def main():
                 trigger = page.locator('.bixie-card-angle [data-angle="'+angle+'"]').first; trigger.click()
                 page.wait_for_function('()=>document.querySelectorAll("dialog[open] .bixie-detail-photo").length===3')
                 actual_angle = page.locator('dialog[open] .bixie-detail-photo figcaption').first.inner_text().lower(); assert angle in actual_angle, actual_angle
-                painted_images(page,'dialog[open] .bixie-detail-photo img',context,3)
+                painted_images(page,'dialog[open] .bixie-detail-photo img',context,3,attachment_records=data['attachments'])
                 page.keyboard.press('Escape'); assert trigger.evaluate('e=>e===document.activeElement')
             report['checks']['actualSideBackDetailSelectionAndEscapeFocus'] = True
             page.close()
@@ -171,19 +180,19 @@ def main():
                 for index in range(3): page.locator('.bixie-results .bixie-save').nth(index).click()
                 assert page.locator('.bixie-library .bixie-saved-count').inner_text() == '3'
                 page.locator('.bixie-open-saved').click(); page.wait_for_function('()=>document.querySelectorAll("dialog[open] .bixie-saved-grid .bixie-look-card").length===3')
-                saved_photos = painted_images(page,'dialog[open] .bixie-saved-grid .bixie-look-card img',tools,3)
+                saved_photos = painted_images(page,'dialog[open] .bixie-saved-grid .bixie-look-card img',tools,3,attachment_records=data['attachments'])
                 page.keyboard.press('Escape'); page.locator('.bixie-open-compare').click()
                 page.wait_for_function('()=>document.querySelectorAll("dialog[open] [data-bixie-compare]").length===3')
                 page.locator('dialog[open] .bixie-compare-selected').click(); page.wait_for_function('()=>document.querySelectorAll("dialog[open] .bixie-compare-look").length===2')
-                comparison_photos = painted_images(page,'dialog[open] .bixie-compare-look img',tools,6)
+                comparison_photos = painted_images(page,'dialog[open] .bixie-compare-look img',tools,2,attachment_records=data['attachments'])
                 page.keyboard.press('Escape'); page.locator('.bixie-print-saved').click()
                 page.wait_for_function('()=>document.querySelectorAll("dialog[open] .bixie-print-sheet").length===3')
-                print_photos = painted_images(page,'dialog[open] .bixie-print-sheet img',tools,9)
+                print_photos = painted_images(page,'dialog[open] .bixie-print-sheet img',tools,9,attachment_records=data['attachments'])
                 page.keyboard.press('Escape'); page.reload(wait_until='networkidle'); assert page.locator('.bixie-library .bixie-saved-count').inner_text() == '3'
                 page.goto(data['pages']['saved-looks']['url'],wait_until='networkidle'); page.wait_for_function('()=>document.querySelectorAll(".bixie-saved-items .bixie-look-card").length===3')
-                report['actualSavedComparePrintFlows'][name] = {'threeActualSavedLooksPersistAfterReload':True,'nativeSavedPageThreeActualCards':True,'savedPhotos':saved_photos,'twoLookSixAngleComparisonPhotos':comparison_photos,'threeSheetNineAnglePrintPhotos':print_photos}; save()
+                report['actualSavedComparePrintFlows'][name] = {'threeActualSavedLooksPersistAfterReload':True,'nativeSavedPageThreeActualCards':True,'savedPhotos':saved_photos,'twoLookWholeCoverComparisonPhotos':comparison_photos,'threeSheetNineAnglePrintPhotos':print_photos}; save()
                 tools.close()
-            report['checks']['actualSavedReloadNativeSavedPageSixAngleCompareNineAnglePrintAtDesktopAndPhone'] = True
+            report['checks']['actualSavedReloadNativeSavedPageTwoLookCompareNineAnglePrintAtDesktopAndPhone'] = True
             nojs = browser.new_context(java_script_enabled=False,viewport={'width':390,'height':844})
             page = nojs.new_page(); page.goto(first_collection,wait_until='networkidle'); assert page.locator('.bixie-results img').count() == 21
             page.locator('.bixie-filter-form [name="sort"]').select_option('title'); page.locator('.bixie-filter-form button[type="submit"]').click(); page.wait_for_load_state('networkidle')

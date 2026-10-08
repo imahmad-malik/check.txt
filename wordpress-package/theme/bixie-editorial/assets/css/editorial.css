@@ -96,6 +96,7 @@ hr,.wp-block-separator{height:0;border:0;border-top:1px solid var(--bixie-rule);
 .bixie-section.is-moss{background:var(--bixie-moss);color:var(--bixie-paper)}
 .bixie-section.is-ink{background:var(--bixie-ink);color:var(--bixie-paper)}
 .bixie-section.is-copper{background:var(--bixie-copper);color:var(--bixie-paper)}
+.bixie-section:is(.is-moss,.is-ink,.is-copper){--bixie-muted:#e5e7de;--bixie-rule:#899186}
 .bixie-section.is-moss .bixie-eyebrow,.bixie-section.is-ink .bixie-eyebrow,.bixie-section.is-copper .bixie-eyebrow{color:inherit}
 .bixie-section:is(.is-moss,.is-ink,.is-copper) :is(p,figcaption){color:inherit}
 .bixie-section:is(.is-moss,.is-ink,.is-copper) .bixie-text-link{border-color:currentColor}
@@ -351,7 +352,7 @@ body .bixie-library-notice{border-radius:0;box-shadow:none;font-family:var(--bix
 .bixie-home p a:not(.bixie-link-grid a,.bixie-guide-index a,.wp-block-button__link):visited,.bixie-page .wp-block-post-content :is(p,li) a:not(.bixie-link-grid a,.bixie-guide-index a,.wp-block-button__link):visited{color:#695349}
 .bixie-home p a:not(.bixie-link-grid a,.bixie-guide-index a,.wp-block-button__link):hover,.bixie-page .wp-block-post-content :is(p,li) a:not(.bixie-link-grid a,.bixie-guide-index a,.wp-block-button__link):hover{color:var(--bixie-moss);text-decoration-thickness:2px}
 .bixie-home .bixie-section:is(.is-moss,.is-ink,.is-copper) p a:not(.bixie-link-grid a,.bixie-guide-index a,.wp-block-button__link){color:#f4dfbd;text-decoration:underline}
-.bixie-home .bixie-section:is(.is-moss,.is-ink,.is-copper) p a:not(.bixie-link-grid a,.bixie-guide-index a,.wp-block-button__link):visited{color:#ddcab3}
+.bixie-home .bixie-section:is(.is-moss,.is-ink,.is-copper) p a:not(.bixie-link-grid a,.bixie-guide-index a,.wp-block-button__link):visited{color:#f2e5d3}
 .bixie-home .bixie-section:is(.is-moss,.is-ink,.is-copper) p a:not(.bixie-link-grid a,.bixie-guide-index a,.wp-block-button__link):hover{color:#fff;text-decoration-thickness:2px}
 .bixie-entry>.wp-block-post-title{max-width:850px;font-size:clamp(40px,5vw,72px);margin-block:0 36px}
 .bixie-entry .wp-block-post-content{max-width:800px;margin-inline:auto}
@@ -548,7 +549,8 @@ body .bixie-library-notice{border-radius:0;box-shadow:none;font-family:var(--bix
  .bixie-photo-track{width:100%;flex-wrap:wrap}
  .bixie-photo-item{width:30%;flex:0 0 30%;padding-top:0!important}
  .bixie-look-card{break-inside:avoid}
- .bixie-section.is-moss,.bixie-section.is-ink,.bixie-section.is-copper{background:none;color:#000}
+ .bixie-section.is-moss,.bixie-section.is-ink,.bixie-section.is-copper{background:none;color:#000;--bixie-muted:#222;--bixie-rule:#555}
+ .bixie-section :is(p,figcaption,.bixie-eyebrow,.bixie-number,.bixie-field-note,.bixie-caption,a){color:#000!important}
  a{color:#000}
  .bixie-library-results,.bixie-library-grid,.bixie-look-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
 }

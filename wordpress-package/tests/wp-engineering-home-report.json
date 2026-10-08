@@ -1,0 +1,3645 @@
+{
+  "generatedAtUTC": "2026-10-08T09:26:59.870047+00:00",
+  "release_scope": "engineering_installable_media_incomplete",
+  "scope": "Actual authenticated draft Home on local noindex WordPress. This incomplete checkpoint does not publish Home or claim the 154-look target. Preview capability tokens and owner authentication are excluded.",
+  "checks": {
+    "incompleteHomeIsUnavailableToAnonymousVisitors": true,
+    "nativeHomeSlugDraftPreviewUsesSingleHeroHeadingWithoutDuplicatePostTitle": true,
+    "draftHomeActualImagesAndAllNineNativeGalleriesWholeSourceAtDesktopPhone": true,
+    "openingRailAndSevenMultiplePhotoNativeShelvesMovePauseIndependentlyOneGenuineSinglePhotoShelfAndThreeAnglePlateStayStatic": true,
+    "actualFilmAutoplayMutedInlineFullDecodedFrameNativeKeyboardPauseOffscreen": true,
+    "reducedMotionEightOverflowingRailsAndFilmStopAutomaticAndExplicitControlsWorkSinglePhotoShelfStatic": true,
+    "printReturnsEightShelfGalleriesToFullVisibleThreeColumnGrids": true
+  },
+  "geometry": {
+    "desktop": {
+      "actualImageElements": 69,
+      "uniqueImageAttachmentIDs": 69,
+      "distinctFilmPoster": 1,
+      "allNaturalPhotoGeometry": [
+        {
+          "element": [
+            646.078125,
+            807.296875
+          ],
+          "natural": [
+            1122,
+            1402
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-hero.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 244,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            374.390625,
+            467.8125
+          ],
+          "natural": [
+            1122,
+            1402
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-rail-feathered.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 245,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            374.390625,
+            467.8125
+          ],
+          "natural": [
+            1122,
+            1402
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-rail-curly.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 246,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            374.390625,
+            467.8125
+          ],
+          "natural": [
+            374,
+            467
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-rail-short-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 247,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            374.390625,
+            467.8125
+          ],
+          "natural": [
+            374,
+            467
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-rail-long-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 248,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-02-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 4,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-03-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 7,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-04-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 10,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-07-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 67,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-05-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 13,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 226,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-06-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 64,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            295.203125,
+            368.859375
+          ],
+          "natural": [
+            295,
+            368
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-texture-fine-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 249,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            295.21875,
+            368.890625
+          ],
+          "natural": [
+            295,
+            368
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-texture-wavy-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 250,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            295.203125,
+            368.859375
+          ],
+          "natural": [
+            295,
+            368
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-texture-thick-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 251,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            295.21875,
+            368.890625
+          ],
+          "natural": [
+            295,
+            368
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-texture-straight-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 252,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/short-06-front-retry01-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 79,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/short-07-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 82,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/short-02-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 73,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/short-03-front-retry01-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 76,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-06-front-retry01-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 163,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-05-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 160,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-07-front-retry01-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 166,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-02-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 16,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            309.59375,
+            386.984375
+          ],
+          "natural": [
+            310,
+            387
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-03-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 19,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            309.609375,
+            387
+          ],
+          "natural": [
+            310,
+            387
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/layered-02-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 22,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            309.59375,
+            386.984375
+          ],
+          "natural": [
+            310,
+            387
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/layered-03-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 25,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            309.609375,
+            387
+          ],
+          "natural": [
+            310,
+            387
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/thick-hair-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 31,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            309.59375,
+            386.984375
+          ],
+          "natural": [
+            310,
+            387
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-50-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 34,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            309.609375,
+            387
+          ],
+          "natural": [
+            310,
+            387
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/natural-grey-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 37,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            309.59375,
+            386.984375
+          ],
+          "natural": [
+            310,
+            387
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/feathered-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 40,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            309.609375,
+            387
+          ],
+          "natural": [
+            310,
+            387
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/wavy-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 43,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            417.59375,
+            521.796875
+          ],
+          "natural": [
+            418,
+            522
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-angle-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 253,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            417.609375,
+            521.8125
+          ],
+          "natural": [
+            418,
+            522
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-angle-side-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 254,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            417.59375,
+            521.796875
+          ],
+          "natural": [
+            418,
+            522
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-angle-back-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 255,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408,
+            509.8125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-fringe-curtain-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 256,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408.015625,
+            509.828125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-fringe-side-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 257,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408,
+            509.8125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-fringe-wispy-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 258,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/round-face-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 451,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408,
+            509.8125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-mature-over40-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 259,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408.015625,
+            509.828125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-mature-over50-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 260,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408,
+            509.8125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-mature-over60-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 261,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408,
+            509.8125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-colour-silver-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 262,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408.015625,
+            509.828125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-colour-copper-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 263,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408,
+            509.8125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-colour-black-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 264,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            631.65625
+          ],
+          "natural": [
+            691,
+            631
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/fine-hair-06-front-retry01-768x702.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1312 / 1199",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 133,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/fine-hair-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 28,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/fine-hair-05-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 130,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/thin-hair-06-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 565,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/thin-hair-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 550,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/thin-hair-05-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 562,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/easy-styling-02-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 214,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/easy-styling-03-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 577,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/easy-styling-04-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 580,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/easy-styling-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 211,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 448,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-05-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 463,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-02-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 454,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-03-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 457,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-04-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 460,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408,
+            509.8125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-journal-consultation-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 266,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408.015625,
+            509.828125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-journal-styling-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 267,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            408,
+            509.8125
+          ],
+          "natural": [
+            408,
+            510
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-journal-growth-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 268,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-06-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 544,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 187,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-05-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 541,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-02-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 181,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            631.65625
+          ],
+          "natural": [
+            691,
+            631
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-07-front-768x702.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1312 / 1199",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 547,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            691.1875,
+            863.671875
+          ],
+          "natural": [
+            691,
+            863
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-03-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 193,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        }
+      ],
+      "allNineNativeGalleriesFirstAndLastSourceEdgesPainted": true,
+      "horizontalOverflow": false
+    },
+    "phone": {
+      "actualImageElements": 69,
+      "uniqueImageAttachmentIDs": 69,
+      "distinctFilmPoster": 1,
+      "allNaturalPhotoGeometry": [
+        {
+          "element": [
+            346,
+            432.5
+          ],
+          "natural": [
+            390,
+            487
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-hero-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 244,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            260,
+            325
+          ],
+          "natural": [
+            390,
+            487
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-rail-feathered-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 245,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            260,
+            325
+          ],
+          "natural": [
+            390,
+            487
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-rail-curly-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 246,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            260,
+            324.875
+          ],
+          "natural": [
+            260,
+            325
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-rail-short-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 247,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            260,
+            324.875
+          ],
+          "natural": [
+            260,
+            325
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-rail-long-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 248,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-02-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 4,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-03-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 7,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-04-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 10,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-07-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 67,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-05-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 13,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-01-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 226,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/classic-06-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 64,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-texture-fine-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 249,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            294.109375,
+            367.5
+          ],
+          "natural": [
+            294,
+            367
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-texture-wavy-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 250,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-texture-thick-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 251,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            294.109375,
+            367.5
+          ],
+          "natural": [
+            294,
+            367
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-texture-straight-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 252,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/short-06-front-retry01-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 79,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/short-07-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 82,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/short-02-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 73,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/short-03-front-retry01-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 76,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-06-front-retry01-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 163,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-05-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 160,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-07-front-retry01-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 166,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-02-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 16,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.5
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/long-03-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 19,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.5
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/layered-02-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 22,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.5
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/layered-03-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 25,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.5
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/thick-hair-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 31,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.5
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-50-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 34,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.5
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/natural-grey-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 37,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.5
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/feathered-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 40,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.5
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/wavy-01-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 768 / 960",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "none",
+          "attachmentID": 43,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-angle-front-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 253,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-angle-side-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 254,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-angle-back-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 255,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-fringe-curtain-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 256,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            283.71875,
+            354.515625
+          ],
+          "natural": [
+            284,
+            355
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-fringe-side-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 257,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-fringe-wispy-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 258,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/round-face-01-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 451,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-mature-over40-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 259,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            283.71875,
+            354.515625
+          ],
+          "natural": [
+            284,
+            355
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-mature-over50-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 260,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-mature-over60-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 261,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-colour-silver-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 262,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            283.71875,
+            354.515625
+          ],
+          "natural": [
+            284,
+            355
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-colour-copper-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 263,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-colour-black-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 264,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            210.1875
+          ],
+          "natural": [
+            230,
+            210
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/fine-hair-06-front-retry01-300x274.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1312 / 1199",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 133,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/fine-hair-01-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 28,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/fine-hair-05-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 130,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/thin-hair-06-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 565,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/thin-hair-01-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 550,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/thin-hair-05-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 562,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/easy-styling-02-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 214,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/easy-styling-03-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 577,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/easy-styling-04-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 580,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/easy-styling-01-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 211,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-01-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 448,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-05-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 463,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-02-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 454,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-03-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 457,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-04-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 460,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-journal-consultation-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 266,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            283.71875,
+            354.515625
+          ],
+          "natural": [
+            284,
+            355
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-journal-styling-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 267,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            346,
+            432.34375
+          ],
+          "natural": [
+            346,
+            432
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/home-journal-growth-768x960.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 268,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-06-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 544,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-01-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 187,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-05-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 541,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-02-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 181,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            210.1875
+          ],
+          "natural": [
+            230,
+            210
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-07-front-300x274.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1312 / 1199",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 547,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        },
+        {
+          "element": [
+            230,
+            287.390625
+          ],
+          "natural": [
+            230,
+            287
+          ],
+          "source": "http://127.0.0.1:8767/wp-content/uploads/2026/10/shaggy-03-front-240x300.webp",
+          "objectFit": "contain",
+          "aspectRatio": "auto 1122 / 1402",
+          "opacity": "1",
+          "visibility": "visible",
+          "transform": "none",
+          "containIntrinsicSize": "3000px 1500px",
+          "attachmentID": 193,
+          "identityMatchedActualRegisteredAttachmentVariant": true
+        }
+      ],
+      "allNineNativeGalleriesFirstAndLastSourceEdgesPainted": true,
+      "horizontalOverflow": false
+    }
+  },
+  "motion": {
+    "desktop": [
+      {
+        "railID": "photo-flow",
+        "actualPhotos": 4,
+        "travel": 274,
+        "start": 6,
+        "advanced": 16,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-2",
+        "actualPhotos": 7,
+        "travel": 3672,
+        "start": 7,
+        "advanced": 18,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-3",
+        "actualPhotos": 4,
+        "travel": 1527,
+        "start": 5,
+        "advanced": 15,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-4",
+        "actualPhotos": 4,
+        "travel": 1527,
+        "start": 8,
+        "advanced": 18,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "wrapperAnchor": "flow-11-%c2%b7-face-framing-photo-shelf",
+        "controls": 0,
+        "actualPhotos": 1,
+        "travel": 0,
+        "genuinelyPartialSinglePhotoShelfStaticWithoutEmptyControl": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-6",
+        "actualPhotos": 6,
+        "travel": 2957,
+        "start": 6,
+        "advanced": 17,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-7",
+        "actualPhotos": 4,
+        "travel": 1527,
+        "start": 10,
+        "advanced": 20,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-8",
+        "actualPhotos": 5,
+        "travel": 2242,
+        "start": 14,
+        "advanced": 24,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-9",
+        "actualPhotos": 6,
+        "travel": 2957,
+        "start": 22,
+        "advanced": 32,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      }
+    ],
+    "phone": [
+      {
+        "railID": "photo-flow",
+        "actualPhotos": 4,
+        "travel": 742,
+        "start": 5,
+        "advanced": 15,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-2",
+        "actualPhotos": 7,
+        "travel": 1408,
+        "start": 8,
+        "advanced": 18,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-3",
+        "actualPhotos": 4,
+        "travel": 619,
+        "start": 6,
+        "advanced": 16,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-4",
+        "actualPhotos": 4,
+        "travel": 619,
+        "start": 54,
+        "advanced": 64,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "wrapperAnchor": "flow-11-%c2%b7-face-framing-photo-shelf",
+        "controls": 0,
+        "actualPhotos": 1,
+        "travel": 0,
+        "genuinelyPartialSinglePhotoShelfStaticWithoutEmptyControl": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-6",
+        "actualPhotos": 6,
+        "travel": 1154,
+        "start": 7,
+        "advanced": 17,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-7",
+        "actualPhotos": 4,
+        "travel": 646,
+        "start": 11,
+        "advanced": 21,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-8",
+        "actualPhotos": 5,
+        "travel": 900,
+        "start": 14,
+        "advanced": 21,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      },
+      {
+        "railID": "bixie-photo-flow-runtime-9",
+        "actualPhotos": 6,
+        "travel": 1154,
+        "start": 17,
+        "advanced": 27,
+        "scopedPause": true,
+        "otherRailsUnpaused": true,
+        "resumed": true,
+        "offscreenStopped": true
+      }
+    ]
+  },
+  "film": {
+    "desktop": {
+      "visibleMutedInlineAutoplay": {
+        "before": {
+          "currentTime": 0.259206,
+          "duration": 11.625,
+          "paused": false,
+          "muted": true,
+          "playsInline": true,
+          "controls": true,
+          "autoplay": true,
+          "readyState": 4,
+          "videoWidth": 1122,
+          "videoHeight": 1402,
+          "decodedFrames": 11,
+          "error": null,
+          "nativeVideoFocused": false
+        },
+        "after": {
+          "currentTime": 0.758413,
+          "duration": 11.625,
+          "paused": false,
+          "muted": true,
+          "playsInline": true,
+          "controls": true,
+          "autoplay": true,
+          "readyState": 4,
+          "videoWidth": 1122,
+          "videoHeight": 1402,
+          "decodedFrames": 22,
+          "error": null,
+          "nativeVideoFocused": false
+        },
+        "timelineAdvanceSeconds": 0.499207,
+        "timeAdvanced": true,
+        "timeStopped": false
+      },
+      "geometry": {
+        "element": [
+          1310.40625,
+          935
+        ],
+        "native": [
+          1122,
+          1402
+        ],
+        "paintedFullFrame": [
+          748.2667617689016,
+          935
+        ],
+        "objectFit": "contain",
+        "transform": "none"
+      },
+      "actualDecodedSourceEdges": {
+        "topMeanAbsoluteRGBDifference": [
+          0.1505016722408027,
+          0.09574468085106383,
+          0.12904717853839037
+        ],
+        "bottomMeanAbsoluteRGBDifference": [
+          3.0588842240091085,
+          3.4729595104248205,
+          4.004020493844731
+        ],
+        "fullSourceEdgesPainted": true
+      },
+      "nativeSpacePauseAndVisibilityReturnPreserved": true,
+      "offscreenStopped": true
+    },
+    "phone": {
+      "visibleMutedInlineAutoplay": {
+        "before": {
+          "currentTime": 0.184712,
+          "duration": 11.625,
+          "paused": false,
+          "muted": true,
+          "playsInline": true,
+          "controls": true,
+          "autoplay": true,
+          "readyState": 4,
+          "videoWidth": 1122,
+          "videoHeight": 1402,
+          "decodedFrames": 13,
+          "error": null,
+          "nativeVideoFocused": false
+        },
+        "after": {
+          "currentTime": 0.683507,
+          "duration": 11.625,
+          "paused": false,
+          "muted": true,
+          "playsInline": true,
+          "controls": true,
+          "autoplay": true,
+          "readyState": 4,
+          "videoWidth": 1122,
+          "videoHeight": 1402,
+          "decodedFrames": 25,
+          "error": null,
+          "nativeVideoFocused": false
+        },
+        "timelineAdvanceSeconds": 0.498795,
+        "timeAdvanced": true,
+        "timeStopped": false
+      },
+      "geometry": {
+        "element": [
+          346,
+          432.34375
+        ],
+        "native": [
+          1122,
+          1402
+        ],
+        "paintedFullFrame": [
+          345.9983505706134,
+          432.34375
+        ],
+        "objectFit": "contain",
+        "transform": "none"
+      },
+      "actualDecodedSourceEdges": {
+        "topMeanAbsoluteRGBDifference": [
+          0.4561923583662714,
+          0.3254281949934124,
+          0.38702239789196313
+        ],
+        "bottomMeanAbsoluteRGBDifference": [
+          2.1164361001317524,
+          2.250494071146245,
+          2.504281949934124
+        ],
+        "fullSourceEdgesPainted": true
+      },
+      "nativeSpacePauseAndVisibilityReturnPreserved": true,
+      "offscreenStopped": true
+    }
+  },
+  "screenshots": {
+    "desktop-opening": "screenshots/engineering-home-desktop-opening.png",
+    "desktop-full-page": "screenshots/engineering-home-desktop-full-page.png",
+    "desktop-shelf-controls": "screenshots/engineering-home-desktop-shelf-controls.png",
+    "collection-desktop": "screenshots/engineering-real-21-view-collection-desktop.png",
+    "three-view-card-desktop": "screenshots/engineering-real-three-view-card-desktop.png",
+    "phone-opening": "screenshots/engineering-home-phone-opening.png",
+    "phone-full-page": "screenshots/engineering-home-phone-full-page.png",
+    "phone-shelf-controls": "screenshots/engineering-home-phone-shelf-controls.png",
+    "collection-phone": "screenshots/engineering-real-21-view-collection-phone.png",
+    "three-view-card-phone": "screenshots/engineering-real-three-view-card-phone.png"
+  },
+  "passed": false,
+  "homeState": {
+    "id": 350,
+    "status": "draft",
+    "title": "Find your next bixie.",
+    "url": "http://127.0.0.1:8767/?page_id=350",
+    "editURL": "http://127.0.0.1:8767/wp-admin/post.php?post=350&action=edit",
+    "parent": 0,
+    "contentSHA256": "0ee0c3de2cfa6a5115731ba93927222111aced2d48811d457850dccfcac37f42",
+    "nativeBlockTypes": {
+      "bixie/finder": 1,
+      "bixie/library": 1,
+      "core/button": 20,
+      "core/buttons": 20,
+      "core/details": 6,
+      "core/gallery": 9,
+      "core/group": 86,
+      "core/heading": 39,
+      "core/image": 61,
+      "core/paragraph": 96,
+      "core/video": 1
+    },
+    "blockCount": 340,
+    "unresolvedTokens": false,
+    "type": "home",
+    "collectionSlug": "",
+    "nativePhotoIDs": [
+      244,
+      245,
+      246,
+      247,
+      248,
+      4,
+      7,
+      10,
+      67,
+      13,
+      226,
+      64,
+      249,
+      250,
+      251,
+      252,
+      79,
+      82,
+      73,
+      76,
+      163,
+      160,
+      166,
+      16,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      451,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      133,
+      28,
+      130,
+      565,
+      550,
+      562,
+      214,
+      577,
+      580,
+      211,
+      448,
+      463,
+      454,
+      457,
+      460,
+      266,
+      267,
+      268,
+      544,
+      187,
+      541,
+      181,
+      547,
+      193
+    ],
+    "gate": {
+      "complete": false,
+      "reasons": [
+        "straight: Only 12 distinct approved original photos; 20 required. Only 4 complete published looks; 7 required.",
+        "bangs: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
+        "over-60: Only 6 distinct approved original photos; 20 required. Only 2 complete published looks; 7 required.",
+        "90s-inspired: Only 15 distinct approved original photos; 20 required. Only 5 complete published looks; 7 required.",
+        "round-face: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
+        "easy-styling: Only 12 distinct approved original photos; 20 required. Only 4 complete published looks; 7 required.",
+        "Only 69 unique homepage photos; 75 required."
+      ]
+    },
+    "photoIDs": [
+      244,
+      245,
+      246,
+      247,
+      248,
+      4,
+      7,
+      10,
+      67,
+      13,
+      226,
+      64,
+      249,
+      250,
+      251,
+      252,
+      79,
+      82,
+      73,
+      76,
+      163,
+      160,
+      166,
+      16,
+      19,
+      22,
+      25,
+      31,
+      34,
+      37,
+      40,
+      43,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      451,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      133,
+      28,
+      130,
+      565,
+      550,
+      562,
+      214,
+      577,
+      580,
+      211,
+      448,
+      463,
+      454,
+      457,
+      460,
+      266,
+      267,
+      268,
+      544,
+      187,
+      541,
+      181,
+      547,
+      193
+    ],
+    "uniquePhotoIDs": [
+      244,
+      245,
+      246,
+      247,
+      248,
+      4,
+      7,
+      10,
+      67,
+      13,
+      226,
+      64,
+      249,
+      250,
+      251,
+      252,
+      79,
+      82,
+      73,
+      76,
+      163,
+      160,
+      166,
+      16,
+      19,
+      22,
+      25,
+      31,
+      34,
+      37,
+      40,
+      43,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      451,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      133,
+      28,
+      130,
+      565,
+      550,
+      562,
+      214,
+      577,
+      580,
+      211,
+      448,
+      463,
+      454,
+      457,
+      460,
+      266,
+      267,
+      268,
+      544,
+      187,
+      541,
+      181,
+      547,
+      193
+    ],
+    "filmIDs": [
+      269
+    ],
+    "posterIDs": [
+      265
+    ],
+    "sectionCount": 22,
+    "visiblePhotoIDs": [
+      244,
+      245,
+      246,
+      247,
+      248,
+      4,
+      7,
+      10,
+      67,
+      13,
+      226,
+      64,
+      249,
+      250,
+      251,
+      252,
+      79,
+      82,
+      73,
+      76,
+      163,
+      160,
+      166,
+      16,
+      19,
+      22,
+      25,
+      31,
+      34,
+      37,
+      40,
+      43,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      451,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      133,
+      28,
+      130,
+      565,
+      550,
+      562,
+      214,
+      577,
+      580,
+      211,
+      448,
+      463,
+      454,
+      457,
+      460,
+      266,
+      267,
+      268,
+      544,
+      187,
+      541,
+      181,
+      547,
+      193,
+      265
+    ]
+  },
+  "actualStructure": {
+    "nativeGalleries": 9,
+    "photoShelfGalleries": 8,
+    "multiplePhotoMovingShelfGalleries": 7,
+    "openingMovingRail": 1,
+    "overflowingMovingRails": 8,
+    "genuinelySinglePhotoShelf": 1,
+    "separateStaticFrontSideBackPlate": 1
+  },
+  "anonymousDraftHomeHTTP": 404,
+  "motionResumeObservations": [
+    {
+      "viewport": "desktop",
+      "railID": "photo-flow",
+      "before": 22,
+      "after": 32,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 314.328125,
+        "bottom": 898.328125,
+        "height": 584,
+        "viewport": 1100
+      }
+    },
+    {
+      "viewport": "desktop",
+      "railID": "bixie-photo-flow-runtime-2",
+      "before": 25,
+      "after": 35,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 115.09375,
+        "bottom": 1038.359375,
+        "height": 923.265625,
+        "viewport": 1100
+      }
+    },
+    {
+      "viewport": "desktop",
+      "railID": "bixie-photo-flow-runtime-3",
+      "before": 21,
+      "after": 32,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 114.59375,
+        "bottom": 1037.859375,
+        "height": 923.265625,
+        "viewport": 1100
+      }
+    },
+    {
+      "viewport": "desktop",
+      "railID": "bixie-photo-flow-runtime-4",
+      "before": 24,
+      "after": 35,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 115.109375,
+        "bottom": 1038.375,
+        "height": 923.265625,
+        "viewport": 1100
+      }
+    },
+    {
+      "viewport": "desktop",
+      "railID": "bixie-photo-flow-runtime-6",
+      "before": 23,
+      "after": 33,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 115.09375,
+        "bottom": 1038.359375,
+        "height": 923.265625,
+        "viewport": 1100
+      }
+    },
+    {
+      "viewport": "desktop",
+      "railID": "bixie-photo-flow-runtime-7",
+      "before": 26,
+      "after": 36,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 115.125,
+        "bottom": 1038.390625,
+        "height": 923.265625,
+        "viewport": 1100
+      }
+    },
+    {
+      "viewport": "desktop",
+      "railID": "bixie-photo-flow-runtime-8",
+      "before": 30,
+      "after": 41,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 115.15625,
+        "bottom": 1038.421875,
+        "height": 923.265625,
+        "viewport": 1100
+      }
+    },
+    {
+      "viewport": "desktop",
+      "railID": "bixie-photo-flow-runtime-9",
+      "before": 38,
+      "after": 48,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 114.8125,
+        "bottom": 1038.078125,
+        "height": 923.265625,
+        "viewport": 1100
+      }
+    },
+    {
+      "viewport": "phone",
+      "railID": "photo-flow",
+      "before": 21,
+      "after": 32,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 223.140625,
+        "bottom": 651.640625,
+        "height": 428.5,
+        "viewport": 844
+      }
+    },
+    {
+      "viewport": "phone",
+      "railID": "bixie-photo-flow-runtime-2",
+      "before": 24,
+      "after": 34,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 264.28125,
+        "bottom": 609.671875,
+        "height": 345.390625,
+        "viewport": 844
+      }
+    },
+    {
+      "viewport": "phone",
+      "railID": "bixie-photo-flow-runtime-3",
+      "before": 22,
+      "after": 32,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 264.328125,
+        "bottom": 609.71875,
+        "height": 345.390625,
+        "viewport": 844
+      }
+    },
+    {
+      "viewport": "phone",
+      "railID": "bixie-photo-flow-runtime-4",
+      "before": 70,
+      "after": 80,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 264.6875,
+        "bottom": 610.078125,
+        "height": 345.390625,
+        "viewport": 844
+      }
+    },
+    {
+      "viewport": "phone",
+      "railID": "bixie-photo-flow-runtime-6",
+      "before": 23,
+      "after": 33,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 264.1875,
+        "bottom": 609.578125,
+        "height": 345.390625,
+        "viewport": 844
+      }
+    },
+    {
+      "viewport": "phone",
+      "railID": "bixie-photo-flow-runtime-7",
+      "before": 27,
+      "after": 38,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 264.21875,
+        "bottom": 609.609375,
+        "height": 345.390625,
+        "viewport": 844
+      }
+    },
+    {
+      "viewport": "phone",
+      "railID": "bixie-photo-flow-runtime-8",
+      "before": 28,
+      "after": 39,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 264.25,
+        "bottom": 609.640625,
+        "height": 345.390625,
+        "viewport": 844
+      }
+    },
+    {
+      "viewport": "phone",
+      "railID": "bixie-photo-flow-runtime-9",
+      "before": 38,
+      "after": 47,
+      "ariaPressed": "false",
+      "geometry": {
+        "top": 263.8125,
+        "bottom": 609.203125,
+        "height": 345.390625,
+        "viewport": 844
+      }
+    }
+  ],
+  "reducedMotion": [
+    {
+      "railID": "photo-flow",
+      "automaticStopped": true,
+      "explicitNextAdvanced": true
+    },
+    {
+      "railID": "bixie-photo-flow-runtime-2",
+      "automaticStopped": true,
+      "explicitNextAdvanced": true
+    },
+    {
+      "railID": "bixie-photo-flow-runtime-3",
+      "automaticStopped": true,
+      "explicitNextAdvanced": true
+    },
+    {
+      "railID": "bixie-photo-flow-runtime-4",
+      "automaticStopped": true,
+      "explicitNextAdvanced": true
+    },
+    {
+      "wrapperAnchor": "flow-11-%c2%b7-face-framing-photo-shelf",
+      "controls": 0,
+      "actualPhotos": 1,
+      "staticSinglePhotoWithoutEmptyControl": true
+    },
+    {
+      "railID": "bixie-photo-flow-runtime-6",
+      "automaticStopped": true,
+      "explicitNextAdvanced": true
+    },
+    {
+      "railID": "bixie-photo-flow-runtime-7",
+      "automaticStopped": true,
+      "explicitNextAdvanced": true
+    },
+    {
+      "railID": "bixie-photo-flow-runtime-8",
+      "automaticStopped": true,
+      "explicitNextAdvanced": true
+    },
+    {
+      "railID": "bixie-photo-flow-runtime-9",
+      "automaticStopped": true,
+      "explicitNextAdvanced": true
+    }
+  ],
+  "printEightShelves": [
+    {
+      "flow": "row",
+      "columns": "99.3281px 99.3281px 99.3438px",
+      "overflow": "visible",
+      "photos": 7
+    },
+    {
+      "flow": "row",
+      "columns": "105.328px 105.328px 105.344px",
+      "overflow": "visible",
+      "photos": 4
+    },
+    {
+      "flow": "row",
+      "columns": "105.328px 105.328px 105.344px",
+      "overflow": "visible",
+      "photos": 4
+    },
+    {
+      "flow": "row",
+      "columns": "99.3281px 99.3281px 99.3281px",
+      "overflow": "visible",
+      "photos": 1
+    },
+    {
+      "flow": "row",
+      "columns": "99.3281px 99.3281px 99.3438px",
+      "overflow": "visible",
+      "photos": 6
+    },
+    {
+      "flow": "row",
+      "columns": "99.3281px 99.3281px 99.3438px",
+      "overflow": "visible",
+      "photos": 4
+    },
+    {
+      "flow": "row",
+      "columns": "99.3281px 99.3281px 99.3438px",
+      "overflow": "visible",
+      "photos": 5
+    },
+    {
+      "flow": "row",
+      "columns": "99.3281px 99.3281px 99.3438px",
+      "overflow": "visible",
+      "photos": 6
+    }
+  ],
+  "failure": "Frame.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\".editor-styles-wrapper .bixie-moving-shelf\") to be visible\n",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/check.txt/wordpress-package/tests/wp-engineering-home-qa.py\", line 144, in main\n    control.click();advanced=rail.evaluate('e=>e.scrollLeft');assert abs(advanced-initial)>2\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 4053, in wait_for_selector\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py\", line 394, in wait_for_selector\n    await self._channel.send(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 76, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 632, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Frame.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\".editor-styles-wrapper .bixie-moving-shelf\") to be visible\n\n"
+}

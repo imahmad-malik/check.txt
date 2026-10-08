@@ -4,7 +4,7 @@ This is a WordPress block theme. Install `bixie-editorial.zip` through Appearanc
 
 ## Edit the site without code
 
-- **Home:** Pages → Home → Edit. List View exposes 22 named sections, with native collection photo shelves. Headings, paragraphs, buttons, photographs, the collection shelves, three-angle gallery and the video are ordinary WordPress blocks. Move a section in List View or change its alignment and spacing in the block settings.
+- **Home:** Pages → Home → Edit. List View exposes 22 named sections, with native collection photo shelves. Headings, paragraphs, buttons, photographs, the collection shelves, three-angle gallery and the video are ordinary WordPress blocks. Move a section in List View or change its alignment and spacing in the block settings. The Home slug automatically uses the full-width Home template during its draft preview. If you change the slug, choose the editable **Photo collection home** page template; it shows the page's own hero without an additional page-title heading.
 - **Photographs:** select an Image block → Replace → Media Library or Upload. Edit its alt text and caption in the normal controls. Keep the source aspect ratio and crop disabled. Collection covers link to actual photo-collection pages; the three-angle Gallery uses native image enlargement.
 - **Video:** select the Video block → Replace. Retain muted playback, inline playback and visible controls when using autoplay. A browser may require a play gesture. The original package film must be identified as a photographic motion study, not recorded salon footage.
 - **Navigation and footer:** Appearance → Editor → Design → Patterns → Template parts. The header and footer use native blocks. Change navigation links in the Navigation block.
@@ -14,7 +14,7 @@ This is a WordPress block theme. Install `bixie-editorial.zip` through Appearanc
 
 ## Motion and accessibility
 
-The opening photo rail and nine native collection shelves each use one instance of every selected image and slowly move back and forth. They do not clone photographs to fake an endless loop. Each shelf with multiple photos has its own editable pause control. Reduced-motion preferences disable automatic movement and provide manual navigation; offscreen shelves stop moving. Keyboard focus and pointer interaction temporarily stop movement. The galleries return to a complete grid for printing. Native gallery enlargement, video controls, focus indicators and the WordPress responsive navigation remain available.
+The opening photo rail and eight native collection shelves display each selected image once. Rows with multiple photographs slowly move back and forth and have their own editable pause controls. The separate front/side/back plate remains a static gallery. Reduced-motion preferences disable automatic movement and provide manual navigation; offscreen shelves stop moving. Keyboard focus and pointer interaction temporarily stop movement. The galleries return to a complete grid for printing. Native gallery enlargement, video controls, focus indicators and the WordPress responsive navigation remain available.
 
 ## Photography and publication
 

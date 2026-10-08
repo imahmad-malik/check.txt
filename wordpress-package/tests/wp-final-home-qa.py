@@ -35,7 +35,7 @@ def main():
                 page.on('response',lambda response:failures.append({'status':response.status,'url':response.url}) if response.status>=400 else None)
                 response = page.goto(SITE+'/',wait_until='networkidle'); assert response.status == 200
                 assert page.locator('main .bixie-section').count() == 22
-                photos = browser_utilities.painted_images(page,'main .bixie-home img',context,77,sample_edges=False)
+                photos = browser_utilities.painted_images(page,'main .bixie-home img',context,77,sample_edges=False,attachment_records=data['attachments'])
                 ids = [int(photo['attachmentID']) for photo in photos]; assert len(set(ids)) == 77 and set(ids) == set(home['uniquePhotoIDs'])
                 for index, element in enumerate(page.locator('main .bixie-home img').all()):
                     element.scroll_into_view_if_needed()

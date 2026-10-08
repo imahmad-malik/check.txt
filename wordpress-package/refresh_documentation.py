@@ -78,10 +78,14 @@ verification, and [LAUNCH-CHECKLIST.md](LAUNCH-CHECKLIST.md) before publishing.
         'wp-permalink-report.json', 'wp-final-environment-report.json',
         'wp-final-integration-report.json', 'wp-final-acceptance-report.json',
         'wp-engineering-acceptance-report.json',
+        'wp-engineering-core-zip-report.json', 'wp-final-engineering-import-report.json',
+        'wp-final-engineering-browser-report.json', 'wp-final-engineering-editability-report.json',
+        'wp-engineering-home-report.json',
         'wp-final-partial-browser-report.json', 'wp-final-partial-editability-report.json',
         'wp-final-alias-report.json', 'wp-final-permalink-report.json',
         'wp-filter-alias-report.json', 'wp-final-directory-report.json',
         'release-archive-report.json', 'https-delivery-report.json',
+        'https-saved-media-report.json', 'https-saved-delivery-report.json',
         'wp-publication-report.json', 'wp-bundle-security-report.json',
         'wp-attachment-film-report.json', 'wp-seo-report.json',
         'wp-browser-report.json', 'plugin-wordpress-editor-report.json',
@@ -317,6 +321,12 @@ saved looks, compare, print, native source zoom, visible links and accessible
 motion are implemented. Home has 22 sections and targets 77 unique image
 elements plus one distinct poster, 78 displayed photographic sources. Blog
 posts remain a secondary owner workflow rather than the homepage focus.
+
+Theme1.0.3 includes the native page-home.html template for the imported Home slug,
+including authenticated draft preview. Its own hero supplies the single H1;
+the generic page title must not appear above it. If the owner changes that slug,
+the registered Photo collection home template remains selectable in the page
+editor. Preserve the full-width layout and native editable content.
 
 Do not reintroduce global aspect-ratio:auto!important: actual WordPress image
 auto-size containment previously created very tall blank frames. Preserve
