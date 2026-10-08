@@ -32,7 +32,7 @@ class DownloadRedirect(urllib.request.HTTPRedirectHandler):
         return super().redirect_request(request, response, code, message, headers, newurl)
 
 
-def stream_download(url, path, expected=None):
+def stream_download(url, path, expected=None, request_budget_seconds=60, progress=False):
     safe_url(url)
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.is_symlink() or any(parent.is_symlink() for parent in path.parents):
@@ -40,6 +40,13 @@ def stream_download(url, path, expected=None):
     errors = []
     for attempt in range(1, 4):
         started = time.monotonic()
+        last_progress_time = started
+        last_progress_bytes = 0
+        if progress:
+            print(json.dumps({'master_https_stream': 'starting', 'attempt': attempt,
+                              'transfer_budget_seconds': request_budget_seconds,
+                              'socket_read_timeout_seconds': 20, 'received_bytes': 0,
+                              'url': url}), flush=True)
         opener = urllib.request.build_opener(urllib.request.ProxyHandler(),
                                             urllib.request.HTTPSHandler(context=ssl.create_default_context()),
                                             DownloadRedirect())
@@ -47,7 +54,7 @@ def stream_download(url, path, expected=None):
         try:
             request = urllib.request.Request(url, headers={'User-Agent': 'Bixie-saved-delivery-integrity/1.0',
                                                             'Accept-Encoding': 'identity'})
-            with opener.open(request, timeout=30) as response:
+            with opener.open(request, timeout=20) as response:
                 if response.status != 200:
                     raise ValueError('The actual HTTPS download did not return HTTP 200.')
                 safe_url(response.geturl())
@@ -56,9 +63,9 @@ def stream_download(url, path, expected=None):
                 sha = hashlib.sha256()
                 with partial.open('wb') as output:
                     while True:
-                        remaining = 60 - (time.monotonic() - started)
+                        remaining = request_budget_seconds - (time.monotonic() - started)
                         if remaining <= 0:
-                            raise TimeoutError('An individual HTTPS download exceeded its 60-second budget.')
+                            raise TimeoutError('An individual HTTPS download exceeded its ' + str(request_budget_seconds) + '-second transfer budget.')
                         # Keep each blocking socket read within the remaining
                         # request budget. Proxy TLS validation stays enabled.
                         socket = getattr(getattr(getattr(response, 'fp', None), 'raw', None), '_sock', None)
@@ -72,18 +79,36 @@ def stream_download(url, path, expected=None):
                         size += len(chunk)
                         if expected and size > expected['bytes']:
                             raise ValueError('HTTPS response exceeded the actual artifact size.')
+                        now = time.monotonic()
+                        if progress and (size - last_progress_bytes >= 64 * 1024 * 1024 or now - last_progress_time >= 45):
+                            print(json.dumps({'master_https_stream': 'receiving', 'attempt': attempt,
+                                              'received_bytes': size,
+                                              'elapsed_seconds': round(now - started, 3),
+                                              'transfer_budget_seconds': request_budget_seconds}), flush=True)
+                            last_progress_bytes = size
+                            last_progress_time = now
                 if headers['Content-Length'] and int(headers['Content-Length']) != size:
                     raise ValueError('Actual response length differs from HTTP Content-Length.')
                 if expected and (size != expected['bytes'] or sha.hexdigest() != expected['sha256']):
                     raise ValueError('Actual HTTPS response size/SHA differs from the published Git bytes.')
                 partial.replace(path)
+                if progress:
+                    print(json.dumps({'master_https_stream': 'download_complete', 'attempt': attempt,
+                                      'received_bytes': size, 'sha256': sha.hexdigest(),
+                                      'elapsed_seconds': round(time.monotonic() - started, 3)}), flush=True)
                 return {'url': url, 'http_status': 200, 'tls_certificate_validation': True,
                         'bytes': size, 'sha256': sha.hexdigest(), 'headers': headers,
                         'elapsed_seconds': round(time.monotonic() - started, 3),
+                        'transfer_budget_seconds': request_budget_seconds,
+                        'socket_read_timeout_seconds': 20,
                         'attempts': attempt, 'downloaded_file': str(path), 'passed': True}
         except Exception as error:
             partial.unlink(missing_ok=True)
             errors.append(str(error))
+            if progress:
+                print(json.dumps({'master_https_stream': 'attempt_failed', 'attempt': attempt,
+                                  'elapsed_seconds': round(time.monotonic() - started, 3),
+                                  'failure': str(error)}), flush=True)
     raise RuntimeError('Actual HTTPS download failed after bounded attempts: ' + url + ' / ' + '; '.join(errors))
 
 
@@ -182,8 +207,15 @@ def main():
                 if not actual or actual['sha256'] != part['sha256'] or actual['bytes'] != part['bytes'] or actual.get('passed') is not True:
                     raise ValueError('Plugin pinned media URL lacks an actual verified HTTPS response.')
             report['checks']['all_plugin_pinned_part_urls_verified_from_media_commit'] = True
-            downloaded = stream_download(publication['full_zip_url'], cache / 'Bixie-Saved-Checkpoint-Download.zip')
+            # The ~800 MB master needs a longer total transfer budget. Each
+            # socket read remains bounded at20seconds, and progress is emitted
+            # at64MiB or45seconds. Small individual artifacts retain60seconds.
+            downloaded = stream_download(publication['full_zip_url'], cache / 'Bixie-Saved-Checkpoint-Download.zip',
+                                         request_budget_seconds=600, progress=True)
             report['full_zip_download'] = downloaded
+            save()
+            print(json.dumps({'master_https_stream': 'verifying_zip_crc_paths_and_exact_member_hashes',
+                              'received_bytes': downloaded['bytes']}), flush=True)
             report['checks'].update(verify_full_zip(Path(downloaded['downloaded_file']), publication, downloaded))
             report['download_links'] = {'all_saved_files_zip': publication['full_zip_url'],
                                         'theme_zip': 'https://raw.githubusercontent.com/imahmad-malik/check.txt/' + commit + '/wordpress-release/bixie-editorial.zip',

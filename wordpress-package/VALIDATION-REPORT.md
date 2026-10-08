@@ -1,6 +1,6 @@
 # Bixie WordPress validation
 
-Snapshot: **2026-10-08 14:33 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
+Snapshot: **2026-10-08 15:16 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 ## Actual content inventory
 
@@ -58,20 +58,42 @@ acceptance; it retains the earlier synthetic-test site unchanged.
 | [wp-live-pilot-report.json](tests/wp-live-pilot-report.json) | Passed within its stated scope |
 | [wp-permalink-report.json](tests/wp-permalink-report.json) | Passed within its stated scope |
 | [wp-final-environment-report.json](tests/wp-final-environment-report.json) | Passed within its stated scope |
+| [wp-engineering-acceptance-report.json](tests/wp-engineering-acceptance-report.json) | Passed within its stated scope |
 | [wp-engineering-core-zip-report.json](tests/wp-engineering-core-zip-report.json) | Passed within its stated scope |
 | [wp-final-engineering-import-report.json](tests/wp-final-engineering-import-report.json) | Passed within its stated scope |
-| [wp-engineering-home-report.json](tests/wp-engineering-home-report.json) | Read report; incomplete or failing checks remain |
+| [wp-final-engineering-browser-report.json](tests/wp-final-engineering-browser-report.json) | Passed within its stated scope |
+| [wp-final-engineering-editability-report.json](tests/wp-final-engineering-editability-report.json) | Passed within its stated scope |
+| [wp-engineering-home-report.json](tests/wp-engineering-home-report.json) | Passed within its stated scope |
 | [wp-final-alias-report.json](tests/wp-final-alias-report.json) | Passed within its stated scope |
 | [wp-final-permalink-report.json](tests/wp-final-permalink-report.json) | Passed within its stated scope |
 | [wp-filter-alias-report.json](tests/wp-filter-alias-report.json) | Passed within its stated scope |
 | [release-archive-report.json](tests/release-archive-report.json) | Passed within its stated scope |
 | [https-saved-media-report.json](tests/https-saved-media-report.json) | Passed within its stated scope |
+| [github-repository-visibility-report.json](tests/github-repository-visibility-report.json) | Passed within its stated scope |
 | [wp-publication-report.json](tests/wp-publication-report.json) | Passed within its stated scope |
 | [wp-bundle-security-report.json](tests/wp-bundle-security-report.json) | Passed within its stated scope |
 | [wp-attachment-film-report.json](tests/wp-attachment-film-report.json) | Passed within its stated scope |
 | [wp-seo-report.json](tests/wp-seo-report.json) | Passed within its stated scope |
-| [wp-browser-report.json](tests/wp-browser-report.json) | Read report; incomplete or failing checks remain |
+| [wp-browser-report.json](tests/wp-browser-report.json) | Diagnostic observations; no overall acceptance verdict |
 | [plugin-wordpress-editor-report.json](tests/plugin-wordpress-editor-report.json) | Passed within its stated scope |
+
+The available 128-look engineering package passed actual WordPress core ZIP
+installation, authenticated upload of all 33 matching media parts, import and
+repeat import of 422 reviewed photos plus one movie, and exact owner edit
+preservation/restoration. All 16 ready collections contain seven complete looks
+and 21 distinct angle photos. Seven guides reference 24 corresponding photos.
+Public desktop/phone browsing, real source HTTP/SHA checks, native Gutenberg
+save/reload, saved looks, compare, print and no-JavaScript routing passed.
+
+The authenticated draft Home passed its separate actual browser/editor checks:
+22 sections, 69 unique image
+elements plus 1 distinct
+movie poster, a single hero H1, full-source photo/video framing, readable text,
+automatic motion with pause controls, reduced motion and native editability.
+It remains draft with its completeness gate enabled. These checks approve the
+available package; they do not supply the 65 missing photos or approve the
+unfinished 154-look launch. The acceptance report binds the exact installed
+theme/plugin and all 33 media-part SHA values.
 
 The production Home film check is actual authenticated WordPress import,
 Gutenberg save/roundtrip and decoded browser playback of the genuine source
@@ -93,6 +115,9 @@ Full final ZIP/core installation, all production media import and completed
 78-source Home/22-collection browser acceptance must be assessed from the final
 reports, not inferred from the four-look pilot or80-look integration snapshot.
 Archive CRC/SHA and published HTTPS downloads require separate delivery checks.
+HTTPS checks approve only the immutable commit and file hashes named in their
+report. Download verification follows archive assembly; an earlier diagnostic
+report does not approve a later documentation/source ZIP revision.
 
 ## Unverified host and external integration checks
 

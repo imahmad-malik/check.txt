@@ -1,0 +1,914 @@
+{
+  "timestamp_utc": "2026-10-08T10:18:08.017465+00:00",
+  "release_scope": "engineering_installable_media_incomplete",
+  "phase": "code",
+  "commit": "87c39ba0f6fcbd80723bc20eb832b171ed701ba6",
+  "passed": false,
+  "actual_counts": {
+    "looks": 128,
+    "photos": 422,
+    "films": 1,
+    "uniqueSourceSHA256": 423
+  },
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-001.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24736492,
+      "sha256": "ba82560cf59e1b95e2c1f94f79bc75364014ec61c9c8316f9555cfe9e3985f16",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24736492",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.613,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-001.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-001.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-004.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24726128,
+      "sha256": "cf794d7fdd5db730610a4b1c66b75fe8cf574d4a99040557be3c2ea0b77253fe",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24726128",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.988,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-004.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-004.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-002.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23405276,
+      "sha256": "5c0f026f7bdec5e1a0d49c467f8269a2019620dd19c0d828901271d8d92993da",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23405276",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.135,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-002.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-002.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-003.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24585821,
+      "sha256": "142c1a97913894a54606c5be50351f1d541fd2bd449cb0452e259260e7e574b3",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24585821",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.407,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-003.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-003.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-007.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24767952,
+      "sha256": "8712fe73d89c63fdafabf689ad7f2cdca5238e8db77fdf0afb495489ad8e7b62",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24767952",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.612,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-007.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-007.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-006.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23539446,
+      "sha256": "b878c63c717c65892940fffce60764f3ce2bc52f4170bfa264fabe14dc052d7a",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23539446",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.033,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-006.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-006.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-005.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23209740,
+      "sha256": "962cda36b9e7856800850858cda604e250f4d2ff4ad095088e9e83f009e90d10",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23209740",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.412,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-005.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-005.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-008.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23291879,
+      "sha256": "878d055f0c760ceb2989f5d71aa9997a0f48e292eec0e940e13982d16aa5ffe2",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23291879",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.242,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-008.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-008.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-009.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23854305,
+      "sha256": "6958c5c2a85d643cbc761a6a97e8664494e52bbb919829b200754ba8e64ce2de",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23854305",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.258,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-009.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-009.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-011.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23642054,
+      "sha256": "bcbb54a65cf3396688a09ecd160a7287dc0f7f321790968a2236b337b5772206",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23642054",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.019,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-011.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-011.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-010.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23745976,
+      "sha256": "938e62a9cfe37d3fda6d0b0baf5b0018ca7f1754bad52f8c95f7ec183c181372",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23745976",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.462,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-010.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-010.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-012.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24158184,
+      "sha256": "e8b12f307d07a7d6ef7a6ee6cf15e55b6764d4ad6b03e3958b868251f9d1e1c8",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24158184",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.396,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-012.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-012.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-014.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24841890,
+      "sha256": "9a5c4b0c44070984469d97fd802f56b1caf6db71d61694e0b10deb4f9d9f88ed",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24841890",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.019,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-014.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-014.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-015.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23389687,
+      "sha256": "0c0e52acd0acf4de129b3e99e4798365f5df860239df29949c1158aca5288f84",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23389687",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.67,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-015.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-015.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-013.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23684682,
+      "sha256": "b6c7c7f55f320326d604612d5f863f4d8fd990f62641553e98e9c2104905a36f",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23684682",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.166,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-013.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-013.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-016.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24419398,
+      "sha256": "1be39ccf3e0829b6178e6feb1b218fe6cf15d427874a577034ae3dc0afd0f59d",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24419398",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.477,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-016.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-016.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-018.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24654753,
+      "sha256": "94f0ae3b496a109fa6a147d8b59582b7c07816a2fecf3955179691566290194c",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24654753",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.262,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-018.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-018.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-017.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24079415,
+      "sha256": "4eb3ae49e65559d1dfc986d54c7d9c90f76df5e4f0296425e666d5b1a85c6072",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24079415",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.508,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-017.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-017.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-019.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24127996,
+      "sha256": "793b1b4ab4e27a9ecc91b7092a2bafa8c457709c46ab564a3923cc399e9746ad",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24127996",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.611,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-019.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-019.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-020.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23500681,
+      "sha256": "46b3e30ff85e5327911c98ed1f112860c4328c1978eada40969a4bbbcb6ddfbe",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23500681",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.997,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-020.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-020.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-022.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24803142,
+      "sha256": "6181b9091beaede16ed6faf542eddc068dea9c5056e25170ae17b7f77547c6b1",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24803142",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.399,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-022.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-022.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-023.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23723962,
+      "sha256": "3e7c676a7ac35a264e86f7d7ae2e46f9aed09344c0a85fafbf9b6516d5af15a3",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23723962",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.328,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-023.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-023.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-021.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23431369,
+      "sha256": "9431e8ec9f757a32156bfc737f8b906d66a3d1d28407cf5de2a75d7ad75ad27f",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23431369",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 4.163,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-021.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-021.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-024.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23474995,
+      "sha256": "82fcba95cf624e5c1c9fcd2ca7f07479a9c2af8972c64e68325e991aef246c33",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23474995",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.355,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-024.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-024.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-025.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23300573,
+      "sha256": "d3a81b1af187f8346c4d9a658d36df2910e1e46f8ad5fae393a967f7728032d3",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23300573",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.245,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-025.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-025.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-026.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24824998,
+      "sha256": "251e89c46285d03f3f51a2a81afe9a63424a934891038895d36a3e29610fb001",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24824998",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.407,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-026.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-026.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-027.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 24330497,
+      "sha256": "7a734bda7326e7321027f529c7061a8cb454c627668f32f113cdee2833b27e5c",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "24330497",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.243,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-027.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-027.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-028.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23489508,
+      "sha256": "26891e57b624b83c7aeb5c5bd2451581f0388b616b872f5f7438346bfb18083c",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23489508",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.279,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-028.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-028.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-030.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23648965,
+      "sha256": "fa554926cbf5e571b6f4eedb6dfac3b3472356309863a726e89d08cd3d1471d9",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23648965",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.034,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-030.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-030.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-029.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23533386,
+      "sha256": "cf496609e1b494a690316411c104f3bb36cd86833856c7d1f1a8b4391ee828e4",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23533386",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.39,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-029.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-029.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-031.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23711389,
+      "sha256": "431515fdfacb61802bcbab03c1c3491278e5878258e7540cf6be16679fafd3da",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23711389",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 3.077,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-031.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-031.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/media-download-manifest.json",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 7699,
+      "sha256": "3dab7aba32b3599dfad6f7139c5bf426151b5a5a104cf7ef82d828103bf701b9",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "7699",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.285,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/media-download-manifest.json",
+      "passed": true,
+      "path": "wordpress-media-release/media-download-manifest.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/SHA256SUMS.txt",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 3135,
+      "sha256": "3a4b791a20a498df100aa4e35cbe0fcd910de31a417d4e951635aed1c5c556da",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "3135",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.302,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/SHA256SUMS.txt",
+      "passed": true,
+      "path": "wordpress-media-release/SHA256SUMS.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-033.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 3208392,
+      "sha256": "3fd1969cdef72f8d9a6411f63f94e58520788c4aed27686bc45463f373f472d6",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "3208392",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.715,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-033.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-033.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-media-release/bixie-saved-20261008-032.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 23455145,
+      "sha256": "8e4eb2982683f6dab7fb2911ec20e926696bba83715abf86fb0613b70944f13b",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "23455145",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.123,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-media-release/bixie-saved-20261008-032.zip",
+      "passed": true,
+      "path": "wordpress-media-release/bixie-saved-20261008-032.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/bixie-editorial.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 518074,
+      "sha256": "b8fe5f75a030b5db40921a6a9ad2a4a04d0d66dcd410cc1bc39a5df6e65a5f89",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "518074",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.387,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/bixie-editorial.zip",
+      "passed": true,
+      "path": "wordpress-release/bixie-editorial.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/content-plan.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 777585,
+      "sha256": "68cac6c30fd2462d71a8580ef031f4999633583b8ae532151bdc0e09b7cd7e35",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "777585",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.376,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/content-plan.zip",
+      "passed": true,
+      "path": "wordpress-release/content-plan.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/bixie-library.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 329934,
+      "sha256": "ec593092d4a3a5068aeef6c48630f133bfd72d2ca1162cb4f1f3ae831a0054e5",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "329934",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.397,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/bixie-library.zip",
+      "passed": true,
+      "path": "wordpress-release/bixie-library.zip"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/CONTINUE.md",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 11250,
+      "sha256": "4bfbd0f0880931d34b5432fafe26c6296545ce067d558032737a7e7600db0f83",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "11250",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.279,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/CONTINUE.md",
+      "passed": true,
+      "path": "wordpress-release/CONTINUE.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/LAUNCH-CHECKLIST.md",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 2418,
+      "sha256": "e4090e03929e9169eaa8c372ccdefd6d1bcc244909c0025d6ba4bfd126842db4",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "2418",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.252,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/LAUNCH-CHECKLIST.md",
+      "passed": true,
+      "path": "wordpress-release/LAUNCH-CHECKLIST.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/INSTALL.md",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 3383,
+      "sha256": "48a9af0f446767110013a3e57313f4f69426cd1b2790892e5950d8934d12f520",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "3383",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.389,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/INSTALL.md",
+      "passed": true,
+      "path": "wordpress-release/INSTALL.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/OWNER-GUIDE.md",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 15811,
+      "sha256": "3b0e290fc1b12b8542e32a41c0abd10f8b1a1ad48b689a131a1297560f95c747",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "15811",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.277,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/OWNER-GUIDE.md",
+      "passed": true,
+      "path": "wordpress-release/OWNER-GUIDE.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/README.md",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 1491,
+      "sha256": "7cf2e444cfb511456bea12e4dbe4980413105721aaf14612f868595d4a187f1a",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "1491",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.267,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/README.md",
+      "passed": true,
+      "path": "wordpress-release/README.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/VALIDATION-REPORT.md",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 9849,
+      "sha256": "9ccad68804dc8296680bb6851e6497820397ad6d30dd9d03eb68c615aca65774",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "9849",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.29,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/VALIDATION-REPORT.md",
+      "passed": true,
+      "path": "wordpress-release/VALIDATION-REPORT.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/SHA256SUMS.txt",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 359,
+      "sha256": "ce95f33fb76c2f5e2f60b5060f86eb339310f8ba7b7f5eeb52dd43042bf28f43",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "359",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.256,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/SHA256SUMS.txt",
+      "passed": true,
+      "path": "wordpress-release/SHA256SUMS.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/release-manifest.json",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 1046,
+      "sha256": "9bdc5af040c4f2aceefe1caec0043ebae7b0e36084693440b9a72482d10f33f7",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "1046",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 0.503,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/release-manifest.json",
+      "passed": true,
+      "path": "wordpress-release/release-manifest.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/Bixie-WordPress-Engineering-Package.zip",
+      "http_status": 200,
+      "tls_certificate_validation": true,
+      "bytes": 26750552,
+      "sha256": "a9bfd1c904e4159f50ead91aea83a4d0b17ec8f9983eb1e9bbde35d1cf6b82ac",
+      "headers": {
+        "Content-Type": "application/zip",
+        "Content-Length": "26750552",
+        "Content-Disposition": null
+      },
+      "elapsed_seconds": 2.587,
+      "transfer_budget_seconds": 60,
+      "socket_read_timeout_seconds": 20,
+      "attempts": 1,
+      "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/wordpress-release/Bixie-WordPress-Engineering-Package.zip",
+      "passed": true,
+      "path": "wordpress-release/Bixie-WordPress-Engineering-Package.zip"
+    }
+  ],
+  "checks": {},
+  "limits": [
+    "The remaining 65 gallery originals are not completed or included.",
+    "Actual WordPress server-side remote media download is separately unverified because of runtime DNS; these are actual proxy HTTPS downloads with TLS validation.",
+    "These download checks do not establish a complete 154-look site, rankings, production hosting behavior, or real SEO plugin coexistence."
+  ]
+}

@@ -1,6 +1,6 @@
 # Continue the saved Bixie WordPress project
 
-Snapshot: **2026-10-08 14:33 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
+Snapshot: **2026-10-08 15:16 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 The user's authorized goal is the complete installable WordPress site with
 original image-led collections, an extra-long editable Home, companion plugin,
@@ -85,6 +85,24 @@ Actual authenticated GUI integration imported an immutable 80-look snapshot,
 preserved edits and attachments. That is partial integration evidence, not
 final 154-look acceptance. Final reports must bind the exact delivered theme,
 plugin and all media-part SHA values. Do not substitute fixture or pilot checks.
+
+The available 128-look engineering package passed actual WordPress core ZIP
+installation, authenticated upload of all 33 matching media parts, import and
+repeat import of 422 reviewed photos plus one movie, and exact owner edit
+preservation/restoration. All 16 ready collections contain seven complete looks
+and 21 distinct angle photos. Seven guides reference 24 corresponding photos.
+Public desktop/phone browsing, real source HTTP/SHA checks, native Gutenberg
+save/reload, saved looks, compare, print and no-JavaScript routing passed.
+
+The authenticated draft Home passed its separate actual browser/editor checks:
+22 sections, 69 unique image
+elements plus 1 distinct
+movie poster, a single hero H1, full-source photo/video framing, readable text,
+automatic motion with pause controls, reduced motion and native editability.
+It remains draft with its completeness gate enabled. These checks approve the
+available package; they do not supply the 65 missing photos or approve the
+unfinished 154-look launch. The acceptance report binds the exact installed
+theme/plugin and all 33 media-part SHA values.
 
 ## Remaining completion sequence
 

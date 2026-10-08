@@ -151,7 +151,10 @@ def publish(stage, paths):
     with tempfile.TemporaryDirectory(prefix='bixie-saved-delivery-', dir='/tmp') as temporary:
         env = dict(os.environ, GIT_INDEX_FILE=str(Path(temporary) / 'index'))
         git('read-tree', parent, env=env)
-        git('rm', '-r', '--cached', '--ignore-unmatch', '--', 'wordpress-media-release', 'wordpress-release', env=env)
+        # This private index holds the previous delivery tree, which can differ
+        # from both checkout HEAD and newly rebuilt files. Replace those cached
+        # entries without touching the worktree or the normal Git index.
+        git('rm', '-r', '-f', '--cached', '--ignore-unmatch', '--', 'wordpress-media-release', 'wordpress-release', env=env)
         git('add', '--', *paths, env=env)
         tracked = git('ls-files', env=env).splitlines()
         if any(relative.startswith(('wordpress-media-release/', 'wordpress-release/')) and relative not in paths for relative in tracked):

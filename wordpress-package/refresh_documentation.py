@@ -13,6 +13,11 @@ def result(name):
     if not path.is_file():
         return 'Not executed yet'
     data = json.loads(path.read_text())
+    if (name == 'https-saved-delivery-report.json' and data.get('passed') is False
+            and '60-second budget' in str(data.get('failure', ''))):
+        return 'Prior master transfer timed out; inspect its commit, not a file-integrity failure'
+    if not any(key in data for key in ['passed', 'status', 'separateFinalSitePrepared']):
+        return 'Diagnostic observations; no overall acceptance verdict'
     passed = data.get('passed') is True or data.get('status') == 'passed' or data.get('separateFinalSitePrepared') is True
     return 'Passed within its stated scope' if passed else 'Read report; incomplete or failing checks remain'
 
@@ -34,6 +39,34 @@ def main():
     acceptance_path = ROOT / 'tests/wp-final-acceptance-report.json'
     acceptance = json.loads(acceptance_path.read_text()) if acceptance_path.is_file() else {}
     final_runtime = acceptance.get('passed') is True and acceptance.get('actual_counts', {}).get('publishedLooks') == looks == 154
+    engineering_path = ROOT / 'tests/wp-engineering-acceptance-report.json'
+    engineering = json.loads(engineering_path.read_text()) if engineering_path.is_file() else {}
+    engineering_counts = engineering.get('actual_counts', {})
+    engineering_runtime = (engineering.get('passed') is True
+                           and engineering.get('release_scope') == 'engineering_installable_media_incomplete'
+                           and engineering_counts.get('publishedLooks') == looks == 128
+                           and engineering_counts.get('photos') == 422)
+    engineering_evidence = ''
+    if engineering_runtime:
+        engineering_evidence = f'''The available 128-look engineering package passed actual WordPress core ZIP
+installation, authenticated upload of all 33 matching media parts, import and
+repeat import of 422 reviewed photos plus one movie, and exact owner edit
+preservation/restoration. All 16 ready collections contain seven complete looks
+and 21 distinct angle photos. Seven guides reference 24 corresponding photos.
+Public desktop/phone browsing, real source HTTP/SHA checks, native Gutenberg
+save/reload, saved looks, compare, print and no-JavaScript routing passed.
+
+The authenticated draft Home passed its separate actual browser/editor checks:
+22 sections, {engineering_counts.get('home_unique_image_elements')} unique image
+elements plus {engineering_counts.get('home_distinct_video_posters')} distinct
+movie poster, a single hero H1, full-source photo/video framing, readable text,
+automatic motion with pause controls, reduced motion and native editability.
+It remains draft with its completeness gate enabled. These checks approve the
+available package; they do not supply the 65 missing photos or approve the
+unfinished 154-look launch. The acceptance report binds the exact installed
+theme/plugin and all 33 media-part SHA values.
+
+'''
     delivery_path = ROOT / 'tests/https-delivery-report.json'
     final_downloads = delivery_path.is_file() and json.loads(delivery_path.read_text()).get('passed') is True
     owner_path = ROOT / 'OWNER-GUIDE.md'
@@ -86,6 +119,7 @@ verification, and [LAUNCH-CHECKLIST.md](LAUNCH-CHECKLIST.md) before publishing.
         'wp-filter-alias-report.json', 'wp-final-directory-report.json',
         'release-archive-report.json', 'https-delivery-report.json',
         'https-saved-media-report.json', 'https-saved-delivery-report.json',
+        'github-repository-visibility-report.json',
         'wp-publication-report.json', 'wp-bundle-security-report.json',
         'wp-attachment-film-report.json', 'wp-seo-report.json',
         'wp-browser-report.json', 'plugin-wordpress-editor-report.json',
@@ -148,7 +182,7 @@ acceptance; it retains the earlier synthetic-test site unchanged.
 |---|---|
 {table}
 
-The production Home film check is actual authenticated WordPress import,
+{engineering_evidence}The production Home film check is actual authenticated WordPress import,
 Gutenberg save/roundtrip and decoded browser playback of the genuine source
 film:13checks passed,270native blocks/zero invalid blocks, full frame at desktop
 and phone, muted inline autoplay, keyboard pause, offscreen pause/resume and
@@ -168,6 +202,9 @@ Full final ZIP/core installation, all production media import and completed
 78-source Home/22-collection browser acceptance must be assessed from the final
 reports, not inferred from the four-look pilot or80-look integration snapshot.
 Archive CRC/SHA and published HTTPS downloads require separate delivery checks.
+HTTPS checks approve only the immutable commit and file hashes named in their
+report. Download verification follows archive assembly; an earlier diagnostic
+report does not approve a later documentation/source ZIP revision.
 
 ## Unverified host and external integration checks
 
@@ -360,7 +397,7 @@ preserved edits and attachments. That is partial integration evidence, not
 final 154-look acceptance. Final reports must bind the exact delivered theme,
 plugin and all media-part SHA values. Do not substitute fixture or pilot checks.
 
-## Remaining completion sequence
+{engineering_evidence}## Remaining completion sequence
 
 The confirmed current blocker is image generation HTTP429 usage_limit_reached.
 Exactly65sources remain: straight6, bangs20, over-6013, 90s-inspired2,

@@ -1,0 +1,56 @@
+{
+  "timestamp_utc": "2026-10-08T09:41:24.934281+00:00",
+  "repository": "imahmad-malik/check.txt",
+  "scope": "Read-only GitHub repository visibility metadata and repository HTML through the existing HTTPS route. No authentication header, credentials, or token extraction; repository visibility unchanged.",
+  "visibility": "public",
+  "checks": {
+    "official_public_badge_adjacent_to_exact_repository_link": true,
+    "repository_html_private_json_false": true
+  },
+  "routes": [
+    {
+      "kind": "api",
+      "url": "https://api.github.com/repos/imahmad-malik/check.txt",
+      "explicit_authorization_header_sent": false,
+      "tls_certificate_validation": true,
+      "failure": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "kind": "html",
+      "url": "https://github.com/imahmad-malik/check.txt",
+      "explicit_authorization_header_sent": false,
+      "tls_certificate_validation": true,
+      "http_status": 200,
+      "final_url": "https://github.com/imahmad-malik/check.txt",
+      "repository_private_meta": null,
+      "visibility_badges": [
+        "Public"
+      ],
+      "login_redirect": false
+    }
+  ],
+  "passed": true,
+  "user_download_access": "GitHub marks this exact repository Public; standard raw/codeload download URLs do not require a GitHub sign-in.",
+  "limits": [
+    "Requests use the existing configured HTTPS proxy. No proxy credentials were accessed or extracted. Repository visibility comes from returned GitHub metadata, rather than an assumption based solely on raw download success."
+  ],
+  "html_header_followup": {
+    "repository_header_found": false,
+    "exact_repository_link_in_header": false,
+    "repository_header_visibility_badges": []
+  },
+  "html_repository_followup": {
+    "page_title_names_exact_repo": true,
+    "scoped_visibility_badges": [
+      {
+        "badge": "Public",
+        "exact_repository_link_near_badge": true,
+        "repository_name_near_badge": true,
+        "owner_name_near_badge": true
+      }
+    ],
+    "repository_private_json_flags": [
+      "false"
+    ]
+  }
+}

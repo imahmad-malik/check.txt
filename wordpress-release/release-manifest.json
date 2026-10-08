@@ -1,0 +1,34 @@
+{
+  "release_state": "engineering_installable_media_incomplete",
+  "approved_launch_photographs": 409,
+  "approved_saved_photographs": 422,
+  "approved_partial_gallery_photographs": 13,
+  "missing_original_photographs": 65,
+  "complete_launch_looks": 128,
+  "gallery_photographs": 384,
+  "homepage_photographs": 25,
+  "completed_movies": 1,
+  "planned_original_photo_requests": 487,
+  "artifacts": [
+    {
+      "file": "Bixie-WordPress-Engineering-Package.zip",
+      "bytes": 26750552,
+      "sha256": "a9bfd1c904e4159f50ead91aea83a4d0b17ec8f9983eb1e9bbde35d1cf6b82ac"
+    },
+    {
+      "file": "bixie-editorial.zip",
+      "bytes": 518074,
+      "sha256": "b8fe5f75a030b5db40921a6a9ad2a4a04d0d66dcd410cc1bc39a5df6e65a5f89"
+    },
+    {
+      "file": "bixie-library.zip",
+      "bytes": 329934,
+      "sha256": "ec593092d4a3a5068aeef6c48630f133bfd72d2ca1162cb4f1f3ae831a0054e5"
+    },
+    {
+      "file": "content-plan.zip",
+      "bytes": 777585,
+      "sha256": "68cac6c30fd2462d71a8580ef031f4999633583b8ae532151bdc0e09b7cd7e35"
+    }
+  ]
+}

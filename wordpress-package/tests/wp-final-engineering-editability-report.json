@@ -1,0 +1,1489 @@
+{
+  "generatedAtUTC": "2026-10-08T09:55:32.531724+00:00",
+  "scope": "Actual authenticated native WordPress Gutenberg SAVE, owner edit preserved by real GUI import in default preserve mode, then exact original public content restored. Only actual project content; no new fixture media or looks.",
+  "phase": "engineering",
+  "checks": {
+    "actualNativeGutenbergOwnerEditSaved": true,
+    "realGUIImportPreservesActualNativeOwnerEditAndAllOtherContentRelationshipsSettings": true,
+    "exactOwnerPageContentAndOriginalStatusesRestored": true
+  },
+  "passed": true,
+  "beforeCounts": {
+    "looks": 128,
+    "publishedLooks": 128,
+    "photos": 422,
+    "films": 1,
+    "uniqueSourceSHA256": 423,
+    "pages": 42,
+    "publishedPages": 33,
+    "collections": 22,
+    "readyCollections": 16,
+    "guides": 7,
+    "readyGuides": 7
+  },
+  "ownerEditedPageID": 365,
+  "actualImportAJAXBatches": [
+    {
+      "action": "bixie_import_start",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 0,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 3,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 6,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 9,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 12,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 15,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 18,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 21,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 24,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 27,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 30,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 33,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 36,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 39,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 42,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 45,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 48,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 51,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 54,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 57,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 60,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 63,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 66,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 69,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 72,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 75,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 78,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 81,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 84,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 87,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 90,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 93,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 96,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 99,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 102,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 105,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 108,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 111,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 114,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 117,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 120,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 123,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 126,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 129,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 132,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 135,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 138,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 141,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 144,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 147,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 150,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 153,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 156,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 159,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 162,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 165,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 168,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 171,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 174,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 177,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 180,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 183,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 186,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 189,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 192,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 195,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 198,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 201,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 204,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 207,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 210,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 213,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 216,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 219,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 222,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 225,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 228,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 231,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 234,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 237,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 240,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 243,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 246,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 249,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 252,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 255,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 258,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 261,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 264,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 267,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 270,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 273,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 276,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 279,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 282,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 285,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 288,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 291,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 294,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 297,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 300,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 303,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 306,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 309,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 312,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 315,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 318,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 321,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 324,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 327,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 330,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 333,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 336,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 339,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 342,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 345,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 348,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 351,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 354,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 357,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 360,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 363,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 366,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 369,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 372,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 375,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 378,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 381,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 384,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 387,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 390,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 393,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 396,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 399,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 402,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 405,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 408,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 411,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 414,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 417,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 420,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 423,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 426,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 429,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 432,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 435,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 438,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 441,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 444,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 447,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 450,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 453,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 456,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 459,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 462,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 465,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 468,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 471,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 474,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 477,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 480,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 483,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 486,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 489,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 492,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 495,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 498,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 501,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 504,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 507,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 510,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 513,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 516,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 519,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 522,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 525,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 528,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 531,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 534,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 537,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 540,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 543,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 546,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 549,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 552,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 555,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 558,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 561,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 564,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 567,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 570,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 573,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 576,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 579,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 582,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 585,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 588,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 591,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 594,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 597,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 600,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 603,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 606,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 609,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 612,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 615,
+      "status": "running"
+    },
+    {
+      "action": "bixie_import_batch",
+      "HTTP": 200,
+      "success": true,
+      "cursor": 616,
+      "status": "complete"
+    }
+  ],
+  "afterCounts": {
+    "looks": 128,
+    "publishedLooks": 128,
+    "photos": 422,
+    "films": 1,
+    "uniqueSourceSHA256": 423,
+    "pages": 42,
+    "publishedPages": 33,
+    "collections": 22,
+    "readyCollections": 16,
+    "guides": 7,
+    "readyGuides": 7
+  }
+}

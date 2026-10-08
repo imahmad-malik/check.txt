@@ -13,8 +13,8 @@
         },
         "plugin": {
             "filename": "bixie-library.zip",
-            "bytes": 329513,
-            "sha256": "8c7953dce0473f03007a1c7311a9bf94c73054add4fcb85c6ee64b79dd97975c"
+            "bytes": 329934,
+            "sha256": "ec593092d4a3a5068aeef6c48630f133bfd72d2ca1162cb4f1f3ae831a0054e5"
         }
     },
     "passed": true,

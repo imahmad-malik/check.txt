@@ -24,8 +24,16 @@ def main():
         for key,expected in [('looks',128),('publishedLooks',128),('photos',422),('films',1),('uniqueSourceSHA256',423),('pages',42),('collections',22),('readyCollections',16),('guides',7),('readyGuides',7)]:assert counts[key]==expected,(key,counts[key])
         assert not state['duplicateImportKeys'] and report['actual_counts']['guide_photo_references']==24
         assert home['status']=='draft' and not home['gate']['complete'] and state['settings']['show_on_front']!='page'
+        assert len(home['uniquePhotoIDs'])==69 and len(set(home['posterIDs']))==1 and len(home['visiblePhotoIDs'])==70 and home['sectionCount']==22
+        assert set(home['uniquePhotoIDs']).isdisjoint(home['posterIDs'])
         assert state['pages']['privacy']['status']=='draft' and state['pages']['contact']['status']=='draft'
         assert all(look['status']=='publish' and look['gate']['complete'] and {image['angle'] for image in look['images']}=={'front','side','back'} for look in state['looks'].values())
+        gallery_ids={image['id'] for look in state['looks'].values() for image in look['images']}
+        home_source_ids={attachment['id'] for key,attachment in state['attachments'].items() if key.startswith('home-') and attachment['mime'].startswith('image/')}
+        photo_ids={attachment['id'] for attachment in state['attachments'].values() if attachment['mime'].startswith('image/')}
+        partial_ids=photo_ids-gallery_ids-home_source_ids
+        assert len(gallery_ids)==384 and len(home_source_ids)==25 and gallery_ids.isdisjoint(home_source_ids) and len(partial_ids)==13
+        report['actual_counts'].update({'coherent_look_gallery_photos':len(gallery_ids),'approved_home_source_photos':len(home_source_ids),'approved_unassigned_partial_angle_photos':len(partial_ids)})
         assert all(collection['gate']['photos']==21 and collection['gate']['looks']==7 for collection in state['collections'].values() if collection['gate']['complete'])
         assert all(guide['status']=='publish' and guide['gate']['complete'] for guide in state['guides'].values())
         assert all(attachment['sourceExists'] and attachment['displayExists'] and attachment['approved'] and attachment['qualified'] and attachment['sourceSHA256']==attachment['expectedSHA256'] for attachment in state['attachments'].values())

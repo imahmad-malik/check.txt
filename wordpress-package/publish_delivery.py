@@ -100,7 +100,9 @@ def main():
         git('read-tree', parent, env=env)
         # Replace only this task's generated delivery directories in the temporary
         # index. Retain unrelated branch files and all normal checkout changes.
-        git('rm', '-r', '--cached', '--ignore-unmatch', '--', 'wordpress-media-release', 'wordpress-release', env=env)
+        # Replace generated files from the previous delivery only in this
+        # private index; the worktree and normal index are preserved.
+        git('rm', '-r', '-f', '--cached', '--ignore-unmatch', '--', 'wordpress-media-release', 'wordpress-release', env=env)
         git('add', '--', *paths, env=env)
         tracked = git('ls-files', env=env).splitlines()
         for relative in tracked:
