@@ -1,6 +1,6 @@
 # Continue the saved Bixie WordPress project
 
-Snapshot: **2026-10-08 08:53 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
+Snapshot: **2026-10-08 13:54 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 The user's authorized goal is the complete installable WordPress site with
 original image-led collections, an extra-long editable Home, companion plugin,
@@ -143,7 +143,7 @@ provider-stub tests simulated. Contact/Privacy await genuine owner details.
 Target hosting, cache/CDN, production HTTPS, field performance, Search Console,
 indexing and rankings remain real target-host checks, without guarantees.
 
-Cloud onboarding install_script/start_skill were saved as an environment draft.
+Cloud onboarding startup instructions were saved as an environment draft.
 Environment settings Save and Publish is a separate user snapshot action; it
 does not block finishing and saving this authorized project. Continue using
 the existing checkout, without creating a worktree or exposing runtime secrets.

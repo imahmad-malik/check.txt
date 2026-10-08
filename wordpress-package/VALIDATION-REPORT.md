@@ -1,6 +1,6 @@
 # Bixie WordPress validation
 
-Snapshot: **2026-10-08 08:53 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
+Snapshot: **2026-10-08 13:54 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 ## Actual content inventory
 
@@ -15,8 +15,9 @@ Snapshot: **2026-10-08 08:53 PKT**. Production is incomplete; this is a saved en
 
 Guide references and homepage library covers reuse the relevant canonical look;
 they are not counted as additional originals. Every photograph belongs to one
-primary collection. The Home design has 22 sections, 77 unique image elements
-and one distinct movie poster: 78 displayed photographic sources. Each completed
+primary collection. The completed Home design targets 22 sections, 77 unique
+image elements and one distinct movie poster: 78 displayed photographic sources.
+The incomplete draft can contain fewer photographs. Each completed
 collection has 7 looks and 21 actual separate photographs.
 Contact and Privacy await genuine owner details/policy review rather than
 invented information.

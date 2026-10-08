@@ -22,11 +22,11 @@ Strict publication requirements remain:
 
 1. Actual, original, approved front, side and back assets for every public look; the same fictional adult and haircut across all three.
 2. At least 20 unique approved view images and at least seven complete looks before a collection is published.
-3. Native source long edge of at least **7,680 pixels** under the current quality requirement. An upscale is not accepted as native 8K.
+3. The user accepted the available **original generator-native resolution**. Source long edge must be at least **1,024 pixels**; record its actual dimensions. No upscaling and no native 8K claims. This replaces the earlier unavailable 7,680-pixel requirement without relaxing image review.
 4. Fully covered, loose opaque clothing; no exposed neckline/chest/shoulders or torso emphasis. A complete uncropped head and haircut with breathing room.
 5. Source file existence, genuine dimensions, approval status, hashes, actual angle labels and reviewed alt/caption text.
 
-**Current approved launch counts in this catalog are zero.** One new generator probe exists outside this content folder, but it is only a front-three-quarter image at 1,312 × 1,199 native pixels. It has neither a coherent three-view set nor the requested native 8K size. It is not counted as a completed public look. The older preview’s 26 sources are not automatically approved for the newer attire/composition/quality requirements.
+**At the accepted-resolution change, the catalog contained zero approved complete launch looks.** Current actual counts appear in the automatically maintained source-accounting section and `actual-source-counts.json`. One earlier generator probe exists outside this content folder at 1,312 × 1,199 native pixels. Its original resolution meets the newly accepted quality tier, but it has no coherent three-view set and is not automatically counted as a completed public look. The older preview’s 26 sources are not automatically approved for the newer attire/composition/quality requirements. Incoming production records must be checked for actual files, hashes, dimensions, approvals and corresponding views before the source counts change.
 
 The importer must retain the home and collection pages as drafts while these media gates remain unmet. A functioning theme, plugin and finished editorial copy do not make the missing launch library complete. The media manifest is the authority for actual generated source-file counts and reviews.
 
@@ -77,7 +77,7 @@ Each guide allocates a coherent canonical look set, with concise notes rather th
 | Growing out a bixie | `long-03` | 3 |
 | Bixie, shixie and wolf cut | `shaggy-03` | 3 |
 
-These **24 view references add zero new original photographs** to the production budget: they reference actual canonical look assets and remain counted once in the source manifest. Their look allocations are distinct across the seven guides. The definition guide illustrates a bixie rather than mislabelling it as a pixie or bob; the shaggy guide illustrates a shaggy bixie rather than fabricating a wolf-cut example. The grow-out guide shows a target shape, not a fake before-and-after or growth sequence. **Zero guide photo references are currently provided/approved.**
+These **24 view references add zero new original photographs** to the production budget: they reference actual canonical look assets and remain counted once in the source manifest. Their look allocations are distinct across the seven guides. The definition guide illustrates a bixie rather than mislabelling it as a pixie or bob; the shaggy guide illustrates a shaggy bixie rather than fabricating a wolf-cut example. The grow-out guide shows a target shape, not a fake before-and-after or growth sequence. Actual approved guide-photo counts are in the synchronized source-accounting report.
 
 ## Keyword accounting and evidence limits
 
@@ -99,17 +99,27 @@ Contact stays draft until a genuine owner-controlled email is configured. The Pr
 
 Page titles supply the single H1. Body content uses native H2, paragraph and list blocks. Link text is natural; links are not placed in headings. Internal paths are environment-independent in the manifest and resolved during import. Collection titles and descriptions are unique editorial metadata; actual rendered metadata and SEO-plugin coexistence still require runtime validation by the implementation owner.
 
-The integrated home requirements remain **25 dedicated photo-role keys**, the real `home-motion-film` video requirement and **at least 75 unique home photographs**. The current template targets 77 photographic placements. These are requirements and placements, not delivered source counts. Guide-photo changes do not relax or overwrite the integrated home media gates. Policy/footer copy does not receive arbitrary photo requirements.
+The integrated home requirements remain **25 dedicated photo-role keys**, the real `home-motion-film` video requirement and **at least 75 unique home photographs**. The template targets 77 unique image elements plus one distinct movie poster: 78 displayed photographic sources. These are requirements and placements, not delivered source counts. Guide-photo changes do not relax or overwrite the integrated home media gates. Policy/footer copy does not receive arbitrary photo requirements.
 
 ## Files and reproducibility
 
 - `catalog.json`: portable importer payload. Planned images are not represented as delivered posts.
-- `production-briefs.json`: 154 launch-target and 286 expansion-only haircut briefs with view specifications, all explicitly not generated.
+- `production-briefs.json`: 154 launch-target and 286 expansion-only haircut briefs with view specifications. Actual completed entries are marked generated-approved; unmet requests remain required-not-generated. All briefs stay unpublished planning records rather than duplicate imported posts.
 - `keyword-map.csv`: every shortlisted query, source estimates, disposition and canonical destination.
-- `guide-photo-allocation.json`: seven guide allocations, eight complete canonical sets and 24 required view references, all explicitly not provided.
+- `guide-photo-allocation.json`: seven guide allocations, eight canonical sets and 24 required view references, with actual provision derived from the synchronized approved look records. Referencing gallery views does not create new originals.
 - `apply_guide_photo_requirements.py`: idempotent guide allocation/copy patch; preserves integrated home and media configuration.
+- `sync_reviewed_media.py`: merge actual reviewed media, verify files/hashes/native dimensions, reject incomplete/unapproved/reused sets and recompute real counts. Pillow is required for this development verification script; the installable WordPress package does not require Python.
+- `actual-source-counts.json`: actual-only synchronization evidence and per-collection completion diagnostics.
 - `build_content.py`: regenerate editorial/catalog outputs from the bundled auditable `research/` CSVs, without an absolute development-machine path.
 - `validate_content.py`: meaningful integrity checks for routing, block serialization, completeness accounting and absence of fictitious delivered assets.
 - `content-validation.json`: actual validation results.
 
-The final WordPress package remains **asset-incomplete** unless the native-quality and complete-angle production requirements are met or explicitly changed by the user. This report is not permission to bypass those requirements.
+The final WordPress package remains **asset-incomplete** until the accepted generator-native quality, image-review and complete-angle production requirements are actually met. The resolution choice is now explicit user authorization; it is not authorization to bypass attire, full-head framing, source verification, coherence or honest counts.
+
+
+<!-- ACTUAL_MEDIA_ACCOUNTING_START -->
+## Actual source accounting
+Last synchronization verified **424 existing original source files**, **128 approved complete three-angle looks**, **384 approved collection-view photographs** and **24 available guide-photo references**.
+The remaining launch requirement is **26 complete looks / 78 collection views**. Planned records, renditions and partial/failed sets are not counted as completed looks.
+See `actual-source-counts.json` for per-collection counts and explicit file/look diagnostics. Homepage-only roles and the real photo-film have separate approval gates.
+<!-- ACTUAL_MEDIA_ACCOUNTING_END -->

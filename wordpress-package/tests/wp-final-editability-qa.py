@@ -34,8 +34,21 @@ def main():
             assert edited_state['pages']['about']['contentSHA256']==expected_hash
             report['checks']['actualNativeGutenbergOwnerEditSaved']=True; report['ownerEditedPageID']=record['id']; save()
             page.goto(SITE+'/wp-admin/tools.php?page=bixie-setup',wait_until='networkidle'); assert not page.locator('#bixie-overwrite').is_checked()
+            if args.phase=='engineering': page.locator('#bixie-configure').uncheck()
+            report['actualImportAJAXBatches']=[]
+            def batch_observation(response):
+                if '/wp-admin/admin-ajax.php' not in response.url:return
+                request=response.request.post_data or ''
+                action=next((value.split('=',1)[1] for value in request.split('&') if value.startswith('action=')),'')
+                if action not in ['bixie_import_start','bixie_import_batch']:return
+                try:
+                    result=response.json();data=result.get('data',{})
+                    report['actualImportAJAXBatches'].append({'action':action,'HTTP':response.status,'success':result.get('success'),'cursor':data.get('cursor'),'status':data.get('status')});save()
+                except Exception:pass
+            page.on('response',batch_observation)
             page.locator('#bixie-import-start').click()
-            page.wait_for_function('()=>!document.querySelector("#bixie-import-start").disabled&&document.querySelector("#bixie-import-message").textContent.startsWith("Import finished.")',timeout=900000)
+            page.wait_for_function('()=>!document.querySelector("#bixie-import-start").disabled&&document.querySelector("#bixie-import-message").textContent.length>0',timeout=900000)
+            assert page.locator('#bixie-import-message').inner_text().startswith('Import finished.'),page.locator('#bixie-import-message').inner_text()
             after=inspect(); assert after['import']['status']=='complete'
             assert after['pages']['about']['contentSHA256']==expected_hash
             assert edited_state['preservation']==after['preservation']

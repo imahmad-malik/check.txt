@@ -15,7 +15,7 @@ def main():
     def save():
         for destination in destinations:destination.write_text(json.dumps(report,indent=2)+'\n')
     try:
-        names=['wp-engineering-core-zip-report.json','wp-final-engineering-import-report.json','wp-final-engineering-browser-report.json','wp-final-engineering-editability-report.json','wp-final-directory-regression-report.json','wp-final-alias-report.json','wp-final-permalink-report.json']
+        names=['wp-engineering-core-zip-report.json','wp-final-engineering-import-report.json','wp-final-engineering-browser-report.json','wp-final-engineering-editability-report.json','wp-engineering-home-report.json','wp-final-directory-regression-report.json','wp-final-alias-report.json','wp-final-permalink-report.json']
         supporting={}
         for name in names:
             data=json.loads((TESTS/name).read_text());assert data.get('passed') is True,name;supporting[name]=data
@@ -37,7 +37,7 @@ def main():
             actual=next((item for item in supporting['wp-final-engineering-import-report.json']['parts'] if item['filename']==name),None);assert actual and actual['sha256']==digest and state['parts'][actual['bundleID']]['archive_sha256']==digest;report['tested_archives'][name]=digest
         assert len(supporting['wp-final-engineering-import-report.json']['parts'])==len(index['parts'])
         assert supporting['wp-final-engineering-import-report.json']['expectedSuppliedUniqueMedia']==423
-        report['checks']={'actual128CoherentPublishedLooksAnd422ReviewedNativePhotoSourcesOneQualifiedFilm':True,'all16ReadyCollectionsHaveSevenLooksAnd21DistinctActualViews':True,'all42EditableNativePagesSevenReadyGuides24RealPhotoReferences':True,'unfinishedHomeRemainsDraftWithPublicationGatesEnabled':True,'actualCoreZIPInstallAndAll423MediaManualOwnerGUIUploadImportSHAs':True,'actualRepeatedPreserveImportAndNativeOwnerGUISaveExactRestore':True,'actualCurrentPublicHTTPSourceHashesGeometryDetailNoJavaScriptGETAndNativeBlockRoundtrip':True,'actualFirstPassDirectoryPublicationAndOwnerEditedDraftPrivatePreservation':True,'actualAliasFiltersAndPlainPrettyPermalinks':True}
+        report['checks']={'actual128CoherentPublishedLooksAnd422ReviewedNativePhotoSourcesOneQualifiedFilm':True,'all16ReadyCollectionsHaveSevenLooksAnd21DistinctActualViews':True,'all42EditableNativePagesSevenReadyGuides24RealPhotoReferences':True,'unfinishedHomeRemainsDraftWithPublicationGatesEnabled':True,'actualCoreZIPInstallAndAll423MediaManualOwnerGUIUploadImportSHAs':True,'actualRepeatedPreserveImportAndNativeOwnerGUISaveExactRestore':True,'actualCurrentPublicHTTPSourceHashesGeometryDetailNoJavaScriptGETAndNativeBlockRoundtrip':True,'actualFirstPassDirectoryPublicationAndOwnerEditedDraftPrivatePreservation':True,'actualAliasFiltersAndPlainPrettyPermalinks':True,'actualDraftHomeWholePhotosNineIndependentMovingNativeShelvesOpeningRailFilmReducedMotionPrintAndOwnerEditor':True}
         report['supporting_reports']=names;report['passed']=True
     except Exception as error:report['failure']=str(error);raise
     finally:

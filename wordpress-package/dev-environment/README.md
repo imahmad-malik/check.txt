@@ -1,6 +1,6 @@
 # Local cloud QA runtime helpers
 
-These four reviewed source helpers contain no saved credentials or database.
+These reviewed source helpers contain no saved credentials or database.
 They document the disposable development runtime used for package tests. They
 are separate from the installable WordPress theme and plugin.
 
@@ -22,6 +22,19 @@ Run a PHP WordPress API test through the dedicated wrapper:
 /workspace/wp-test/php /workspace/check.txt/wordpress-package/tests/wp-import-test.php /workspace/wp-test/wordpress/wp-load.php state
 ```
 
+For the separately retained actual-source QA site on port 8767, run:
+
+```sh
+python3 /workspace/check.txt/wordpress-package/dev-environment/start-final-http.py
+```
+
+This helper only starts its missing owned HTTP process and checks a real noindex
+WordPress response. It retains both databases and never copies current theme,
+plugin or catalog files into an active import. Use `--status` for inspection.
+The local single-worker HTTP server can be briefly busy during media imports.
+`prepare-final-qa.py` copies package code when preparing that site; do not use it
+as a routine restart or run it over an active importer job.
+
 For a fresh machine, copy `install-runtime.py` into a separate writable runtime
 directory and execute it there. It verifies Debian InRelease signatures with
 the installed official Debian archive keyring, verifies package-index SHA-256,
@@ -36,7 +49,10 @@ installation before the service helper can work. Never copy QA credentials,
 authentication state or a database into a public release. Do not overwrite an
 existing owner WordPress installation. The retained-runtime startup path above
 was tested; a completely fresh installation from just these four files has
-not been independently reproduced.
+not been independently reproduced. No runtime packages need reinstalling in the
+current retained cloud instance; its tested startup instructions are saved in
+the onboarding configuration draft. Publishing an environment snapshot remains
+separate from saving that draft.
 
 Use the existing cloud checkout. Do not create a Git worktree unless requested.
 Internal loopback requests are for QA; no public web preview is provided.

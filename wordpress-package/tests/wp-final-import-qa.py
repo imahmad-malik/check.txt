@@ -50,9 +50,18 @@ def main():
     parser.add_argument('--phase', choices=['integration', 'engineering', 'final'], default='integration')
     parser.add_argument('--authenticate-only', action='store_true')
     parser.add_argument('--repeat', action='store_true')
+    parser.add_argument('--resume-only', action='store_true', help='Resume actual already GUI-verified parts without re-uploading or resetting persisted import.')
     args = parser.parse_args()
     destination = TESTS / ('wp-final-' + args.phase + '-import-report.json')
     report = {'generatedAtUTC': datetime.now(timezone.utc).isoformat(), 'scope': 'Actual native authenticated WordPress owner GUI upload/import on the separate localhost8767 noindex site. Only actual supplied sources; no synthetic fixture import.', 'phase': args.phase, 'finalAcceptance': args.phase == 'final', 'checks': {}, 'parts': [], 'passed': False, 'remoteWordPressHTTPSFetchVerified': False}
+    previous = json.loads(destination.read_text()) if args.resume_only else None
+    if previous:
+        assert previous['phase'] == args.phase and previous['checks'].get('actualMultipartGUIUploadVerifierCompleted') and previous['checks'].get('realUploadedZIPHashesMatchSelectedImmutableParts')
+        report = previous
+        report['priorInterruptedFailure'] = report.pop('failure', None)
+        report.pop('traceback', None)
+        report['passed'] = False
+        report['parts'] = []
 
     def save():
         destination.write_text(json.dumps(report, indent=2) + '\n')
@@ -81,7 +90,9 @@ def main():
             if download_index:
                 assert len(paths) == len(indexed)
                 report['checks']['selectedPartsMatchImmutableDownloadManifestHashesAndBytes'] = True
-            report['before'] = inspect()
+            current = inspect()
+            if args.resume_only: report['resumeBefore'] = current
+            else: report['before'] = current
             save()
         with sync_playwright() as playwright:
             browser = playwright.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
@@ -96,14 +107,28 @@ def main():
                 return
             errors = []
             page.on('pageerror', lambda error: errors.append(str(error)))
+            report.setdefault('actualImportAJAXBatches', [])
+            def batch_observation(response):
+                if '/wp-admin/admin-ajax.php' not in response.url: return
+                request = response.request.post_data or ''
+                action = next((value.split('=',1)[1] for value in request.split('&') if value.startswith('action=')), '')
+                if action not in ['bixie_import_start','bixie_import_batch']: return
+                try:
+                    result = response.json()
+                    data = result.get('data', {}) if isinstance(result,dict) else {}
+                    report['actualImportAJAXBatches'].append({'action':action,'HTTP':response.status,'success':result.get('success') if isinstance(result,dict) else False,'cursor':data.get('cursor') if isinstance(data,dict) else None,'status':data.get('status') if isinstance(data,dict) else None,'message':data.get('message','') if isinstance(data,dict) else str(data)[:200]})
+                    save()
+                except Exception: pass
+            page.on('response', batch_observation)
             assert not page.locator('#bixie-overwrite').is_checked()
             if args.phase == 'engineering': page.locator('#bixie-configure').uncheck()
             else: page.locator('#bixie-configure').check()
-            page.locator('#bixie-bundle-files').set_input_files([str(path) for path in paths])
-            page.locator('#bixie-bundle-upload').click()
-            page.wait_for_function('(count)=>document.querySelector("#bixie-bundle-status").textContent.startsWith(count+" of "+count+" selected part(s) verified")', arg=len(paths), timeout=600000)
-            report['checks']['actualMultipartGUIUploadVerifierCompleted'] = True
-            report['uploadStatus'] = page.locator('#bixie-bundle-status').inner_text()
+            if not args.resume_only:
+                page.locator('#bixie-bundle-files').set_input_files([str(path) for path in paths])
+                page.locator('#bixie-bundle-upload').click()
+                page.wait_for_function('(count)=>document.querySelector("#bixie-bundle-status").textContent.startsWith(count+" of "+count+" selected part(s) verified")', arg=len(paths), timeout=600000)
+                report['checks']['actualMultipartGUIUploadVerifierCompleted'] = True
+                report['uploadStatus'] = page.locator('#bixie-bundle-status').inner_text()
             report['afterUpload'] = inspect()
             save()
             for part in report['parts']:
@@ -111,7 +136,8 @@ def main():
                 assert actual['archive_sha256'] == part['sha256'], part['bundleID']
             report['checks']['realUploadedZIPHashesMatchSelectedImmutableParts'] = True
             page.locator('#bixie-import-start').click()
-            page.wait_for_function('()=>!document.querySelector("#bixie-import-start").disabled&&document.querySelector("#bixie-import-message").textContent.startsWith("Import finished.")', timeout=900000)
+            page.wait_for_function('()=>!document.querySelector("#bixie-import-start").disabled&&document.querySelector("#bixie-import-message").textContent.length>0', timeout=900000)
+            assert page.locator('#bixie-import-message').inner_text().startswith('Import finished.'), page.locator('#bixie-import-message').inner_text()
             report['after'] = inspect()
             report['checks']['actualOwnerGUIImportCompleted'] = report['after']['import']['status'] == 'complete'
             report['pageErrors'] = errors
@@ -120,7 +146,8 @@ def main():
             if args.repeat:
                 before_repeat = report['after']
                 page.locator('#bixie-import-start').click()
-                page.wait_for_function('()=>!document.querySelector("#bixie-import-start").disabled&&document.querySelector("#bixie-import-message").textContent.startsWith("Import finished.")', timeout=900000)
+                page.wait_for_function('()=>!document.querySelector("#bixie-import-start").disabled&&document.querySelector("#bixie-import-message").textContent.length>0', timeout=900000)
+                assert page.locator('#bixie-import-message').inner_text().startswith('Import finished.'), page.locator('#bixie-import-message').inner_text()
                 report['afterRepeat'] = inspect()
                 assert report['afterRepeat']['import']['status'] == 'complete', 'Repeated owner GUI import did not finish.'
                 assert before_repeat['preservation'] == report['afterRepeat']['preservation'], 'Repeated preserve import changed stored content, relationships or settings.'

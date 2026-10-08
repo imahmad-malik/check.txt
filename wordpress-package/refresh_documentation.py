@@ -103,8 +103,9 @@ Snapshot: **{date}**. {state}
 
 Guide references and homepage library covers reuse the relevant canonical look;
 they are not counted as additional originals. Every photograph belongs to one
-primary collection. The Home design has 22 sections, 77 unique image elements
-and one distinct movie poster: 78 displayed photographic sources. Each completed
+primary collection. The completed Home design targets 22 sections, 77 unique
+image elements and one distinct movie poster: 78 displayed photographic sources.
+The incomplete draft can contain fewer photographs. Each completed
 collection has 7 looks and 21 actual separate photographs.
 Contact and Privacy await genuine owner details/policy review rather than
 invented information.
@@ -412,7 +413,7 @@ provider-stub tests simulated. Contact/Privacy await genuine owner details.
 Target hosting, cache/CDN, production HTTPS, field performance, Search Console,
 indexing and rankings remain real target-host checks, without guarantees.
 
-Cloud onboarding install_script/start_skill were saved as an environment draft.
+Cloud onboarding startup instructions were saved as an environment draft.
 Environment settings Save and Publish is a separate user snapshot action; it
 does not block finishing and saving this authorized project. Continue using
 the existing checkout, without creating a worktree or exposing runtime secrets.
