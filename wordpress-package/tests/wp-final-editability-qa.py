@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 def main():
-    parser = argparse.ArgumentParser(); parser.add_argument('--phase',choices=['integration','final'],default='integration'); args=parser.parse_args()
+    parser = argparse.ArgumentParser(); parser.add_argument('--phase',choices=['integration','engineering','final'],default='integration'); args=parser.parse_args()
     destination=TESTS/('wp-final-'+args.phase+'-editability-report.json')
     report={'generatedAtUTC':datetime.now(timezone.utc).isoformat(),'scope':'Actual authenticated native WordPress Gutenberg SAVE, owner edit preserved by real GUI import in default preserve mode, then exact original public content restored. Only actual project content; no new fixture media or looks.','phase':args.phase,'checks':{},'passed':False}
     def save(): destination.write_text(json.dumps(report,indent=2)+'\n')

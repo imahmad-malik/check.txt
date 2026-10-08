@@ -1,0 +1,25 @@
+{
+    "scope": "Actual delivered core ZIP installation on a separate local noindex WordPress site.",
+    "release_scope": "engineering_installable_media_incomplete",
+    "checks": {
+        "themeInstalledAndActivatedViaCoreZIP": true,
+        "pluginInstalledAndActivatedViaCoreZIP": true
+    },
+    "archives": {
+        "theme": {
+            "filename": "bixie-editorial.zip",
+            "bytes": 517083,
+            "sha256": "bdafd2243ca6e4390d3536c5e09850465084a14b2074aae3d067402b17a07ecd"
+        },
+        "plugin": {
+            "filename": "bixie-library.zip",
+            "bytes": 328870,
+            "sha256": "80e2dedd99b67e726d372cdb8bbde37420abcb8b48b3c6af387c4277eeb0bc64"
+        }
+    },
+    "passed": true,
+    "runtime": {
+        "wordpress": "7.1.3",
+        "php": "8.4.26"
+    }
+}

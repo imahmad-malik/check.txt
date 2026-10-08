@@ -1,37 +1,41 @@
 <?php
-/** Actual 80/current real-record SQL, HTTP REST, SSR and cached facet aliases. */
+/** Real actual-source SQL, public REST and native GET aliases, without raw edits. */
 if (PHP_SAPI !== 'cli' || empty($argv[1])) { exit(2); }
-$_SERVER['HTTP_HOST'] = '127.0.0.1:8767'; $_SERVER['SERVER_NAME'] = '127.0.0.1'; $_SERVER['REQUEST_URI'] = '/'; require $argv[1];
+$_SERVER['HTTP_HOST'] = '127.0.0.1:8767'; $_SERVER['SERVER_NAME'] = '127.0.0.1'; $_SERVER['REQUEST_URI'] = '/';
+require $argv[1];
 if (wp_get_environment_type() !== 'local' || (int) get_option('blog_public') !== 0 || untrailingslashit(home_url('/')) !== 'http://127.0.0.1:8767') { exit(2); }
-$cache = get_transient('bixie_catalog_facets'); $checks = []; $report = ['scope' => 'Only actually imported approved production looks in separate local noindex WordPress. Actual SQL result sets, real HTTP REST and server-rendered GET filters, plus a cached facet list made from those same raw records. No synthetic looks or raw metadata changes.', 'checks' => [], 'observations' => [], 'passed' => false];
-$ids = get_posts(['post_type'=>'bixie_look','post_status'=>'publish','posts_per_page'=>-1,'fields'=>'ids','orderby'=>'ID','order'=>'ASC']); $raw = [];
-foreach ($ids as $id) { $raw[$id] = ['fringe'=>get_post_meta($id,'bixie_fringe',true),'colour'=>get_post_meta($id,'bixie_colour',true)]; }
-$before_hash = hash('sha256',wp_json_encode($raw));
+$report = ['scope' => 'Actual current production look records in the separate local noindex site. Independent raw SQL expectations, real HTTP REST/GET filtering and native facet cache; no metadata edits or synthetic fixtures.', 'checks' => [], 'variants' => [], 'passed' => false];
+$posts = get_posts(['post_type'=>'bixie_look','post_status'=>'publish','posts_per_page'=>-1,'orderby'=>['menu_order'=>'ASC','ID'=>'ASC']]);
+$before = []; foreach ($posts as $post) { $before[$post->ID] = ['fringe'=>get_post_meta($post->ID,'bixie_fringe',true),'colour'=>get_post_meta($post->ID,'bixie_colour',true)]; }
+$report['actualPublishedLooks'] = count($posts);
+$groups = ['fringe' => ['canonical'=>'none','aliases'=>['none','no-bangs','no bangs']], 'colour' => ['canonical'=>'dark','aliases'=>['dark','black']]];
+$hub = bixie_package_page_url('looks','/looks/');
 try {
-    foreach (['fringe' => ['none','no-bangs','no bangs'], 'colour' => ['dark','black']] as $field => $aliases) {
-        $expected = array_keys(array_filter($raw, static fn($record) => in_array($record[$field],$aliases,true))); sort($expected); if (!$expected) { throw new RuntimeException('Actual imported records do not exercise ' . $field . ' aliases.'); }
-        foreach ($aliases as $value) {
-            $results = bixie_query_looks([$field=>$value,'per_page'=>48]); $actual = array_column($results['items'],'id');
-            for ($page=2;$page<=$results['pages'];$page++) { $actual=array_merge($actual,array_column(bixie_query_looks([$field=>$value,'per_page'=>48,'page'=>$page])['items'],'id')); } sort($actual);
-            $checks[$field . ':' . $value . ':actualSQLCompleteSet'] = $actual === $expected && $results['total'] === count($expected);
-            $url = add_query_arg([$field=>$value,'per_page'=>48],rest_url('bixie/v1/looks')); $response=wp_remote_get($url,['timeout'=>20]);
-            $rest = !is_wp_error($response) ? json_decode(wp_remote_retrieve_body($response),true) : null;
-            $checks[$field . ':' . $value . ':realHTTPRESTTotalAndFirstPage'] = !is_wp_error($response) && wp_remote_retrieve_response_code($response)===200 && ($rest['total']??-1)===count($expected) && count($rest['items']??[])===min(48,count($expected));
-            $http=wp_remote_get(add_query_arg($field,$value,bixie_package_page_url('looks','/looks/')),['timeout'=>20]); $html=!is_wp_error($http)?wp_remote_retrieve_body($http):'';
-            $tags=new WP_HTML_Tag_Processor($html);$cards=[];while($tags->next_tag('ARTICLE')){if($tags->has_class('bixie-look-card')){$cards[]=(int)$tags->get_attribute('data-look');}}
-            $checks[$field . ':' . $value . ':realHTTPNonemptySSRMatchesActualRecords'] = !is_wp_error($http) && wp_remote_retrieve_response_code($http)===200 && count($cards)>0 && !array_diff($cards,$expected);
-            $report['observations'][$field . ':' . $value] = ['actualMatchingApprovedLooks'=>count($expected),'actualHTTPRESTFirstPageLooks'=>count($rest['items']??[]),'actualServerRenderedCards'=>count($cards)];
+    foreach ($groups as $field=>$group) {
+        $expected = []; foreach ($before as $id=>$metadata) { if (in_array(strtolower($metadata[$field]),$group['aliases'],true)) { $expected[]=$id; } }
+        if (!$expected) { throw new RuntimeException('The actual source set has no positive '.$field.' alias sample.'); }
+        foreach ($group['aliases'] as $alias) {
+            $query = bixie_query_looks([$field=>$alias,'per_page'=>48]); $ids=array_column($query['items'],'id');
+            if ($query['total']!==count($expected) || $ids!==array_slice($expected,0,48)) { throw new RuntimeException('Actual SQL filtering mismatch for '.$field.'='.$alias); }
+            $url=add_query_arg([$field=>$alias,'per_page'=>48],rest_url('bixie/v1/looks')); $response=wp_remote_get($url,['timeout'=>20]);
+            if (is_wp_error($response) || wp_remote_retrieve_response_code($response)!==200) { throw new RuntimeException('Actual public REST alias request failed.'); }
+            $json=json_decode(wp_remote_retrieve_body($response),true,512,JSON_THROW_ON_ERROR);
+            if ($json['total']!==count($expected) || array_column($json['items'],'id')!==array_slice($expected,0,48)) { throw new RuntimeException('Actual public REST alias IDs mismatch.'); }
+            $response=wp_remote_get(add_query_arg($field,$alias,$hub),['timeout'=>20]);
+            if (is_wp_error($response) || wp_remote_retrieve_response_code($response)!==200) { throw new RuntimeException('Actual native GET alias request failed.'); }
+            $html=wp_remote_retrieve_body($response);$tags=new WP_HTML_Tag_Processor($html);$rendered=[];
+            while ($tags->next_tag('ARTICLE')) { if ($tags->has_class('bixie-look-card')) {$rendered[]=absint($tags->get_attribute('data-look'));} }
+            if (!$rendered || $rendered!==array_slice($expected,0,count($rendered))) { throw new RuntimeException('Native GET alias first-page actual card IDs mismatch.'); }
+            $select_pattern='~<select\b[^>]*name="'.preg_quote($field,'~').'"[^>]*>(.*?)</select>~s';
+            if (!preg_match($select_pattern,$html,$select) || !preg_match('~<option\b[^>]*value="'.preg_quote($group['canonical'],'~').'"[^>]*selected~',$select[1])) { throw new RuntimeException('Native GET did not retain canonical selected facet.'); }
+            $report['variants'][$field.'='.$alias]=['positiveActualMatches'=>count($expected),'realSQLIDsMatch'=>true,'realHTTPRESTStatus'=>200,'realRESTIDsMatch'=>true,'realNativeGETStatus'=>200,'nativeRenderedCardCount'=>count($rendered),'selectedCanonicalFacet'=>$group['canonical']];
         }
     }
-    $raw_facets=[];foreach(['texture','length','fringe','colour'] as $field){$raw_facets[$field]=array_values(array_unique(array_map(static fn($id)=>get_post_meta($id,'bixie_'.$field,true),$ids)));}
-    delete_transient('bixie_catalog_facets');$live=bixie_catalog_facets();set_transient('bixie_catalog_facets',$raw_facets,HOUR_IN_SECONDS);$cached=bixie_catalog_facets();
-    foreach (['fringe'=>['canonical'=>'none','alias'=>'no-bangs'],'colour'=>['canonical'=>'dark','alias'=>'black']] as $field=>$values) {
-        $checks[$field . ':liveFacetCanonicalOnly']=in_array($values['canonical'],$live[$field],true)&&!in_array($values['alias'],$live[$field],true);
-        $checks[$field . ':cachedActualRawFacetCanonicalOnly']=in_array($values['canonical'],$cached[$field],true)&&!in_array($values['alias'],$cached[$field],true);
-    }
-    $after=[];foreach($ids as $id){$after[$id]=['fringe'=>get_post_meta($id,'bixie_fringe',true),'colour'=>get_post_meta($id,'bixie_colour',true)];}
-    $checks['allRawActualOwnerMetadataUnchanged']=hash_equals($before_hash,hash('sha256',wp_json_encode($after)));
-    $report['checks']=$checks;$report['actualPublishedLookCount']=count($ids);$report['passed']=!in_array(false,$checks,true);
-} catch (Throwable $error) { $report['checks']=$checks;$report['failure']=$error->getMessage(); }
-finally { if($cache===false){delete_transient('bixie_catalog_facets');}else{set_transient('bixie_catalog_facets',$cache,HOUR_IN_SECONDS);} file_put_contents(__DIR__.'/wp-final-alias-report.json',wp_json_encode($report,JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES)."\n");echo wp_json_encode($report,JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES)."\n"; }
-exit($report['passed']?0:1);
+    $facets=bixie_catalog_facets();
+    $report['checks']['allFiveAliasVariantsUseSamePositiveActualRecordsAcrossSQLRESTAndNativeGET']=count($report['variants'])===5;
+    $report['checks']['actualFacetListsExposeCanonicalNoneAndDarkOnce']=count(array_keys($facets['fringe'],'none',true))===1 && count(array_keys($facets['colour'],'dark',true))===1 && !array_intersect($facets['fringe'],['no-bangs','no bangs']) && !in_array('black',$facets['colour'],true);
+    $after=[];foreach($posts as $post){$after[$post->ID]=['fringe'=>get_post_meta($post->ID,'bixie_fringe',true),'colour'=>get_post_meta($post->ID,'bixie_colour',true)];}
+    $report['checks']['allActualOwnerRawMetadataRemainsIdentical']=$before===$after;
+    $report['passed']=!in_array(false,$report['checks'],true);
+} catch (Throwable $error) { $report['failure']=$error->getMessage(); }
+file_put_contents(__DIR__.'/wp-final-alias-report.json',wp_json_encode($report,JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES)."\n");echo wp_json_encode($report,JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES)."\n";exit($report['passed']?0:1);

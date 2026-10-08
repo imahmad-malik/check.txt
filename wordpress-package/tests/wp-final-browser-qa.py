@@ -80,7 +80,7 @@ def editor_check(browser,data,report,save):
 
 
 def main():
-    parser = argparse.ArgumentParser(); parser.add_argument('--phase', choices=['integration', 'final'], default='integration'); parser.add_argument('--editor', action='store_true'); parser.add_argument('--editor-only', action='store_true')
+    parser = argparse.ArgumentParser(); parser.add_argument('--phase', choices=['integration', 'engineering', 'final'], default='integration'); parser.add_argument('--editor', action='store_true'); parser.add_argument('--editor-only', action='store_true')
     args = parser.parse_args(); destination = TESTS / ('wp-final-' + args.phase + '-browser-report.json')
     report = {'generatedAtUTC': datetime.now(timezone.utc).isoformat(), 'scope': 'Actual sources in separate local noindex WordPress. No synthetic fixture records. Public HTTP, natural geometry, selected painted photo edges, GET no-JavaScript forms and actual registered native Gutenberg parser.', 'phase': args.phase, 'checks': {}, 'collections': {}, 'passed': False}
     def save(): destination.write_text(json.dumps(report, indent=2) + '\n')
@@ -164,6 +164,26 @@ def main():
                 page.keyboard.press('Escape'); assert trigger.evaluate('e=>e===document.activeElement')
             report['checks']['actualSideBackDetailSelectionAndEscapeFocus'] = True
             page.close()
+            report['actualSavedComparePrintFlows'] = {}
+            for name,width,height in [('desktop',1440,1000),('phone',390,844)]:
+                tools = browser.new_context(viewport={'width':width,'height':height},reduced_motion='reduce')
+                page = tools.new_page(); page.goto(first_collection,wait_until='networkidle')
+                for index in range(3): page.locator('.bixie-results .bixie-save').nth(index).click()
+                assert page.locator('.bixie-library .bixie-saved-count').inner_text() == '3'
+                page.locator('.bixie-open-saved').click(); page.wait_for_function('()=>document.querySelectorAll("dialog[open] .bixie-saved-grid .bixie-look-card").length===3')
+                saved_photos = painted_images(page,'dialog[open] .bixie-saved-grid .bixie-look-card img',tools,3)
+                page.keyboard.press('Escape'); page.locator('.bixie-open-compare').click()
+                page.wait_for_function('()=>document.querySelectorAll("dialog[open] [data-bixie-compare]").length===3')
+                page.locator('dialog[open] .bixie-compare-selected').click(); page.wait_for_function('()=>document.querySelectorAll("dialog[open] .bixie-compare-look").length===2')
+                comparison_photos = painted_images(page,'dialog[open] .bixie-compare-look img',tools,6)
+                page.keyboard.press('Escape'); page.locator('.bixie-print-saved').click()
+                page.wait_for_function('()=>document.querySelectorAll("dialog[open] .bixie-print-sheet").length===3')
+                print_photos = painted_images(page,'dialog[open] .bixie-print-sheet img',tools,9)
+                page.keyboard.press('Escape'); page.reload(wait_until='networkidle'); assert page.locator('.bixie-library .bixie-saved-count').inner_text() == '3'
+                page.goto(data['pages']['saved-looks']['url'],wait_until='networkidle'); page.wait_for_function('()=>document.querySelectorAll(".bixie-saved-items .bixie-look-card").length===3')
+                report['actualSavedComparePrintFlows'][name] = {'threeActualSavedLooksPersistAfterReload':True,'nativeSavedPageThreeActualCards':True,'savedPhotos':saved_photos,'twoLookSixAngleComparisonPhotos':comparison_photos,'threeSheetNineAnglePrintPhotos':print_photos}; save()
+                tools.close()
+            report['checks']['actualSavedReloadNativeSavedPageSixAngleCompareNineAnglePrintAtDesktopAndPhone'] = True
             nojs = browser.new_context(java_script_enabled=False,viewport={'width':390,'height':844})
             page = nojs.new_page(); page.goto(first_collection,wait_until='networkidle'); assert page.locator('.bixie-results img').count() == 21
             page.locator('.bixie-filter-form [name="sort"]').select_option('title'); page.locator('.bixie-filter-form button[type="submit"]').click(); page.wait_for_load_state('networkidle')

@@ -99,14 +99,14 @@ Contact stays draft until a genuine owner-controlled email is configured. The Pr
 
 Page titles supply the single H1. Body content uses native H2, paragraph and list blocks. Link text is natural; links are not placed in headings. Internal paths are environment-independent in the manifest and resolved during import. Collection titles and descriptions are unique editorial metadata; actual rendered metadata and SEO-plugin coexistence still require runtime validation by the implementation owner.
 
-The integrated home requirements remain **25 dedicated photo-role keys**, the real `home-motion-film` video requirement and **at least 75 unique home photographs**. The current template targets 77 photographic placements. These are requirements and placements, not delivered source counts. Guide-photo changes do not relax or overwrite the integrated home media gates. Policy/footer copy does not receive arbitrary photo requirements.
+The integrated home requirements remain **25 dedicated photo-role keys**, the real `home-motion-film` video requirement and **at least 75 unique home photographs**. The template targets 77 unique image elements plus one distinct movie poster: 78 displayed photographic sources. These are requirements and placements, not delivered source counts. Guide-photo changes do not relax or overwrite the integrated home media gates. Policy/footer copy does not receive arbitrary photo requirements.
 
 ## Files and reproducibility
 
 - `catalog.json`: portable importer payload. Planned images are not represented as delivered posts.
-- `production-briefs.json`: 154 launch-target and 286 expansion-only haircut briefs with view specifications, all explicitly not generated.
+- `production-briefs.json`: 154 launch-target and 286 expansion-only haircut briefs with view specifications. Actual completed entries are marked generated-approved; unmet requests remain required-not-generated. All briefs stay unpublished planning records rather than duplicate imported posts.
 - `keyword-map.csv`: every shortlisted query, source estimates, disposition and canonical destination.
-- `guide-photo-allocation.json`: seven guide allocations, eight complete canonical sets and 24 required view references, all explicitly not provided.
+- `guide-photo-allocation.json`: seven guide allocations, eight canonical sets and 24 required view references, with actual provision derived from the synchronized approved look records. Referencing gallery views does not create new originals.
 - `apply_guide_photo_requirements.py`: idempotent guide allocation/copy patch; preserves integrated home and media configuration.
 - `sync_reviewed_media.py`: merge actual reviewed media, verify files/hashes/native dimensions, reject incomplete/unapproved/reused sets and recompute real counts. Pillow is required for this development verification script; the installable WordPress package does not require Python.
 - `actual-source-counts.json`: actual-only synchronization evidence and per-collection completion diagnostics.

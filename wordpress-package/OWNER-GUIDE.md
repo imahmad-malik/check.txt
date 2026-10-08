@@ -2,13 +2,28 @@
 
 ## Read this before installation
 
-This is an installable WordPress engineering package with an editable block theme, companion plugin and an actively produced original photo library. **The complete 154-look photographic site is unfinished.** At this assembly snapshot, the master manifest records 25 approved homepage originals, 10 complete three-angle looks/30 approved gallery views and 63 approved production photos in total, including individual photos in incomplete sets. The canonical content catalog currently includes six complete looks/18 views and must be refreshed from reviewed master records before final packaging. These are progress counts, not the final launch inventory or a claim that the whole site is public.
+This package contains an editable WordPress block theme, its companion plugin
+and genuinely generated original image collections. The synchronized inventory
+is **128 complete looks / 384 gallery photographs**, **25 separate
+Home photographs**, **16/22 complete collections** and **24/24
+supporting-guide photo references**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
-The production plan is 22 image-led collections, seven complete looks per collection, three separate front/side/back photographs per look, and 25 additional homepage photographs: **154 looks, 462 gallery photographs and 25 homepage photographs, or 487 planned image requests**. The long homepage targets 77 distinct photos by combining its 25 role photos with 44 canonical fronts in photo shelves and eight other library covers. Seven concise image-led guides reference 24 planned gallery views; these references do not add 24 new originals. Planning numbers are separate from delivered assets.
+The complete content target is 22 collections × 7 looks × 3 independently
+generated front/side/back views: **154 looks / 462 gallery originals +25 Home
+originals =487 photographs**, plus one separately counted movie. Home has 22
+editable sections and targets 77 unique image elements plus one distinct poster,
+78 displayed photographic sources. Its photo shelves use45canonical fronts and
+eight other library covers; guide references are corresponding gallery photos,
+not additional originals. Contact and Privacy need genuine owner review.
 
-The owner has accepted the available original source resolution, and **new photo production is in progress**. The configured minimum original long edge is now 1,024 pixels; record each source's actual dimensions. The generator's earlier **1,312 × 1,199** probe remains diagnostic and is skipped by import. Native 8K was not produced or verified and must not be claimed. Earlier rejected photos are not substituted. The 487-photo plan is not a claim that 487 photos are delivered.
+The owner accepted available original resolution. Production sources are normally
+1122×1402pixels; actual dimensions and native-source proof are recorded individually.
+The minimum accepted original long edge is1024pixels. No enlargement or native8K
+claim is made. Rejected images and diagnostic probes never substitute for missing
+approved sources. Partial individual images do not count as complete looks.
 
-Read [VALIDATION-REPORT.md](VALIDATION-REPORT.md) for executed checks and unresolved verification, and [LAUNCH-CHECKLIST.md](LAUNCH-CHECKLIST.md) before publishing.
+Read [VALIDATION-REPORT.md](VALIDATION-REPORT.md) for executed checks and unresolved
+verification, and [LAUNCH-CHECKLIST.md](LAUNCH-CHECKLIST.md) before publishing.
 
 ## Install and import
 
@@ -32,7 +47,7 @@ Open **Pages → Home → Edit**. List View exposes 22 named sections. Ordinary 
 
 Select an Image block and choose **Replace → Media Library** or Upload. Keep the full head, hair silhouette and nape visible; preserve the complete source aspect ratio and leave hard cropping off. Change alt text/caption to match the actual photograph. Duplicating a section also duplicates its photo, so replace repeated photographs before publication. The homepage gate detects repeated attachment IDs.
 
-The native Video block accepts uploaded video and a poster; it cannot use an image URL as a movie. To replace an image with video, insert a Video block in that position, select its media and remove the old Image block. Keep visible playback controls. Muted inline autoplay is an owner setting and browsers may require a play gesture. The original film is an **11.625-second silent H.264 photographic sequence at 1,122 × 1,402**, made from approved separate front, side and back originals. It preserves the full frames and is not recorded salon footage. Final WordPress playback/import verification remains a separate release check.
+The native Video block accepts uploaded video and a poster; it cannot use an image URL as a movie. To replace an image with video, insert a Video block in that position, select its media and remove the old Image block. Keep visible playback controls. Muted inline autoplay is an owner setting and browsers may require a play gesture. The original film is an **11.625-second silent H.264 photographic sequence at 1,122 × 1,402**, made from approved separate front, side and back originals. It preserves the full frames and is not recorded salon footage. The actual source movie passed authenticated WordPress import, decoded full-frame playback, muted autoplay, keyboard pause and reduced-motion checks; see the scoped production-film report.
 
 Edit the header, footer and navigation through **Appearance → Editor → Design → Patterns → Template parts**. Edit global colors and typography through **Appearance → Editor → Styles**. Licensed local fonts are included; the theme does not need an external font CDN. The front-page template renders Home's saved content rather than concealing it inside one large Custom HTML block.
 
@@ -62,7 +77,7 @@ WordPress creates responsive derivatives for browsing. Keep originals for inspec
 
 Original media is distributed in verified ZIP parts separate from the small theme/plugin ZIPs. Each part has a stable bundle ID, manifest and source/display SHA-256 checksums. The administrator upload flow checks capabilities, nonces, file types, bounded safe paths and matching checksums; identical re-upload resumes safely. The upload cap is the lower of **25 MiB** and the host's configured upload limit. PHP's ZIP extension is required. A normal server-submitted form is available when JavaScript is unavailable.
 
-The trusted HTTPS download flow uses this project's embedded release index, verifies part bytes/SHA and preserves TLS verification. It rejects destinations outside its project release hosts. The first immutable pilot is four complete looks/12 views, about 21.28 MB; that pilot is not all planned media. Real HTTPS delivery and authenticated original-photo import integration must be verified against the final populated index. Do not rename/change part manifests or mix pilot and final indices. Keep successful transfer separate from source review and publication readiness.
+The trusted HTTPS download flow uses this project's embedded release index, verifies part bytes/SHA and preserves TLS verification. It rejects destinations outside its project release hosts. Use the matching release's numbered parts and embedded pinned index. Do not mix the earlier four-look pilot with this release. When JavaScript is disabled, upload one numbered part at a time in ascending order. Real HTTPS delivery and authenticated original-photo import integration must be verified against the final populated index. Do not rename/change part manifests or mix pilot and final indices. Keep successful transfer separate from source review and publication readiness.
 
 ## Motion settings and visitor tools
 
@@ -70,7 +85,7 @@ In **Tools → Bixie package setup**, use **Editorial motion and owner details**
 
 Published complete looks support search, combined filters, reset, sorting, linked pagination and empty states. **Find your bixie** is a texture/length/fringe browsing helper, not a suitability guarantee. Saved looks are local to the visitor's browser; unavailable storage limits persistence and clearing storage removes the shortlist.
 
-Saved/compare tools display two or three selected looks with corresponding angles. The salon sheet uses browser **Print / save as PDF** with the concept disclosure. It is not a separately generated PDF download service. Feature verification uses isolated test fixtures until approved launch photos exist.
+Saved/compare tools display two or three selected looks with corresponding angles. The salon sheet uses browser **Print / save as PDF** with the concept disclosure. It is not a separately generated PDF download service. Actual production-photo browsing, every angle and native editor roundtrip have separate runtime reports. Fixture-based software checks remain explicitly labelled; assess final completeness from the current validation report.
 
 ## Contact, privacy and search
 

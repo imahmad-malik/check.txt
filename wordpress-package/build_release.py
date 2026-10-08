@@ -71,6 +71,12 @@ def main():
     gallery_photos = int(counts.get('provided_unique_primary_collection_images', 0))
     home_photos = int(counts.get('provided_approved_home_role_images', 0))
     source_manifest = json.loads((ROOT / 'media/manifest.json').read_text())
+    saved_photographs = sum(1 for record in source_manifest.get('records', [])
+                            if record.get('usage') != 'resolution-probe'
+                            and record.get('approved') is True
+                            and record.get('review_status') == 'approved'
+                            and Path(record.get('source_file', record.get('file', ''))).suffix.lower() in {'.png', '.jpg', '.jpeg', '.webp', '.avif'})
+    partial_photographs = max(0, saved_photographs - gallery_photos - home_photos)
     movies = sum(1 for r in source_manifest.get('records', [])
                  if str(r.get('source_file', r.get('file', ''))).endswith('.mp4')
                  and r.get('approved') is True and r.get('review_status') == 'approved')
@@ -92,6 +98,10 @@ collection definitions and an importer.
 Actual complete looks: {complete_looks} / 154. Actual gallery photographs:
 {gallery_photos} / 462. Actual separate homepage photographs: {home_photos} / 25.
 Reviewed production movies: {movies}. Planned images are not delivered assets.
+Actual individually approved saved photographs: {saved_photographs}, including
+{partial_photographs} angle photos in incomplete sets. Those partial photos are
+retained media, not additional complete looks. Missing original photographs:
+{max(0, 487 - saved_photographs)}. Read the recorded production quota blocker.
 {'Assets are complete; read the validation report for actual software/hosting checks.' if assets_complete else 'This is NOT the completed launch requested. Missing real media keeps launch incomplete.'}
 
 Install bixie-editorial.zip in Appearance → Themes → Add New → Upload Theme.
@@ -133,6 +143,9 @@ is bundled in either installable ZIP.
         artifacts.append({'file': path.name, 'bytes': path.stat().st_size, 'sha256': sha256(path)})
     state = {'release_state': release_state,
              'approved_launch_photographs': gallery_photos + home_photos,
+             'approved_saved_photographs': saved_photographs,
+             'approved_partial_gallery_photographs': partial_photographs,
+             'missing_original_photographs': max(0, 487 - saved_photographs),
              'complete_launch_looks': complete_looks, 'gallery_photographs': gallery_photos,
              'homepage_photographs': home_photos,
              'completed_movies': movies, 'planned_original_photo_requests': 487,

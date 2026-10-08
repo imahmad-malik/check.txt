@@ -1,6 +1,6 @@
 # Continue the saved Bixie WordPress project
 
-Snapshot: **2026-10-08 08:32 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch.
+Snapshot: **2026-10-08 08:53 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 The user's authorized goal is the complete installable WordPress site with
 original image-led collections, an extra-long editable Home, companion plugin,
@@ -9,18 +9,18 @@ existing work; do not replace it with another demo or regenerate approved photos
 
 ## Actual inventory and durable files
 
-Canonical content: **120 complete looks / 360 gallery originals**,
-**25 separate Home originals**, **12/22 complete collections**,
+Canonical content: **128 complete looks / 384 gallery originals**,
+**25 separate Home originals**, **16/22 complete collections**,
 **24/24 guide photo references**, 42 editable page records. The target
 is 154 coherent looks / 462 separately generated gallery photographs + 25 Home
 originals = 487 photographs, plus one separately counted photographic movie.
 
-Current production progress file records 126
-complete looks and 414
+Current production progress file records 128
+complete looks and 422
 individually approved photos. Treat its timestamp as a dated snapshot, not a
 promise that every saved partial image is a finished look. Consult
 media/progress.json, media/manifest.json, media/records/, media/workers/ and
-media/production-assignments.json before continuing any generation. These files
+media-production/assignments.json before continuing any generation. These files
 record exact missing IDs, immutable original paths, approval and source hashes.
 Do not infer delivered inventory from planning briefs or a worker's forecast.
 
@@ -81,6 +81,19 @@ final 154-look acceptance. Final reports must bind the exact delivered theme,
 plugin and all media-part SHA values. Do not substitute fixture or pilot checks.
 
 ## Remaining completion sequence
+
+The confirmed current blocker is image generation HTTP429 usage_limit_reached.
+Exactly65sources remain: straight6, bangs20, over-6013, 90s-inspired2,
+round-face15 and easy-styling9. No unreviewed saved sources or tool calls remain
+pending. The service reported reset2026-10-08 10:34:04UTC /15:34:04PKT; after that
+time verify one genuinely missing request succeeds before advancing the saved
+disjoint queue. Do not repeatedly retry the unchanged quota error.
+
+The available download is an explicitly incomplete engineering checkpoint on
+bixie-wordpress-saved-download, containing33verified numbered parts with
+422actual approved photos plus one movie and128complete look records. Its pinned
+index and actual installation/import acceptance must be read from the saved
+release reports. This is separate from the strict final154/487download branch.
 
 1. Resume only explicitly missing assigned sources and approve complete coherent
    front/side/back sets. Production coordinator owns the master manifest;

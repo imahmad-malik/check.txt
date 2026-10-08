@@ -28,6 +28,9 @@ def main():
     complete = looks == 154 and views == 462 and home == 25 and collections == 22 and references == 24
     blocker_path = ROOT / 'media/production-blocker.json'
     blocker = json.loads(blocker_path.read_text()) if blocker_path.is_file() else {}
+    state = 'All planned photographic content is assembled; assess final runtime evidence below.' if complete else 'Production is incomplete; this is a saved engineering checkpoint, not the finished launch.'
+    if not complete and blocker:
+        state += ' Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.'
     acceptance_path = ROOT / 'tests/wp-final-acceptance-report.json'
     acceptance = json.loads(acceptance_path.read_text()) if acceptance_path.is_file() else {}
     final_runtime = acceptance.get('passed') is True and acceptance.get('actual_counts', {}).get('publishedLooks') == looks == 154
@@ -68,15 +71,15 @@ verification, and [LAUNCH-CHECKLIST.md](LAUNCH-CHECKLIST.md) before publishing.
     owner = owner.replace('Feature verification uses isolated test fixtures until approved launch photos exist.', 'Actual production-photo browsing, every angle and native editor roundtrip have separate runtime reports. Fixture-based software checks remain explicitly labelled; assess final completeness from the current validation report.')
     owner = owner.replace('The first immutable pilot is four complete looks/12 views, about 21.28 MB; that pilot is not all planned media.', 'Use the matching release\'s numbered parts and embedded pinned index. Do not mix the earlier four-look pilot with this release. When JavaScript is disabled, upload one numbered part at a time in ascending order.')
     owner_path.write_text(owner)
-    state = 'All planned photographic content is assembled; assess final runtime evidence below.' if complete else 'Production is incomplete; this is a saved engineering checkpoint, not the finished launch.'
-    if not complete and blocker:
-        state += ' Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.'
     date = datetime.now(ZoneInfo('Asia/Karachi')).strftime('%Y-%m-%d %H:%M PKT')
     archive = 'Bixie-WordPress-Package.zip' if complete else 'Bixie-WordPress-Engineering-Package.zip'
     table = '\n'.join('| [' + name + '](tests/' + name + ') | ' + result(name) + ' |' for name in [
         'wp-production-home-film-report.json', 'wp-live-pilot-report.json',
         'wp-permalink-report.json', 'wp-final-environment-report.json',
         'wp-final-integration-report.json', 'wp-final-acceptance-report.json',
+        'wp-engineering-acceptance-report.json',
+        'wp-final-partial-browser-report.json', 'wp-final-partial-editability-report.json',
+        'wp-final-alias-report.json', 'wp-final-permalink-report.json',
         'wp-filter-alias-report.json', 'wp-final-directory-report.json',
         'release-archive-report.json', 'https-delivery-report.json',
         'wp-publication-report.json', 'wp-bundle-security-report.json',
@@ -212,8 +215,10 @@ No paid builder or Node/npm is required.
 5. Read completion diagnostics: all154looks/22collections/Home/seven guides
    should qualify with the final complete media. Missing or unreviewed sources
    keep affected pages in draft. Part upload progress is not content completion.
-6. If you left configuration unchecked, choose Home in Settings → Reading as
-   the static front page. Plain and custom permalinks are supported; confirm
+6. Once Home qualifies and is published, choose it in Settings → Reading as
+   the static front page if you left configuration unchecked. In an incomplete
+   snapshot Home remains draft; inspect its authenticated editor Preview while
+   preserving that gate. Plain and custom permalinks are supported; confirm
    the host serves its chosen routes correctly.
 7. Edit Pages → Home and Appearance → Editor. Review genuine contact details,
    Privacy and site information before publishing those owner-dependent pages.
@@ -345,6 +350,19 @@ final 154-look acceptance. Final reports must bind the exact delivered theme,
 plugin and all media-part SHA values. Do not substitute fixture or pilot checks.
 
 ## Remaining completion sequence
+
+The confirmed current blocker is image generation HTTP429 usage_limit_reached.
+Exactly65sources remain: straight6, bangs20, over-6013, 90s-inspired2,
+round-face15 and easy-styling9. No unreviewed saved sources or tool calls remain
+pending. The service reported reset2026-10-08 10:34:04UTC /15:34:04PKT; after that
+time verify one genuinely missing request succeeds before advancing the saved
+disjoint queue. Do not repeatedly retry the unchanged quota error.
+
+The available download is an explicitly incomplete engineering checkpoint on
+bixie-wordpress-saved-download, containing33verified numbered parts with
+422actual approved photos plus one movie and128complete look records. Its pinned
+index and actual installation/import acceptance must be read from the saved
+release reports. This is separate from the strict final154/487download branch.
 
 1. Resume only explicitly missing assigned sources and approve complete coherent
    front/side/back sets. Production coordinator owns the master manifest;

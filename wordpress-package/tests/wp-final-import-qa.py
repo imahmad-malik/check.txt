@@ -47,7 +47,7 @@ def authenticate(browser):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--parts', type=Path)
-    parser.add_argument('--phase', choices=['integration', 'final'], default='integration')
+    parser.add_argument('--phase', choices=['integration', 'engineering', 'final'], default='integration')
     parser.add_argument('--authenticate-only', action='store_true')
     parser.add_argument('--repeat', action='store_true')
     args = parser.parse_args()
@@ -60,11 +60,12 @@ def main():
     try:
         if not args.authenticate_only:
             assert args.parts and args.parts.is_dir(), 'Provide immutable multipart directory.'
-            paths = sorted(args.parts.glob('*.zip'))
-            assert paths
             download_index_path = args.parts / 'media-download-manifest.json'
             download_index = json.loads(download_index_path.read_text()) if download_index_path.exists() else None
             indexed = {Path(entry.get('filename') or entry['file']).name: entry for entry in download_index['parts']} if download_index else {}
+            paths = [args.parts / name for name in indexed] if download_index else sorted(args.parts.glob('*.zip'))
+            assert paths and all(path.is_file() for path in paths)
+            report['unselectedOtherLocalArchiveCount'] = len(set(args.parts.glob('*.zip')) - set(paths))
             keys = set()
             for path in paths:
                 digest = hashlib.sha256(path.read_bytes()).hexdigest()
@@ -96,7 +97,8 @@ def main():
             errors = []
             page.on('pageerror', lambda error: errors.append(str(error)))
             assert not page.locator('#bixie-overwrite').is_checked()
-            page.locator('#bixie-configure').check()
+            if args.phase == 'engineering': page.locator('#bixie-configure').uncheck()
+            else: page.locator('#bixie-configure').check()
             page.locator('#bixie-bundle-files').set_input_files([str(path) for path in paths])
             page.locator('#bixie-bundle-upload').click()
             page.wait_for_function('(count)=>document.querySelector("#bixie-bundle-status").textContent.startsWith(count+" of "+count+" selected part(s) verified")', arg=len(paths), timeout=600000)

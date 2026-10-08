@@ -1,6 +1,6 @@
 # Launch checklist
 
-Snapshot:2026-10-08 08:32 PKT. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. See [validation evidence](VALIDATION-REPORT.md).
+Snapshot:2026-10-08 08:53 PKT. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft. See [validation evidence](VALIDATION-REPORT.md).
 
 - [ ] Actual487photographs:154coherent looks/462galleryviews plus25Home originals.
 - [ ] All22collections have7complete looks and21actual separately generated photos.

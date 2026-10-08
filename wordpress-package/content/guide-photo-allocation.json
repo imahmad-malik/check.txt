@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "status": "required-not-provided",
+  "status": "provided-approved-canonical-references",
   "original_counting_rule": "Canonical look views referenced by guides remain counted once as original source assets.",
   "allocations": [
     {
@@ -16,7 +16,9 @@
           "caption": "Classic bixie concept: compare the crown, face frame and nape."
         }
       ],
-      "minimum_photos": 3
+      "minimum_photos": 3,
+      "provided_photo_references": 3,
+      "status": "provided-approved-canonical-references"
     },
     {
       "page_key": "what-to-ask-your-stylist",
@@ -31,7 +33,9 @@
           "caption": "A coherent bixie reference set for discussing the shape with your stylist."
         }
       ],
-      "minimum_photos": 3
+      "minimum_photos": 3,
+      "provided_photo_references": 3,
+      "status": "provided-approved-canonical-references"
     },
     {
       "page_key": "styling-a-bixie",
@@ -46,7 +50,9 @@
           "caption": "Bixie concept reference: discuss which details involve styling and which belong to the cut."
         }
       ],
-      "minimum_photos": 3
+      "minimum_photos": 3,
+      "provided_photo_references": 3,
+      "status": "provided-approved-canonical-references"
     },
     {
       "page_key": "fine-vs-thin-hair",
@@ -70,7 +76,9 @@
           "caption": "Lower-density bixie concept reference."
         }
       ],
-      "minimum_photos": 6
+      "minimum_photos": 6,
+      "provided_photo_references": 6,
+      "status": "provided-approved-canonical-references"
     },
     {
       "page_key": "reading-haircut-references",
@@ -85,7 +93,9 @@
           "caption": "The same layered bixie concept in corresponding front, side and back views."
         }
       ],
-      "minimum_photos": 3
+      "minimum_photos": 3,
+      "provided_photo_references": 3,
+      "status": "provided-approved-canonical-references"
     },
     {
       "page_key": "growing-out-a-bixie",
@@ -100,7 +110,9 @@
           "caption": "Long bixie target-shape reference; not a documented growth sequence."
         }
       ],
-      "minimum_photos": 3
+      "minimum_photos": 3,
+      "provided_photo_references": 3,
+      "status": "provided-approved-canonical-references"
     },
     {
       "page_key": "bixie-shixie-wolf-cut",
@@ -115,7 +127,10 @@
           "caption": "Shaggy bixie concept: identify the visible shape before choosing an informal label."
         }
       ],
-      "minimum_photos": 3
+      "minimum_photos": 3,
+      "provided_photo_references": 3,
+      "status": "provided-approved-canonical-references"
     }
-  ]
+  ],
+  "actual_available_photo_references": 24
 }

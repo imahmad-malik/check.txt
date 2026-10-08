@@ -16,7 +16,8 @@ require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
 $user = get_user_by('login', 'bixie_qa_admin');
 if (!$user || !user_can($user, 'install_plugins')) { exit(2); }
 wp_set_current_user($user->ID);
-$report = ['scope' => 'Actual delivered core ZIP installation on a separate local noindex WordPress site.', 'checks' => [], 'archives' => []];
+$engineering = ($argv[5] ?? '') === 'engineering';
+$report = ['scope' => 'Actual delivered core ZIP installation on a separate local noindex WordPress site.', 'release_scope' => $engineering ? 'engineering_installable_media_incomplete' : 'full_media_acceptance_not_implied_by_code_install', 'checks' => [], 'archives' => []];
 foreach (['theme' => $argv[2], 'plugin' => $argv[3] ?? ''] as $kind => $archive) {
     if (!$archive) { continue; }
     if (!is_file($archive)) { exit(2); }
@@ -33,6 +34,6 @@ foreach (['theme' => $argv[2], 'plugin' => $argv[3] ?? ''] as $kind => $archive)
 }
 $report['passed'] = !in_array(false, $report['checks'], true);
 $report['runtime'] = ['wordpress' => get_bloginfo('version'), 'php' => PHP_VERSION];
-file_put_contents(__DIR__ . '/wp-final-core-zip-report.json', wp_json_encode($report, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n");
+file_put_contents(__DIR__ . ($engineering ? '/wp-engineering-core-zip-report.json' : '/wp-final-core-zip-report.json'), wp_json_encode($report, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n");
 echo wp_json_encode($report, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n";
 exit($report['passed'] ? 0 : 1);

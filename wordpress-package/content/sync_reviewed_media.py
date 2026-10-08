@@ -215,6 +215,15 @@ for brief in production['briefs']:
                           'width':None,'height':None,'status':'required-not-generated'}
                          for angle in ['front','side','back']]
 production_path.write_text(json.dumps(production,indent=2,ensure_ascii=False)+'\n')
+allocation_path=ROOT/'guide-photo-allocation.json'
+allocation=json.loads(allocation_path.read_text())
+for entry in allocation['allocations']:
+    supplied=sum(len([image for image in actual_by_key.get(required['look_key'],{}).get('images',[]) if image['angle'] in required['angles']]) for required in entry['photo_sets'])
+    entry['provided_photo_references']=supplied
+    entry['status']='provided-approved-canonical-references' if supplied>=entry['minimum_photos'] else 'required-not-provided'
+allocation['actual_available_photo_references']=sum(entry['provided_photo_references'] for entry in allocation['allocations'])
+allocation['status']='provided-approved-canonical-references' if all(entry['status']=='provided-approved-canonical-references' for entry in allocation['allocations']) else 'partially-provided'
+allocation_path.write_text(json.dumps(allocation,indent=2,ensure_ascii=False)+'\n')
 report={'bundle_id':manifest.get('bundle_id'),'manifest':str(args.manifest),'status':'synchronized-actual-only',
         'actual_generated_source_files':len(all_real_sources),'actual_approved_complete_looks':len(actual_looks),
         'actual_approved_collection_view_photos':len(used_hashes),'actual_guide_photo_references':guide_count,

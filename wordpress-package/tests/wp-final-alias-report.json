@@ -1,54 +1,57 @@
 {
-    "scope": "Only actually imported approved production looks in separate local noindex WordPress. Actual SQL result sets, real HTTP REST and server-rendered GET filters, plus a cached facet list made from those same raw records. No synthetic looks or raw metadata changes.",
+    "scope": "Actual current production look records in the separate local noindex site. Independent raw SQL expectations, real HTTP REST/GET filtering and native facet cache; no metadata edits or synthetic fixtures.",
     "checks": {
-        "fringe:none:actualSQLCompleteSet": true,
-        "fringe:none:realHTTPRESTTotalAndFirstPage": true,
-        "fringe:none:realHTTPNonemptySSRMatchesActualRecords": true,
-        "fringe:no-bangs:actualSQLCompleteSet": true,
-        "fringe:no-bangs:realHTTPRESTTotalAndFirstPage": true,
-        "fringe:no-bangs:realHTTPNonemptySSRMatchesActualRecords": true,
-        "fringe:no bangs:actualSQLCompleteSet": true,
-        "fringe:no bangs:realHTTPRESTTotalAndFirstPage": true,
-        "fringe:no bangs:realHTTPNonemptySSRMatchesActualRecords": true,
-        "colour:dark:actualSQLCompleteSet": true,
-        "colour:dark:realHTTPRESTTotalAndFirstPage": true,
-        "colour:dark:realHTTPNonemptySSRMatchesActualRecords": true,
-        "colour:black:actualSQLCompleteSet": true,
-        "colour:black:realHTTPRESTTotalAndFirstPage": true,
-        "colour:black:realHTTPNonemptySSRMatchesActualRecords": true,
-        "fringe:liveFacetCanonicalOnly": true,
-        "fringe:cachedActualRawFacetCanonicalOnly": true,
-        "colour:liveFacetCanonicalOnly": true,
-        "colour:cachedActualRawFacetCanonicalOnly": true,
-        "allRawActualOwnerMetadataUnchanged": true
+        "allFiveAliasVariantsUseSamePositiveActualRecordsAcrossSQLRESTAndNativeGET": true,
+        "actualFacetListsExposeCanonicalNoneAndDarkOnce": true,
+        "allActualOwnerRawMetadataRemainsIdentical": true
     },
-    "observations": {
-        "fringe:none": {
-            "actualMatchingApprovedLooks": 7,
-            "actualHTTPRESTFirstPageLooks": 7,
-            "actualServerRenderedCards": 7
+    "variants": {
+        "fringe=none": {
+            "positiveActualMatches": 7,
+            "realSQLIDsMatch": true,
+            "realHTTPRESTStatus": 200,
+            "realRESTIDsMatch": true,
+            "realNativeGETStatus": 200,
+            "nativeRenderedCardCount": 7,
+            "selectedCanonicalFacet": "none"
         },
-        "fringe:no-bangs": {
-            "actualMatchingApprovedLooks": 7,
-            "actualHTTPRESTFirstPageLooks": 7,
-            "actualServerRenderedCards": 7
+        "fringe=no-bangs": {
+            "positiveActualMatches": 7,
+            "realSQLIDsMatch": true,
+            "realHTTPRESTStatus": 200,
+            "realRESTIDsMatch": true,
+            "realNativeGETStatus": 200,
+            "nativeRenderedCardCount": 7,
+            "selectedCanonicalFacet": "none"
         },
-        "fringe:no bangs": {
-            "actualMatchingApprovedLooks": 7,
-            "actualHTTPRESTFirstPageLooks": 7,
-            "actualServerRenderedCards": 7
+        "fringe=no bangs": {
+            "positiveActualMatches": 7,
+            "realSQLIDsMatch": true,
+            "realHTTPRESTStatus": 200,
+            "realRESTIDsMatch": true,
+            "realNativeGETStatus": 200,
+            "nativeRenderedCardCount": 7,
+            "selectedCanonicalFacet": "none"
         },
-        "colour:dark": {
-            "actualMatchingApprovedLooks": 11,
-            "actualHTTPRESTFirstPageLooks": 11,
-            "actualServerRenderedCards": 11
+        "colour=dark": {
+            "positiveActualMatches": 11,
+            "realSQLIDsMatch": true,
+            "realHTTPRESTStatus": 200,
+            "realRESTIDsMatch": true,
+            "realNativeGETStatus": 200,
+            "nativeRenderedCardCount": 11,
+            "selectedCanonicalFacet": "dark"
         },
-        "colour:black": {
-            "actualMatchingApprovedLooks": 11,
-            "actualHTTPRESTFirstPageLooks": 11,
-            "actualServerRenderedCards": 11
+        "colour=black": {
+            "positiveActualMatches": 11,
+            "realSQLIDsMatch": true,
+            "realHTTPRESTStatus": 200,
+            "realRESTIDsMatch": true,
+            "realNativeGETStatus": 200,
+            "nativeRenderedCardCount": 11,
+            "selectedCanonicalFacet": "dark"
         }
     },
     "passed": true,
-    "actualPublishedLookCount": 80
+    "actualPublishedLooks": 80
 }

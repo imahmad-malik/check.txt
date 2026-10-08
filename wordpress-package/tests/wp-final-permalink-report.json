@@ -1,0 +1,32 @@
+{
+    "passed": true,
+    "checks": {
+        "plainNestedProjectLinkUsesActualPermalink": true,
+        "plainStoredNativeBlocksUnchanged": true,
+        "plainOwnerPageLinkPreserved": true,
+        "plainExternalLinkPreserved": true,
+        "plainDraftButtonHidden": true,
+        "plainPlainDraftQueryDetected": true,
+        "plainQueryProjectLinkPreservesFiltersAndFragment": true,
+        "plainPluginPageDestinationUsesActualPermalink": true,
+        "plainGETFormRetainsRequiredRoute": true,
+        "PlainGETFilterSubmissionReachesActualPage": true,
+        "prettyNestedProjectLinkUsesActualPermalink": true,
+        "prettyStoredNativeBlocksUnchanged": true,
+        "prettyOwnerPageLinkPreserved": true,
+        "prettyExternalLinkPreserved": true,
+        "prettyDraftButtonHidden": true,
+        "prettyPlainDraftQueryDetected": true,
+        "prettyQueryProjectLinkPreservesFiltersAndFragment": true,
+        "prettyPluginPageDestinationUsesActualPermalink": true,
+        "prettyGETFormRetainsRequiredRoute": true,
+        "OriginalPermalinkSettingRestored": true,
+        "OnlyOwnTemporaryPagesRemoved": true
+    },
+    "check_count": 21,
+    "runtime": {
+        "wordpress": "7.1.3",
+        "php": "8.4.26"
+    },
+    "scope": "Actual WordPress block rendering and URL functions under plain and pretty permalink settings; settings and exact temporary pages restored."
+}

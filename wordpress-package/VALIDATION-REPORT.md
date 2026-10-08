@@ -1,15 +1,15 @@
 # Bixie WordPress validation
 
-Snapshot: **2026-10-08 08:32 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch.
+Snapshot: **2026-10-08 08:53 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 ## Actual content inventory
 
 | Asset | Actual synchronized inventory | Launch target |
 |---|---:|---:|
-| Coherent separately generated front/side/back looks | 120 | 154 |
-| Distinct primary-collection original photographs | 360 | 462 |
+| Coherent separately generated front/side/back looks | 128 | 154 |
+| Distinct primary-collection original photographs | 384 | 462 |
 | Separate Home original photographs | 25 | 25 |
-| Fully covered collections | 12 | 22 |
+| Fully covered collections | 16 | 22 |
 | Image-led guide photograph references | 24 | 24 |
 | Editable native page records | 42 | 42 |
 
@@ -20,6 +20,13 @@ and one distinct movie poster: 78 displayed photographic sources. Each completed
 collection has 7 looks and 21 actual separate photographs.
 Contact and Privacy await genuine owner details/policy review rather than
 invented information.
+
+This quota-blocked snapshot also retains13individually approved angle photos in
+incomplete sets:384complete-set gallery views +13partial views +25Home originals
+=422approved photographs. Those13sources are real saved media, but do not count
+as complete looks. Exactly65source photographs remain;26looks are incomplete.
+The missing-source list and provider reset evidence are preserved in
+[production-blocker.json](media/production-blocker.json).
 
 The accepted sources are generator-native, normally1122×1402 pixels, with actual
 dimensions recorded individually. No enlargement or native8K claim is made.
@@ -50,6 +57,8 @@ acceptance; it retains the earlier synthetic-test site unchanged.
 | [wp-live-pilot-report.json](tests/wp-live-pilot-report.json) | Passed within its stated scope |
 | [wp-permalink-report.json](tests/wp-permalink-report.json) | Passed within its stated scope |
 | [wp-final-environment-report.json](tests/wp-final-environment-report.json) | Passed within its stated scope |
+| [wp-final-alias-report.json](tests/wp-final-alias-report.json) | Passed within its stated scope |
+| [wp-final-permalink-report.json](tests/wp-final-permalink-report.json) | Passed within its stated scope |
 | [wp-filter-alias-report.json](tests/wp-filter-alias-report.json) | Passed within its stated scope |
 | [release-archive-report.json](tests/release-archive-report.json) | Passed within its stated scope |
 | [wp-publication-report.json](tests/wp-publication-report.json) | Passed within its stated scope |

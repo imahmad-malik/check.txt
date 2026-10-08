@@ -1,7 +1,7 @@
 # Install the Bixie WordPress package
 
-Current state: Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Actual inventory:120looks/360galleryphotos,
-25Homephotos, 12/22complete collections.
+Current state: Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft. Actual inventory:128looks/384galleryphotos,
+25Homephotos, 16/22complete collections.
 
 The download contains **bixie-editorial.zip** (installable theme),
 **bixie-library.zip** (installable companion plugin), verified media ZIP parts,
@@ -24,8 +24,10 @@ No paid builder or Node/npm is required.
 5. Read completion diagnostics: all154looks/22collections/Home/seven guides
    should qualify with the final complete media. Missing or unreviewed sources
    keep affected pages in draft. Part upload progress is not content completion.
-6. If you left configuration unchecked, choose Home in Settings → Reading as
-   the static front page. Plain and custom permalinks are supported; confirm
+6. Once Home qualifies and is published, choose it in Settings → Reading as
+   the static front page if you left configuration unchecked. In an incomplete
+   snapshot Home remains draft; inspect its authenticated editor Preview while
+   preserving that gate. Plain and custom permalinks are supported; confirm
    the host serves its chosen routes correctly.
 7. Edit Pages → Home and Appearance → Editor. Review genuine contact details,
    Privacy and site information before publishing those owner-dependent pages.
