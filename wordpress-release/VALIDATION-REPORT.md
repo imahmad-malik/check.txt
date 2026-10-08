@@ -1,6 +1,6 @@
 # Bixie WordPress validation
 
-Snapshot: **2026-10-08 15:23 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
+Snapshot: **2026-10-08 15:16 PKT**. Production is incomplete; this is a saved engineering checkpoint, not the finished launch. Image generation hit the daily quota: 65 source photographs remain. The recorded reset is 2026-10-08 10:34:04 UTC /15:34:04 Pakistan time. Existing approved sources are retained; incomplete looks and Home remain draft.
 
 ## Actual content inventory
 
@@ -69,7 +69,6 @@ acceptance; it retains the earlier synthetic-test site unchanged.
 | [wp-filter-alias-report.json](tests/wp-filter-alias-report.json) | Passed within its stated scope |
 | [release-archive-report.json](tests/release-archive-report.json) | Passed within its stated scope |
 | [https-saved-media-report.json](tests/https-saved-media-report.json) | Passed within its stated scope |
-| [https-saved-delivery-report.json](tests/https-saved-delivery-report.json) | Passed within its stated scope |
 | [github-repository-visibility-report.json](tests/github-repository-visibility-report.json) | Passed within its stated scope |
 | [wp-publication-report.json](tests/wp-publication-report.json) | Passed within its stated scope |
 | [wp-bundle-security-report.json](tests/wp-bundle-security-report.json) | Passed within its stated scope |

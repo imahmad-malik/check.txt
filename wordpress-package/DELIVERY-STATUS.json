@@ -1,0 +1,59 @@
+{
+  "release_scope": "engineering_installable_media_incomplete",
+  "complete_launch": false,
+  "immutable_download_commit": "87c39ba0f6fcbd80723bc20eb832b171ed701ba6",
+  "download_links": {
+    "all_saved_files_zip": "https://codeload.github.com/imahmad-malik/check.txt/zip/87c39ba0f6fcbd80723bc20eb832b171ed701ba6",
+    "theme_zip": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/bixie-editorial.zip",
+    "plugin_zip": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/bixie-library.zip"
+  },
+  "actual_master_zip": {
+    "url": "https://codeload.github.com/imahmad-malik/check.txt/zip/87c39ba0f6fcbd80723bc20eb832b171ed701ba6",
+    "http_status": 200,
+    "tls_certificate_validation": true,
+    "bytes": 797492178,
+    "sha256": "492898d9d4f31dbb1e11e2c3141e79b5e66bfc64987baf5e750f6945b4bd897a",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Length": null,
+      "Content-Disposition": "attachment; filename=check.txt-87c39ba0f6fcbd80723bc20eb832b171ed701ba6.zip"
+    },
+    "passed": true
+  },
+  "actual_available_inventory": {
+    "looks": 128,
+    "publishedLooks": 128,
+    "photos": 422,
+    "films": 1,
+    "uniqueSourceSHA256": 423,
+    "pages": 42,
+    "publishedPages": 33,
+    "collections": 22,
+    "readyCollections": 16,
+    "guides": 7,
+    "readyGuides": 7,
+    "home_unique_image_elements": 69,
+    "home_distinct_video_posters": 1,
+    "home_unique_photos_including_poster": 70,
+    "home_sections": 22,
+    "home_status": "draft",
+    "home_full_library_gate_complete": false,
+    "guide_photo_references": 24,
+    "coherent_look_gallery_photos": 384,
+    "approved_home_source_photos": 25,
+    "approved_unassigned_partial_angle_photos": 13
+  },
+  "missing_original_photos": 65,
+  "incomplete_looks": 26,
+  "incomplete_collections": 6,
+  "recorded_provider_quota_reset_utc": "2026-10-08T10:34:04Z",
+  "recorded_provider_quota_reset_pkt": "2026-10-08 15:34:04 PKT",
+  "wordPress_acceptance_report": "tests/wp-saved-acceptance-report.json",
+  "actual_https_report": "tests/https-saved-delivery-report.json",
+  "approved_original_media_and_resume_state_backup_branch": "bixie-wordpress-project",
+  "limits": [
+    "The remaining 65 gallery originals are not completed or included.",
+    "Actual WordPress server-side remote media download is separately unverified because of runtime DNS; these are actual proxy HTTPS downloads with TLS validation.",
+    "These download checks do not establish a complete 154-look site, rankings, production hosting behavior, or real SEO plugin coexistence."
+  ]
+}

@@ -3,7 +3,7 @@
   "release_scope": "engineering_installable_media_incomplete",
   "phase": "code",
   "commit": "87c39ba0f6fcbd80723bc20eb832b171ed701ba6",
-  "passed": false,
+  "passed": true,
   "actual_counts": {
     "looks": 128,
     "photos": 422,
@@ -905,10 +905,42 @@
       "path": "wordpress-release/Bixie-WordPress-Engineering-Package.zip"
     }
   ],
-  "checks": {},
+  "checks": {
+    "all_selected_actual_https_downloads_status_200_size_sha256_tls": true,
+    "all_plugin_pinned_part_urls_verified_from_media_commit": true,
+    "actual_zip_attachment_header": true,
+    "safe_unique_paths": true,
+    "all_zip_member_crc_checks": true,
+    "exact_selected_file_inventory": true,
+    "all_selected_member_sha256_and_sizes": true,
+    "selected_files_verified": 47
+  },
   "limits": [
     "The remaining 65 gallery originals are not completed or included.",
     "Actual WordPress server-side remote media download is separately unverified because of runtime DNS; these are actual proxy HTTPS downloads with TLS validation.",
     "These download checks do not establish a complete 154-look site, rankings, production hosting behavior, or real SEO plugin coexistence."
-  ]
+  ],
+  "full_zip_download": {
+    "url": "https://codeload.github.com/imahmad-malik/check.txt/zip/87c39ba0f6fcbd80723bc20eb832b171ed701ba6",
+    "http_status": 200,
+    "tls_certificate_validation": true,
+    "bytes": 797492178,
+    "sha256": "492898d9d4f31dbb1e11e2c3141e79b5e66bfc64987baf5e750f6945b4bd897a",
+    "headers": {
+      "Content-Type": "application/zip",
+      "Content-Length": null,
+      "Content-Disposition": "attachment; filename=check.txt-87c39ba0f6fcbd80723bc20eb832b171ed701ba6.zip"
+    },
+    "elapsed_seconds": 189.777,
+    "transfer_budget_seconds": 600,
+    "socket_read_timeout_seconds": 20,
+    "attempts": 1,
+    "downloaded_file": "/tmp/bixie-saved-https-87c39ba0f6fc/Bixie-Saved-Checkpoint-Download.zip",
+    "passed": true
+  },
+  "download_links": {
+    "all_saved_files_zip": "https://codeload.github.com/imahmad-malik/check.txt/zip/87c39ba0f6fcbd80723bc20eb832b171ed701ba6",
+    "theme_zip": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/bixie-editorial.zip",
+    "plugin_zip": "https://raw.githubusercontent.com/imahmad-malik/check.txt/87c39ba0f6fcbd80723bc20eb832b171ed701ba6/wordpress-release/bixie-library.zip"
+  }
 }
