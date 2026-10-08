@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-08T08:19:44.684241+00:00",
+  "scope": "Read-only official distribution HEAD checks after environment reconnect; this does not install or test coexistence of any named SEO plugin.",
+  "checks": [
+    {
+      "slug": "wordpress-seo",
+      "url": "https://downloads.wordpress.org/plugin/wordpress-seo.latest-stable.zip",
+      "network_error_type": "URLError",
+      "tls_verification_preserved": true
+    },
+    {
+      "slug": "seo-by-rank-math",
+      "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.latest-stable.zip",
+      "network_error_type": "URLError",
+      "tls_verification_preserved": true
+    },
+    {
+      "slug": "all-in-one-seo-pack",
+      "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.latest-stable.zip",
+      "network_error_type": "URLError",
+      "tls_verification_preserved": true
+    },
+    {
+      "slug": "wp-seopress",
+      "url": "https://downloads.wordpress.org/plugin/wp-seopress.latest-stable.zip",
+      "network_error_type": "URLError",
+      "tls_verification_preserved": true
+    }
+  ],
+  "actual_plugin_coexistence_verified": false
+}

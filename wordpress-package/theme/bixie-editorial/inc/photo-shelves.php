@@ -40,7 +40,13 @@ function bixie_editorial_photo_gallery( $photos, $name, $columns = 3 ) {
 		$figure = '<figure class="wp-block-image size-full"><a href="' . esc_url( $photo['permalink'] ) . '"><img src="' . esc_url( $image['url'] ) . '" alt="' . esc_attr( $image['alt'] ) . '" class="wp-image-' . $id . '"/></a><figcaption class="wp-element-caption">' . esc_html( $photo['title'] ) . '</figcaption></figure>';
 		$content .= bixie_editorial_block( 'image', $attrs, $figure );
 	}
-	return bixie_editorial_block( 'gallery', array( 'columns' => $columns, 'imageCrop' => false, 'linkTo' => 'custom', 'className' => 'bixie-gallery-strip bixie-photo-shelf', 'metadata' => array( 'name' => $name ) ), '<figure class="wp-block-gallery has-nested-images columns-' . $columns . ' bixie-gallery-strip bixie-photo-shelf">' . $content . '</figure>' );
+	$class = 'bixie-gallery-strip bixie-photo-shelf bixie-moving-shelf bixie-photo-row';
+	$gallery = bixie_editorial_block( 'gallery', array( 'columns' => $columns, 'imageCrop' => false, 'linkTo' => 'custom', 'className' => $class, 'metadata' => array( 'name' => $name ) ), '<figure class="wp-block-gallery has-nested-images columns-' . $columns . ' ' . $class . '">' . $content . '</figure>' );
+	$anchor = 'flow-' . sanitize_title( $name );
+	if ( count( $photos ) > 1 ) {
+		$gallery .= bixie_editorial_group( bixie_editorial_button( 'Pause photographs', '/#' . $anchor, 'bixie-photo-motion-toggle' ) . bixie_editorial_paragraph( 'Browse at your own pace.', 'bixie-caption' ), 'bixie-motion-controls' );
+	}
+	return bixie_editorial_group( $gallery, 'bixie-shelf-flow', $name . ' · photo motion', 'div', $anchor );
 }
 
 function bixie_editorial_photo_section( $number, $title, $description, $photos, $path, $name, $class = '' ) {

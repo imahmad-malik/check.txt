@@ -14,7 +14,7 @@ This is a WordPress block theme. Install `bixie-editorial.zip` through Appearanc
 
 ## Motion and accessibility
 
-The photo rail uses one instance of each image and slowly moves back and forth. It does not clone photographs to fake an endless loop. Its button pauses or resumes it, while the reduced-motion preference disables automatic movement and provides manual navigation. Keyboard focus and pointer interaction temporarily stop the movement. Native gallery enlargement, video controls, focus indicators and the WordPress responsive navigation remain available.
+The opening photo rail and nine native collection shelves each use one instance of every selected image and slowly move back and forth. They do not clone photographs to fake an endless loop. Each shelf with multiple photos has its own editable pause control. Reduced-motion preferences disable automatic movement and provide manual navigation; offscreen shelves stop moving. Keyboard focus and pointer interaction temporarily stop movement. The galleries return to a complete grid for printing. Native gallery enlargement, video controls, focus indicators and the WordPress responsive navigation remain available.
 
 ## Photography and publication
 
