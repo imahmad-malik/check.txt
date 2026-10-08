@@ -1,5 +1,5 @@
 {
-  "generatedAtUTC": "2026-10-08T03:57:47.802589+00:00",
+  "generatedAtUTC": "2026-10-08T04:03:06.970786+00:00",
   "scope": "Actual native authenticated WordPress owner GUI upload/import on the separate localhost8767 noindex site. Only actual supplied sources; no synthetic fixture import.",
   "phase": "engineering",
   "finalAcceptance": false,
@@ -294,7 +294,7 @@
       "looks": 128,
       "pages": 42,
       "collections": 22,
-      "media": 410
+      "media": 423
     },
     "looks": {
       "classic-02": {
@@ -12998,6 +12998,1064 @@
           "home-angle-side",
           "home-angle-back"
         ]
+      },
+      "90s-inspired-01-front": {
+        "id": 448,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "92c24bd4acb4fa809aef582de34e42f4b988a65e64387f263ef3d3f2e7d87126",
+        "expectedSHA256": "92c24bd4acb4fa809aef582de34e42f4b988a65e64387f263ef3d3f2e7d87126",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-01-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-01-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-01-side": {
+        "id": 449,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "81f3dfdb6cdac991a791b94555e8deff5c2e59f4c25bcde9d42d613bad467133",
+        "expectedSHA256": "81f3dfdb6cdac991a791b94555e8deff5c2e59f4c25bcde9d42d613bad467133",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-01-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-01-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-01-back": {
+        "id": 450,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "96d9e5c4ddf780d74b225e1abecb4f01badad7adc368344003531d9daa291d26",
+        "expectedSHA256": "96d9e5c4ddf780d74b225e1abecb4f01badad7adc368344003531d9daa291d26",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-01-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-01-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "round-face-01-front": {
+        "id": 451,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "d23a8cec18e38dbb8641ab4d3e9e9d83cf3a0774ad382da939fd12ea8e39b662",
+        "expectedSHA256": "d23a8cec18e38dbb8641ab4d3e9e9d83cf3a0774ad382da939fd12ea8e39b662",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-021/source-media/round-face-01-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/round-face-01-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "round-face-01-side": {
+        "id": 452,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "e3875845f429bc68f2aaf8a773985aeba0d906da7fd625a6ee59bd5e5dca9559",
+        "expectedSHA256": "e3875845f429bc68f2aaf8a773985aeba0d906da7fd625a6ee59bd5e5dca9559",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-022/source-media/round-face-01-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/round-face-01-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "round-face-01-back": {
+        "id": 453,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "50de05dceb187b0741feece0f090222132b42ff9892fec645b96a13a549f9377",
+        "expectedSHA256": "50de05dceb187b0741feece0f090222132b42ff9892fec645b96a13a549f9377",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-021/source-media/round-face-01-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/round-face-01-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-02-front": {
+        "id": 454,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "5ff758c44c53eabe7615f94a62d18d9ed5083b34f3cfe4d7f70ac61316cf8c25",
+        "expectedSHA256": "5ff758c44c53eabe7615f94a62d18d9ed5083b34f3cfe4d7f70ac61316cf8c25",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-02-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-02-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-02-side": {
+        "id": 455,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "d174a88fe9355162e3d45ec9a79a249b9c342444091df179fa8ccba672d3e19b",
+        "expectedSHA256": "d174a88fe9355162e3d45ec9a79a249b9c342444091df179fa8ccba672d3e19b",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-02-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-02-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-02-back": {
+        "id": 456,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "f50e884690180a9eea886fbbcb85498d204d4f332d953cc136ac49b8d09af7d1",
+        "expectedSHA256": "f50e884690180a9eea886fbbcb85498d204d4f332d953cc136ac49b8d09af7d1",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-02-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-02-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-03-front": {
+        "id": 457,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "43040112e2c56e4e077e22743f4512e1f5cd46871e49d804e4caf9c7d0e1f164",
+        "expectedSHA256": "43040112e2c56e4e077e22743f4512e1f5cd46871e49d804e4caf9c7d0e1f164",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-03-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-03-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-03-side": {
+        "id": 458,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "d03c799346bccfdf4dbed71048adef6b1bac8c4e4a200d764a0d9ffb19031938",
+        "expectedSHA256": "d03c799346bccfdf4dbed71048adef6b1bac8c4e4a200d764a0d9ffb19031938",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-03-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-03-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-03-back": {
+        "id": 459,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "7fc46e678c5b30948ae7d66ce4e0b7d26f13bab6c2c28e6b523a5746774c4c84",
+        "expectedSHA256": "7fc46e678c5b30948ae7d66ce4e0b7d26f13bab6c2c28e6b523a5746774c4c84",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-03-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-03-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-04-front": {
+        "id": 460,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "fce6236229ea3a6ae2a049e496a1250cd9c7df56fe205d4e85d40c15123bd386",
+        "expectedSHA256": "fce6236229ea3a6ae2a049e496a1250cd9c7df56fe205d4e85d40c15123bd386",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-04-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-04-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-04-side": {
+        "id": 461,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "7ff90f80a738edb24b5023ad2dd361176f543615cffe8739b669339ab53d4cc7",
+        "expectedSHA256": "7ff90f80a738edb24b5023ad2dd361176f543615cffe8739b669339ab53d4cc7",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-04-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-04-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-04-back": {
+        "id": 462,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "c7e027fecaf43ce8e96fffb66c9dec004a7028d14dbd90b235917ded3255be6b",
+        "expectedSHA256": "c7e027fecaf43ce8e96fffb66c9dec004a7028d14dbd90b235917ded3255be6b",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-04-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-04-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-05-front": {
+        "id": 463,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "e202e3936476030cc0396d724b24b1bba9b1bc908f1310caf2c95bcd81a47576",
+        "expectedSHA256": "e202e3936476030cc0396d724b24b1bba9b1bc908f1310caf2c95bcd81a47576",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-05-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-05-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-05-side": {
+        "id": 464,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "56f719d01ed33d9f6ecbbe8fd16bbaca42f13a017a93216e6d7b4133944a5786",
+        "expectedSHA256": "56f719d01ed33d9f6ecbbe8fd16bbaca42f13a017a93216e6d7b4133944a5786",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-002/source-media/90s-inspired-05-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-05-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "90s-inspired-05-back": {
+        "id": 465,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "885ce4e94462ebdbd8a9400e9facc31c3a79b544885d0cdcde0a0135c09b1ecf",
+        "expectedSHA256": "885ce4e94462ebdbd8a9400e9facc31c3a79b544885d0cdcde0a0135c09b1ecf",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-001/source-media/90s-inspired-05-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/90s-inspired-05-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-04-front": {
+        "id": 466,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "fcbe5a1b965fdef4621be4066fe78dc18454363c5862e06597df64d5493544ca",
+        "expectedSHA256": "fcbe5a1b965fdef4621be4066fe78dc18454363c5862e06597df64d5493544ca",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-04-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-04-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-04-side": {
+        "id": 467,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "ab08ab101cce1d4e7d1ed93242d14846ba6a641f0edd78ec785ca9d5a00aa8c2",
+        "expectedSHA256": "ab08ab101cce1d4e7d1ed93242d14846ba6a641f0edd78ec785ca9d5a00aa8c2",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-04-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-04-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-04-back": {
+        "id": 468,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "bbdf4024624adb13c14aa781a61825629dc3d058be5b9836ad292db4b3118bb2",
+        "expectedSHA256": "bbdf4024624adb13c14aa781a61825629dc3d058be5b9836ad292db4b3118bb2",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-04-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-04-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-05-front": {
+        "id": 469,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "c31d0e73f30dc87593c5808e95a527567e19b1d74b9d412bb9053e3bf2131a1f",
+        "expectedSHA256": "c31d0e73f30dc87593c5808e95a527567e19b1d74b9d412bb9053e3bf2131a1f",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-05-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-05-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-05-side": {
+        "id": 470,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "cd0df24fab2abb86b7e3eaa75afa9230b3b908ce86ca80027a8d01409e13191e",
+        "expectedSHA256": "cd0df24fab2abb86b7e3eaa75afa9230b3b908ce86ca80027a8d01409e13191e",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-05-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-05-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-05-back": {
+        "id": 471,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "7136f53c5af0559385cc4b8d0dd82a966d8e949d4c7861920ff3b1bfb52043a1",
+        "expectedSHA256": "7136f53c5af0559385cc4b8d0dd82a966d8e949d4c7861920ff3b1bfb52043a1",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-05-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-05-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-06-front": {
+        "id": 472,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "8d272b1734c0e4ad494c5cdf93cfdf813b86d1e2ef3f6260f51e244cb5b2debe",
+        "expectedSHA256": "8d272b1734c0e4ad494c5cdf93cfdf813b86d1e2ef3f6260f51e244cb5b2debe",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-06-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-06-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-06-side": {
+        "id": 473,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "6fe14ac07be3385ebd00f1f4464b5ab196d881e61ccd685198ec6726d5f8be75",
+        "expectedSHA256": "6fe14ac07be3385ebd00f1f4464b5ab196d881e61ccd685198ec6726d5f8be75",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-06-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-06-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-06-back": {
+        "id": 474,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "4cd8cc67f2824014f86a9951925fdef826107382da4ca6cc7da43a67db3255f4",
+        "expectedSHA256": "4cd8cc67f2824014f86a9951925fdef826107382da4ca6cc7da43a67db3255f4",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-06-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-06-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-07-front": {
+        "id": 475,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "0290cacff871a28ff2154c919b6e01f054191209dd3dc6f06e2f001e48f824fc",
+        "expectedSHA256": "0290cacff871a28ff2154c919b6e01f054191209dd3dc6f06e2f001e48f824fc",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-007/source-media/curly-07-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-07-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-07-side": {
+        "id": 476,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "2538713a0ea59450dff74bb0b4f2d9f1a099dd56904a9edc24f32944287f8909",
+        "expectedSHA256": "2538713a0ea59450dff74bb0b4f2d9f1a099dd56904a9edc24f32944287f8909",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-007/source-media/curly-07-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-07-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "curly-07-back": {
+        "id": 477,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "9fc19f133d795962d01c1fcbf913b1ed5bd137e79db5c3fef1d3bf6d92c82dbc",
+        "expectedSHA256": "9fc19f133d795962d01c1fcbf913b1ed5bd137e79db5c3fef1d3bf6d92c82dbc",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-006/source-media/curly-07-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/curly-07-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-01-front": {
+        "id": 478,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "b75824d756532c647199be9470e57f509b74c6b77925729aa38737a3935fa177",
+        "expectedSHA256": "b75824d756532c647199be9470e57f509b74c6b77925729aa38737a3935fa177",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-01-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-01-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-01-side": {
+        "id": 479,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "39befe86a86364e47853b47049edcbdb9f38ae071ca4fbcaccd3a51ef272a07f",
+        "expectedSHA256": "39befe86a86364e47853b47049edcbdb9f38ae071ca4fbcaccd3a51ef272a07f",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-01-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-01-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-01-back": {
+        "id": 480,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "0ccde12aa3c5cd954c8132c74b7a47a25a68a2fa710bfc25b15c7cefab66d47c",
+        "expectedSHA256": "0ccde12aa3c5cd954c8132c74b7a47a25a68a2fa710bfc25b15c7cefab66d47c",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-01-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-01-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-02-front": {
+        "id": 481,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "553df664c2e01b0ffeed8e09bce3708fc4a25036db4f0f4e3394c605cd7b3cf6",
+        "expectedSHA256": "553df664c2e01b0ffeed8e09bce3708fc4a25036db4f0f4e3394c605cd7b3cf6",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-02-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-02-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-02-side": {
+        "id": 482,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "505278f3d3734d0d34a53251bf4c89babd2b28f0e68ca10497e4fd3e43701959",
+        "expectedSHA256": "505278f3d3734d0d34a53251bf4c89babd2b28f0e68ca10497e4fd3e43701959",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-02-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-02-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-02-back": {
+        "id": 483,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "e6ad9367e1a75f9b256fa5cfac037a7ebd72746a0338e78fbd747554d459454a",
+        "expectedSHA256": "e6ad9367e1a75f9b256fa5cfac037a7ebd72746a0338e78fbd747554d459454a",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-02-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-02-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-03-front": {
+        "id": 484,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "bdcdf43534074c2207cd477acdbcc6352eebecf10889657660809732b2083ac0",
+        "expectedSHA256": "bdcdf43534074c2207cd477acdbcc6352eebecf10889657660809732b2083ac0",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-03-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-03-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-03-side": {
+        "id": 485,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "a22cc05890048602733aa6623402f013ded1cdb074d092453deeace0252b41ce",
+        "expectedSHA256": "a22cc05890048602733aa6623402f013ded1cdb074d092453deeace0252b41ce",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-03-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-03-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-03-back": {
+        "id": 486,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "f30af2db8a71d1355bd86820fe08d628c0b8ab702684831cabfa648ca2b00d51",
+        "expectedSHA256": "f30af2db8a71d1355bd86820fe08d628c0b8ab702684831cabfa648ca2b00d51",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-03-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-03-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-04-front": {
+        "id": 487,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "5d42770f5038579b7750e67805498a6e7b071ba16d2c953a60a2b46da00b27ea",
+        "expectedSHA256": "5d42770f5038579b7750e67805498a6e7b071ba16d2c953a60a2b46da00b27ea",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-04-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-04-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-04-side": {
+        "id": 488,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "b0d09348e96d6edef0c0e4caa6b9ea80d8ce1bbc40e70580a21f949c278c8099",
+        "expectedSHA256": "b0d09348e96d6edef0c0e4caa6b9ea80d8ce1bbc40e70580a21f949c278c8099",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-04-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-04-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-04-back": {
+        "id": 489,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "7d698cc4535b3f13de0b034c0666b41485e8a27f1305d3fe3af5e1758ed4cb2a",
+        "expectedSHA256": "7d698cc4535b3f13de0b034c0666b41485e8a27f1305d3fe3af5e1758ed4cb2a",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-04-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-04-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-05-front": {
+        "id": 490,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "07cc129d79efc361d46dd6c080fee810f3febf59d7f21399b31b42622776e2b1",
+        "expectedSHA256": "07cc129d79efc361d46dd6c080fee810f3febf59d7f21399b31b42622776e2b1",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-019/source-media/over-40-05-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-05-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-05-side": {
+        "id": 491,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "65b9b1a4142832484557954eae127fc518efc66e57291e405890a93a5157ab4c",
+        "expectedSHA256": "65b9b1a4142832484557954eae127fc518efc66e57291e405890a93a5157ab4c",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-019/source-media/over-40-05-side-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-05-side.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-05-back": {
+        "id": 492,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "088fdac17eab607be10d7ff6031ac44f7c8192c10c15cc7d2d00d4d4bef27359",
+        "expectedSHA256": "088fdac17eab607be10d7ff6031ac44f7c8192c10c15cc7d2d00d4d4bef27359",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-018/source-media/over-40-05-back-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-05-back.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
+      },
+      "over-40-06-front": {
+        "id": 493,
+        "parent": 0,
+        "mime": "image/webp",
+        "sourceExists": true,
+        "displayExists": true,
+        "nativeSize": [
+          1122,
+          1402
+        ],
+        "recordedSize": [
+          1122,
+          1402
+        ],
+        "sourceSHA256": "9a358e352fc8ac8645e52b23272009e66ac37bfe7139ccaf997c09c7f48fc277",
+        "expectedSHA256": "9a358e352fc8ac8645e52b23272009e66ac37bfe7139ccaf997c09c7f48fc277",
+        "nativeURL": "http://127.0.0.1:8767/wp-content/uploads/bixie-package/media-parts/bixie-saved-20261008-019/source-media/over-40-06-front-native.webp",
+        "displayURL": "http://127.0.0.1:8767/wp-content/uploads/2026/10/over-40-06-front.webp",
+        "approved": true,
+        "nativeVerified": true,
+        "qualified": true,
+        "filmSourceKeys": []
       }
     },
     "pages": {
@@ -14579,6 +15637,204 @@
         "media_count": 1,
         "looks_count": 80,
         "status": "verified"
+      },
+      "bixie-saved-20261008-001": {
+        "archive_sha256": "ba82560cf59e1b95e2c1f94f79bc75364014ec61c9c8316f9555cfe9e3985f16",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-002": {
+        "archive_sha256": "5c0f026f7bdec5e1a0d49c467f8269a2019620dd19c0d828901271d8d92993da",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-003": {
+        "archive_sha256": "142c1a97913894a54606c5be50351f1d541fd2bd449cb0452e259260e7e574b3",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-004": {
+        "archive_sha256": "cf794d7fdd5db730610a4b1c66b75fe8cf574d4a99040557be3c2ea0b77253fe",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-005": {
+        "archive_sha256": "962cda36b9e7856800850858cda604e250f4d2ff4ad095088e9e83f009e90d10",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-006": {
+        "archive_sha256": "b878c63c717c65892940fffce60764f3ce2bc52f4170bfa264fabe14dc052d7a",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-007": {
+        "archive_sha256": "8712fe73d89c63fdafabf689ad7f2cdca5238e8db77fdf0afb495489ad8e7b62",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-008": {
+        "archive_sha256": "878d055f0c760ceb2989f5d71aa9997a0f48e292eec0e940e13982d16aa5ffe2",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-009": {
+        "archive_sha256": "6958c5c2a85d643cbc761a6a97e8664494e52bbb919829b200754ba8e64ce2de",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-010": {
+        "archive_sha256": "938e62a9cfe37d3fda6d0b0baf5b0018ca7f1754bad52f8c95f7ec183c181372",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-011": {
+        "archive_sha256": "bcbb54a65cf3396688a09ecd160a7287dc0f7f321790968a2236b337b5772206",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-012": {
+        "archive_sha256": "e8b12f307d07a7d6ef7a6ee6cf15e55b6764d4ad6b03e3958b868251f9d1e1c8",
+        "media_count": 12,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-013": {
+        "archive_sha256": "b6c7c7f55f320326d604612d5f863f4d8fd990f62641553e98e9c2104905a36f",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-014": {
+        "archive_sha256": "9a5c4b0c44070984469d97fd802f56b1caf6db71d61694e0b10deb4f9d9f88ed",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-015": {
+        "archive_sha256": "0c0e52acd0acf4de129b3e99e4798365f5df860239df29949c1158aca5288f84",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-016": {
+        "archive_sha256": "1be39ccf3e0829b6178e6feb1b218fe6cf15d427874a577034ae3dc0afd0f59d",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-017": {
+        "archive_sha256": "4eb3ae49e65559d1dfc986d54c7d9c90f76df5e4f0296425e666d5b1a85c6072",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-018": {
+        "archive_sha256": "94f0ae3b496a109fa6a147d8b59582b7c07816a2fecf3955179691566290194c",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-019": {
+        "archive_sha256": "793b1b4ab4e27a9ecc91b7092a2bafa8c457709c46ab564a3923cc399e9746ad",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-020": {
+        "archive_sha256": "46b3e30ff85e5327911c98ed1f112860c4328c1978eada40969a4bbbcb6ddfbe",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-021": {
+        "archive_sha256": "9431e8ec9f757a32156bfc737f8b906d66a3d1d28407cf5de2a75d7ad75ad27f",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-022": {
+        "archive_sha256": "6181b9091beaede16ed6faf542eddc068dea9c5056e25170ae17b7f77547c6b1",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-023": {
+        "archive_sha256": "3e7c676a7ac35a264e86f7d7ae2e46f9aed09344c0a85fafbf9b6516d5af15a3",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-024": {
+        "archive_sha256": "82fcba95cf624e5c1c9fcd2ca7f07479a9c2af8972c64e68325e991aef246c33",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-025": {
+        "archive_sha256": "d3a81b1af187f8346c4d9a658d36df2910e1e46f8ad5fae393a967f7728032d3",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-026": {
+        "archive_sha256": "251e89c46285d03f3f51a2a81afe9a63424a934891038895d36a3e29610fb001",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-027": {
+        "archive_sha256": "7a734bda7326e7321027f529c7061a8cb454c627668f32f113cdee2833b27e5c",
+        "media_count": 12,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-028": {
+        "archive_sha256": "26891e57b624b83c7aeb5c5bd2451581f0388b616b872f5f7438346bfb18083c",
+        "media_count": 12,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-029": {
+        "archive_sha256": "cf496609e1b494a690316411c104f3bb36cd86833856c7d1f1a8b4391ee828e4",
+        "media_count": 12,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-030": {
+        "archive_sha256": "fa554926cbf5e571b6f4eedb6dfac3b3472356309863a726e89d08cd3d1471d9",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-031": {
+        "archive_sha256": "431515fdfacb61802bcbab03c1c3491278e5878258e7540cf6be16679fafd3da",
+        "media_count": 13,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-032": {
+        "archive_sha256": "8e4eb2982683f6dab7fb2911ec20e926696bba83715abf86fb0613b70944f13b",
+        "media_count": 14,
+        "looks_count": 0,
+        "status": "verified"
+      },
+      "bixie-saved-20261008-033": {
+        "archive_sha256": "3fd1969cdef72f8d9a6411f63f94e58520788c4aed27686bc45463f373f472d6",
+        "media_count": 2,
+        "looks_count": 128,
+        "status": "verified"
       }
     },
     "duplicateImportKeys": [],
@@ -15737,9 +16993,9 @@
     "databaseCounts": {
       "looks": 80,
       "publishedLooks": 80,
-      "photos": 265,
+      "photos": 311,
       "films": 1,
-      "uniqueSourceSHA256": 266,
+      "uniqueSourceSHA256": 312,
       "pages": 42,
       "publishedPages": 24,
       "collections": 22,
@@ -15748,784 +17004,262 @@
       "readyGuides": 5
     },
     "import": {
-      "status": "complete",
-      "cursor": 411,
-      "total": 411,
-      "fingerprint": "947f06035b7dfc04d3a4c2787fa208ef256868b3ca9cd3fa03d3ba85544a0d41",
+      "status": "running",
+      "cursor": 223,
+      "total": 616,
+      "fingerprint": "91da1af5a79184864f3801895da023d815b5c96807135859bccb36f9443dc4ab",
       "path": "/workspace/wp-final-test/wordpress/wp-content/plugins/bixie-library/content/catalog.json",
       "overwrite": false,
       "configure": false,
-      "started": "2026-10-08T03:36:26+00:00",
+      "started": "2026-10-08T03:58:28+00:00",
       "counts": {
-        "media": 0,
+        "media": 47,
         "collections": 0,
         "looks": 0,
         "pages": 0,
-        "skipped": 410,
+        "skipped": 177,
         "errors": 0
       },
       "log": [
         {
           "level": "info",
-          "key": "short-04",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-01-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "short-02",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-01-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "short-03",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-01-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "short-06",
-          "message": "Complete reviewed look reconciled."
+          "key": "round-face-01-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "short-07",
-          "message": "Complete reviewed look reconciled."
+          "key": "round-face-01-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "feathered-02",
-          "message": "Complete reviewed look reconciled."
+          "key": "round-face-01-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "feathered-03",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-02-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "feathered-04",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-02-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "feathered-05",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-02-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "feathered-06",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-03-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "feathered-07",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-03-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "wavy-02",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-03-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "wavy-03",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-04-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "wavy-04",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-04-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "wavy-05",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-04-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "wavy-06",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-05-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "wavy-07",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-05-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "fine-hair-02",
-          "message": "Complete reviewed look reconciled."
+          "key": "90s-inspired-05-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "fine-hair-03",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-04-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "fine-hair-04",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-04-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "fine-hair-05",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-04-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "fine-hair-06",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-05-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "fine-hair-07",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-05-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "thick-hair-02",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-05-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "thick-hair-03",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-06-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "thick-hair-04",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-06-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "thick-hair-05",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-06-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "thick-hair-06",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-07-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "thick-hair-07",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-07-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "long-04",
-          "message": "Complete reviewed look reconciled."
+          "key": "curly-07-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "long-05",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-01-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "long-06",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-01-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "long-07",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-01-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "layered-04",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-02-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "layered-05",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-02-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "layered-06",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-02-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "layered-07",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-03-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "shaggy-02",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-03-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "straight-01",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-03-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "shaggy-01",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-04-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "straight-02",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-04-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "shaggy-03",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-04-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "straight-03",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-05-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "shaggy-04",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-05-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "straight-04",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-05-back",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "undercut-01",
-          "message": "Complete reviewed look reconciled."
+          "key": "over-40-06-front",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         },
         {
           "level": "info",
-          "key": "undercut-02",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "easy-styling-01",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "easy-styling-02",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "choppy-03",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "choppy-04",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "curly-02",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "classic-01",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "short-01",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "long-01",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "layered-01",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "choppy-01",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "info",
-          "key": "curly-01",
-          "message": "Complete reviewed look reconciled."
-        },
-        {
-          "level": "warning",
-          "key": "home",
-          "message": "Page remains draft: shaggy: Only 12 distinct approved original photos; 20 required. Only 4 complete published looks; 7 required. straight: Only 12 distinct approved original photos; 20 required. Only 4 complete published looks; 7 required. curly: Only 9 distinct approved original photos; 20 required. Only 3 complete published looks; 7 required. thin-hair: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required. bangs: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required. over-40: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required. over-50: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required. over-60: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required. natural-grey: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required. 90s-inspired: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required. round-face: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required. undercut: Only 6 distinct approved original photos; 20 required. Only 2 complete published looks; 7 required. easy-styling: Only 6 distinct approved original photos; 20 required. Only 2 complete published looks; 7 required. Only 55 unique homepage photos; 75 required."
-        },
-        {
-          "level": "info",
-          "key": "collections",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "looks",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "find-your-bixie",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "saved-looks",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "compare",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "print",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "guides",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "what-is-a-bixie-haircut",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "what-to-ask-your-stylist",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "warning",
-          "key": "styling-a-bixie",
-          "message": "Page remains draft: Referenced complete published look unavailable: easy-styling-03 Only 0 distinct guide photos; 3 required."
-        },
-        {
-          "level": "warning",
-          "key": "fine-vs-thin-hair",
-          "message": "Page remains draft: Referenced complete published look unavailable: thin-hair-01 A current referenced view is missing from the editable gallery: fine-hair-01 front A current referenced view is missing from the editable gallery: fine-hair-01 side A current referenced view is missing from the editable gallery: fine-hair-01 back Only 0 distinct guide photos; 6 required."
-        },
-        {
-          "level": "info",
-          "key": "reading-haircut-references",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "growing-out-a-bixie",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "bixie-shixie-wolf-cut",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "about",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "image-policy",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "privacy",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "disclaimer",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "contact",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "collection-classic",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "collection-short",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "collection-long",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "collection-layered",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "info",
-          "key": "collection-choppy",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "warning",
-          "key": "collection-shaggy",
-          "message": "Page remains draft: Only 12 distinct approved original photos; 20 required. Only 4 complete published looks; 7 required."
-        },
-        {
-          "level": "info",
-          "key": "collection-feathered",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "warning",
-          "key": "collection-straight",
-          "message": "Page remains draft: Only 12 distinct approved original photos; 20 required. Only 4 complete published looks; 7 required."
-        },
-        {
-          "level": "info",
-          "key": "collection-wavy",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "warning",
-          "key": "collection-curly",
-          "message": "Page remains draft: Only 9 distinct approved original photos; 20 required. Only 3 complete published looks; 7 required."
-        },
-        {
-          "level": "info",
-          "key": "collection-fine-hair",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "warning",
-          "key": "collection-thin-hair",
-          "message": "Page remains draft: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required."
-        },
-        {
-          "level": "info",
-          "key": "collection-thick-hair",
-          "message": "Editable block page reconciled; owner edits preserved unless overwrite was selected."
-        },
-        {
-          "level": "warning",
-          "key": "collection-bangs",
-          "message": "Page remains draft: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required."
-        },
-        {
-          "level": "warning",
-          "key": "collection-over-40",
-          "message": "Page remains draft: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required."
-        },
-        {
-          "level": "warning",
-          "key": "collection-over-50",
-          "message": "Page remains draft: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required."
-        },
-        {
-          "level": "warning",
-          "key": "collection-over-60",
-          "message": "Page remains draft: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required."
-        },
-        {
-          "level": "warning",
-          "key": "collection-natural-grey",
-          "message": "Page remains draft: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required."
-        },
-        {
-          "level": "warning",
-          "key": "collection-90s-inspired",
-          "message": "Page remains draft: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required."
-        },
-        {
-          "level": "warning",
-          "key": "collection-round-face",
-          "message": "Page remains draft: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required."
-        },
-        {
-          "level": "warning",
-          "key": "collection-undercut",
-          "message": "Page remains draft: Only 6 distinct approved original photos; 20 required. Only 2 complete published looks; 7 required."
-        },
-        {
-          "level": "warning",
-          "key": "collection-easy-styling",
-          "message": "Page remains draft: Only 6 distinct approved original photos; 20 required. Only 2 complete published looks; 7 required."
+          "key": "over-40-06-side",
+          "message": "Original image imported at its actual native dimensions; public use still requires review and publication gates."
         }
       ],
-      "diagnostics": {
-        "home": {
-          "complete": false,
-          "reasons": [
-            "shaggy: Only 12 distinct approved original photos; 20 required. Only 4 complete published looks; 7 required.",
-            "straight: Only 12 distinct approved original photos; 20 required. Only 4 complete published looks; 7 required.",
-            "curly: Only 9 distinct approved original photos; 20 required. Only 3 complete published looks; 7 required.",
-            "thin-hair: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
-            "bangs: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
-            "over-40: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
-            "over-50: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
-            "over-60: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
-            "natural-grey: Only 3 distinct approved original photos; 20 required. Only 1 complete published looks; 7 required.",
-            "90s-inspired: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
-            "round-face: Only 0 distinct approved original photos; 20 required. Only 0 complete published looks; 7 required.",
-            "undercut: Only 6 distinct approved original photos; 20 required. Only 2 complete published looks; 7 required.",
-            "easy-styling: Only 6 distinct approved original photos; 20 required. Only 2 complete published looks; 7 required.",
-            "Only 55 unique homepage photos; 75 required."
-          ]
-        },
-        "collections": {
-          "classic": {
-            "complete": true,
-            "photos": 21,
-            "looks": 7,
-            "reasons": []
-          },
-          "short": {
-            "complete": true,
-            "photos": 21,
-            "looks": 7,
-            "reasons": []
-          },
-          "long": {
-            "complete": true,
-            "photos": 21,
-            "looks": 7,
-            "reasons": []
-          },
-          "layered": {
-            "complete": true,
-            "photos": 21,
-            "looks": 7,
-            "reasons": []
-          },
-          "choppy": {
-            "complete": true,
-            "photos": 21,
-            "looks": 7,
-            "reasons": []
-          },
-          "shaggy": {
-            "complete": false,
-            "photos": 12,
-            "looks": 4,
-            "reasons": [
-              "Only 12 distinct approved original photos; 20 required.",
-              "Only 4 complete published looks; 7 required."
-            ]
-          },
-          "feathered": {
-            "complete": true,
-            "photos": 21,
-            "looks": 7,
-            "reasons": []
-          },
-          "straight": {
-            "complete": false,
-            "photos": 12,
-            "looks": 4,
-            "reasons": [
-              "Only 12 distinct approved original photos; 20 required.",
-              "Only 4 complete published looks; 7 required."
-            ]
-          },
-          "wavy": {
-            "complete": true,
-            "photos": 21,
-            "looks": 7,
-            "reasons": []
-          },
-          "curly": {
-            "complete": false,
-            "photos": 9,
-            "looks": 3,
-            "reasons": [
-              "Only 9 distinct approved original photos; 20 required.",
-              "Only 3 complete published looks; 7 required."
-            ]
-          },
-          "fine-hair": {
-            "complete": true,
-            "photos": 21,
-            "looks": 7,
-            "reasons": []
-          },
-          "thin-hair": {
-            "complete": false,
-            "photos": 0,
-            "looks": 0,
-            "reasons": [
-              "Only 0 distinct approved original photos; 20 required.",
-              "Only 0 complete published looks; 7 required."
-            ]
-          },
-          "thick-hair": {
-            "complete": true,
-            "photos": 21,
-            "looks": 7,
-            "reasons": []
-          },
-          "bangs": {
-            "complete": false,
-            "photos": 0,
-            "looks": 0,
-            "reasons": [
-              "Only 0 distinct approved original photos; 20 required.",
-              "Only 0 complete published looks; 7 required."
-            ]
-          },
-          "over-40": {
-            "complete": false,
-            "photos": 0,
-            "looks": 0,
-            "reasons": [
-              "Only 0 distinct approved original photos; 20 required.",
-              "Only 0 complete published looks; 7 required."
-            ]
-          },
-          "over-50": {
-            "complete": false,
-            "photos": 3,
-            "looks": 1,
-            "reasons": [
-              "Only 3 distinct approved original photos; 20 required.",
-              "Only 1 complete published looks; 7 required."
-            ]
-          },
-          "over-60": {
-            "complete": false,
-            "photos": 0,
-            "looks": 0,
-            "reasons": [
-              "Only 0 distinct approved original photos; 20 required.",
-              "Only 0 complete published looks; 7 required."
-            ]
-          },
-          "natural-grey": {
-            "complete": false,
-            "photos": 3,
-            "looks": 1,
-            "reasons": [
-              "Only 3 distinct approved original photos; 20 required.",
-              "Only 1 complete published looks; 7 required."
-            ]
-          },
-          "90s-inspired": {
-            "complete": false,
-            "photos": 0,
-            "looks": 0,
-            "reasons": [
-              "Only 0 distinct approved original photos; 20 required.",
-              "Only 0 complete published looks; 7 required."
-            ]
-          },
-          "round-face": {
-            "complete": false,
-            "photos": 0,
-            "looks": 0,
-            "reasons": [
-              "Only 0 distinct approved original photos; 20 required.",
-              "Only 0 complete published looks; 7 required."
-            ]
-          },
-          "undercut": {
-            "complete": false,
-            "photos": 6,
-            "looks": 2,
-            "reasons": [
-              "Only 6 distinct approved original photos; 20 required.",
-              "Only 2 complete published looks; 7 required."
-            ]
-          },
-          "easy-styling": {
-            "complete": false,
-            "photos": 6,
-            "looks": 2,
-            "reasons": [
-              "Only 6 distinct approved original photos; 20 required.",
-              "Only 2 complete published looks; 7 required."
-            ]
-          }
-        },
-        "guides": {
-          "what-is-a-bixie-haircut": {
-            "complete": true,
-            "reasons": []
-          },
-          "what-to-ask-your-stylist": {
-            "complete": true,
-            "reasons": []
-          },
-          "styling-a-bixie": {
-            "complete": false,
-            "reasons": [
-              "Referenced complete published look unavailable: easy-styling-03",
-              "Only 0 distinct guide photos; 3 required."
-            ]
-          },
-          "fine-vs-thin-hair": {
-            "complete": false,
-            "reasons": [
-              "Referenced complete published look unavailable: thin-hair-01",
-              "A current referenced view is missing from the editable gallery: fine-hair-01 front",
-              "A current referenced view is missing from the editable gallery: fine-hair-01 side",
-              "A current referenced view is missing from the editable gallery: fine-hair-01 back",
-              "Only 0 distinct guide photos; 6 required."
-            ]
-          },
-          "reading-haircut-references": {
-            "complete": true,
-            "reasons": []
-          },
-          "growing-out-a-bixie": {
-            "complete": true,
-            "reasons": []
-          },
-          "bixie-shixie-wolf-cut": {
-            "complete": true,
-            "reasons": []
-          }
-        },
-        "directories": {
-          "collections": {
-            "id": 351,
-            "status": "publish",
-            "check": {
-              "complete": true,
-              "reasons": []
-            }
-          },
-          "looks": {
-            "id": 352,
-            "status": "publish",
-            "check": {
-              "complete": true,
-              "reasons": []
-            }
-          },
-          "guides": {
-            "id": 357,
-            "status": "publish",
-            "check": {
-              "complete": true,
-              "reasons": []
-            }
-          }
-        }
-      },
-      "finished": "2026-10-08T03:37:34+00:00"
+      "diagnostics": []
     }
-  }
+  },
+  "failure": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:8767/wp-admin/tools.php?page=bixie-setup\", waiting until \"networkidle\"\n",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/check.txt/wordpress-package/tests/wp-final-import-qa.py\", line 88, in main\n    context, page = authenticate(browser)\n                    ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/check.txt/wordpress-package/tests/wp-final-import-qa.py\", line 33, in authenticate\n    page.goto(SITE + '/wp-admin/tools.php?page=bixie-setup', wait_until='networkidle')\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 9875, in goto\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py\", line 560, in goto\n    return await self._main_frame.goto(**locals_to_params(locals()))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py\", line 156, in goto\n    await self._channel.send(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 76, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 632, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:8767/wp-admin/tools.php?page=bixie-setup\", waiting until \"networkidle\"\n\n"
 }
